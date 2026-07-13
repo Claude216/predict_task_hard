@@ -1,0 +1,88 @@
+kind,name,value
+x_variation,Culture,0.5777674995462904
+x_variation,Criticality,0.5752051366425817
+x_variation,Criticality Modifier,0.5782475926420653
+x_variation,Initial Known,0.5796240557192158
+x_variation,Inter-Dependency,0.5787782331813808
+x_variation,Dynamism,0.5744583312352259
+x_variation,Size,0.5751108171405583
+x_variation,Plan,0.5786667970397044
+x_variation,Team Size,0.5758524048369401
+y_variation,Cost-,0.29496246566322415
+y_variation,Score-,0.3115448124977801
+y_variation,Idle-,0.473978699170486
+correlation,Culture|Criticality,0.013531809418524481
+correlation,Culture|Criticality Modifier,0.006364614322094302
+correlation,Culture|Initial Known,0.0016138628767898729
+correlation,Culture|Inter-Dependency,0.003376111485448143
+correlation,Culture|Dynamism,0.0026271579624599223
+correlation,Culture|Size,0.00016703083866314192
+correlation,Culture|Plan,0.0024858230275077277
+correlation,Culture|Team Size,0.005751554800090049
+correlation,Criticality|Criticality Modifier,0.0030969704652475958
+correlation,Criticality|Initial Known,0.012852907456814005
+correlation,Criticality|Inter-Dependency,0.003104379370177128
+correlation,Criticality|Dynamism,0.0039964045500675855
+correlation,Criticality|Size,0.008013262007271055
+correlation,Criticality|Plan,0.019876894687320547
+correlation,Criticality|Team Size,0.009764666272171351
+correlation,Criticality Modifier|Initial Known,0.005709300707625253
+correlation,Criticality Modifier|Inter-Dependency,0.0008881898790102385
+correlation,Criticality Modifier|Dynamism,0.013171314392674258
+correlation,Criticality Modifier|Size,0.0002351269204854199
+correlation,Criticality Modifier|Plan,0.003127519622841237
+correlation,Criticality Modifier|Team Size,0.004510973848202833
+correlation,Initial Known|Inter-Dependency,0.002906153295962569
+correlation,Initial Known|Dynamism,0.01962108758884526
+correlation,Initial Known|Size,0.02182857567773392
+correlation,Initial Known|Plan,0.003920486513216948
+correlation,Initial Known|Team Size,0.008312902895054262
+correlation,Inter-Dependency|Dynamism,0.0028388803386663816
+correlation,Inter-Dependency|Size,0.005108239150199099
+correlation,Inter-Dependency|Plan,0.012717212177125717
+correlation,Inter-Dependency|Team Size,0.013902084812599202
+correlation,Dynamism|Size,0.0015144873593196091
+correlation,Dynamism|Plan,0.007484413066256899
+correlation,Dynamism|Team Size,0.007930416221726095
+correlation,Size|Plan,0.005159647441041342
+correlation,Size|Team Size,0.00482657896208368
+correlation,Plan|Team Size,0.0015007920326614924
+covariance,Culture|Criticality,0.0011243291240527048
+covariance,Culture|Criticality Modifier,0.000531619322252306
+covariance,Culture|Initial Known,0.00013512256023526361
+covariance,Culture|Inter-Dependency,-0.00028225640215776335
+covariance,Culture|Dynamism,0.00021800153464164612
+covariance,Culture|Size,1.387595971246303e-05
+covariance,Culture|Plan,-0.00020778471792533908
+covariance,Culture|Team Size,-0.0004784221508495479
+covariance,Criticality|Criticality Modifier,0.0002575344763815557
+covariance,Criticality|Initial Known,-0.001071352189647604
+covariance,Criticality|Inter-Dependency,-0.00025838747505180573
+covariance,Criticality|Dynamism,0.00033015087808419105
+covariance,Criticality|Size,-0.0006627433196843473
+covariance,Criticality|Plan,-0.0016540993093798126
+covariance,Criticality|Team Size,0.0008086359952898859
+covariance,Criticality Modifier|Initial Known,0.00047841509766876505
+covariance,Criticality Modifier|Inter-Dependency,-7.431792357864431e-05
+covariance,Criticality Modifier|Dynamism,-0.0010938636885033048
+covariance,Criticality Modifier|Size,-1.954922069135167e-05
+covariance,Criticality Modifier|Plan,0.000261640014510459
+covariance,Criticality Modifier|Team Size,-0.00037554073464554036
+covariance,Initial Known|Inter-Dependency,0.0002437467501990848
+covariance,Initial Known|Dynamism,0.0016333894045697534
+covariance,Initial Known|Size,0.0018192193232195078
+covariance,Initial Known|Plan,-0.00032875824505796726
+covariance,Initial Known|Team Size,0.0006937005161037431
+covariance,Inter-Dependency|Dynamism,0.0002359823561262043
+covariance,Inter-Dependency|Size,-0.0004251054483493457
+covariance,Inter-Dependency|Plan,0.0010648646125226693
+covariance,Inter-Dependency|Team Size,-0.0011584172932195256
+covariance,Dynamism|Size,-0.00012509427812551998
+covariance,Dynamism|Plan,0.0006220231789923323
+covariance,Dynamism|Team Size,0.0006558845829393016
+covariance,Size|Plan,0.0004293009518614619
+covariance,Size|Team Size,0.0003996353164530357
+covariance,Plan|Team Size,0.00012503223321556529
+performance,rmse,25.67
+stability,agreement,0
+stability,jaccard_mean,0.2830

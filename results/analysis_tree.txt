@@ -1,0 +1,26 @@
+LOO (n=127) depth<=3 tree predicting score
+LOO Spearman(pred, true) rho=0.6844 p=7.278e-19
+
+Tree fit on ALL tasks (inspection only):
+|--- landmark_10_med <= 78.00
+|   |--- landmark_10_med <= 42.75
+|   |   |--- n_x <= 21.00
+|   |   |   |--- value: [64.04]
+|   |   |--- n_x >  21.00
+|   |   |   |--- value: [29.37]
+|   |--- landmark_10_med >  42.75
+|   |   |--- landmark_10_iqr <= 7.38
+|   |   |   |--- value: [50.07]
+|   |   |--- landmark_10_iqr >  7.38
+|   |   |   |--- value: [29.10]
+|--- landmark_10_med >  78.00
+|   |--- landmark_10_iqr <= 3.00
+|   |   |--- nb_auc_med <= 0.80
+|   |   |   |--- value: [11.36]
+|   |   |--- nb_auc_med >  0.80
+|   |   |   |--- value: [4.86]
+|   |--- landmark_10_iqr >  3.00
+|   |   |--- d2h_var <= 0.08
+|   |   |   |--- value: [17.43]
+|   |   |--- d2h_var >  0.08
+|   |   |   |--- value: [44.76]

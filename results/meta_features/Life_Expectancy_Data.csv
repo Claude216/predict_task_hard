@@ -1,0 +1,294 @@
+kind,name,value
+x_variation,country,0.9997515558378951
+x_variation,Year,0.6150740896607444
+x_variation,status,0.5755952030643741
+x_variation,Life expectancy,0.36075984368414515
+x_variation,Adult Mortality,0.34365424744235745
+x_variation,infant deaths,0.8947543504208193
+x_variation,Alcohol,0.4384794178821545
+x_variation,percentage expenditure,0.9568921773841139
+x_variation,Hepatitis B,0.46087776258156454
+x_variation,Measles,0.10807011663663055
+x_variation,BMI,0.46174472433587244
+x_variation,under-five deaths,0.906168753135603
+x_variation,Polio,0.48642017294777107
+x_variation,Total expenditure,0.27856823271726516
+x_variation,Diphtheria,0.4873412275247612
+x_variation,HIV/AIDS,0.2010661505299732
+x_variation,GDP,0.22043211677156904
+x_variation,Population,0.08317180225251782
+x_variation,thinness  1-19 years,0.993358694851297
+x_variation,thinness 5-9 years,0.9934849238733986
+y_variation,Income composition of resources+,0.43203561324019907
+y_variation,Schooling+,0.3153454775772908
+correlation,country|Year,0.0694396844006801
+correlation,country|status,1.0
+correlation,country|Life expectancy,0.9620947216514734
+correlation,country|Adult Mortality,0.7718784900560497
+correlation,country|infant deaths,0.34616728606893477
+correlation,country|Alcohol,0.9191783555463722
+correlation,country|percentage expenditure,0.8834795367123204
+correlation,country|Hepatitis B,0.567431682746969
+correlation,country|Measles,0.7018027299783075
+correlation,country|BMI,0.797650369356577
+correlation,country|under-five deaths,0.35731329770033177
+correlation,country|Polio,0.6749083315290112
+correlation,country|Total expenditure,0.7486649483511805
+correlation,country|Diphtheria,0.6904810771540912
+correlation,country|HIV/AIDS,0.8723686515950042
+correlation,country|GDP,0.7579340334184875
+correlation,country|Population,0.6275358449424991
+correlation,country|thinness  1-19 years,0.40032644850879895
+correlation,country|thinness 5-9 years,0.4061485742299195
+correlation,Year|status,0.0018642827639331018
+correlation,Year|Life expectancy,0.16962259094360935
+correlation,Year|Adult Mortality,0.07886077081476343
+correlation,Year|infant deaths,0.29137912398178767
+correlation,Year|Alcohol,0.04816759357454278
+correlation,Year|percentage expenditure,0.8593790783764598
+correlation,Year|Hepatitis B,0.08939826512826109
+correlation,Year|Measles,0.08249297515786075
+correlation,Year|BMI,0.10832670405185152
+correlation,Year|under-five deaths,0.31997953877505164
+correlation,Year|Polio,0.09381958493005328
+correlation,Year|Total expenditure,0.08186014270933441
+correlation,Year|Diphtheria,0.13385336830111055
+correlation,Year|HIV/AIDS,0.13974136232228165
+correlation,Year|GDP,0.09335083501256183
+correlation,Year|Population,0.014950626350100213
+correlation,Year|thinness  1-19 years,0.3294658598703884
+correlation,Year|thinness 5-9 years,0.3359152195713261
+correlation,status|Life expectancy,0.48196233762442886
+correlation,status|Adult Mortality,0.3151707124604555
+correlation,status|infant deaths,0.41775165376591206
+correlation,status|Alcohol,0.5793714188101494
+correlation,status|percentage expenditure,0.9028599828290824
+correlation,status|Hepatitis B,0.0956416394395106
+correlation,status|Measles,0.07695506635033038
+correlation,status|BMI,0.31087257676806673
+correlation,status|under-five deaths,0.42327827417254565
+correlation,status|Polio,0.22009846107586925
+correlation,status|Total expenditure,0.289985047707899
+correlation,status|Diphtheria,0.2167634733396944
+correlation,status|HIV/AIDS,0.14859005920414023
+correlation,status|GDP,0.44591112017225726
+correlation,status|Population,0.041090853345227246
+correlation,status|thinness  1-19 years,0.6345193624842982
+correlation,status|thinness 5-9 years,0.6372636757699792
+correlation,Life expectancy|Adult Mortality,0.696359313769975
+correlation,Life expectancy|infant deaths,0.6782248073927776
+correlation,Life expectancy|Alcohol,0.39159833938524513
+correlation,Life expectancy|percentage expenditure,0.901261583984609
+correlation,Life expectancy|Hepatitis B,0.20377143738949735
+correlation,Life expectancy|Measles,0.1575738185968685
+correlation,Life expectancy|BMI,0.559255304636562
+correlation,Life expectancy|under-five deaths,0.713403981640147
+correlation,Life expectancy|Polio,0.46157377544594497
+correlation,Life expectancy|Total expenditure,0.20798062451738764
+correlation,Life expectancy|Diphtheria,0.47541838493663185
+correlation,Life expectancy|HIV/AIDS,0.5564568165992515
+correlation,Life expectancy|GDP,0.43049301854989985
+correlation,Life expectancy|Population,0.019637701509394985
+correlation,Life expectancy|thinness  1-19 years,0.7099931779365228
+correlation,Life expectancy|thinness 5-9 years,0.7152119768960291
+correlation,Adult Mortality|infant deaths,0.5285056033532606
+correlation,Adult Mortality|Alcohol,0.19040781122702577
+correlation,Adult Mortality|percentage expenditure,0.90297127636092
+correlation,Adult Mortality|Hepatitis B,0.13859090850875255
+correlation,Adult Mortality|Measles,0.03117404079177491
+correlation,Adult Mortality|BMI,0.38144941323846826
+correlation,Adult Mortality|under-five deaths,0.5808384117005854
+correlation,Adult Mortality|Polio,0.27269357666200966
+correlation,Adult Mortality|Total expenditure,0.11087453615395408
+correlation,Adult Mortality|Diphtheria,0.27301388539160415
+correlation,Adult Mortality|HIV/AIDS,0.5237269198145585
+correlation,Adult Mortality|GDP,0.277052921151484
+correlation,Adult Mortality|Population,0.012501452555871139
+correlation,Adult Mortality|thinness  1-19 years,0.5392382453707361
+correlation,Adult Mortality|thinness 5-9 years,0.550316509841854
+correlation,infant deaths|Alcohol,0.46176912518774127
+correlation,infant deaths|percentage expenditure,0.8924581371064394
+correlation,infant deaths|Hepatitis B,0.3827483979323135
+correlation,infant deaths|Measles,0.9077106103227942
+correlation,infant deaths|BMI,0.515599551140161
+correlation,infant deaths|under-five deaths,0.768537441730817
+correlation,infant deaths|Polio,0.49642243073066844
+correlation,infant deaths|Total expenditure,0.36553613924017153
+correlation,infant deaths|Diphtheria,0.4874296184141123
+correlation,infant deaths|HIV/AIDS,0.40398436889109524
+correlation,infant deaths|GDP,0.3573456942571106
+correlation,infant deaths|Population,0.9540795609659406
+correlation,infant deaths|thinness  1-19 years,0.45003570899346285
+correlation,infant deaths|thinness 5-9 years,0.43671862931790234
+correlation,Alcohol|percentage expenditure,0.9146459299136026
+correlation,Alcohol|Hepatitis B,0.07544714649803655
+correlation,Alcohol|Measles,0.05105498564642737
+correlation,Alcohol|BMI,0.3180702985971987
+correlation,Alcohol|under-five deaths,0.46641061561363034
+correlation,Alcohol|Polio,0.21374404403085134
+correlation,Alcohol|Total expenditure,0.2948981151538498
+correlation,Alcohol|Diphtheria,0.21524193984374446
+correlation,Alcohol|HIV/AIDS,0.04864970645860338
+correlation,Alcohol|GDP,0.3185911609792479
+correlation,Alcohol|Population,0.030764656897077025
+correlation,Alcohol|thinness  1-19 years,0.619736236361805
+correlation,Alcohol|thinness 5-9 years,0.6222431822807234
+correlation,percentage expenditure|Hepatitis B,0.8845346516180411
+correlation,percentage expenditure|Measles,0.8738618052558527
+correlation,percentage expenditure|BMI,0.8850852494250779
+correlation,percentage expenditure|under-five deaths,0.8878712221168643
+correlation,percentage expenditure|Polio,0.8829204194999497
+correlation,percentage expenditure|Total expenditure,0.8983833408077273
+correlation,percentage expenditure|Diphtheria,0.8832807787393142
+correlation,percentage expenditure|HIV/AIDS,0.935067996037367
+correlation,percentage expenditure|GDP,0.978676829680076
+correlation,percentage expenditure|Population,0.9928805618001599
+correlation,percentage expenditure|thinness  1-19 years,0.9022641021224764
+correlation,percentage expenditure|thinness 5-9 years,0.9013758507159646
+correlation,Hepatitis B|Measles,0.09031693717768097
+correlation,Hepatitis B|BMI,0.13492851179685175
+correlation,Hepatitis B|under-five deaths,0.40427535491092575
+correlation,Hepatitis B|Polio,0.4085192335375595
+correlation,Hepatitis B|Total expenditure,0.050084302543474145
+correlation,Hepatitis B|Diphtheria,0.49995767059588736
+correlation,Hepatitis B|HIV/AIDS,0.10240544326609359
+correlation,Hepatitis B|GDP,0.062317579523997975
+correlation,Hepatitis B|Population,0.10981087806933396
+correlation,Hepatitis B|thinness  1-19 years,0.3592745734139909
+correlation,Hepatitis B|thinness 5-9 years,0.37030590730523455
+correlation,Measles|BMI,0.17592529079435737
+correlation,Measles|under-five deaths,0.8928645650640092
+correlation,Measles|Polio,0.1361462757427392
+correlation,Measles|Total expenditure,0.10456871636061517
+correlation,Measles|Diphtheria,0.14186137111085564
+correlation,Measles|HIV/AIDS,0.03089871787284502
+correlation,Measles|GDP,0.06805959341915314
+correlation,Measles|Population,0.23624987695329278
+correlation,Measles|thinness  1-19 years,0.4908519784277521
+correlation,Measles|thinness 5-9 years,0.5187359321638383
+correlation,BMI|under-five deaths,0.5280777800911879
+correlation,BMI|Polio,0.28215592126137384
+correlation,BMI|Total expenditure,0.231814403091082
+correlation,BMI|Diphtheria,0.2810588128078676
+correlation,BMI|HIV/AIDS,0.24354758497651957
+correlation,BMI|GDP,0.27664474292868857
+correlation,BMI|Population,0.06323760422392008
+correlation,BMI|thinness  1-19 years,0.6444674041806844
+correlation,BMI|thinness 5-9 years,0.6561747942211744
+correlation,under-five deaths|Polio,0.5118358931612158
+correlation,under-five deaths|Total expenditure,0.3937105007492211
+correlation,under-five deaths|Diphtheria,0.5034597467334373
+correlation,under-five deaths|HIV/AIDS,0.46013318390982655
+correlation,under-five deaths|GDP,0.35917537126719923
+correlation,under-five deaths|Population,0.9519834565325829
+correlation,under-five deaths|thinness  1-19 years,0.4757612241914114
+correlation,under-five deaths|thinness 5-9 years,0.4754998347213702
+correlation,Polio|Total expenditure,0.1301294939525411
+correlation,Polio|Diphtheria,0.6735533206902236
+correlation,Polio|HIV/AIDS,0.15948863785585649
+correlation,Polio|GDP,0.19398031324274134
+correlation,Polio|Population,0.03488179901080746
+correlation,Polio|thinness  1-19 years,0.4371396824046044
+correlation,Polio|thinness 5-9 years,0.4443284717962056
+correlation,Total expenditure|Diphtheria,0.14559660480825243
+correlation,Total expenditure|HIV/AIDS,0.0013827196446054217
+correlation,Total expenditure|GDP,0.12146708784569549
+correlation,Total expenditure|Population,0.06669820125669464
+correlation,Total expenditure|thinness  1-19 years,0.49652343758507195
+correlation,Total expenditure|thinness 5-9 years,0.49138769811060884
+correlation,Diphtheria|HIV/AIDS,0.16478683506391703
+correlation,Diphtheria|GDP,0.1827945602981569
+correlation,Diphtheria|Population,0.025457688770342726
+correlation,Diphtheria|thinness  1-19 years,0.44708589929029713
+correlation,Diphtheria|thinness 5-9 years,0.4509701196203386
+correlation,HIV/AIDS|GDP,0.13451378609403652
+correlation,HIV/AIDS|Population,0.027318431260101146
+correlation,HIV/AIDS|thinness  1-19 years,0.429586915859988
+correlation,HIV/AIDS|thinness 5-9 years,0.4433370610449998
+correlation,GDP|Population,0.025611730709922658
+correlation,GDP|thinness  1-19 years,0.5264607379772565
+correlation,GDP|thinness 5-9 years,0.5240376968096329
+correlation,Population|thinness  1-19 years,0.8781563880668073
+correlation,Population|thinness 5-9 years,0.9153693702577241
+correlation,thinness  1-19 years|thinness 5-9 years,0.6610673648495273
+covariance,Year|Life expectancy,0.009412763974211705
+covariance,Year|Adult Mortality,-0.004168674827559453
+covariance,Year|Alcohol,-0.0032487736075767527
+covariance,Year|Hepatitis B,0.006337677427707849
+covariance,Year|Measles,-0.0013713170421674316
+covariance,Year|BMI,0.00769401020018343
+covariance,Year|Polio,0.007019729401891617
+covariance,Year|Total expenditure,0.0035076752023759654
+covariance,Year|Diphtheria,0.010034084251726165
+covariance,Year|HIV/AIDS,-0.004321944864574633
+covariance,Year|GDP,0.003165252527553163
+covariance,Year|Population,0.00019127173004675573
+covariance,Life expectancy|Adult Mortality,-0.021590422860388318
+covariance,Life expectancy|Alcohol,0.015491593681365668
+covariance,Life expectancy|Hepatitis B,0.00847295903102998
+covariance,Life expectancy|Measles,-0.001536369664873687
+covariance,Life expectancy|BMI,0.023297970870855365
+covariance,Life expectancy|Polio,0.020256235974831997
+covariance,Life expectancy|Total expenditure,0.005227096412199125
+covariance,Life expectancy|Diphtheria,0.020903315180238673
+covariance,Life expectancy|HIV/AIDS,-0.010094306186593974
+covariance,Life expectancy|GDP,0.008561444142475285
+covariance,Life expectancy|Population,-0.0001473576919277753
+covariance,Adult Mortality|Alcohol,-0.007175357482555703
+covariance,Adult Mortality|Hepatitis B,-0.0054894655656654735
+covariance,Adult Mortality|Measles,0.00028953981271369436
+covariance,Adult Mortality|BMI,-0.015137301560710621
+covariance,Adult Mortality|Polio,-0.011399769119194424
+covariance,Adult Mortality|Total expenditure,-0.0026544403751539943
+covariance,Adult Mortality|Diphtheria,-0.011434770646531563
+covariance,Adult Mortality|HIV/AIDS,0.009050101090304278
+covariance,Adult Mortality|GDP,-0.005248644694267508
+covariance,Adult Mortality|Population,-8.936061704454436e-05
+covariance,Alcohol|Hepatitis B,0.0038129897590666434
+covariance,Alcohol|Measles,-0.0006050354824814124
+covariance,Alcohol|BMI,0.016105051754928934
+covariance,Alcohol|Polio,0.01140099265525693
+covariance,Alcohol|Total expenditure,0.009008254593767716
+covariance,Alcohol|Diphtheria,0.011502629103290366
+covariance,Alcohol|HIV/AIDS,-0.0010726455949903006
+covariance,Alcohol|GDP,0.007700974046638615
+covariance,Alcohol|Population,-0.00028058551967969085
+covariance,Hepatitis B|Measles,-0.0011249893964792883
+covariance,Hepatitis B|BMI,0.007180906630733399
+covariance,Hepatitis B|Polio,0.02290328058970802
+covariance,Hepatitis B|Total expenditure,0.0016080769496096368
+covariance,Hepatitis B|Diphtheria,0.02808277343938984
+covariance,Hepatitis B|HIV/AIDS,-0.0023732069556521426
+covariance,Hepatitis B|GDP,0.0015832848463849226
+covariance,Hepatitis B|Population,-0.0010526768786547117
+covariance,Measles|BMI,-0.002195450721362419
+covariance,Measles|Polio,-0.0017898260197988607
+covariance,Measles|Total expenditure,-0.0007872756870505305
+covariance,Measles|Diphtheria,-0.0018684900078859317
+covariance,Measles|HIV/AIDS,0.0001679085828001989
+covariance,Measles|GDP,-0.0004054690366746922
+covariance,Measles|Population,0.0005310570481098455
+covariance,BMI|Polio,0.015848586781361525
+covariance,BMI|Total expenditure,0.00745695978080872
+covariance,BMI|Diphtheria,0.01581685582963496
+covariance,BMI|HIV/AIDS,-0.005654739286963517
+covariance,BMI|GDP,0.007041855168402716
+covariance,BMI|Population,-0.0006073531891009914
+covariance,Polio|Total expenditure,0.0044096768157716295
+covariance,Polio|Diphtheria,0.03993048322307183
+covariance,Polio|HIV/AIDS,-0.0039009298778537155
+covariance,Polio|GDP,0.00520154019489114
+covariance,Polio|Population,-0.0003529184954568655
+covariance,Total expenditure|Diphtheria,0.004943150612507034
+covariance,Total expenditure|HIV/AIDS,-1.93683461809612e-05
+covariance,Total expenditure|GDP,0.0018653182235498073
+covariance,Total expenditure|Population,-0.00038646456250661945
+covariance,Diphtheria|HIV/AIDS,-0.004038150328715501
+covariance,Diphtheria|GDP,0.0049108780005177955
+covariance,Diphtheria|Population,-0.00025805726586172083
+covariance,HIV/AIDS|GDP,-0.0014909685571832473
+covariance,HIV/AIDS|Population,-0.00011425065167897146
+covariance,GDP|Population,-0.00011742964931137126
+performance,rmse,12.55
+stability,agreement,11
+stability,jaccard_mean,0.2429

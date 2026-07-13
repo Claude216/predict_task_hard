@@ -1,0 +1,2449 @@
+kind,name,value
+x_variation,num,1.0
+x_variation,Rank,0.5768538367470178
+x_variation,Name,0.0
+x_variation,OVR,0.31958174701374475
+x_variation,PAC,0.31139582059120385
+x_variation,SHO,0.37967965312375324
+x_variation,PAS,0.2848235871930212
+x_variation,DRI,0.2971079404918354
+x_variation,DEF,0.43361565745303315
+x_variation,PHY,0.32095259253159375
+x_variation,Acceleration,0.37573058124385367
+x_variation,Sprint Speed,0.37008568926667285
+x_variation,Positioning,0.43578715938921536
+x_variation,Finishing,0.4349544755132851
+x_variation,Shot Power,0.3468272934976254
+x_variation,Long Shots,0.45925903742310614
+x_variation,Volleys,0.41289263449851793
+x_variation,Vision,0.34117059057562377
+x_variation,Crossing,0.4181940301929323
+x_variation,Free Kick Accuracy,0.38988563864159276
+x_variation,Short Passing,0.3625951122347319
+x_variation,Long Passing,0.3594163097077699
+x_variation,Curve,0.42397867612859397
+x_variation,Dribbling,0.42786573106814574
+x_variation,Agility,0.3954766904924995
+x_variation,Balance,0.3876850467581513
+x_variation,Reactions,0.2819168203092464
+x_variation,Ball Control,0.41241755559890786
+x_variation,Composure,0.31495854690575464
+x_variation,Interceptions,0.5008766078147853
+x_variation,Heading Accuracy,0.4019788056205554
+x_variation,Def Awareness,0.47661004697039033
+x_variation,Standing Tackle,0.5114728679805699
+x_variation,Sliding Tackle,0.5099577137912218
+x_variation,Jumping,0.3481511612945815
+x_variation,Stamina,0.41203147320323974
+x_variation,Aggression,0.4005018582905769
+x_variation,Position,0.0
+x_variation,Weak foot,0.33927411875085467
+x_variation,Skill moves,0.3968575180853388
+x_variation,Preferred foot,0.0
+x_variation,Height,0.0
+x_variation,Weight,0.0
+x_variation,Alternative positions,0.0
+x_variation,Age,0.343701201740526
+x_variation,Nation,0.0
+x_variation,League,0.0
+x_variation,Team,0.0
+x_variation,play style,0.0
+x_variation,url,0.0
+x_variation,GK Diving,0.11250179707814223
+x_variation,GK Handling,0.10820560601943799
+x_variation,GK Kicking,0.10874335390723537
+x_variation,GK Positioning,0.11364982890803792
+x_variation,GK Reflexes,0.11560861295980854
+y_variation,Penalties+,0.38199706742176054
+y_variation,Strength+,0.36003943870669247
+correlation,num|Rank,1.0
+correlation,num|Name,
+correlation,num|OVR,1.0
+correlation,num|PAC,1.0
+correlation,num|SHO,1.0
+correlation,num|PAS,1.0
+correlation,num|DRI,1.0
+correlation,num|DEF,1.0
+correlation,num|PHY,1.0
+correlation,num|Acceleration,1.0
+correlation,num|Sprint Speed,1.0
+correlation,num|Positioning,1.0
+correlation,num|Finishing,1.0
+correlation,num|Shot Power,1.0
+correlation,num|Long Shots,1.0
+correlation,num|Volleys,1.0
+correlation,num|Vision,1.0
+correlation,num|Crossing,1.0
+correlation,num|Free Kick Accuracy,1.0
+correlation,num|Short Passing,1.0
+correlation,num|Long Passing,1.0
+correlation,num|Curve,1.0
+correlation,num|Dribbling,1.0
+correlation,num|Agility,1.0
+correlation,num|Balance,1.0
+correlation,num|Reactions,1.0
+correlation,num|Ball Control,1.0
+correlation,num|Composure,1.0
+correlation,num|Interceptions,1.0
+correlation,num|Heading Accuracy,1.0
+correlation,num|Def Awareness,1.0
+correlation,num|Standing Tackle,1.0
+correlation,num|Sliding Tackle,1.0
+correlation,num|Jumping,1.0
+correlation,num|Stamina,1.0
+correlation,num|Aggression,1.0
+correlation,num|Position,
+correlation,num|Weak foot,1.0
+correlation,num|Skill moves,1.0
+correlation,num|Preferred foot,
+correlation,num|Height,
+correlation,num|Weight,
+correlation,num|Alternative positions,
+correlation,num|Age,1.0
+correlation,num|Nation,
+correlation,num|League,
+correlation,num|Team,
+correlation,num|play style,
+correlation,num|url,
+correlation,num|GK Diving,1.0
+correlation,num|GK Handling,1.0
+correlation,num|GK Kicking,1.0
+correlation,num|GK Positioning,1.0
+correlation,num|GK Reflexes,1.0
+correlation,Rank|Name,
+correlation,Rank|OVR,0.9707290526810061
+correlation,Rank|PAC,0.26634382490285
+correlation,Rank|SHO,0.4668919761654191
+correlation,Rank|PAS,0.705981847812416
+correlation,Rank|DRI,0.6831254134613024
+correlation,Rank|DEF,0.3673172256995541
+correlation,Rank|PHY,0.5563559190661187
+correlation,Rank|Acceleration,0.20729026022324148
+correlation,Rank|Sprint Speed,0.21518929475788862
+correlation,Rank|Positioning,0.34696808928040435
+correlation,Rank|Finishing,0.33795290295936087
+correlation,Rank|Shot Power,0.5475625199297788
+correlation,Rank|Long Shots,0.38604222840893315
+correlation,Rank|Volleys,0.3540749618494972
+correlation,Rank|Vision,0.5114831888960332
+correlation,Rank|Crossing,0.38252507852198747
+correlation,Rank|Free Kick Accuracy,0.37459507782166646
+correlation,Rank|Short Passing,0.5256781508871329
+correlation,Rank|Long Passing,0.513534855604681
+correlation,Rank|Curve,0.4080038008411288
+correlation,Rank|Dribbling,0.3738461467260104
+correlation,Rank|Agility,0.261182847180974
+correlation,Rank|Balance,0.17050237500574933
+correlation,Rank|Reactions,0.8622395313303872
+correlation,Rank|Ball Control,0.45146169348541904
+correlation,Rank|Composure,0.6526787628719856
+correlation,Rank|Interceptions,0.3057810037705888
+correlation,Rank|Heading Accuracy,0.33836565663693835
+correlation,Rank|Def Awareness,0.30932303807755374
+correlation,Rank|Standing Tackle,0.2807453372370087
+correlation,Rank|Sliding Tackle,0.25478176631007005
+correlation,Rank|Jumping,0.5430239644833351
+correlation,Rank|Stamina,0.3693863297290964
+correlation,Rank|Aggression,0.3603968585263179
+correlation,Rank|Position,
+correlation,Rank|Weak foot,0.19146284981911646
+correlation,Rank|Skill moves,0.3385431319962116
+correlation,Rank|Preferred foot,
+correlation,Rank|Height,
+correlation,Rank|Weight,
+correlation,Rank|Alternative positions,
+correlation,Rank|Age,0.3746587639532957
+correlation,Rank|Nation,
+correlation,Rank|League,
+correlation,Rank|Team,
+correlation,Rank|play style,
+correlation,Rank|url,
+correlation,Rank|GK Diving,0.3342114507837087
+correlation,Rank|GK Handling,0.3322610172138103
+correlation,Rank|GK Kicking,0.30174315257357986
+correlation,Rank|GK Positioning,0.33371492024137567
+correlation,Rank|GK Reflexes,0.33436862142220514
+correlation,Name|OVR,
+correlation,Name|PAC,
+correlation,Name|SHO,
+correlation,Name|PAS,
+correlation,Name|DRI,
+correlation,Name|DEF,
+correlation,Name|PHY,
+correlation,Name|Acceleration,
+correlation,Name|Sprint Speed,
+correlation,Name|Positioning,
+correlation,Name|Finishing,
+correlation,Name|Shot Power,
+correlation,Name|Long Shots,
+correlation,Name|Volleys,
+correlation,Name|Vision,
+correlation,Name|Crossing,
+correlation,Name|Free Kick Accuracy,
+correlation,Name|Short Passing,
+correlation,Name|Long Passing,
+correlation,Name|Curve,
+correlation,Name|Dribbling,
+correlation,Name|Agility,
+correlation,Name|Balance,
+correlation,Name|Reactions,
+correlation,Name|Ball Control,
+correlation,Name|Composure,
+correlation,Name|Interceptions,
+correlation,Name|Heading Accuracy,
+correlation,Name|Def Awareness,
+correlation,Name|Standing Tackle,
+correlation,Name|Sliding Tackle,
+correlation,Name|Jumping,
+correlation,Name|Stamina,
+correlation,Name|Aggression,
+correlation,Name|Position,
+correlation,Name|Weak foot,
+correlation,Name|Skill moves,
+correlation,Name|Preferred foot,
+correlation,Name|Height,
+correlation,Name|Weight,
+correlation,Name|Alternative positions,
+correlation,Name|Age,
+correlation,Name|Nation,
+correlation,Name|League,
+correlation,Name|Team,
+correlation,Name|play style,
+correlation,Name|url,
+correlation,Name|GK Diving,
+correlation,Name|GK Handling,
+correlation,Name|GK Kicking,
+correlation,Name|GK Positioning,
+correlation,Name|GK Reflexes,
+correlation,OVR|PAC,0.2860573094262915
+correlation,OVR|SHO,0.48246570691193236
+correlation,OVR|PAS,0.7275608645528314
+correlation,OVR|DRI,0.7065191888408581
+correlation,OVR|DEF,0.37132680807061214
+correlation,OVR|PHY,0.567265550706199
+correlation,OVR|Acceleration,0.21865526877037408
+correlation,OVR|Sprint Speed,0.22711179844457904
+correlation,OVR|Positioning,0.35413361862146747
+correlation,OVR|Finishing,0.34745181098046435
+correlation,OVR|Shot Power,0.5560466002182191
+correlation,OVR|Long Shots,0.3928086999365003
+correlation,OVR|Volleys,0.3632089426253851
+correlation,OVR|Vision,0.5273204487427591
+correlation,OVR|Crossing,0.39132236571133994
+correlation,OVR|Free Kick Accuracy,0.3803850804922563
+correlation,OVR|Short Passing,0.5383380942332474
+correlation,OVR|Long Passing,0.5251611099975647
+correlation,OVR|Curve,0.4170366193819733
+correlation,OVR|Dribbling,0.38282212867805815
+correlation,OVR|Agility,0.2702731152557112
+correlation,OVR|Balance,0.17623120796766886
+correlation,OVR|Reactions,0.8846267563355429
+correlation,OVR|Ball Control,0.4617990721004582
+correlation,OVR|Composure,0.6670551711375979
+correlation,OVR|Interceptions,0.3070186111784004
+correlation,OVR|Heading Accuracy,0.3420014244158666
+correlation,OVR|Def Awareness,0.31079694466092617
+correlation,OVR|Standing Tackle,0.2819723848344324
+correlation,OVR|Sliding Tackle,0.25450368003425355
+correlation,OVR|Jumping,0.5570435710532712
+correlation,OVR|Stamina,0.37162274478923246
+correlation,OVR|Aggression,0.36070055995028605
+correlation,OVR|Position,
+correlation,OVR|Weak foot,0.20240581982777392
+correlation,OVR|Skill moves,0.3489462113345519
+correlation,OVR|Preferred foot,
+correlation,OVR|Height,
+correlation,OVR|Weight,
+correlation,OVR|Alternative positions,
+correlation,OVR|Age,0.3725593431337608
+correlation,OVR|Nation,
+correlation,OVR|League,
+correlation,OVR|Team,
+correlation,OVR|play style,
+correlation,OVR|url,
+correlation,OVR|GK Diving,0.350332289575802
+correlation,OVR|GK Handling,0.3482053747195778
+correlation,OVR|GK Kicking,0.3151673661320505
+correlation,OVR|GK Positioning,0.3501549761752748
+correlation,OVR|GK Reflexes,0.3505249365153524
+correlation,PAC|SHO,0.3486698169225821
+correlation,PAC|PAS,0.2955457190365745
+correlation,PAC|DRI,0.5210776663358468
+correlation,PAC|DEF,0.19788567964683698
+correlation,PAC|PHY,0.057893799355996554
+correlation,PAC|Acceleration,0.7220156390440249
+correlation,PAC|Sprint Speed,0.7322942075772454
+correlation,PAC|Positioning,0.33892015526002117
+correlation,PAC|Finishing,0.3285664585903132
+correlation,PAC|Shot Power,0.28140651274773865
+correlation,PAC|Long Shots,0.2816502099669533
+correlation,PAC|Volleys,0.2919492565810811
+correlation,PAC|Vision,0.30223335961229447
+correlation,PAC|Crossing,0.34345547947974847
+correlation,PAC|Free Kick Accuracy,0.2238937059103421
+correlation,PAC|Short Passing,0.15191013806748016
+correlation,PAC|Long Passing,0.08555658265455766
+correlation,PAC|Curve,0.32034360699228837
+correlation,PAC|Dribbling,0.3418453904833895
+correlation,PAC|Agility,0.5809106559139523
+correlation,PAC|Balance,0.4488714262663309
+correlation,PAC|Reactions,0.20083141350164208
+correlation,PAC|Ball Control,0.24766097976540116
+correlation,PAC|Composure,0.18520221512666982
+correlation,PAC|Interceptions,0.15531625206851363
+correlation,PAC|Heading Accuracy,0.06276764924441905
+correlation,PAC|Def Awareness,0.15339068169464184
+correlation,PAC|Standing Tackle,0.14946728593059494
+correlation,PAC|Sliding Tackle,0.15587348010177476
+correlation,PAC|Jumping,0.17896991162959047
+correlation,PAC|Stamina,0.23041778583009678
+correlation,PAC|Aggression,0.07206707123393942
+correlation,PAC|Position,
+correlation,PAC|Weak foot,0.16078313247751494
+correlation,PAC|Skill moves,0.3660557348860778
+correlation,PAC|Preferred foot,
+correlation,PAC|Height,
+correlation,PAC|Weight,
+correlation,PAC|Alternative positions,
+correlation,PAC|Age,0.1291247583730958
+correlation,PAC|Nation,
+correlation,PAC|League,
+correlation,PAC|Team,
+correlation,PAC|play style,
+correlation,PAC|url,
+correlation,PAC|GK Diving,0.2390838724522187
+correlation,PAC|GK Handling,0.21623240674096572
+correlation,PAC|GK Kicking,0.19501109072768041
+correlation,PAC|GK Positioning,0.21477545899475595
+correlation,PAC|GK Reflexes,0.22340304912481737
+correlation,SHO|PAS,0.6851386870777846
+correlation,SHO|DRI,0.7805818129468065
+correlation,SHO|DEF,0.38841224242514777
+correlation,SHO|PHY,0.060388467769624726
+correlation,SHO|Acceleration,0.11250494575930575
+correlation,SHO|Sprint Speed,0.0689933040696244
+correlation,SHO|Positioning,0.39627014423133883
+correlation,SHO|Finishing,0.5534929420356147
+correlation,SHO|Shot Power,0.739651070071109
+correlation,SHO|Long Shots,0.5206739062419521
+correlation,SHO|Volleys,0.49728108198786175
+correlation,SHO|Vision,0.5574716600829648
+correlation,SHO|Crossing,0.19195595545408548
+correlation,SHO|Free Kick Accuracy,0.4061075136790913
+correlation,SHO|Short Passing,0.12775673196842094
+correlation,SHO|Long Passing,0.11958001802570731
+correlation,SHO|Curve,0.3557846112210162
+correlation,SHO|Dribbling,0.23721926582471875
+correlation,SHO|Agility,0.24694624639514784
+correlation,SHO|Balance,0.15671437868806817
+correlation,SHO|Reactions,0.41926011941541363
+correlation,SHO|Ball Control,0.17193186241026343
+correlation,SHO|Composure,0.3009609742598414
+correlation,SHO|Interceptions,0.4016866569000782
+correlation,SHO|Heading Accuracy,0.14625357146409124
+correlation,SHO|Def Awareness,0.4209844776596153
+correlation,SHO|Standing Tackle,0.4269957103045158
+correlation,SHO|Sliding Tackle,0.46493194466887083
+correlation,SHO|Jumping,0.08997383382752083
+correlation,SHO|Stamina,0.020764690088848604
+correlation,SHO|Aggression,0.20184406650654432
+correlation,SHO|Position,
+correlation,SHO|Weak foot,0.21367559546517792
+correlation,SHO|Skill moves,0.32058243403230113
+correlation,SHO|Preferred foot,
+correlation,SHO|Height,
+correlation,SHO|Weight,
+correlation,SHO|Alternative positions,
+correlation,SHO|Age,0.22126812759559017
+correlation,SHO|Nation,
+correlation,SHO|League,
+correlation,SHO|Team,
+correlation,SHO|play style,
+correlation,SHO|url,
+correlation,SHO|GK Diving,0.15888854642148084
+correlation,SHO|GK Handling,0.17567990630433203
+correlation,SHO|GK Kicking,0.14663247995276538
+correlation,SHO|GK Positioning,0.16129217828539164
+correlation,SHO|GK Reflexes,0.1566452295317389
+correlation,PAS|DRI,0.8547134490058506
+correlation,PAS|DEF,0.17091245579305706
+correlation,PAS|PHY,0.21896620306047654
+correlation,PAS|Acceleration,0.13769146667910348
+correlation,PAS|Sprint Speed,0.0835700957569743
+correlation,PAS|Positioning,0.34375049961711446
+correlation,PAS|Finishing,0.3383859559436106
+correlation,PAS|Shot Power,0.5891499236959953
+correlation,PAS|Long Shots,0.41968935320141015
+correlation,PAS|Volleys,0.34391664981927955
+correlation,PAS|Vision,0.7110889227353836
+correlation,PAS|Crossing,0.4534969382280902
+correlation,PAS|Free Kick Accuracy,0.4763500702957408
+correlation,PAS|Short Passing,0.42944016841044547
+correlation,PAS|Long Passing,0.5276593236867388
+correlation,PAS|Curve,0.4845551084479881
+correlation,PAS|Dribbling,0.3263921881224069
+correlation,PAS|Agility,0.30902950641186167
+correlation,PAS|Balance,0.2552477079386088
+correlation,PAS|Reactions,0.6450548547096919
+correlation,PAS|Ball Control,0.3244439552878859
+correlation,PAS|Composure,0.49890746115802664
+correlation,PAS|Interceptions,0.11334825855870508
+correlation,PAS|Heading Accuracy,0.06104433685774136
+correlation,PAS|Def Awareness,0.08536001100872936
+correlation,PAS|Standing Tackle,0.08197005747464657
+correlation,PAS|Sliding Tackle,0.05762676881141021
+correlation,PAS|Jumping,0.12512608792645907
+correlation,PAS|Stamina,0.17033848401535323
+correlation,PAS|Aggression,0.08669292827517959
+correlation,PAS|Position,
+correlation,PAS|Weak foot,0.20555331049148612
+correlation,PAS|Skill moves,0.33826057315443825
+correlation,PAS|Preferred foot,
+correlation,PAS|Height,
+correlation,PAS|Weight,
+correlation,PAS|Alternative positions,
+correlation,PAS|Age,0.3026321423821441
+correlation,PAS|Nation,
+correlation,PAS|League,
+correlation,PAS|Team,
+correlation,PAS|play style,
+correlation,PAS|url,
+correlation,PAS|GK Diving,0.21212144099127986
+correlation,PAS|GK Handling,0.21706191377878958
+correlation,PAS|GK Kicking,0.2600611859957193
+correlation,PAS|GK Positioning,0.21752553685154377
+correlation,PAS|GK Reflexes,0.21019336014175416
+correlation,DRI|DEF,0.06733764216231246
+correlation,DRI|PHY,0.11099826891000891
+correlation,DRI|Acceleration,0.3200872726387795
+correlation,DRI|Sprint Speed,0.2583375055777794
+correlation,DRI|Positioning,0.4529312832927593
+correlation,DRI|Finishing,0.47323490673145213
+correlation,DRI|Shot Power,0.6287521494783007
+correlation,DRI|Long Shots,0.4853404084727836
+correlation,DRI|Volleys,0.44612687383605826
+correlation,DRI|Vision,0.676829110856787
+correlation,DRI|Crossing,0.4243071099038944
+correlation,DRI|Free Kick Accuracy,0.4465823475195208
+correlation,DRI|Short Passing,0.3681630096827207
+correlation,DRI|Long Passing,0.37533680775522965
+correlation,DRI|Curve,0.49031237266640676
+correlation,DRI|Dribbling,0.45494201908812193
+correlation,DRI|Agility,0.47618746942670065
+correlation,DRI|Balance,0.3790777321163698
+correlation,DRI|Reactions,0.6238967771097668
+correlation,DRI|Ball Control,0.3919923582774954
+correlation,DRI|Composure,0.4930640661145282
+correlation,DRI|Interceptions,0.08609224940873413
+correlation,DRI|Heading Accuracy,0.0716601979126371
+correlation,DRI|Def Awareness,0.10523968959561494
+correlation,DRI|Standing Tackle,0.10934203009879528
+correlation,DRI|Sliding Tackle,0.13833182497410143
+correlation,DRI|Jumping,0.13689175879460552
+correlation,DRI|Stamina,0.17207775877922227
+correlation,DRI|Aggression,0.009499890443814949
+correlation,DRI|Position,
+correlation,DRI|Weak foot,0.24198328186074378
+correlation,DRI|Skill moves,0.43821862793031835
+correlation,DRI|Preferred foot,
+correlation,DRI|Height,
+correlation,DRI|Weight,
+correlation,DRI|Alternative positions,
+correlation,DRI|Age,0.18191033624359154
+correlation,DRI|Nation,
+correlation,DRI|League,
+correlation,DRI|Team,
+correlation,DRI|play style,
+correlation,DRI|url,
+correlation,DRI|GK Diving,0.26548013434461076
+correlation,DRI|GK Handling,0.25333097607130445
+correlation,DRI|GK Kicking,0.22963425226417608
+correlation,DRI|GK Positioning,0.2565370659619265
+correlation,DRI|GK Reflexes,0.28411437904321024
+correlation,DEF|PHY,0.4824442731701311
+correlation,DEF|Acceleration,0.09079261736858348
+correlation,DEF|Sprint Speed,0.11031038622256921
+correlation,DEF|Positioning,0.06054961242795183
+correlation,DEF|Finishing,0.0903795581935187
+correlation,DEF|Shot Power,0.034355359232113344
+correlation,DEF|Long Shots,0.05776471050066814
+correlation,DEF|Volleys,0.03914987264700254
+correlation,DEF|Vision,0.13704896361184324
+correlation,DEF|Crossing,0.3120367353254079
+correlation,DEF|Free Kick Accuracy,0.16249015660868874
+correlation,DEF|Short Passing,0.4776959614511987
+correlation,DEF|Long Passing,0.5566096006457227
+correlation,DEF|Curve,0.19485660572726501
+correlation,DEF|Dribbling,0.2035607693266403
+correlation,DEF|Agility,0.07586009205227214
+correlation,DEF|Balance,0.10893200568205506
+correlation,DEF|Reactions,0.40093936177679984
+correlation,DEF|Ball Control,0.32374835083595727
+correlation,DEF|Composure,0.3908624757397963
+correlation,DEF|Interceptions,0.9295976506651207
+correlation,DEF|Heading Accuracy,0.4550903368722322
+correlation,DEF|Def Awareness,0.9198534225750655
+correlation,DEF|Standing Tackle,0.920107265776145
+correlation,DEF|Sliding Tackle,0.9195626410157971
+correlation,DEF|Jumping,0.3643196050856311
+correlation,DEF|Stamina,0.46935721352510196
+correlation,DEF|Aggression,0.6693968063398906
+correlation,DEF|Position,
+correlation,DEF|Weak foot,0.003130243342711155
+correlation,DEF|Skill moves,0.03492806995730276
+correlation,DEF|Preferred foot,
+correlation,DEF|Height,
+correlation,DEF|Weight,
+correlation,DEF|Alternative positions,
+correlation,DEF|Age,0.20919616829683912
+correlation,DEF|Nation,
+correlation,DEF|League,
+correlation,DEF|Team,
+correlation,DEF|play style,
+correlation,DEF|url,
+correlation,DEF|GK Diving,0.09788129402419744
+correlation,DEF|GK Handling,0.09591031619782855
+correlation,DEF|GK Kicking,0.09168613410051099
+correlation,DEF|GK Positioning,0.09492586018408262
+correlation,DEF|GK Reflexes,0.09533767973920974
+correlation,PHY|Acceleration,0.06897800709328543
+correlation,PHY|Sprint Speed,0.0016922725736151982
+correlation,PHY|Positioning,0.037252877132929914
+correlation,PHY|Finishing,0.0034424301114481175
+correlation,PHY|Shot Power,0.22765593882639978
+correlation,PHY|Long Shots,0.06533466239020806
+correlation,PHY|Volleys,0.04789340149272148
+correlation,PHY|Vision,0.09728466028697787
+correlation,PHY|Crossing,0.040829313720931855
+correlation,PHY|Free Kick Accuracy,0.04192012651354494
+correlation,PHY|Short Passing,0.2319863870692566
+correlation,PHY|Long Passing,0.24993884471439
+correlation,PHY|Curve,0.049087726889419765
+correlation,PHY|Dribbling,0.03250629878222076
+correlation,PHY|Agility,0.10310063204653123
+correlation,PHY|Balance,0.1887480764127509
+correlation,PHY|Reactions,0.5231271534879095
+correlation,PHY|Ball Control,0.13472554673138334
+correlation,PHY|Composure,0.35898052323244445
+correlation,PHY|Interceptions,0.3933306355420035
+correlation,PHY|Heading Accuracy,0.4186997169420294
+correlation,PHY|Def Awareness,0.39679628466732414
+correlation,PHY|Standing Tackle,0.36057778241973604
+correlation,PHY|Sliding Tackle,0.3525458786672093
+correlation,PHY|Jumping,0.7655623945339685
+correlation,PHY|Stamina,0.4028628549274857
+correlation,PHY|Aggression,0.5469759431866008
+correlation,PHY|Position,
+correlation,PHY|Weak foot,0.05755620018948873
+correlation,PHY|Skill moves,0.05159036811530899
+correlation,PHY|Preferred foot,
+correlation,PHY|Height,
+correlation,PHY|Weight,
+correlation,PHY|Alternative positions,
+correlation,PHY|Age,0.42231244634807147
+correlation,PHY|Nation,
+correlation,PHY|League,
+correlation,PHY|Team,
+correlation,PHY|play style,
+correlation,PHY|url,
+correlation,PHY|GK Diving,0.2641838961618599
+correlation,PHY|GK Handling,0.26999963846004554
+correlation,PHY|GK Kicking,0.24598389662657255
+correlation,PHY|GK Positioning,0.2940843857971968
+correlation,PHY|GK Reflexes,0.26553934274241764
+correlation,Acceleration|Sprint Speed,0.9159196146991918
+correlation,Acceleration|Positioning,0.7154847237277324
+correlation,Acceleration|Finishing,0.6551343337362168
+correlation,Acceleration|Shot Power,0.39042725824567837
+correlation,Acceleration|Long Shots,0.6328018774799029
+correlation,Acceleration|Volleys,0.624069593818929
+correlation,Acceleration|Vision,0.4917939372846598
+correlation,Acceleration|Crossing,0.7057420220304372
+correlation,Acceleration|Free Kick Accuracy,0.5707362897237849
+correlation,Acceleration|Short Passing,0.5994561836500794
+correlation,Acceleration|Long Passing,0.47826530677414975
+correlation,Acceleration|Curve,0.667070671836725
+correlation,Acceleration|Dribbling,0.7681840802087957
+correlation,Acceleration|Agility,0.8399781196858389
+correlation,Acceleration|Balance,0.7332890047701103
+correlation,Acceleration|Reactions,0.2273005385444798
+correlation,Acceleration|Ball Control,0.7123922756244458
+correlation,Acceleration|Composure,0.49462411602966005
+correlation,Acceleration|Interceptions,0.24423172967860182
+correlation,Acceleration|Heading Accuracy,0.41430326238310716
+correlation,Acceleration|Def Awareness,0.2596285151781018
+correlation,Acceleration|Standing Tackle,0.2647059816405037
+correlation,Acceleration|Sliding Tackle,0.2448816544491627
+correlation,Acceleration|Jumping,0.312927851602939
+correlation,Acceleration|Stamina,0.6436251506027136
+correlation,Acceleration|Aggression,0.35534802610347904
+correlation,Acceleration|Position,
+correlation,Acceleration|Weak foot,0.26809547698346986
+correlation,Acceleration|Skill moves,0.6738533811880254
+correlation,Acceleration|Preferred foot,
+correlation,Acceleration|Height,
+correlation,Acceleration|Weight,
+correlation,Acceleration|Alternative positions,
+correlation,Acceleration|Age,0.12536347554070804
+correlation,Acceleration|Nation,
+correlation,Acceleration|League,
+correlation,Acceleration|Team,
+correlation,Acceleration|play style,
+correlation,Acceleration|url,
+correlation,Acceleration|GK Diving,0.10543198263477746
+correlation,Acceleration|GK Handling,0.10410396626838295
+correlation,Acceleration|GK Kicking,0.10056319397451428
+correlation,Acceleration|GK Positioning,0.10292029491999649
+correlation,Acceleration|GK Reflexes,0.10286757560194722
+correlation,Sprint Speed|Positioning,0.6813682284567905
+correlation,Sprint Speed|Finishing,0.6213301572662511
+correlation,Sprint Speed|Shot Power,0.3696966554466871
+correlation,Sprint Speed|Long Shots,0.5928742406537141
+correlation,Sprint Speed|Volleys,0.5913320969995046
+correlation,Sprint Speed|Vision,0.43776386457548344
+correlation,Sprint Speed|Crossing,0.6638984158001211
+correlation,Sprint Speed|Free Kick Accuracy,0.5192744532275039
+correlation,Sprint Speed|Short Passing,0.5831547001309584
+correlation,Sprint Speed|Long Passing,0.4524814193341082
+correlation,Sprint Speed|Curve,0.619048600084762
+correlation,Sprint Speed|Dribbling,0.7338956598415161
+correlation,Sprint Speed|Agility,0.7678636896621558
+correlation,Sprint Speed|Balance,0.6463277617140909
+correlation,Sprint Speed|Reactions,0.22781457097493482
+correlation,Sprint Speed|Ball Control,0.6906942880990641
+correlation,Sprint Speed|Composure,0.48349666944324265
+correlation,Sprint Speed|Interceptions,0.25324916277167386
+correlation,Sprint Speed|Heading Accuracy,0.4689941850873979
+correlation,Sprint Speed|Def Awareness,0.27595262077610466
+correlation,Sprint Speed|Standing Tackle,0.2783124108212047
+correlation,Sprint Speed|Sliding Tackle,0.2588912052799142
+correlation,Sprint Speed|Jumping,0.36427878895733123
+correlation,Sprint Speed|Stamina,0.6362467134931296
+correlation,Sprint Speed|Aggression,0.3802830363551453
+correlation,Sprint Speed|Position,
+correlation,Sprint Speed|Weak foot,0.2513397261873218
+correlation,Sprint Speed|Skill moves,0.6240360406120666
+correlation,Sprint Speed|Preferred foot,
+correlation,Sprint Speed|Height,
+correlation,Sprint Speed|Weight,
+correlation,Sprint Speed|Alternative positions,
+correlation,Sprint Speed|Age,0.1253029627574381
+correlation,Sprint Speed|Nation,
+correlation,Sprint Speed|League,
+correlation,Sprint Speed|Team,
+correlation,Sprint Speed|play style,
+correlation,Sprint Speed|url,
+correlation,Sprint Speed|GK Diving,0.10500644504547044
+correlation,Sprint Speed|GK Handling,0.10195576993895536
+correlation,Sprint Speed|GK Kicking,0.09579711018127651
+correlation,Sprint Speed|GK Positioning,0.10077318312782194
+correlation,Sprint Speed|GK Reflexes,0.10204706564161427
+correlation,Positioning|Finishing,0.919733856020796
+correlation,Positioning|Shot Power,0.6804545354806967
+correlation,Positioning|Long Shots,0.9038438310362898
+correlation,Positioning|Volleys,0.8757421654810695
+correlation,Positioning|Vision,0.75722931255707
+correlation,Positioning|Crossing,0.8156158508706747
+correlation,Positioning|Free Kick Accuracy,0.8004409819924758
+correlation,Positioning|Short Passing,0.7755173827644195
+correlation,Positioning|Long Passing,0.6548905741260466
+correlation,Positioning|Curve,0.8481665651828233
+correlation,Positioning|Dribbling,0.9188759661448068
+correlation,Positioning|Agility,0.7459847325371063
+correlation,Positioning|Balance,0.654995581884734
+correlation,Positioning|Reactions,0.40529051332575916
+correlation,Positioning|Ball Control,0.8762010184178084
+correlation,Positioning|Composure,0.6931765542480263
+correlation,Positioning|Interceptions,0.26756666379599114
+correlation,Positioning|Heading Accuracy,0.5754033132810807
+correlation,Positioning|Def Awareness,0.2740071547650121
+correlation,Positioning|Standing Tackle,0.28134837008181157
+correlation,Positioning|Sliding Tackle,0.23609361968002535
+correlation,Positioning|Jumping,0.3191572902015079
+correlation,Positioning|Stamina,0.6924280996643705
+correlation,Positioning|Aggression,0.47055777454012043
+correlation,Positioning|Position,
+correlation,Positioning|Weak foot,0.3393321516557924
+correlation,Positioning|Skill moves,0.7815949513110925
+correlation,Positioning|Preferred foot,
+correlation,Positioning|Height,
+correlation,Positioning|Weight,
+correlation,Positioning|Alternative positions,
+correlation,Positioning|Age,0.05944817340685213
+correlation,Positioning|Nation,
+correlation,Positioning|League,
+correlation,Positioning|Team,
+correlation,Positioning|play style,
+correlation,Positioning|url,
+correlation,Positioning|GK Diving,0.019921448997258843
+correlation,Positioning|GK Handling,0.021057580386907557
+correlation,Positioning|GK Kicking,0.020409861077746283
+correlation,Positioning|GK Positioning,0.022110569218649696
+correlation,Positioning|GK Reflexes,0.019160355206651356
+correlation,Finishing|Shot Power,0.7496449111405744
+correlation,Finishing|Long Shots,0.9241139576846963
+correlation,Finishing|Volleys,0.9075194290742172
+correlation,Finishing|Vision,0.7275811964586341
+correlation,Finishing|Crossing,0.7164494535820874
+correlation,Finishing|Free Kick Accuracy,0.7904439462678673
+correlation,Finishing|Short Passing,0.7042982261932189
+correlation,Finishing|Long Passing,0.5733715978192014
+correlation,Finishing|Curve,0.8011217036266649
+correlation,Finishing|Dribbling,0.8565953115358064
+correlation,Finishing|Agility,0.6932025008252253
+correlation,Finishing|Balance,0.596577161905502
+correlation,Finishing|Reactions,0.3781763797338762
+correlation,Finishing|Ball Control,0.8169914755513628
+correlation,Finishing|Composure,0.6507915882939026
+correlation,Finishing|Interceptions,0.10705841374665717
+correlation,Finishing|Heading Accuracy,0.5204844692171262
+correlation,Finishing|Def Awareness,0.11939921639903853
+correlation,Finishing|Standing Tackle,0.1221474569154928
+correlation,Finishing|Sliding Tackle,0.07138532066385729
+correlation,Finishing|Jumping,0.3008177786385899
+correlation,Finishing|Stamina,0.5892456008010755
+correlation,Finishing|Aggression,0.351728981532727
+correlation,Finishing|Position,
+correlation,Finishing|Weak foot,0.3521902554848479
+correlation,Finishing|Skill moves,0.7722150060457996
+correlation,Finishing|Preferred foot,
+correlation,Finishing|Height,
+correlation,Finishing|Weight,
+correlation,Finishing|Alternative positions,
+correlation,Finishing|Age,0.052163891245708416
+correlation,Finishing|Nation,
+correlation,Finishing|League,
+correlation,Finishing|Team,
+correlation,Finishing|play style,
+correlation,Finishing|url,
+correlation,Finishing|GK Diving,0.019920895436454054
+correlation,Finishing|GK Handling,0.01999725278264196
+correlation,Finishing|GK Kicking,0.018796487496394832
+correlation,Finishing|GK Positioning,0.020738504551875116
+correlation,Finishing|GK Reflexes,0.0187526108864721
+correlation,Shot Power|Long Shots,0.7997217047598638
+correlation,Shot Power|Volleys,0.7543906755823255
+correlation,Shot Power|Vision,0.6998440059497237
+correlation,Shot Power|Crossing,0.540811998885537
+correlation,Shot Power|Free Kick Accuracy,0.6951038066092218
+correlation,Shot Power|Short Passing,0.5614416756515999
+correlation,Shot Power|Long Passing,0.5156477851540097
+correlation,Shot Power|Curve,0.6761331022964655
+correlation,Shot Power|Dribbling,0.6155096805340444
+correlation,Shot Power|Agility,0.47890792168681123
+correlation,Shot Power|Balance,0.37855433861136784
+correlation,Shot Power|Reactions,0.5273667734678985
+correlation,Shot Power|Ball Control,0.6004758995797019
+correlation,Shot Power|Composure,0.6331904701721442
+correlation,Shot Power|Interceptions,0.04698862209263736
+correlation,Shot Power|Heading Accuracy,0.3537949179237767
+correlation,Shot Power|Def Awareness,0.05348860884592536
+correlation,Shot Power|Standing Tackle,0.04060857371926297
+correlation,Shot Power|Sliding Tackle,0.00032775562581364705
+correlation,Shot Power|Jumping,0.3594688215910357
+correlation,Shot Power|Stamina,0.40421703454918145
+correlation,Shot Power|Aggression,0.2886420808523091
+correlation,Shot Power|Position,
+correlation,Shot Power|Weak foot,0.31543504108105774
+correlation,Shot Power|Skill moves,0.5773666304955878
+correlation,Shot Power|Preferred foot,
+correlation,Shot Power|Height,
+correlation,Shot Power|Weight,
+correlation,Shot Power|Alternative positions,
+correlation,Shot Power|Age,0.2380474510829412
+correlation,Shot Power|Nation,
+correlation,Shot Power|League,
+correlation,Shot Power|Team,
+correlation,Shot Power|play style,
+correlation,Shot Power|url,
+correlation,Shot Power|GK Diving,0.12199628362431308
+correlation,Shot Power|GK Handling,0.12487277336130315
+correlation,Shot Power|GK Kicking,0.14948685912898285
+correlation,Shot Power|GK Positioning,0.12514402779926115
+correlation,Shot Power|GK Reflexes,0.12092661748538235
+correlation,Long Shots|Volleys,0.8932782915269627
+correlation,Long Shots|Vision,0.7712249979831817
+correlation,Long Shots|Crossing,0.7688828013880123
+correlation,Long Shots|Free Kick Accuracy,0.8696038504383019
+correlation,Long Shots|Short Passing,0.7583385238597352
+correlation,Long Shots|Long Passing,0.6712554347815735
+correlation,Long Shots|Curve,0.8547185129905781
+correlation,Long Shots|Dribbling,0.8658398489858573
+correlation,Long Shots|Agility,0.6992573467951788
+correlation,Long Shots|Balance,0.6123390164067399
+correlation,Long Shots|Reactions,0.42606006082304243
+correlation,Long Shots|Ball Control,0.8375991089414866
+correlation,Long Shots|Composure,0.7002446435006754
+correlation,Long Shots|Interceptions,0.244576525424734
+correlation,Long Shots|Heading Accuracy,0.5328822979809102
+correlation,Long Shots|Def Awareness,0.24838877037879678
+correlation,Long Shots|Standing Tackle,0.2516808538559783
+correlation,Long Shots|Sliding Tackle,0.2040313577227721
+correlation,Long Shots|Jumping,0.31067705230334525
+correlation,Long Shots|Stamina,0.6415708046041305
+correlation,Long Shots|Aggression,0.44141427614059336
+correlation,Long Shots|Position,
+correlation,Long Shots|Weak foot,0.35339659097387344
+correlation,Long Shots|Skill moves,0.7647790358858129
+correlation,Long Shots|Preferred foot,
+correlation,Long Shots|Height,
+correlation,Long Shots|Weight,
+correlation,Long Shots|Alternative positions,
+correlation,Long Shots|Age,0.12004638055403882
+correlation,Long Shots|Nation,
+correlation,Long Shots|League,
+correlation,Long Shots|Team,
+correlation,Long Shots|play style,
+correlation,Long Shots|url,
+correlation,Long Shots|GK Diving,0.022782636577766302
+correlation,Long Shots|GK Handling,0.02251410201493143
+correlation,Long Shots|GK Kicking,0.022102143377933935
+correlation,Long Shots|GK Positioning,0.02401433623243971
+correlation,Long Shots|GK Reflexes,0.02140329831395549
+correlation,Volleys|Vision,0.7019019439205954
+correlation,Volleys|Crossing,0.7175850372874238
+correlation,Volleys|Free Kick Accuracy,0.8029243183157655
+correlation,Volleys|Short Passing,0.6990260841634414
+correlation,Volleys|Long Passing,0.5801894734356638
+correlation,Volleys|Curve,0.8209939461130088
+correlation,Volleys|Dribbling,0.8263455581413734
+correlation,Volleys|Agility,0.6692401869479074
+correlation,Volleys|Balance,0.5761352507483335
+correlation,Volleys|Reactions,0.396093561772809
+correlation,Volleys|Ball Control,0.7984246875534199
+correlation,Volleys|Composure,0.6761068515164307
+correlation,Volleys|Interceptions,0.1462196346144668
+correlation,Volleys|Heading Accuracy,0.5444067297917639
+correlation,Volleys|Def Awareness,0.16150658873666024
+correlation,Volleys|Standing Tackle,0.15599287392329728
+correlation,Volleys|Sliding Tackle,0.11108079127408327
+correlation,Volleys|Jumping,0.335044491131159
+correlation,Volleys|Stamina,0.5864607483934067
+correlation,Volleys|Aggression,0.3947495918609666
+correlation,Volleys|Position,
+correlation,Volleys|Weak foot,0.3574500159050902
+correlation,Volleys|Skill moves,0.7596081260469718
+correlation,Volleys|Preferred foot,
+correlation,Volleys|Height,
+correlation,Volleys|Weight,
+correlation,Volleys|Alternative positions,
+correlation,Volleys|Age,0.10939201077190232
+correlation,Volleys|Nation,
+correlation,Volleys|League,
+correlation,Volleys|Team,
+correlation,Volleys|play style,
+correlation,Volleys|url,
+correlation,Volleys|GK Diving,0.021489697005976596
+correlation,Volleys|GK Handling,0.02161463085855552
+correlation,Volleys|GK Kicking,0.020348291779580724
+correlation,Volleys|GK Positioning,0.022994031547357095
+correlation,Volleys|GK Reflexes,0.019924635221534114
+correlation,Vision|Crossing,0.6961982250611266
+correlation,Vision|Free Kick Accuracy,0.7359850873607809
+correlation,Vision|Short Passing,0.7077693375752786
+correlation,Vision|Long Passing,0.715689338884327
+correlation,Vision|Curve,0.7548657556028774
+correlation,Vision|Dribbling,0.7307200341803821
+correlation,Vision|Agility,0.6223332427307319
+correlation,Vision|Balance,0.5464093700174711
+correlation,Vision|Reactions,0.5372822801921294
+correlation,Vision|Ball Control,0.7070612805700104
+correlation,Vision|Composure,0.7026772449899743
+correlation,Vision|Interceptions,0.24347333698724577
+correlation,Vision|Heading Accuracy,0.2967723141760497
+correlation,Vision|Def Awareness,0.2325422254286261
+correlation,Vision|Standing Tackle,0.23284686630571932
+correlation,Vision|Sliding Tackle,0.19166688464754503
+correlation,Vision|Jumping,0.19902291700044308
+correlation,Vision|Stamina,0.5128531871379748
+correlation,Vision|Aggression,0.34459600262704365
+correlation,Vision|Position,
+correlation,Vision|Weak foot,0.3343678735657108
+correlation,Vision|Skill moves,0.658388366828664
+correlation,Vision|Preferred foot,
+correlation,Vision|Height,
+correlation,Vision|Weight,
+correlation,Vision|Alternative positions,
+correlation,Vision|Age,0.16313516201933353
+correlation,Vision|Nation,
+correlation,Vision|League,
+correlation,Vision|Team,
+correlation,Vision|play style,
+correlation,Vision|url,
+correlation,Vision|GK Diving,0.10497165215589359
+correlation,Vision|GK Handling,0.10987922681773678
+correlation,Vision|GK Kicking,0.1250774919464365
+correlation,Vision|GK Positioning,0.1122882417807521
+correlation,Vision|GK Reflexes,0.10589171783750234
+correlation,Crossing|Free Kick Accuracy,0.7850077953762128
+correlation,Crossing|Short Passing,0.7948801164284065
+correlation,Crossing|Long Passing,0.7407454810045103
+correlation,Crossing|Curve,0.8828373995537572
+correlation,Crossing|Dribbling,0.8695404848502394
+correlation,Crossing|Agility,0.7383490332973902
+correlation,Crossing|Balance,0.6745847753587072
+correlation,Crossing|Reactions,0.39918663386515457
+correlation,Crossing|Ball Control,0.841342661584193
+correlation,Crossing|Composure,0.675721724645967
+correlation,Crossing|Interceptions,0.4794899911936975
+correlation,Crossing|Heading Accuracy,0.5202960841217014
+correlation,Crossing|Def Awareness,0.4923034025406572
+correlation,Crossing|Standing Tackle,0.4947679361699764
+correlation,Crossing|Sliding Tackle,0.4710953212582058
+correlation,Crossing|Jumping,0.2648171743321872
+correlation,Crossing|Stamina,0.7033406121463389
+correlation,Crossing|Aggression,0.5268885051586503
+correlation,Crossing|Position,
+correlation,Crossing|Weak foot,0.29436376428141053
+correlation,Crossing|Skill moves,0.7395513265781711
+correlation,Crossing|Preferred foot,
+correlation,Crossing|Height,
+correlation,Crossing|Weight,
+correlation,Crossing|Alternative positions,
+correlation,Crossing|Age,0.09962118019208321
+correlation,Crossing|Nation,
+correlation,Crossing|League,
+correlation,Crossing|Team,
+correlation,Crossing|play style,
+correlation,Crossing|url,
+correlation,Crossing|GK Diving,0.01035229614860545
+correlation,Crossing|GK Handling,0.011023369274880295
+correlation,Crossing|GK Kicking,0.012170503901238151
+correlation,Crossing|GK Positioning,0.01122184187817467
+correlation,Crossing|GK Reflexes,0.009782522270023289
+correlation,Free Kick Accuracy|Short Passing,0.7402473485393888
+correlation,Free Kick Accuracy|Long Passing,0.6991234343580944
+correlation,Free Kick Accuracy|Curve,0.8744377278544803
+correlation,Free Kick Accuracy|Dribbling,0.796935979579698
+correlation,Free Kick Accuracy|Agility,0.6613616224160231
+correlation,Free Kick Accuracy|Balance,0.6016297685286323
+correlation,Free Kick Accuracy|Reactions,0.40271896129951734
+correlation,Free Kick Accuracy|Ball Control,0.7819808709413981
+correlation,Free Kick Accuracy|Composure,0.6712870622750144
+correlation,Free Kick Accuracy|Interceptions,0.3271349495670692
+correlation,Free Kick Accuracy|Heading Accuracy,0.46485419574684306
+correlation,Free Kick Accuracy|Def Awareness,0.3303228487703727
+correlation,Free Kick Accuracy|Standing Tackle,0.3339993030335817
+correlation,Free Kick Accuracy|Sliding Tackle,0.29531009054401075
+correlation,Free Kick Accuracy|Jumping,0.2285249953658605
+correlation,Free Kick Accuracy|Stamina,0.6082761839980367
+correlation,Free Kick Accuracy|Aggression,0.44234524166778955
+correlation,Free Kick Accuracy|Position,
+correlation,Free Kick Accuracy|Weak foot,0.32071529556167616
+correlation,Free Kick Accuracy|Skill moves,0.7321152919799067
+correlation,Free Kick Accuracy|Preferred foot,
+correlation,Free Kick Accuracy|Height,
+correlation,Free Kick Accuracy|Weight,
+correlation,Free Kick Accuracy|Alternative positions,
+correlation,Free Kick Accuracy|Age,0.15470175502520905
+correlation,Free Kick Accuracy|Nation,
+correlation,Free Kick Accuracy|League,
+correlation,Free Kick Accuracy|Team,
+correlation,Free Kick Accuracy|play style,
+correlation,Free Kick Accuracy|url,
+correlation,Free Kick Accuracy|GK Diving,0.011937174323319644
+correlation,Free Kick Accuracy|GK Handling,0.013892040151402963
+correlation,Free Kick Accuracy|GK Kicking,0.01495525590590901
+correlation,Free Kick Accuracy|GK Positioning,0.013498197900781014
+correlation,Free Kick Accuracy|GK Reflexes,0.011978417919665387
+correlation,Short Passing|Long Passing,0.9118759746316522
+correlation,Short Passing|Curve,0.7820254518819584
+correlation,Short Passing|Dribbling,0.859297390605708
+correlation,Short Passing|Agility,0.6310625265392982
+correlation,Short Passing|Balance,0.5724298867729828
+correlation,Short Passing|Reactions,0.5651939025350292
+correlation,Short Passing|Ball Control,0.9289435540031001
+correlation,Short Passing|Composure,0.8092261886847176
+correlation,Short Passing|Interceptions,0.6219103857187224
+correlation,Short Passing|Heading Accuracy,0.7105489492048396
+correlation,Short Passing|Def Awareness,0.6343909852395337
+correlation,Short Passing|Standing Tackle,0.6346074633862837
+correlation,Short Passing|Sliding Tackle,0.5974319015181261
+correlation,Short Passing|Jumping,0.4321697694410288
+correlation,Short Passing|Stamina,0.7531969656482636
+correlation,Short Passing|Aggression,0.6846638993457923
+correlation,Short Passing|Position,
+correlation,Short Passing|Weak foot,0.30694429261898326
+correlation,Short Passing|Skill moves,0.6841209378082734
+correlation,Short Passing|Preferred foot,
+correlation,Short Passing|Height,
+correlation,Short Passing|Weight,
+correlation,Short Passing|Alternative positions,
+correlation,Short Passing|Age,0.1108423238461356
+correlation,Short Passing|Nation,
+correlation,Short Passing|League,
+correlation,Short Passing|Team,
+correlation,Short Passing|play style,
+correlation,Short Passing|url,
+correlation,Short Passing|GK Diving,0.06990560406500872
+correlation,Short Passing|GK Handling,0.07227609068783854
+correlation,Short Passing|GK Kicking,0.09187827618811278
+correlation,Short Passing|GK Positioning,0.07302806505513788
+correlation,Short Passing|GK Reflexes,0.07323920542870802
+correlation,Long Passing|Curve,0.7217689000909779
+correlation,Long Passing|Dribbling,0.7502033058766983
+correlation,Long Passing|Agility,0.5511542737674463
+correlation,Long Passing|Balance,0.5127598564011978
+correlation,Long Passing|Reactions,0.542932346155433
+correlation,Long Passing|Ball Control,0.8134715732537086
+correlation,Long Passing|Composure,0.7595783242562028
+correlation,Long Passing|Interceptions,0.663199198191269
+correlation,Long Passing|Heading Accuracy,0.5808321894050129
+correlation,Long Passing|Def Awareness,0.6628814655570748
+correlation,Long Passing|Standing Tackle,0.6650141404683548
+correlation,Long Passing|Sliding Tackle,0.6376108416190021
+correlation,Long Passing|Jumping,0.3425231565162148
+correlation,Long Passing|Stamina,0.6836209502156816
+correlation,Long Passing|Aggression,0.655308613846377
+correlation,Long Passing|Position,
+correlation,Long Passing|Weak foot,0.28225416133417225
+correlation,Long Passing|Skill moves,0.5961603810663314
+correlation,Long Passing|Preferred foot,
+correlation,Long Passing|Height,
+correlation,Long Passing|Weight,
+correlation,Long Passing|Alternative positions,
+correlation,Long Passing|Age,0.1625170045907743
+correlation,Long Passing|Nation,
+correlation,Long Passing|League,
+correlation,Long Passing|Team,
+correlation,Long Passing|play style,
+correlation,Long Passing|url,
+correlation,Long Passing|GK Diving,0.07102093751647551
+correlation,Long Passing|GK Handling,0.0756055440498685
+correlation,Long Passing|GK Kicking,0.09788582281603407
+correlation,Long Passing|GK Positioning,0.07439896481059632
+correlation,Long Passing|GK Reflexes,0.07333766912565186
+correlation,Curve|Dribbling,0.8692999028987716
+correlation,Curve|Agility,0.7353180531114751
+correlation,Curve|Balance,0.6599383979940109
+correlation,Curve|Reactions,0.42893559260724085
+correlation,Curve|Ball Control,0.8414301861066
+correlation,Curve|Composure,0.7204890027411764
+correlation,Curve|Interceptions,0.36626927030094114
+correlation,Curve|Heading Accuracy,0.5040114397631489
+correlation,Curve|Def Awareness,0.37784843880645
+correlation,Curve|Standing Tackle,0.37545056046120595
+correlation,Curve|Sliding Tackle,0.34205585132321753
+correlation,Curve|Jumping,0.2727331862217449
+correlation,Curve|Stamina,0.6650907098484551
+correlation,Curve|Aggression,0.4861236268717284
+correlation,Curve|Position,
+correlation,Curve|Weak foot,0.3355503940933086
+correlation,Curve|Skill moves,0.77497999003094
+correlation,Curve|Preferred foot,
+correlation,Curve|Height,
+correlation,Curve|Weight,
+correlation,Curve|Alternative positions,
+correlation,Curve|Age,0.11916494660423081
+correlation,Curve|Nation,
+correlation,Curve|League,
+correlation,Curve|Team,
+correlation,Curve|play style,
+correlation,Curve|url,
+correlation,Curve|GK Diving,0.017649566150216275
+correlation,Curve|GK Handling,0.017919630482181335
+correlation,Curve|GK Kicking,0.020190065870054473
+correlation,Curve|GK Positioning,0.017905115579229865
+correlation,Curve|GK Reflexes,0.017570830697570993
+correlation,Dribbling|Agility,0.7869947336426075
+correlation,Dribbling|Balance,0.698748548300176
+correlation,Dribbling|Reactions,0.4137000852030715
+correlation,Dribbling|Ball Control,0.9489176787729027
+correlation,Dribbling|Composure,0.7364031762357957
+correlation,Dribbling|Interceptions,0.4091675119380714
+correlation,Dribbling|Heading Accuracy,0.6255968754624757
+correlation,Dribbling|Def Awareness,0.42493179207719234
+correlation,Dribbling|Standing Tackle,0.43100147189938226
+correlation,Dribbling|Sliding Tackle,0.393869918209718
+correlation,Dribbling|Jumping,0.32386964935751267
+correlation,Dribbling|Stamina,0.7417255132539674
+correlation,Dribbling|Aggression,0.5515769859983032
+correlation,Dribbling|Position,
+correlation,Dribbling|Weak foot,0.3420983219410082
+correlation,Dribbling|Skill moves,0.8088787734955427
+correlation,Dribbling|Preferred foot,
+correlation,Dribbling|Height,
+correlation,Dribbling|Weight,
+correlation,Dribbling|Alternative positions,
+correlation,Dribbling|Age,0.0030439159100912956
+correlation,Dribbling|Nation,
+correlation,Dribbling|League,
+correlation,Dribbling|Team,
+correlation,Dribbling|play style,
+correlation,Dribbling|url,
+correlation,Dribbling|GK Diving,0.02809873281389591
+correlation,Dribbling|GK Handling,0.027576445449759592
+correlation,Dribbling|GK Kicking,0.029928925403387215
+correlation,Dribbling|GK Positioning,0.028121716812635207
+correlation,Dribbling|GK Reflexes,0.027588746316383212
+correlation,Agility|Balance,0.8078438095000572
+correlation,Agility|Reactions,0.2904136058668696
+correlation,Agility|Ball Control,0.725675500376551
+correlation,Agility|Composure,0.5572319550562688
+correlation,Agility|Interceptions,0.23649944834895922
+correlation,Agility|Heading Accuracy,0.3340173881594972
+correlation,Agility|Def Awareness,0.24594102289592018
+correlation,Agility|Standing Tackle,0.2462536445914243
+correlation,Agility|Sliding Tackle,0.2207395032463709
+correlation,Agility|Jumping,0.1766099608595808
+correlation,Agility|Stamina,0.6206474182008964
+correlation,Agility|Aggression,0.34030321491337007
+correlation,Agility|Position,
+correlation,Agility|Weak foot,0.3037337337019426
+correlation,Agility|Skill moves,0.716936085108576
+correlation,Agility|Preferred foot,
+correlation,Agility|Height,
+correlation,Agility|Weight,
+correlation,Agility|Alternative positions,
+correlation,Agility|Age,0.020997553748055224
+correlation,Agility|Nation,
+correlation,Agility|League,
+correlation,Agility|Team,
+correlation,Agility|play style,
+correlation,Agility|url,
+correlation,Agility|GK Diving,0.09008507036869604
+correlation,Agility|GK Handling,0.08765369398960701
+correlation,Agility|GK Kicking,0.08523920887152488
+correlation,Agility|GK Positioning,0.08595793707025684
+correlation,Agility|GK Reflexes,0.08844807296869016
+correlation,Balance|Reactions,0.21598218889863496
+correlation,Balance|Ball Control,0.6472489079392464
+correlation,Balance|Composure,0.4749782547141367
+correlation,Balance|Interceptions,0.2622390490747745
+correlation,Balance|Heading Accuracy,0.2678919881467673
+correlation,Balance|Def Awareness,0.2662200168274009
+correlation,Balance|Standing Tackle,0.2732357599203079
+correlation,Balance|Sliding Tackle,0.2559072894474708
+correlation,Balance|Jumping,0.03301700660303621
+correlation,Balance|Stamina,0.5557266062463414
+correlation,Balance|Aggression,0.3147666781651012
+correlation,Balance|Position,
+correlation,Balance|Weak foot,0.2652706553139116
+correlation,Balance|Skill moves,0.6315487001527962
+correlation,Balance|Preferred foot,
+correlation,Balance|Height,
+correlation,Balance|Weight,
+correlation,Balance|Alternative positions,
+correlation,Balance|Age,0.025206161144683145
+correlation,Balance|Nation,
+correlation,Balance|League,
+correlation,Balance|Team,
+correlation,Balance|play style,
+correlation,Balance|url,
+correlation,Balance|GK Diving,0.04499988816466063
+correlation,Balance|GK Handling,0.04368245350632861
+correlation,Balance|GK Kicking,0.050915301457898965
+correlation,Balance|GK Positioning,0.04615478719842374
+correlation,Balance|GK Reflexes,0.042951922168049536
+correlation,Reactions|Ball Control,0.49118040774379373
+correlation,Reactions|Composure,0.6727430404387397
+correlation,Reactions|Interceptions,0.36414839133339294
+correlation,Reactions|Heading Accuracy,0.39002474508640783
+correlation,Reactions|Def Awareness,0.3586293365148908
+correlation,Reactions|Standing Tackle,0.33131580433107966
+correlation,Reactions|Sliding Tackle,0.29823016673858227
+correlation,Reactions|Jumping,0.5159755606139169
+correlation,Reactions|Stamina,0.41087678753868845
+correlation,Reactions|Aggression,0.4158900000490466
+correlation,Reactions|Position,
+correlation,Reactions|Weak foot,0.2033770436025514
+correlation,Reactions|Skill moves,0.34628587258563576
+correlation,Reactions|Preferred foot,
+correlation,Reactions|Height,
+correlation,Reactions|Weight,
+correlation,Reactions|Alternative positions,
+correlation,Reactions|Age,0.34943759954024417
+correlation,Reactions|Nation,
+correlation,Reactions|League,
+correlation,Reactions|Team,
+correlation,Reactions|play style,
+correlation,Reactions|url,
+correlation,Reactions|GK Diving,0.32067793336343026
+correlation,Reactions|GK Handling,0.3171776768966035
+correlation,Reactions|GK Kicking,0.28797236538590154
+correlation,Reactions|GK Positioning,0.3220156397126476
+correlation,Reactions|GK Reflexes,0.3245904754133704
+correlation,Ball Control|Composure,0.7949441841180018
+correlation,Ball Control|Interceptions,0.5117772842064265
+correlation,Ball Control|Heading Accuracy,0.7214245648989929
+correlation,Ball Control|Def Awareness,0.5309089276430681
+correlation,Ball Control|Standing Tackle,0.5309538268569779
+correlation,Ball Control|Sliding Tackle,0.4916619223741928
+correlation,Ball Control|Jumping,0.41225626433324947
+correlation,Ball Control|Stamina,0.7706387124087
+correlation,Ball Control|Aggression,0.6376831977770188
+correlation,Ball Control|Position,
+correlation,Ball Control|Weak foot,0.3348763678060999
+correlation,Ball Control|Skill moves,0.7699591879115912
+correlation,Ball Control|Preferred foot,
+correlation,Ball Control|Height,
+correlation,Ball Control|Weight,
+correlation,Ball Control|Alternative positions,
+correlation,Ball Control|Age,0.05076527828705092
+correlation,Ball Control|Nation,
+correlation,Ball Control|League,
+correlation,Ball Control|Team,
+correlation,Ball Control|play style,
+correlation,Ball Control|url,
+correlation,Ball Control|GK Diving,0.04709808868063624
+correlation,Ball Control|GK Handling,0.04742022753720329
+correlation,Ball Control|GK Kicking,0.05318900138472667
+correlation,Ball Control|GK Positioning,0.04813377164539177
+correlation,Ball Control|GK Reflexes,0.04634067902481354
+correlation,Composure|Interceptions,0.4766122183387242
+correlation,Composure|Heading Accuracy,0.6180718922993294
+correlation,Composure|Def Awareness,0.4947274164313509
+correlation,Composure|Standing Tackle,0.46797429031345056
+correlation,Composure|Sliding Tackle,0.4321271330851648
+correlation,Composure|Jumping,0.5100645899273905
+correlation,Composure|Stamina,0.6465459601608959
+correlation,Composure|Aggression,0.6055662681818339
+correlation,Composure|Position,
+correlation,Composure|Weak foot,0.31694443074722156
+correlation,Composure|Skill moves,0.62648060635855
+correlation,Composure|Preferred foot,
+correlation,Composure|Height,
+correlation,Composure|Weight,
+correlation,Composure|Alternative positions,
+correlation,Composure|Age,0.28934490253390555
+correlation,Composure|Nation,
+correlation,Composure|League,
+correlation,Composure|Team,
+correlation,Composure|play style,
+correlation,Composure|url,
+correlation,Composure|GK Diving,0.14686922227002286
+correlation,Composure|GK Handling,0.15104712508148474
+correlation,Composure|GK Kicking,0.1456042857516927
+correlation,Composure|GK Positioning,0.15338348047558054
+correlation,Composure|GK Reflexes,0.1424426482510818
+correlation,Interceptions|Heading Accuracy,0.5764564922111575
+correlation,Interceptions|Def Awareness,0.9520624785543812
+correlation,Interceptions|Standing Tackle,0.9594919909788007
+correlation,Interceptions|Sliding Tackle,0.9507941377301244
+correlation,Interceptions|Jumping,0.34726427887674155
+correlation,Interceptions|Stamina,0.6188557958200912
+correlation,Interceptions|Aggression,0.7579924185799236
+correlation,Interceptions|Position,
+correlation,Interceptions|Weak foot,0.06112002045063199
+correlation,Interceptions|Skill moves,0.21720740717649203
+correlation,Interceptions|Preferred foot,
+correlation,Interceptions|Height,
+correlation,Interceptions|Weight,
+correlation,Interceptions|Alternative positions,
+correlation,Interceptions|Age,0.14859700869605635
+correlation,Interceptions|Nation,
+correlation,Interceptions|League,
+correlation,Interceptions|Team,
+correlation,Interceptions|play style,
+correlation,Interceptions|url,
+correlation,Interceptions|GK Diving,0.028771604531742507
+correlation,Interceptions|GK Handling,0.028752543668248358
+correlation,Interceptions|GK Kicking,0.02661651351184911
+correlation,Interceptions|GK Positioning,0.03058424898419794
+correlation,Interceptions|GK Reflexes,0.027292292935498542
+correlation,Heading Accuracy|Def Awareness,0.6133939203050316
+correlation,Heading Accuracy|Standing Tackle,0.596164191412645
+correlation,Heading Accuracy|Sliding Tackle,0.5738834389719139
+correlation,Heading Accuracy|Jumping,0.7188898370769414
+correlation,Heading Accuracy|Stamina,0.6727035527731853
+correlation,Heading Accuracy|Aggression,0.7367780767943062
+correlation,Heading Accuracy|Position,
+correlation,Heading Accuracy|Weak foot,0.19884968072694226
+correlation,Heading Accuracy|Skill moves,0.43183314304365084
+correlation,Heading Accuracy|Preferred foot,
+correlation,Heading Accuracy|Height,
+correlation,Heading Accuracy|Weight,
+correlation,Heading Accuracy|Alternative positions,
+correlation,Heading Accuracy|Age,0.12400704930785707
+correlation,Heading Accuracy|Nation,
+correlation,Heading Accuracy|League,
+correlation,Heading Accuracy|Team,
+correlation,Heading Accuracy|play style,
+correlation,Heading Accuracy|url,
+correlation,Heading Accuracy|GK Diving,0.00832559793952862
+correlation,Heading Accuracy|GK Handling,0.008671677443756833
+correlation,Heading Accuracy|GK Kicking,0.007676355854408914
+correlation,Heading Accuracy|GK Positioning,0.008941953580737457
+correlation,Heading Accuracy|GK Reflexes,0.007158885598418262
+correlation,Def Awareness|Standing Tackle,0.9495706105083144
+correlation,Def Awareness|Sliding Tackle,0.9486913053392154
+correlation,Def Awareness|Jumping,0.3722851074660316
+correlation,Def Awareness|Stamina,0.6273966989298754
+correlation,Def Awareness|Aggression,0.7686232480332201
+correlation,Def Awareness|Position,
+correlation,Def Awareness|Weak foot,0.07245119273920245
+correlation,Def Awareness|Skill moves,0.2317399672708579
+correlation,Def Awareness|Preferred foot,
+correlation,Def Awareness|Height,
+correlation,Def Awareness|Weight,
+correlation,Def Awareness|Alternative positions,
+correlation,Def Awareness|Age,0.15326194977891947
+correlation,Def Awareness|Nation,
+correlation,Def Awareness|League,
+correlation,Def Awareness|Team,
+correlation,Def Awareness|play style,
+correlation,Def Awareness|url,
+correlation,Def Awareness|GK Diving,0.030525172400613417
+correlation,Def Awareness|GK Handling,0.030898260962247952
+correlation,Def Awareness|GK Kicking,0.030340167774988165
+correlation,Def Awareness|GK Positioning,0.033105541336204976
+correlation,Def Awareness|GK Reflexes,0.029541798118285077
+correlation,Standing Tackle|Sliding Tackle,0.9775575495429074
+correlation,Standing Tackle|Jumping,0.3347099292691873
+correlation,Standing Tackle|Stamina,0.62120771411501
+correlation,Standing Tackle|Aggression,0.7609754778220965
+correlation,Standing Tackle|Position,
+correlation,Standing Tackle|Weak foot,0.06062857858997464
+correlation,Standing Tackle|Skill moves,0.23539412243119165
+correlation,Standing Tackle|Preferred foot,
+correlation,Standing Tackle|Height,
+correlation,Standing Tackle|Weight,
+correlation,Standing Tackle|Alternative positions,
+correlation,Standing Tackle|Age,0.09407637830669013
+correlation,Standing Tackle|Nation,
+correlation,Standing Tackle|League,
+correlation,Standing Tackle|Team,
+correlation,Standing Tackle|play style,
+correlation,Standing Tackle|url,
+correlation,Standing Tackle|GK Diving,0.00984256737649948
+correlation,Standing Tackle|GK Handling,0.009736089429472362
+correlation,Standing Tackle|GK Kicking,0.010141109020844894
+correlation,Standing Tackle|GK Positioning,0.010296704623031052
+correlation,Standing Tackle|GK Reflexes,0.009442583874159412
+correlation,Sliding Tackle|Jumping,0.3184832300089099
+correlation,Sliding Tackle|Stamina,0.5953528121080198
+correlation,Sliding Tackle|Aggression,0.7479591363277456
+correlation,Sliding Tackle|Position,
+correlation,Sliding Tackle|Weak foot,0.04717891140646263
+correlation,Sliding Tackle|Skill moves,0.19693118609453028
+correlation,Sliding Tackle|Preferred foot,
+correlation,Sliding Tackle|Height,
+correlation,Sliding Tackle|Weight,
+correlation,Sliding Tackle|Alternative positions,
+correlation,Sliding Tackle|Age,0.0884222255723061
+correlation,Sliding Tackle|Nation,
+correlation,Sliding Tackle|League,
+correlation,Sliding Tackle|Team,
+correlation,Sliding Tackle|play style,
+correlation,Sliding Tackle|url,
+correlation,Sliding Tackle|GK Diving,0.008168975117679824
+correlation,Sliding Tackle|GK Handling,0.008019051287506764
+correlation,Sliding Tackle|GK Kicking,0.007547094871754498
+correlation,Sliding Tackle|GK Positioning,0.007871055837702822
+correlation,Sliding Tackle|GK Reflexes,0.007644917041053467
+correlation,Jumping|Stamina,0.49232420195035426
+correlation,Jumping|Aggression,0.5404679436228635
+correlation,Jumping|Position,
+correlation,Jumping|Weak foot,0.15455231393602653
+correlation,Jumping|Skill moves,0.21817094940941648
+correlation,Jumping|Preferred foot,
+correlation,Jumping|Height,
+correlation,Jumping|Weight,
+correlation,Jumping|Alternative positions,
+correlation,Jumping|Age,0.297435644083757
+correlation,Jumping|Nation,
+correlation,Jumping|League,
+correlation,Jumping|Team,
+correlation,Jumping|play style,
+correlation,Jumping|url,
+correlation,Jumping|GK Diving,0.14984170817970785
+correlation,Jumping|GK Handling,0.14716378117304169
+correlation,Jumping|GK Kicking,0.13648415384707616
+correlation,Jumping|GK Positioning,0.14919569207429542
+correlation,Jumping|GK Reflexes,0.14666978164596947
+correlation,Stamina|Aggression,0.6991312642594026
+correlation,Stamina|Position,
+correlation,Stamina|Weak foot,0.25611040870099716
+correlation,Stamina|Skill moves,0.5702238962437637
+correlation,Stamina|Preferred foot,
+correlation,Stamina|Height,
+correlation,Stamina|Weight,
+correlation,Stamina|Alternative positions,
+correlation,Stamina|Age,0.13725716297859983
+correlation,Stamina|Nation,
+correlation,Stamina|League,
+correlation,Stamina|Team,
+correlation,Stamina|play style,
+correlation,Stamina|url,
+correlation,Stamina|GK Diving,0.05781916143113962
+correlation,Stamina|GK Handling,0.05797321721455278
+correlation,Stamina|GK Kicking,0.054254329530971056
+correlation,Stamina|GK Positioning,0.05588517449000824
+correlation,Stamina|GK Reflexes,0.05671308077864655
+correlation,Aggression|Position,
+correlation,Aggression|Weak foot,0.16646380869223967
+correlation,Aggression|Skill moves,0.35739467426362453
+correlation,Aggression|Preferred foot,
+correlation,Aggression|Height,
+correlation,Aggression|Weight,
+correlation,Aggression|Alternative positions,
+correlation,Aggression|Age,0.19796657106274895
+correlation,Aggression|Nation,
+correlation,Aggression|League,
+correlation,Aggression|Team,
+correlation,Aggression|play style,
+correlation,Aggression|url,
+correlation,Aggression|GK Diving,0.020726796157785776
+correlation,Aggression|GK Handling,0.022327469575625484
+correlation,Aggression|GK Kicking,0.020324882735263977
+correlation,Aggression|GK Positioning,0.02281974631771384
+correlation,Aggression|GK Reflexes,0.020167790248212004
+correlation,Position|Weak foot,
+correlation,Position|Skill moves,
+correlation,Position|Preferred foot,
+correlation,Position|Height,
+correlation,Position|Weight,
+correlation,Position|Alternative positions,
+correlation,Position|Age,
+correlation,Position|Nation,
+correlation,Position|League,
+correlation,Position|Team,
+correlation,Position|play style,
+correlation,Position|url,
+correlation,Position|GK Diving,
+correlation,Position|GK Handling,
+correlation,Position|GK Kicking,
+correlation,Position|GK Positioning,
+correlation,Position|GK Reflexes,
+correlation,Weak foot|Skill moves,0.3432555252186598
+correlation,Weak foot|Preferred foot,
+correlation,Weak foot|Height,
+correlation,Weak foot|Weight,
+correlation,Weak foot|Alternative positions,
+correlation,Weak foot|Age,0.05168917635836816
+correlation,Weak foot|Nation,
+correlation,Weak foot|League,
+correlation,Weak foot|Team,
+correlation,Weak foot|play style,
+correlation,Weak foot|url,
+correlation,Weak foot|GK Diving,0.04213904133493588
+correlation,Weak foot|GK Handling,0.03940388640721053
+correlation,Weak foot|GK Kicking,0.06017424035327298
+correlation,Weak foot|GK Positioning,0.03733414214057148
+correlation,Weak foot|GK Reflexes,0.04114808333698753
+correlation,Skill moves|Preferred foot,
+correlation,Skill moves|Height,
+correlation,Skill moves|Weight,
+correlation,Skill moves|Alternative positions,
+correlation,Skill moves|Age,0.04202188939663729
+correlation,Skill moves|Nation,
+correlation,Skill moves|League,
+correlation,Skill moves|Team,
+correlation,Skill moves|play style,
+correlation,Skill moves|url,
+correlation,Skill moves|GK Diving,5.8144434173034635e-11
+correlation,Skill moves|GK Handling,1.1385595824018173e-10
+correlation,Skill moves|GK Kicking,3.619489369642791e-10
+correlation,Skill moves|GK Positioning,1.2223442510103894e-10
+correlation,Skill moves|GK Reflexes,2.7518110314455265e-10
+correlation,Preferred foot|Height,
+correlation,Preferred foot|Weight,
+correlation,Preferred foot|Alternative positions,
+correlation,Preferred foot|Age,
+correlation,Preferred foot|Nation,
+correlation,Preferred foot|League,
+correlation,Preferred foot|Team,
+correlation,Preferred foot|play style,
+correlation,Preferred foot|url,
+correlation,Preferred foot|GK Diving,
+correlation,Preferred foot|GK Handling,
+correlation,Preferred foot|GK Kicking,
+correlation,Preferred foot|GK Positioning,
+correlation,Preferred foot|GK Reflexes,
+correlation,Height|Weight,
+correlation,Height|Alternative positions,
+correlation,Height|Age,
+correlation,Height|Nation,
+correlation,Height|League,
+correlation,Height|Team,
+correlation,Height|play style,
+correlation,Height|url,
+correlation,Height|GK Diving,
+correlation,Height|GK Handling,
+correlation,Height|GK Kicking,
+correlation,Height|GK Positioning,
+correlation,Height|GK Reflexes,
+correlation,Weight|Alternative positions,
+correlation,Weight|Age,
+correlation,Weight|Nation,
+correlation,Weight|League,
+correlation,Weight|Team,
+correlation,Weight|play style,
+correlation,Weight|url,
+correlation,Weight|GK Diving,
+correlation,Weight|GK Handling,
+correlation,Weight|GK Kicking,
+correlation,Weight|GK Positioning,
+correlation,Weight|GK Reflexes,
+correlation,Alternative positions|Age,
+correlation,Alternative positions|Nation,
+correlation,Alternative positions|League,
+correlation,Alternative positions|Team,
+correlation,Alternative positions|play style,
+correlation,Alternative positions|url,
+correlation,Alternative positions|GK Diving,
+correlation,Alternative positions|GK Handling,
+correlation,Alternative positions|GK Kicking,
+correlation,Alternative positions|GK Positioning,
+correlation,Alternative positions|GK Reflexes,
+correlation,Age|Nation,
+correlation,Age|League,
+correlation,Age|Team,
+correlation,Age|play style,
+correlation,Age|url,
+correlation,Age|GK Diving,0.1413345819017224
+correlation,Age|GK Handling,0.1580621249085531
+correlation,Age|GK Kicking,0.13291840229808985
+correlation,Age|GK Positioning,0.1714108506789698
+correlation,Age|GK Reflexes,0.1320070217800391
+correlation,Nation|League,
+correlation,Nation|Team,
+correlation,Nation|play style,
+correlation,Nation|url,
+correlation,Nation|GK Diving,
+correlation,Nation|GK Handling,
+correlation,Nation|GK Kicking,
+correlation,Nation|GK Positioning,
+correlation,Nation|GK Reflexes,
+correlation,League|Team,
+correlation,League|play style,
+correlation,League|url,
+correlation,League|GK Diving,
+correlation,League|GK Handling,
+correlation,League|GK Kicking,
+correlation,League|GK Positioning,
+correlation,League|GK Reflexes,
+correlation,Team|play style,
+correlation,Team|url,
+correlation,Team|GK Diving,
+correlation,Team|GK Handling,
+correlation,Team|GK Kicking,
+correlation,Team|GK Positioning,
+correlation,Team|GK Reflexes,
+correlation,play style|url,
+correlation,play style|GK Diving,
+correlation,play style|GK Handling,
+correlation,play style|GK Kicking,
+correlation,play style|GK Positioning,
+correlation,play style|GK Reflexes,
+correlation,url|GK Diving,
+correlation,url|GK Handling,
+correlation,url|GK Kicking,
+correlation,url|GK Positioning,
+correlation,url|GK Reflexes,
+correlation,GK Diving|GK Handling,0.9044207143806234
+correlation,GK Diving|GK Kicking,0.8156597459971098
+correlation,GK Diving|GK Positioning,0.8983268372307744
+correlation,GK Diving|GK Reflexes,0.9344128769211748
+correlation,GK Handling|GK Kicking,0.8346570938913642
+correlation,GK Handling|GK Positioning,0.9181025974163565
+correlation,GK Handling|GK Reflexes,0.8916513726069275
+correlation,GK Kicking|GK Positioning,0.8364398400271496
+correlation,GK Kicking|GK Reflexes,0.8082457954390959
+correlation,GK Positioning|GK Reflexes,0.9029358767638999
+covariance,Rank|OVR,-0.04474147261882405
+covariance,Rank|PAC,-0.011961501298651233
+covariance,Rank|SHO,-0.02556607240840213
+covariance,Rank|PAS,-0.029000118104232833
+covariance,Rank|DRI,-0.02927150020299377
+covariance,Rank|DEF,-0.022970821730056646
+covariance,Rank|PHY,-0.025752765964507512
+covariance,Rank|Acceleration,-0.011232740379140535
+covariance,Rank|Sprint Speed,-0.011485588014644055
+covariance,Rank|Positioning,-0.021806915668535765
+covariance,Rank|Finishing,-0.02119972685543531
+covariance,Rank|Shot Power,-0.027389068391898655
+covariance,Rank|Long Shots,-0.02556953353432257
+covariance,Rank|Volleys,-0.02108446729009488
+covariance,Rank|Vision,-0.025167103291276947
+covariance,Rank|Crossing,-0.02307108514519031
+covariance,Rank|Free Kick Accuracy,-0.02106345382082991
+covariance,Rank|Short Passing,-0.027489836206302177
+covariance,Rank|Long Passing,-0.02661938313300038
+covariance,Rank|Curve,-0.02494815901112854
+covariance,Rank|Dribbling,-0.02306910219047491
+covariance,Rank|Agility,-0.014896897279582492
+covariance,Rank|Balance,-0.009533223246183794
+covariance,Rank|Reactions,-0.03505735922280245
+covariance,Rank|Ball Control,-0.026852722902281603
+covariance,Rank|Composure,-0.029647164283315923
+covariance,Rank|Interceptions,-0.022088769923767994
+covariance,Rank|Heading Accuracy,-0.01961641822976428
+covariance,Rank|Def Awareness,-0.021262079625327897
+covariance,Rank|Standing Tackle,-0.020709300638702216
+covariance,Rank|Sliding Tackle,-0.01873841226568727
+covariance,Rank|Jumping,-0.027265729660641218
+covariance,Rank|Stamina,-0.021950352057831215
+covariance,Rank|Aggression,-0.020816888323020557
+covariance,Rank|Weak foot,-0.009368402258186711
+covariance,Rank|Skill moves,-0.019376659154178806
+covariance,Rank|Age,-0.018571510438599947
+covariance,Rank|GK Diving,-0.0054226436496073
+covariance,Rank|GK Handling,-0.005185127406671627
+covariance,Rank|GK Kicking,-0.00473227993544832
+covariance,Rank|GK Positioning,-0.005469840853291797
+covariance,Rank|GK Reflexes,-0.005575014296646439
+covariance,OVR|PAC,0.007117251128566956
+covariance,OVR|SHO,0.014636264014430213
+covariance,OVR|PAS,0.016557384846427773
+covariance,OVR|DRI,0.016771993354310656
+covariance,OVR|DEF,0.012864938703055917
+covariance,OVR|PHY,0.014547010738821666
+covariance,OVR|Acceleration,0.006564217341485757
+covariance,OVR|Sprint Speed,0.006715656114269803
+covariance,OVR|Positioning,0.012330708973257736
+covariance,OVR|Finishing,0.012074936197640013
+covariance,OVR|Shot Power,0.015408874489251597
+covariance,OVR|Long Shots,0.014414024978331741
+covariance,OVR|Volleys,0.011982298366446245
+covariance,OVR|Vision,0.014374497158616762
+covariance,OVR|Crossing,0.013075519729642347
+covariance,OVR|Free Kick Accuracy,0.011849695052794575
+covariance,OVR|Short Passing,0.015596369632366006
+covariance,OVR|Long Passing,0.015081231255848664
+covariance,OVR|Curve,0.014127478888122701
+covariance,OVR|Dribbling,0.01308732836047229
+covariance,OVR|Agility,0.008540242442936427
+covariance,OVR|Balance,0.005458940107953374
+covariance,OVR|Reactions,0.01992633926839302
+covariance,OVR|Ball Control,0.01521726700543449
+covariance,OVR|Composure,0.016786556420450932
+covariance,OVR|Interceptions,0.012286888393666297
+covariance,OVR|Heading Accuracy,0.010984430147942897
+covariance,OVR|Def Awareness,0.011835494145015188
+covariance,OVR|Standing Tackle,0.01152326738354466
+covariance,OVR|Sliding Tackle,0.010369902976292165
+covariance,OVR|Jumping,0.015495424402293517
+covariance,OVR|Stamina,0.012234300370209627
+covariance,OVR|Aggression,0.011542444982191032
+covariance,OVR|Weak foot,0.005486813366399316
+covariance,OVR|Skill moves,0.011064697890267261
+covariance,OVR|Age,0.01023111511070868
+covariance,OVR|GK Diving,0.00314909736360329
+covariance,OVR|GK Handling,0.003010451904162904
+covariance,OVR|GK Kicking,0.0027383592728019734
+covariance,OVR|GK Positioning,0.0031796224156863426
+covariance,OVR|GK Reflexes,0.0032378413949511586
+covariance,PAC|SHO,0.010306446465899623
+covariance,PAC|PAS,0.00655356933931637
+covariance,PAC|DRI,0.012052967689060754
+covariance,PAC|DEF,-0.00668030969531152
+covariance,PAC|PHY,-0.0014466058389283223
+covariance,PAC|Acceleration,0.02112031654127943
+covariance,PAC|Sprint Speed,0.021099159959699
+covariance,PAC|Positioning,0.011498709444273279
+covariance,PAC|Finishing,0.011126134474859856
+covariance,PAC|Shot Power,0.0075984443159708755
+covariance,PAC|Long Shots,0.010070361584353047
+covariance,PAC|Volleys,0.009384730019488991
+covariance,PAC|Vision,0.00802770232401101
+covariance,PAC|Crossing,0.011182156144615969
+covariance,PAC|Free Kick Accuracy,0.006796047367533046
+covariance,PAC|Short Passing,0.004288308076292151
+covariance,PAC|Long Passing,0.002394023913398608
+covariance,PAC|Curve,0.010573952367962706
+covariance,PAC|Dribbling,0.011387135962703084
+covariance,PAC|Agility,0.01788576449934321
+covariance,PAC|Balance,0.013548096606216158
+covariance,PAC|Reactions,0.004407881467131439
+covariance,PAC|Ball Control,0.007951920042115906
+covariance,PAC|Composure,0.004541265036737968
+covariance,PAC|Interceptions,-0.006056544681745475
+covariance,PAC|Heading Accuracy,-0.001964338340057046
+covariance,PAC|Def Awareness,-0.005691666495281481
+covariance,PAC|Standing Tackle,-0.005951768399628847
+covariance,PAC|Sliding Tackle,-0.006188475432533097
+covariance,PAC|Jumping,0.004850931542086326
+covariance,PAC|Stamina,0.007391348234934813
+covariance,PAC|Aggression,-0.0022470807660867087
+covariance,PAC|Weak foot,0.004246865341162359
+covariance,PAC|Skill moves,0.011309908755031526
+covariance,PAC|Age,-0.0034551574792734386
+covariance,PAC|GK Diving,0.002094049846195368
+covariance,PAC|GK Handling,0.0018215781903284922
+covariance,PAC|GK Kicking,0.0016509704835592695
+covariance,PAC|GK Positioning,0.0019003374017402765
+covariance,PAC|GK Reflexes,0.002010742979041794
+covariance,SHO|PAS,0.018524063523675586
+covariance,SHO|DRI,0.022014787911608862
+covariance,SHO|DEF,-0.015987467863701456
+covariance,SHO|PHY,0.0018398258530518033
+covariance,SHO|Acceleration,0.004012637963138389
+covariance,SHO|Sprint Speed,0.0024237680380812723
+covariance,SHO|Positioning,0.01639259092043008
+covariance,SHO|Finishing,0.022852710073380973
+covariance,SHO|Shot Power,0.024351290151448674
+covariance,SHO|Long Shots,0.02269892779197066
+covariance,SHO|Volleys,0.01949040627737643
+covariance,SHO|Vision,0.018054114822994485
+covariance,SHO|Crossing,0.007620109958423076
+covariance,SHO|Free Kick Accuracy,0.015030038109790552
+covariance,SHO|Short Passing,0.004397314806971932
+covariance,SHO|Long Passing,0.004079793803589051
+covariance,SHO|Curve,0.014319010010806946
+covariance,SHO|Dribbling,0.009634724044388776
+covariance,SHO|Agility,0.009270542283138308
+covariance,SHO|Balance,0.0057672624367376205
+covariance,SHO|Reactions,0.011219832174308267
+covariance,SHO|Ball Control,0.006730933969312784
+covariance,SHO|Composure,0.008997987819006154
+covariance,SHO|Interceptions,-0.019098531439422313
+covariance,SHO|Heading Accuracy,-0.005580735690532798
+covariance,SHO|Def Awareness,-0.019046320793058086
+covariance,SHO|Standing Tackle,-0.020731366597209585
+covariance,SHO|Sliding Tackle,-0.022506365681683117
+covariance,SHO|Jumping,0.002973485966759635
+covariance,SHO|Stamina,-0.0008121526457553628
+covariance,SHO|Aggression,-0.007673656264824754
+covariance,SHO|Weak foot,0.006881569061824313
+covariance,SHO|Skill moves,0.012076918977293979
+covariance,SHO|Age,0.007219077931341948
+covariance,SHO|GK Diving,0.0016968125609708351
+covariance,SHO|GK Handling,0.0018044866422561266
+covariance,SHO|GK Kicking,0.0015136125569425475
+covariance,SHO|GK Positioning,0.0017400587517220143
+covariance,SHO|GK Reflexes,0.0017190526682903705
+covariance,PAS|DRI,0.018083198225252166
+covariance,PAS|DEF,0.005277389111453235
+covariance,PAS|PHY,0.005004473825759438
+covariance,PAS|Acceleration,0.003684037284059807
+covariance,PAS|Sprint Speed,0.0022023870159371675
+covariance,PAS|Positioning,0.01066739100093487
+covariance,PAS|Finishing,0.010480851811107634
+covariance,PAS|Shot Power,0.014550554335637525
+covariance,PAS|Long Shots,0.01372543475551471
+covariance,PAS|Volleys,0.010111853841973804
+covariance,PAS|Vision,0.01727571166539415
+covariance,PAS|Crossing,0.01350493923956116
+covariance,PAS|Free Kick Accuracy,0.013225250853963989
+covariance,PAS|Short Passing,0.011088302270213447
+covariance,PAS|Long Passing,0.013504914645411162
+covariance,PAS|Curve,0.014629437819532406
+covariance,PAS|Dribbling,0.009944608861783673
+covariance,PAS|Agility,0.008702845743602933
+covariance,PAS|Balance,0.007046628040613113
+covariance,PAS|Reactions,0.012949651561820869
+covariance,PAS|Ball Control,0.009528340697984769
+covariance,PAS|Composure,0.011189581488668865
+covariance,PAS|Interceptions,0.004042835291029136
+covariance,PAS|Heading Accuracy,-0.0017473865241649678
+covariance,PAS|Def Awareness,0.00289706408310046
+covariance,PAS|Standing Tackle,0.002985508326329723
+covariance,PAS|Sliding Tackle,0.00209266100095269
+covariance,PAS|Jumping,0.003102102624210416
+covariance,PAS|Stamina,0.004997854577004543
+covariance,PAS|Aggression,0.0024724564721436927
+covariance,PAS|Weak foot,0.004966102202857342
+covariance,PAS|Skill moves,0.009559307649650859
+covariance,PAS|Age,0.007406901160474916
+covariance,PAS|GK Diving,0.0016993564137035649
+covariance,PAS|GK Handling,0.0016725296898518359
+covariance,PAS|GK Kicking,0.0020138110000529137
+covariance,PAS|GK Positioning,0.001760432922421816
+covariance,PAS|GK Reflexes,0.0017304124453726493
+covariance,DRI|DEF,-0.002168910417349355
+covariance,DRI|PHY,0.002646280321765646
+covariance,DRI|Acceleration,0.008933542417466994
+covariance,DRI|Sprint Speed,0.007101801137520146
+covariance,DRI|Positioning,0.014661739559502113
+covariance,DRI|Finishing,0.015289712842093987
+covariance,DRI|Shot Power,0.016198377022854756
+covariance,DRI|Long Shots,0.016557048311954793
+covariance,DRI|Volleys,0.013682777797040274
+covariance,DRI|Vision,0.017152576717985996
+covariance,DRI|Crossing,0.013180651928799443
+covariance,DRI|Free Kick Accuracy,0.012933543977092376
+covariance,DRI|Short Passing,0.009916098923210118
+covariance,DRI|Long Passing,0.010020691459235453
+covariance,DRI|Curve,0.015441718120600486
+covariance,DRI|Dribbling,0.014459134855617256
+covariance,DRI|Agility,0.01398870809175951
+covariance,DRI|Balance,0.010916566823300566
+covariance,DRI|Reactions,0.013065092356821677
+covariance,DRI|Ball Control,0.012008630944082041
+covariance,DRI|Composure,0.011535475588242016
+covariance,DRI|Interceptions,-0.00320312257422703
+covariance,DRI|Heading Accuracy,-0.0021397346140007694
+covariance,DRI|Def Awareness,-0.0037258168717845
+covariance,DRI|Standing Tackle,-0.004154210385672252
+covariance,DRI|Sliding Tackle,-0.005240045106716698
+covariance,DRI|Jumping,0.003540168268027059
+covariance,DRI|Stamina,0.005266643058974311
+covariance,DRI|Aggression,-0.00028261934521603876
+covariance,DRI|Weak foot,0.006098385119769754
+covariance,DRI|Skill moves,0.012918265327028928
+covariance,DRI|Age,0.004644267013407854
+covariance,DRI|GK Diving,0.0022185552161137633
+covariance,DRI|GK Handling,0.002036183020620794
+covariance,DRI|GK Kicking,0.0018548899364688324
+covariance,DRI|GK Positioning,0.002165696841292296
+covariance,DRI|GK Reflexes,0.0024398445562677997
+covariance,DEF|PHY,0.016786397152972355
+covariance,DEF|Acceleration,0.0036982522558106634
+covariance,DEF|Sprint Speed,0.004425762935146768
+covariance,DEF|Positioning,0.0028605875717491367
+covariance,DEF|Finishing,-0.004261705826684929
+covariance,DEF|Shot Power,-0.0012917462554284753
+covariance,DEF|Long Shots,0.0028760058342860062
+covariance,DEF|Volleys,-0.0017524149102787388
+covariance,DEF|Vision,0.005068935829825333
+covariance,DEF|Crossing,0.014146630320772558
+covariance,DEF|Free Kick Accuracy,0.006868054708746973
+covariance,DEF|Short Passing,0.01877772461307221
+covariance,DEF|Long Passing,0.02168792107403789
+covariance,DEF|Curve,0.00895629929262147
+covariance,DEF|Dribbling,0.009442153098711095
+covariance,DEF|Agility,0.00325239816135969
+covariance,DEF|Balance,0.004578297403229298
+covariance,DEF|Reactions,0.012253753325795489
+covariance,DEF|Ball Control,0.014474852903537621
+covariance,DEF|Composure,0.013345868060575281
+covariance,DEF|Interceptions,0.050477195471304706
+covariance,DEF|Heading Accuracy,0.01983216923988169
+covariance,DEF|Def Awareness,0.047528189619052696
+covariance,DEF|Standing Tackle,0.05101883193023334
+covariance,DEF|Sliding Tackle,0.05083758771421468
+covariance,DEF|Jumping,0.01375054276288305
+covariance,DEF|Stamina,0.02096540895956309
+covariance,DEF|Aggression,0.029064149709127813
+covariance,DEF|Weak foot,-0.00011513259198294504
+covariance,DEF|Skill moves,0.0015027220208401696
+covariance,DEF|Age,0.007794786540933921
+covariance,DEF|GK Diving,0.0011937918576640832
+covariance,DEF|GK Handling,0.0011250829282322614
+covariance,DEF|GK Kicking,0.0010808759040693075
+covariance,DEF|GK Positioning,0.0011695607305395586
+covariance,DEF|GK Reflexes,0.001194879799914823
+covariance,PHY|Acceleration,-0.0020796611058316768
+covariance,PHY|Sprint Speed,5.0254851089504865e-05
+covariance,PHY|Positioning,0.0013026856592264085
+covariance,PHY|Finishing,-0.00012014738380782568
+covariance,PHY|Shot Power,0.006335744185828368
+covariance,PHY|Long Shots,0.002407724240567636
+covariance,PHY|Volleys,0.0015867854187670675
+covariance,PHY|Vision,0.0026633076506991983
+covariance,PHY|Crossing,0.0013701095444589892
+covariance,PHY|Free Kick Accuracy,0.0013114906710189342
+covariance,PHY|Short Passing,0.006749783290164743
+covariance,PHY|Long Passing,0.007208367526676847
+covariance,PHY|Curve,0.0016700224861269635
+covariance,PHY|Dribbling,0.0011160416682215672
+covariance,PHY|Agility,-0.00327180642955951
+covariance,PHY|Balance,-0.005871742034812406
+covariance,PHY|Reactions,0.011834056386553727
+covariance,PHY|Ball Control,0.004458538089852643
+covariance,PHY|Composure,0.009072556198409742
+covariance,PHY|Interceptions,0.015808618028454353
+covariance,PHY|Heading Accuracy,0.013505516736352233
+covariance,PHY|Def Awareness,0.015175261124022996
+covariance,PHY|Standing Tackle,0.014798815196099739
+covariance,PHY|Sliding Tackle,0.014426307671288207
+covariance,PHY|Jumping,0.02138719469554101
+covariance,PHY|Stamina,0.013319655729002743
+covariance,PHY|Aggression,0.01757835148297986
+covariance,PHY|Weak foot,0.001566925066969935
+covariance,PHY|Skill moves,-0.0016428905117712124
+covariance,PHY|Age,0.011647167318631265
+covariance,PHY|GK Diving,0.0023849055450327933
+covariance,PHY|GK Handling,0.0023443277426774063
+covariance,PHY|GK Kicking,0.0021464203793671367
+covariance,PHY|GK Positioning,0.0026819219547097746
+covariance,PHY|GK Reflexes,0.002463340512151801
+covariance,Acceleration|Sprint Speed,0.03184202583792973
+covariance,Acceleration|Positioning,0.029289761410349467
+covariance,Acceleration|Finishing,0.02676795558628132
+covariance,Acceleration|Shot Power,0.012720214555543348
+covariance,Acceleration|Long Shots,0.027300242776978255
+covariance,Acceleration|Volleys,0.024205340584118894
+covariance,Acceleration|Vision,0.01576143650461526
+covariance,Acceleration|Crossing,0.027724571668999793
+covariance,Acceleration|Free Kick Accuracy,0.020903247603265916
+covariance,Acceleration|Short Passing,0.02041833989074369
+covariance,Acceleration|Long Passing,0.016147589417271922
+covariance,Acceleration|Curve,0.026567879964903302
+covariance,Acceleration|Dribbling,0.0308754890728328
+covariance,Acceleration|Agility,0.031205410751473678
+covariance,Acceleration|Balance,0.026705164796540032
+covariance,Acceleration|Reactions,0.006019528736515882
+covariance,Acceleration|Ball Control,0.027599256620582137
+covariance,Acceleration|Composure,0.014634224871636677
+covariance,Acceleration|Interceptions,0.011491424648796135
+covariance,Acceleration|Heading Accuracy,0.015644530976238594
+covariance,Acceleration|Def Awareness,0.011624027309046724
+covariance,Acceleration|Standing Tackle,0.012718251094397236
+covariance,Acceleration|Sliding Tackle,0.011730903308014922
+covariance,Acceleration|Jumping,0.01023418128317671
+covariance,Acceleration|Stamina,0.024911761446347595
+covariance,Acceleration|Aggression,0.013369017192792307
+covariance,Acceleration|Weak foot,0.008544393818258535
+covariance,Acceleration|Skill moves,0.02512123943152673
+covariance,Acceleration|Age,-0.00404755830480659
+covariance,Acceleration|GK Diving,0.0011142249324088012
+covariance,Acceleration|GK Handling,0.001058176412785379
+covariance,Acceleration|GK Kicking,0.0010272657793103672
+covariance,Acceleration|GK Positioning,0.0010987802566080154
+covariance,Acceleration|GK Reflexes,0.0011171454834831643
+covariance,Sprint Speed|Positioning,0.027474075972770337
+covariance,Sprint Speed|Finishing,0.025005354945491425
+covariance,Sprint Speed|Shot Power,0.01186384802839524
+covariance,Sprint Speed|Long Shots,0.025193417226726456
+covariance,Sprint Speed|Volleys,0.022590995800341705
+covariance,Sprint Speed|Vision,0.013819053027413312
+covariance,Sprint Speed|Crossing,0.02568894374007257
+covariance,Sprint Speed|Free Kick Accuracy,0.018732726044271824
+covariance,Sprint Speed|Short Passing,0.019564669335970945
+covariance,Sprint Speed|Long Passing,0.015047533444194542
+covariance,Sprint Speed|Curve,0.02428485678580442
+covariance,Sprint Speed|Dribbling,0.0290541791307686
+covariance,Sprint Speed|Agility,0.028097767138007632
+covariance,Sprint Speed|Balance,0.02318454874165253
+covariance,Sprint Speed|Reactions,0.005942501128224667
+covariance,Sprint Speed|Ball Control,0.026356624832483386
+covariance,Sprint Speed|Composure,0.014090086890921982
+covariance,Sprint Speed|Interceptions,0.011736687850363055
+covariance,Sprint Speed|Heading Accuracy,0.017443651437640654
+covariance,Sprint Speed|Def Awareness,0.01216926931494422
+covariance,Sprint Speed|Standing Tackle,0.013171097371711259
+covariance,Sprint Speed|Sliding Tackle,0.01221569692613121
+covariance,Sprint Speed|Jumping,0.011734606170262191
+covariance,Sprint Speed|Stamina,0.024256198024920697
+covariance,Sprint Speed|Aggression,0.014092183016695752
+covariance,Sprint Speed|Weak foot,0.007890030011218916
+covariance,Sprint Speed|Skill moves,0.02291453618566771
+covariance,Sprint Speed|Age,-0.003984824298387256
+covariance,Sprint Speed|GK Diving,0.001093055470362259
+covariance,Sprint Speed|GK Handling,0.001020771078650376
+covariance,Sprint Speed|GK Kicking,0.0009638776681019041
+covariance,Sprint Speed|GK Positioning,0.0010596941809663137
+covariance,Sprint Speed|GK Reflexes,0.0010915848466933715
+covariance,Positioning|Finishing,0.04358578793053903
+covariance,Positioning|Shot Power,0.025712914402588573
+covariance,Positioning|Long Shots,0.04522619318288476
+covariance,Positioning|Volleys,0.039396017388439585
+covariance,Positioning|Vision,0.028147376909027425
+covariance,Positioning|Crossing,0.03716228505762965
+covariance,Positioning|Free Kick Accuracy,0.03400207950310904
+covariance,Positioning|Short Passing,0.03063743524235576
+covariance,Positioning|Long Passing,0.02564516186087394
+covariance,Positioning|Curve,0.03917996890892006
+covariance,Positioning|Dribbling,0.042835448702003676
+covariance,Positioning|Agility,0.032143247654716156
+covariance,Positioning|Balance,0.027666635280015478
+covariance,Positioning|Reactions,0.012448767353282932
+covariance,Positioning|Ball Control,0.0393713060333608
+covariance,Positioning|Composure,0.023786809093522644
+covariance,Positioning|Interceptions,0.01460164135758062
+covariance,Positioning|Heading Accuracy,0.025200806391272812
+covariance,Positioning|Def Awareness,0.014228660601979507
+covariance,Positioning|Standing Tackle,0.015678551190056515
+covariance,Positioning|Sliding Tackle,0.01311768929914161
+covariance,Positioning|Jumping,0.01210630305291949
+covariance,Positioning|Stamina,0.031084508080531925
+covariance,Positioning|Aggression,0.020533189382954925
+covariance,Positioning|Weak foot,0.01254338250465881
+covariance,Positioning|Skill moves,0.03379522027413097
+covariance,Positioning|Age,0.002226170840306979
+covariance,Positioning|GK Diving,0.0002441851830363015
+covariance,Positioning|GK Handling,0.0002482545134515022
+covariance,Positioning|GK Kicking,0.00024181414210343576
+covariance,Positioning|GK Positioning,0.00027378372850259965
+covariance,Positioning|GK Reflexes,0.000241341868499247
+covariance,Finishing|Shot Power,0.028273343043919347
+covariance,Finishing|Long Shots,0.04615210771489284
+covariance,Finishing|Volleys,0.040747537282387086
+covariance,Finishing|Vision,0.026993633835297355
+covariance,Finishing|Crossing,0.032581545652937256
+covariance,Finishing|Free Kick Accuracy,0.03351325526886152
+covariance,Finishing|Short Passing,0.02777070075129478
+covariance,Finishing|Long Passing,0.022410020586380044
+covariance,Finishing|Curve,0.03693608071239335
+covariance,Finishing|Dribbling,0.03985579676107042
+covariance,Finishing|Agility,0.02981187629764806
+covariance,Finishing|Balance,0.025150925603991254
+covariance,Finishing|Reactions,0.011593743478109418
+covariance,Finishing|Ball Control,0.03664063296832431
+covariance,Finishing|Composure,0.02228966942328299
+covariance,Finishing|Interceptions,0.0058312257138318085
+covariance,Finishing|Heading Accuracy,0.02275198166477544
+covariance,Finishing|Def Awareness,0.006188322921779693
+covariance,Finishing|Standing Tackle,0.006793840219191944
+covariance,Finishing|Sliding Tackle,0.003958688948570412
+covariance,Finishing|Jumping,0.011388844062845176
+covariance,Finishing|Stamina,0.02640189128515265
+covariance,Finishing|Aggression,0.015318667459584833
+covariance,Finishing|Weak foot,0.012993805606283878
+covariance,Finishing|Skill moves,0.0333258432540754
+covariance,Finishing|Age,0.0019496620126656474
+covariance,Finishing|GK Diving,0.0002437118319506865
+covariance,Finishing|GK Handling,0.0002353035052094638
+covariance,Finishing|GK Kicking,0.000222273517454128
+covariance,Finishing|GK Positioning,0.0002563034907244747
+covariance,Finishing|GK Reflexes,0.0002357546303994993
+covariance,Shot Power|Long Shots,0.031847427364287896
+covariance,Shot Power|Volleys,0.027009168166171018
+covariance,Shot Power|Vision,0.020703825376279173
+covariance,Shot Power|Crossing,0.01961109795656982
+covariance,Shot Power|Free Kick Accuracy,0.023499827082164786
+covariance,Shot Power|Short Passing,0.017652424148235663
+covariance,Shot Power|Long Passing,0.016070474458629275
+covariance,Shot Power|Curve,0.02485730119308694
+covariance,Shot Power|Dribbling,0.022836006253233974
+covariance,Shot Power|Agility,0.016422931196797177
+covariance,Shot Power|Balance,0.012725798424830721
+covariance,Shot Power|Reactions,0.01289173927412697
+covariance,Shot Power|Ball Control,0.021473878263663447
+covariance,Shot Power|Composure,0.017292808393489924
+covariance,Shot Power|Interceptions,0.0020408036428191246
+covariance,Shot Power|Heading Accuracy,0.01233197135077915
+covariance,Shot Power|Def Awareness,0.0022105597456247815
+covariance,Shot Power|Standing Tackle,0.0018010181866581327
+covariance,Shot Power|Sliding Tackle,1.4493126466144984e-05
+covariance,Shot Power|Jumping,0.010851926348426464
+covariance,Shot Power|Stamina,0.014441847814258233
+covariance,Shot Power|Aggression,0.01002402044345182
+covariance,Shot Power|Weak foot,0.009279796001222113
+covariance,Shot Power|Skill moves,0.019868452995187566
+covariance,Shot Power|Age,0.007094509060186292
+covariance,Shot Power|GK Diving,0.0011901010057785931
+covariance,Shot Power|GK Handling,0.0011716429413524717
+covariance,Shot Power|GK Kicking,0.0014095597891648922
+covariance,Shot Power|GK Positioning,0.0012332657668852266
+covariance,Shot Power|GK Reflexes,0.0012122434807783009
+covariance,Long Shots|Volleys,0.042349288802578135
+covariance,Long Shots|Vision,0.03021168105090381
+covariance,Long Shots|Crossing,0.036919871541177714
+covariance,Long Shots|Free Kick Accuracy,0.038929685768243016
+covariance,Long Shots|Short Passing,0.03157237628804859
+covariance,Long Shots|Long Passing,0.027701788014786455
+covariance,Long Shots|Curve,0.04160919665865303
+covariance,Long Shots|Dribbling,0.042537041364686355
+covariance,Long Shots|Agility,0.031752661600188595
+covariance,Long Shots|Balance,0.027257949865044172
+covariance,Long Shots|Reactions,0.013791579883139294
+covariance,Long Shots|Ball Control,0.039663912953772786
+covariance,Long Shots|Composure,0.025323597337524255
+covariance,Long Shots|Interceptions,0.014065906501186713
+covariance,Long Shots|Heading Accuracy,0.02459555657894577
+covariance,Long Shots|Def Awareness,0.0135930638356529
+covariance,Long Shots|Standing Tackle,0.01478069941725997
+covariance,Long Shots|Sliding Tackle,0.011946846697715058
+covariance,Long Shots|Jumping,0.012419360392637864
+covariance,Long Shots|Stamina,0.030352690223371896
+covariance,Long Shots|Aggression,0.020298928613044
+covariance,Long Shots|Weak foot,0.01376687257724307
+covariance,Long Shots|Skill moves,0.03484919835673897
+covariance,Long Shots|Age,0.004737533859181071
+covariance,Long Shots|GK Diving,0.00029429687334351235
+covariance,Long Shots|GK Handling,0.0002797219821984072
+covariance,Long Shots|GK Kicking,0.00027596837814566265
+covariance,Long Shots|GK Positioning,0.00031337300279978084
+covariance,Long Shots|GK Reflexes,0.00028411430522503326
+covariance,Volleys|Vision,0.02472006809282229
+covariance,Volleys|Crossing,0.030977961349874482
+covariance,Volleys|Free Kick Accuracy,0.03231569348999743
+covariance,Volleys|Short Passing,0.026164772173602593
+covariance,Volleys|Long Passing,0.021526293433248835
+covariance,Volleys|Curve,0.035932348189032855
+covariance,Volleys|Dribbling,0.03649814828188263
+covariance,Volleys|Agility,0.027321499624711223
+covariance,Volleys|Balance,0.02305712366443428
+covariance,Volleys|Reactions,0.011527109056453037
+covariance,Volleys|Ball Control,0.033991687943663154
+covariance,Volleys|Composure,0.02198216003866844
+covariance,Volleys|Interceptions,0.007560283375683639
+covariance,Volleys|Heading Accuracy,0.022590626272591025
+covariance,Volleys|Def Awareness,0.007946119052751702
+covariance,Volleys|Standing Tackle,0.008236239943832572
+covariance,Volleys|Sliding Tackle,0.005847560993481225
+covariance,Volleys|Jumping,0.012041260721019707
+covariance,Volleys|Stamina,0.024944279927501204
+covariance,Volleys|Aggression,0.016320289392079877
+covariance,Volleys|Weak foot,0.012518943577525124
+covariance,Volleys|Skill moves,0.031119015167822943
+covariance,Volleys|Age,0.0038812202284741163
+covariance,Volleys|GK Diving,0.00024956942721518315
+covariance,Volleys|GK Handling,0.00024143443649480748
+covariance,Volleys|GK Kicking,0.00022841904438141466
+covariance,Volleys|GK Positioning,0.0002697649607821929
+covariance,Volleys|GK Reflexes,0.0002377837654221609
+covariance,Vision|Crossing,0.024834008330207463
+covariance,Vision|Free Kick Accuracy,0.024476106536681006
+covariance,Vision|Short Passing,0.021890202106588263
+covariance,Vision|Long Passing,0.021941100692723
+covariance,Vision|Curve,0.027299193721506024
+covariance,Vision|Dribbling,0.026668255080603838
+covariance,Vision|Agility,0.02099326427759537
+covariance,Vision|Balance,0.018068964738104695
+covariance,Vision|Reactions,0.012919912959564095
+covariance,Vision|Ball Control,0.024873120919392453
+covariance,Vision|Composure,0.018877538725360472
+covariance,Vision|Interceptions,0.010402033294245943
+covariance,Vision|Heading Accuracy,0.010175660776422507
+covariance,Vision|Def Awareness,0.009453684388200892
+covariance,Vision|Standing Tackle,0.010158488190553063
+covariance,Vision|Sliding Tackle,0.008337144546265975
+covariance,Vision|Jumping,0.005910265862106242
+covariance,Vision|Stamina,0.01802434666799306
+covariance,Vision|Aggression,0.011772016241571528
+covariance,Vision|Weak foot,0.009676345266412471
+covariance,Vision|Skill moves,0.022287063092613753
+covariance,Vision|Age,0.004782607175468297
+covariance,Vision|GK Diving,0.0010073202725724953
+covariance,Vision|GK Handling,0.0010141482330677863
+covariance,Vision|GK Kicking,0.0011601602185644872
+covariance,Vision|GK Positioning,0.0010885268595368716
+covariance,Vision|GK Reflexes,0.0010442110057553777
+covariance,Crossing|Free Kick Accuracy,0.03200026179088552
+covariance,Crossing|Short Passing,0.030134632704019608
+covariance,Crossing|Long Passing,0.02783614659298325
+covariance,Crossing|Curve,0.03913515522753437
+covariance,Crossing|Dribbling,0.0388991072853906
+covariance,Crossing|Agility,0.03052986790533897
+covariance,Crossing|Balance,0.027343739580896708
+covariance,Crossing|Reactions,0.011766283362004026
+covariance,Crossing|Ball Control,0.03627875530691243
+covariance,Crossing|Composure,0.02225172087046389
+covariance,Crossing|Interceptions,0.025110341503077498
+covariance,Crossing|Heading Accuracy,0.02186734396212662
+covariance,Crossing|Def Awareness,0.02453230491402946
+covariance,Crossing|Standing Tackle,0.02645857627350911
+covariance,Crossing|Sliding Tackle,0.025118012945667234
+covariance,Crossing|Jumping,0.009639540200306138
+covariance,Crossing|Stamina,0.03029970565726652
+covariance,Crossing|Aggression,0.022063051711438266
+covariance,Crossing|Weak foot,0.010441848855617032
+covariance,Crossing|Skill moves,0.030686351535540817
+covariance,Crossing|Age,0.0035799343009627286
+covariance,Crossing|GK Diving,0.0001217694853927412
+covariance,Crossing|GK Handling,0.00012471148234838962
+covariance,Crossing|GK Kicking,0.0001383737169387452
+covariance,Crossing|GK Positioning,0.00013334454527260412
+covariance,Crossing|GK Reflexes,0.00011824515622191648
+covariance,Free Kick Accuracy|Short Passing,0.026163783027679174
+covariance,Free Kick Accuracy|Long Passing,0.024493642427005115
+covariance,Free Kick Accuracy|Curve,0.03613887546410716
+covariance,Free Kick Accuracy|Dribbling,0.033237830709626215
+covariance,Free Kick Accuracy|Agility,0.02549538732154178
+covariance,Free Kick Accuracy|Balance,0.02273579266776732
+covariance,Free Kick Accuracy|Reactions,0.011066869770607207
+covariance,Free Kick Accuracy|Ball Control,0.03143655924543385
+covariance,Free Kick Accuracy|Composure,0.020609307926798746
+covariance,Free Kick Accuracy|Interceptions,0.015972004616373228
+covariance,Free Kick Accuracy|Heading Accuracy,0.018214684100194833
+covariance,Free Kick Accuracy|Def Awareness,0.0153462949637866
+covariance,Free Kick Accuracy|Standing Tackle,0.016652133892103405
+covariance,Free Kick Accuracy|Sliding Tackle,0.014679598761521084
+covariance,Free Kick Accuracy|Jumping,0.007755383706159979
+covariance,Free Kick Accuracy|Stamina,0.024430532700734014
+covariance,Free Kick Accuracy|Aggression,0.01726901744944781
+covariance,Free Kick Accuracy|Weak foot,0.010606500990028436
+covariance,Free Kick Accuracy|Skill moves,0.02832147208046135
+covariance,Free Kick Accuracy|Age,0.005182961993374631
+covariance,Free Kick Accuracy|GK Diving,0.00013090695737923806
+covariance,Free Kick Accuracy|GK Handling,0.00014652695497270883
+covariance,Free Kick Accuracy|GK Kicking,0.00015852519837184905
+covariance,Free Kick Accuracy|GK Positioning,0.00014953618972092335
+covariance,Free Kick Accuracy|GK Reflexes,0.00013498682573828027
+covariance,Short Passing|Long Passing,0.029711186421365415
+covariance,Short Passing|Curve,0.03005739526222145
+covariance,Short Passing|Dribbling,0.033330162968543714
+covariance,Short Passing|Agility,0.022624538187282477
+covariance,Short Passing|Balance,0.020118138368244824
+covariance,Short Passing|Reactions,0.014444579265863917
+covariance,Short Passing|Ball Control,0.03473064984348147
+covariance,Short Passing|Composure,0.023105201879572847
+covariance,Short Passing|Interceptions,0.028238719474196306
+covariance,Short Passing|Heading Accuracy,0.025893073082036686
+covariance,Short Passing|Def Awareness,0.02740984856673278
+covariance,Short Passing|Standing Tackle,0.0294248471948437
+covariance,Short Passing|Sliding Tackle,0.027619067713789254
+covariance,Short Passing|Jumping,0.013639821054326167
+covariance,Short Passing|Stamina,0.028133605474367614
+covariance,Short Passing|Aggression,0.02485812713271589
+covariance,Short Passing|Weak foot,0.009440537760165594
+covariance,Short Passing|Skill moves,0.024612398294735032
+covariance,Short Passing|Age,0.003453608568052457
+covariance,Short Passing|GK Diving,0.0007129480619995736
+covariance,Short Passing|GK Handling,0.0007089748933623223
+covariance,Short Passing|GK Kicking,0.0009057367763116676
+covariance,Short Passing|GK Positioning,0.0007523934742997082
+covariance,Short Passing|GK Reflexes,0.0007675739987919478
+covariance,Long Passing|Curve,0.027498211935172313
+covariance,Long Passing|Dribbling,0.02884355276781675
+covariance,Long Passing|Agility,0.019586477856034443
+covariance,Long Passing|Balance,0.01786303885702886
+covariance,Long Passing|Reactions,0.01375399873554911
+covariance,Long Passing|Ball Control,0.03014684030162692
+covariance,Long Passing|Composure,0.02149751380264559
+covariance,Long Passing|Interceptions,0.029849497015854327
+covariance,Long Passing|Heading Accuracy,0.02098051321800982
+covariance,Long Passing|Def Awareness,0.02838973538398073
+covariance,Long Passing|Standing Tackle,0.03056439164923986
+covariance,Long Passing|Sliding Tackle,0.02921811094340574
+covariance,Long Passing|Jumping,0.010715688024513741
+covariance,Long Passing|Stamina,0.025310925763892343
+covariance,Long Passing|Aggression,0.02358374050170185
+covariance,Long Passing|Weak foot,0.008605049244235238
+covariance,Long Passing|Skill moves,0.02125984031634518
+covariance,Long Passing|Age,0.005019288224909314
+covariance,Long Passing|GK Diving,0.0007179730390092803
+covariance,Long Passing|GK Handling,0.000735132596030905
+covariance,Long Passing|GK Kicking,0.0009564996043613827
+covariance,Long Passing|GK Positioning,0.0007597976647783537
+covariance,Long Passing|GK Reflexes,0.0007618677124583342
+covariance,Curve|Dribbling,0.03942626568442549
+covariance,Curve|Agility,0.030825109558150144
+covariance,Curve|Balance,0.02712007945333402
+covariance,Curve|Reactions,0.012818038818353663
+covariance,Curve|Ball Control,0.036784405463699106
+covariance,Curve|Composure,0.024054108381506806
+covariance,Curve|Interceptions,0.019446423603094107
+covariance,Curve|Heading Accuracy,0.02147593389120604
+covariance,Curve|Def Awareness,0.019089270595215885
+covariance,Curve|Standing Tackle,0.02035559805829292
+covariance,Curve|Sliding Tackle,0.018490118670714123
+covariance,Curve|Jumping,0.01006501307423964
+covariance,Curve|Stamina,0.029048237159686942
+covariance,Curve|Aggression,0.02063762771871222
+covariance,Curve|Weak foot,0.012067491271337683
+covariance,Curve|Skill moves,0.03260120181246023
+covariance,Curve|Age,0.004341482776116458
+covariance,Curve|GK Diving,0.00021047571967863397
+covariance,Curve|GK Handling,0.0002055357256470174
+covariance,Curve|GK Kicking,0.00023272817742876748
+covariance,Curve|GK Positioning,0.00021570212523030525
+covariance,Curve|GK Reflexes,0.0002153232835184069
+covariance,Dribbling|Agility,0.03329390346521877
+covariance,Dribbling|Balance,0.028978237506449026
+covariance,Dribbling|Reactions,0.012476092826681285
+covariance,Dribbling|Ball Control,0.04186370682153506
+covariance,Dribbling|Composure,0.02481081610394462
+covariance,Dribbling|Interceptions,0.021923197253089704
+covariance,Dribbling|Heading Accuracy,0.026901080561591698
+covariance,Dribbling|Def Awareness,0.021664786650740224
+covariance,Dribbling|Standing Tackle,0.023581604573575315
+covariance,Dribbling|Sliding Tackle,0.021486168485043224
+covariance,Dribbling|Jumping,0.012061743754514102
+covariance,Dribbling|Stamina,0.032692309930695176
+covariance,Dribbling|Aggression,0.02363103108777016
+covariance,Dribbling|Weak foot,0.012415770425406373
+covariance,Dribbling|Skill moves,0.03433919022092005
+covariance,Dribbling|Age,0.00011191433022040404
+covariance,Dribbling|GK Diving,0.0003381568530071447
+covariance,Dribbling|GK Handling,0.00031919791514053135
+covariance,Dribbling|GK Kicking,0.0003481495562784097
+covariance,Dribbling|GK Positioning,0.00034188702209725217
+covariance,Dribbling|GK Reflexes,0.0003411883197453084
+covariance,Agility|Balance,0.030966479719178333
+covariance,Agility|Reactions,0.008095120789277294
+covariance,Agility|Ball Control,0.029591364437791663
+covariance,Agility|Composure,0.017353009214962294
+covariance,Agility|Interceptions,0.011712410016179637
+covariance,Agility|Heading Accuracy,0.013275705720836507
+covariance,Agility|Def Awareness,0.011589896396888063
+covariance,Agility|Standing Tackle,0.01245347786840883
+covariance,Agility|Sliding Tackle,0.011130113986113558
+covariance,Agility|Jumping,0.006079507914421221
+covariance,Agility|Stamina,0.025284870282733535
+covariance,Agility|Aggression,0.01347584395046932
+covariance,Agility|Weak foot,0.01018894330483823
+covariance,Agility|Skill moves,0.028131988924960976
+covariance,Agility|Age,-0.0007135676256198471
+covariance,Agility|GK Diving,0.001002069093863803
+covariance,Agility|GK Handling,0.0009377895105596738
+covariance,Agility|GK Kicking,0.0009164895545205143
+covariance,Agility|GK Positioning,0.0009659177707170955
+covariance,Agility|GK Reflexes,0.0010110297887249598
+covariance,Balance|Reactions,0.0059017725979606216
+covariance,Balance|Ball Control,0.02587331137629629
+covariance,Balance|Composure,0.014500089084012803
+covariance,Balance|Interceptions,0.012731267867672688
+covariance,Balance|Heading Accuracy,0.010437738826704072
+covariance,Balance|Def Awareness,0.012298366878190815
+covariance,Balance|Standing Tackle,0.013545769554392944
+covariance,Balance|Sliding Tackle,0.012649121588156918
+covariance,Balance|Jumping,0.0011141639176331657
+covariance,Balance|Stamina,0.022193976701015087
+covariance,Balance|Aggression,0.012219032818744506
+covariance,Balance|Weak foot,0.008723353788489877
+covariance,Balance|Skill moves,0.02429321549055231
+covariance,Balance|Age,-0.0008397138260096051
+covariance,Balance|GK Diving,0.000490698170979213
+covariance,Balance|GK Handling,0.00045814223479494193
+covariance,Balance|GK Kicking,0.0005366542683841501
+covariance,Balance|GK Positioning,0.0005084275601120575
+covariance,Balance|GK Reflexes,0.00048130052962913985
+covariance,Reactions|Ball Control,0.014277877849906395
+covariance,Reactions|Composure,0.014934410852652976
+covariance,Reactions|Interceptions,0.012855667411862969
+covariance,Reactions|Heading Accuracy,0.011050471279174611
+covariance,Reactions|Def Awareness,0.012047432142857835
+covariance,Reactions|Standing Tackle,0.011944012155271697
+covariance,Reactions|Sliding Tackle,0.010719418330357012
+covariance,Reactions|Jumping,0.012661421383827923
+covariance,Reactions|Stamina,0.011932391130219976
+covariance,Reactions|Aggression,0.011740010802816
+covariance,Reactions|Weak foot,0.004863379323147955
+covariance,Reactions|Skill moves,0.009686232048907409
+covariance,Reactions|Age,0.00846517941081829
+covariance,Reactions|GK Diving,0.0025428106337192034
+covariance,Reactions|GK Handling,0.002419011085561626
+covariance,Reactions|GK Kicking,0.0022071864445341563
+covariance,Reactions|GK Positioning,0.0025794744730796484
+covariance,Reactions|GK Reflexes,0.002644913331783859
+covariance,Ball Control|Composure,0.02581616171797726
+covariance,Ball Control|Interceptions,0.026430987743907366
+covariance,Ball Control|Heading Accuracy,0.02990168899400517
+covariance,Ball Control|Def Awareness,0.026090647658740765
+covariance,Ball Control|Standing Tackle,0.028001480527447775
+covariance,Ball Control|Sliding Tackle,0.025852489998428135
+covariance,Ball Control|Jumping,0.014799149252877982
+covariance,Ball Control|Stamina,0.032740314823087105
+covariance,Ball Control|Aggression,0.026333655387935088
+covariance,Ball Control|Weak foot,0.011714853719804982
+covariance,Ball Control|Skill moves,0.031506775341155036
+covariance,Ball Control|Age,0.0017990757941473703
+covariance,Ball Control|GK Diving,0.0005463417398460563
+covariance,Ball Control|GK Handling,0.0005290723114171296
+covariance,Ball Control|GK Kicking,0.0005963842953191776
+covariance,Ball Control|GK Positioning,0.0005640535254163793
+covariance,Ball Control|GK Reflexes,0.0005524007025939217
+covariance,Composure|Interceptions,0.01879809386676417
+covariance,Composure|Heading Accuracy,0.01956410757011352
+covariance,Composure|Def Awareness,0.01856722773323522
+covariance,Composure|Standing Tackle,0.01884787911943714
+covariance,Composure|Sliding Tackle,0.017352561588980842
+covariance,Composure|Jumping,0.013983339936767696
+covariance,Composure|Stamina,0.02097720808391624
+covariance,Composure|Aggression,0.01909783355216232
+covariance,Composure|Weak foot,0.008467432606220906
+covariance,Composure|Skill moves,0.01957763088200767
+covariance,Composure|Age,0.007830955914238201
+covariance,Composure|GK Diving,0.00130109242277094
+covariance,Composure|GK Handling,0.001287004656016066
+covariance,Composure|GK Kicking,0.0012467942036367753
+covariance,Composure|GK Positioning,0.0013726672345729777
+covariance,Composure|GK Reflexes,0.0012967257133137625
+covariance,Interceptions|Heading Accuracy,0.02901783014664957
+covariance,Interceptions|Def Awareness,0.05682296441564531
+covariance,Interceptions|Standing Tackle,0.06145527958494334
+covariance,Interceptions|Sliding Tackle,0.06071778289192788
+covariance,Interceptions|Jumping,0.015139906895982396
+covariance,Interceptions|Stamina,0.03193118954793974
+covariance,Interceptions|Aggression,0.0380158444081064
+covariance,Interceptions|Weak foot,0.0025967459688995293
+covariance,Interceptions|Skill moves,0.01079454863897026
+covariance,Interceptions|Age,0.006395674633030601
+covariance,Interceptions|GK Diving,0.00040533936817081074
+covariance,Interceptions|GK Handling,0.00038960208960961645
+covariance,Interceptions|GK Kicking,0.0003624508599171146
+covariance,Interceptions|GK Positioning,0.00043527312255104637
+covariance,Interceptions|GK Reflexes,0.00039511676629334425
+covariance,Heading Accuracy|Def Awareness,0.029381252821788554
+covariance,Heading Accuracy|Standing Tackle,0.03064475385455625
+covariance,Heading Accuracy|Sliding Tackle,0.02941206436043114
+covariance,Heading Accuracy|Jumping,0.025153466318583968
+covariance,Heading Accuracy|Stamina,0.027856192980756988
+covariance,Heading Accuracy|Aggression,0.02965574784112722
+covariance,Heading Accuracy|Weak foot,0.006780212090777078
+covariance,Heading Accuracy|Skill moves,0.017223374041126335
+covariance,Heading Accuracy|Age,0.004283463538456171
+covariance,Heading Accuracy|GK Diving,9.41331396212786e-05
+covariance,Heading Accuracy|GK Handling,9.430191823623171e-05
+covariance,Heading Accuracy|GK Kicking,8.389295129117416e-05
+covariance,Heading Accuracy|GK Positioning,0.00010213364872322213
+covariance,Heading Accuracy|GK Reflexes,8.317700204755396e-05
+covariance,Def Awareness|Standing Tackle,0.05787320751206742
+covariance,Def Awareness|Sliding Tackle,0.057648335654008946
+covariance,Def Awareness|Jumping,0.01544440562680983
+covariance,Def Awareness|Stamina,0.030803517213797135
+covariance,Def Awareness|Aggression,0.036681386190222286
+covariance,Def Awareness|Weak foot,0.0029290309333527306
+covariance,Def Awareness|Skill moves,0.010958806053605639
+covariance,Def Awareness|Age,0.006276869284511198
+covariance,Def Awareness|GK Diving,0.000409209090502295
+covariance,Def Awareness|GK Handling,0.0003983928047776425
+covariance,Def Awareness|GK Kicking,0.0003931410463695246
+covariance,Def Awareness|GK Positioning,0.0004483293465919263
+covariance,Def Awareness|GK Reflexes,0.00040696288582709904
+covariance,Standing Tackle|Sliding Tackle,0.06374756417372587
+covariance,Standing Tackle|Jumping,0.014901278769660688
+covariance,Standing Tackle|Stamina,0.032730627121186746
+covariance,Standing Tackle|Aggression,0.03897286138282374
+covariance,Standing Tackle|Weak foot,0.00263036012928826
+covariance,Standing Tackle|Skill moves,0.011945857285747466
+covariance,Standing Tackle|Age,0.0041347450485502285
+covariance,Standing Tackle|GK Diving,0.00014159729324698361
+covariance,Standing Tackle|GK Handling,0.00013471669240469212
+covariance,Standing Tackle|GK Kicking,0.0001410182336161476
+covariance,Standing Tackle|GK Positioning,0.0001496422177839778
+covariance,Standing Tackle|GK Reflexes,0.00013959444523945722
+covariance,Sliding Tackle|Jumping,0.014136863913336746
+covariance,Sliding Tackle|Stamina,0.03127544231480644
+covariance,Sliding Tackle|Aggression,0.03819276204124373
+covariance,Sliding Tackle|Weak foot,0.002040785251510234
+covariance,Sliding Tackle|Skill moves,0.009964322349380054
+covariance,Sliding Tackle|Age,0.0038747273879971146
+covariance,Sliding Tackle|GK Diving,0.0001171724991724321
+covariance,Sliding Tackle|GK Handling,0.00011062961801444199
+covariance,Sliding Tackle|GK Kicking,0.00010463601537022719
+covariance,Sliding Tackle|GK Positioning,0.00011405135245067999
+covariance,Sliding Tackle|GK Reflexes,0.00011268383725925857
+covariance,Jumping|Stamina,0.01765687812722801
+covariance,Jumping|Aggression,0.018841124455141387
+covariance,Jumping|Weak foot,0.004564136090893178
+covariance,Jumping|Skill moves,0.0075363988789616245
+covariance,Jumping|Age,0.008898286929069816
+covariance,Jumping|GK Diving,0.0014673189212975645
+covariance,Jumping|GK Handling,0.0013860632293375337
+covariance,Jumping|GK Kicking,0.001291865492904885
+covariance,Jumping|GK Positioning,0.00147590162990094
+covariance,Jumping|GK Reflexes,0.0014759212267941135
+covariance,Stamina|Aggression,0.028844176529875296
+covariance,Stamina|Weak foot,0.008951026563439754
+covariance,Stamina|Skill moves,0.023311751820897054
+covariance,Stamina|Age,0.004859716720084137
+covariance,Stamina|GK Diving,0.000670079195369553
+covariance,Stamina|GK Handling,0.0006462075822731045
+covariance,Stamina|GK Kicking,0.0006077598554614984
+covariance,Stamina|GK Positioning,0.0006542749353199253
+covariance,Stamina|GK Reflexes,0.0006754112902719282
+covariance,Aggression|Weak foot,0.005655090875330489
+covariance,Aggression|Skill moves,0.014202072281673578
+covariance,Aggression|Age,0.006813055732018096
+covariance,Aggression|GK Diving,0.0002334859038372601
+covariance,Aggression|GK Handling,0.00024191249355315567
+covariance,Aggression|GK Kicking,0.00022130937019821675
+covariance,Aggression|GK Positioning,0.0002596860547800878
+covariance,Aggression|GK Reflexes,0.0002334627176411565
+covariance,Weak foot|Skill moves,0.011554931475223882
+covariance,Weak foot|Age,0.001506939748110389
+covariance,Weak foot|GK Diving,0.00040212339146299624
+covariance,Weak foot|GK Handling,0.00036166297115541526
+covariance,Weak foot|GK Kicking,0.0005550454740185257
+covariance,Weak foot|GK Positioning,0.00035990691301802263
+covariance,Weak foot|GK Reflexes,0.0004035106736097286
+covariance,Skill moves|Age,0.0014330314857870924
+covariance,Skill moves|GK Diving,-6.48178340882113e-13
+covariance,Skill moves|GK Handling,1.2223952650824906e-12
+covariance,Skill moves|GK Kicking,3.905559354853042e-12
+covariance,Skill moves|GK Positioning,1.37837135736218e-12
+covariance,Skill moves|GK Reflexes,3.156041295282714e-12
+covariance,Age|GK Diving,0.0013663232028041808
+covariance,Age|GK Handling,0.0014696811466702294
+covariance,Age|GK Kicking,0.0012420337041603258
+covariance,Age|GK Positioning,0.0016739891613800411
+covariance,Age|GK Reflexes,0.0013113927215128358
+covariance,GK Diving|GK Handling,0.0027526070429814476
+covariance,GK Diving|GK Kicking,0.002494799841242826
+covariance,GK Diving|GK Positioning,0.0028716209624250204
+covariance,GK Diving|GK Reflexes,0.003038456056749786
+covariance,GK Handling|GK Kicking,0.0024554159279404917
+covariance,GK Handling|GK Positioning,0.002822761975804095
+covariance,GK Handling|GK Reflexes,0.00278868544147672
+covariance,GK Kicking|GK Positioning,0.0025844653545157416
+covariance,GK Kicking|GK Reflexes,0.0025403927396889245
+covariance,GK Positioning|GK Reflexes,0.002966063065464286
+performance,rmse,25.94
+stability,agreement,0
+stability,jaccard_mean,0.1057

@@ -1,0 +1,7 @@
+target,covariance_mean,n,pearson_r,pearson_p,spearman_r,spearman_p
+stability_score,mean_pairwise_cov,96,-0.1689,0.099981,-0.0822,0.425855
+stability_score,mean_abs_pairwise_cov,96,-0.0366,0.723008,-0.1328,0.197232
+performance_score,mean_pairwise_cov,96,-0.0609,0.555274,-0.1026,0.319961
+performance_score,mean_abs_pairwise_cov,96,-0.0881,0.393479,0.1135,0.271029
+stability_jaccard,mean_pairwise_cov,96,-0.3368,0.000793,-0.3002,0.002963
+stability_jaccard,mean_abs_pairwise_cov,96,-0.1562,0.128491,-0.4823,1e-06

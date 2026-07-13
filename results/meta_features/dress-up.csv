@@ -1,0 +1,216 @@
+kind,name,value
+x_variation,name,0.9987001446203779
+x_variation,variation,0.9457074057543793
+x_variation,dIY,0.06039572009035865
+x_variation,color 1,0.9789563819044281
+x_variation,color 2,0.9402446218978503
+x_variation,size,0.0
+x_variation,miles_price,0.0618305143305474
+x_variation,source,0.7145071433000009
+x_variation,source Notes,0.4941114652776193
+x_variation,seasonal Availability,0.13120449536870993
+x_variation,mannequin Piece,0.029331704993827586
+x_variation,version,0.9650339683937382
+x_variation,style,0.9853035379776418
+x_variation,label Themes,0.0
+x_variation,type,0.07309292931958833
+x_variation,villager Equippable,0.9463545309386506
+x_variation,catalog,0.8657697761794072
+x_variation,filename,1.0
+x_variation,internal ID,1.0
+x_variation,unique Entry ID,1.0
+y_variation,Buy-,0.1192448052913165
+y_variation,Sell+,0.06649128537689909
+correlation,name|variation,0.47011173697563413
+correlation,name|dIY,0.9999999999999999
+correlation,name|color 1,0.5236430572185349
+correlation,name|color 2,0.6763289600452999
+correlation,name|size,
+correlation,name|miles_price,1.0
+correlation,name|source,1.0
+correlation,name|source Notes,1.0
+correlation,name|seasonal Availability,0.4877199450669447
+correlation,name|mannequin Piece,1.0
+correlation,name|version,1.0
+correlation,name|style,0.9991991721772429
+correlation,name|label Themes,
+correlation,name|type,1.0
+correlation,name|villager Equippable,1.0
+correlation,name|catalog,1.0
+correlation,name|filename,1.0
+correlation,name|internal ID,1.0
+correlation,name|unique Entry ID,1.0
+correlation,variation|dIY,0.43303867488402503
+correlation,variation|color 1,0.8890419187531691
+correlation,variation|color 2,0.46726830665282726
+correlation,variation|size,
+correlation,variation|miles_price,0.6393966551110652
+correlation,variation|source,0.5052148927899169
+correlation,variation|source Notes,0.3589501635807878
+correlation,variation|seasonal Availability,0.35573031492668283
+correlation,variation|mannequin Piece,
+correlation,variation|version,0.3374839333655593
+correlation,variation|style,0.31480323040487945
+correlation,variation|label Themes,
+correlation,variation|type,0.42107790761389857
+correlation,variation|villager Equippable,0.39354839972470834
+correlation,variation|catalog,0.35200688038035854
+correlation,variation|filename,1.0
+correlation,variation|internal ID,1.0
+correlation,variation|unique Entry ID,1.0
+correlation,dIY|color 1,0.2279387239097642
+correlation,dIY|color 2,0.17295702947016434
+correlation,dIY|size,
+correlation,dIY|miles_price,0.9999999999999999
+correlation,dIY|source,
+correlation,dIY|source Notes,0.061197248752082
+correlation,dIY|seasonal Availability,0.023395413544786546
+correlation,dIY|mannequin Piece,0.7043759970340502
+correlation,dIY|version,0.10747448151053793
+correlation,dIY|style,0.4497170497021316
+correlation,dIY|label Themes,
+correlation,dIY|type,0.9059697899068037
+correlation,dIY|villager Equippable,0.22103344300748437
+correlation,dIY|catalog,0.1595634538946445
+correlation,dIY|filename,1.0
+correlation,dIY|internal ID,1.0
+correlation,dIY|unique Entry ID,1.0
+correlation,color 1|color 2,0.2891297739223525
+correlation,color 1|size,
+correlation,color 1|miles_price,0.1721182126060946
+correlation,color 1|source,0.16547728622679414
+correlation,color 1|source Notes,0.1150260047807728
+correlation,color 1|seasonal Availability,0.1379134418214358
+correlation,color 1|mannequin Piece,0.2353191224868322
+correlation,color 1|version,0.20172407930629074
+correlation,color 1|style,0.2696853941160977
+correlation,color 1|label Themes,
+correlation,color 1|type,0.2070006561390675
+correlation,color 1|villager Equippable,0.12549689885032794
+correlation,color 1|catalog,0.11246312703671181
+correlation,color 1|filename,1.0
+correlation,color 1|internal ID,1.0
+correlation,color 1|unique Entry ID,1.0
+correlation,color 2|size,
+correlation,color 2|miles_price,0.16961370509041454
+correlation,color 2|source,0.1143938470756986
+correlation,color 2|source Notes,0.168991772873123
+correlation,color 2|seasonal Availability,0.12402529263818676
+correlation,color 2|mannequin Piece,0.13319921513049812
+correlation,color 2|version,0.2156288225382747
+correlation,color 2|style,0.3865145919825332
+correlation,color 2|label Themes,
+correlation,color 2|type,0.15821634064294243
+correlation,color 2|villager Equippable,0.16959990388089344
+correlation,color 2|catalog,0.19966140505519167
+correlation,color 2|filename,1.0
+correlation,color 2|internal ID,1.0
+correlation,color 2|unique Entry ID,1.0
+correlation,size|miles_price,
+correlation,size|source,
+correlation,size|source Notes,
+correlation,size|seasonal Availability,
+correlation,size|mannequin Piece,
+correlation,size|version,
+correlation,size|style,
+correlation,size|label Themes,
+correlation,size|type,
+correlation,size|villager Equippable,
+correlation,size|catalog,
+correlation,size|filename,
+correlation,size|internal ID,
+correlation,size|unique Entry ID,
+correlation,miles_price|source,
+correlation,miles_price|source Notes,0.0557444510263104
+correlation,miles_price|seasonal Availability,0.030138072205515617
+correlation,miles_price|mannequin Piece,0.8649070234956099
+correlation,miles_price|version,0.10580554029925657
+correlation,miles_price|style,0.7012171733238555
+correlation,miles_price|label Themes,
+correlation,miles_price|type,1.0
+correlation,miles_price|villager Equippable,0.16516154308999392
+correlation,miles_price|catalog,0.1559146943500451
+correlation,miles_price|filename,1.0
+correlation,miles_price|internal ID,1.0
+correlation,miles_price|unique Entry ID,1.0
+correlation,source|source Notes,0.28467886901251355
+correlation,source|seasonal Availability,0.11971805214595024
+correlation,source|mannequin Piece,
+correlation,source|version,0.25790776931173676
+correlation,source|style,0.6856232114821911
+correlation,source|label Themes,
+correlation,source|type,
+correlation,source|villager Equippable,0.3029376871958348
+correlation,source|catalog,0.11883779485414324
+correlation,source|filename,0.9999999999999999
+correlation,source|internal ID,0.9999999999999999
+correlation,source|unique Entry ID,0.9999999999999999
+correlation,source Notes|seasonal Availability,0.15373961481764756
+correlation,source Notes|mannequin Piece,0.034599495606017765
+correlation,source Notes|version,0.178125924058638
+correlation,source Notes|style,0.7910852617050844
+correlation,source Notes|label Themes,
+correlation,source Notes|type,0.06754888455869737
+correlation,source Notes|villager Equippable,0.35930969458345463
+correlation,source Notes|catalog,0.3429795330225159
+correlation,source Notes|filename,1.0
+correlation,source Notes|internal ID,1.0
+correlation,source Notes|unique Entry ID,1.0
+correlation,seasonal Availability|mannequin Piece,0.01870611473698823
+correlation,seasonal Availability|version,0.10776072552604818
+correlation,seasonal Availability|style,0.3369190029059638
+correlation,seasonal Availability|label Themes,
+correlation,seasonal Availability|type,0.02582361333173506
+correlation,seasonal Availability|villager Equippable,0.11185495110621134
+correlation,seasonal Availability|catalog,0.025891668500365932
+correlation,seasonal Availability|filename,0.9999999999999999
+correlation,seasonal Availability|internal ID,0.9999999999999999
+correlation,seasonal Availability|unique Entry ID,0.9999999999999999
+correlation,mannequin Piece|version,0.11820999166415304
+correlation,mannequin Piece|style,0.5679472014427476
+correlation,mannequin Piece|label Themes,
+correlation,mannequin Piece|type,0.7243802211830667
+correlation,mannequin Piece|villager Equippable,0.22581434490047764
+correlation,mannequin Piece|catalog,0.09248421016234877
+correlation,mannequin Piece|filename,1.0
+correlation,mannequin Piece|internal ID,1.0
+correlation,mannequin Piece|unique Entry ID,1.0
+correlation,version|style,0.7741254918468212
+correlation,version|label Themes,
+correlation,version|type,0.07014650661597638
+correlation,version|villager Equippable,0.43532375106386134
+correlation,version|catalog,0.2808387174951851
+correlation,version|filename,1.0
+correlation,version|internal ID,1.0
+correlation,version|unique Entry ID,1.0
+correlation,style|label Themes,
+correlation,style|type,0.5323380838815965
+correlation,style|villager Equippable,0.6331261146061979
+correlation,style|catalog,0.6711125538226818
+correlation,style|filename,1.0
+correlation,style|internal ID,1.0
+correlation,style|unique Entry ID,1.0
+correlation,label Themes|type,
+correlation,label Themes|villager Equippable,
+correlation,label Themes|catalog,
+correlation,label Themes|filename,
+correlation,label Themes|internal ID,
+correlation,label Themes|unique Entry ID,
+correlation,type|villager Equippable,0.20555000990666247
+correlation,type|catalog,0.1516342239579653
+correlation,type|filename,0.9999999999999999
+correlation,type|internal ID,0.9999999999999999
+correlation,type|unique Entry ID,0.9999999999999999
+correlation,villager Equippable|catalog,0.46189370309733757
+correlation,villager Equippable|filename,1.0
+correlation,villager Equippable|internal ID,1.0
+correlation,villager Equippable|unique Entry ID,1.0
+correlation,catalog|filename,1.0
+correlation,catalog|internal ID,1.0
+correlation,catalog|unique Entry ID,1.0
+correlation,filename|internal ID,0.9999999999999998
+correlation,filename|unique Entry ID,0.9999999999999998
+correlation,internal ID|unique Entry ID,0.9999999999999998
+performance,rmse,74.11
+stability,agreement,88
+stability,jaccard_mean,0.2769

@@ -1,0 +1,259 @@
+kind,name,value
+x_variation,name,1.0
+x_variation,vFX_Type,0.7968
+x_variation,dIY,0.5751282597649525
+x_variation,color_1,0.9823966275726678
+x_variation,color_2,0.9644871208657216
+x_variation,Miles Price,0.0
+x_variation,source,0.6687537904243638
+x_variation,catalog,0.9724466881935454
+x_variation,window_Type,0.7865935489842194
+x_variation,window_Color,0.9332569762598918
+x_variation,pane_Type,0.15660141607663491
+x_variation,curtain_Type,0.9986463973344439
+x_variation,curtain_Color,0.8496459808413162
+x_variation,ceiling_Type,0.890898064220033
+x_variation,hHA_Concept 1,0.9367161707560594
+x_variation,hHA_Concept_2,0.8960978835978836
+x_variation,hHA_Series,0.9528344671201814
+x_variation,tag,0.991128270924799
+x_variation,version,0.05969611040993938
+x_variation,filename,1.0
+x_variation,Internal ID,0.37603638297007724
+x_variation,unique_Entry_ID,1.0
+y_variation,Buy-,0.48565529593645207
+y_variation,Sell+,0.1969951435032477
+correlation,name|vFX_Type,0.9999999999999999
+correlation,name|dIY,0.9999999999999999
+correlation,name|color_1,1.0
+correlation,name|color_2,1.0
+correlation,name|Miles Price,
+correlation,name|source,1.0
+correlation,name|catalog,1.0
+correlation,name|window_Type,1.0
+correlation,name|window_Color,1.0
+correlation,name|pane_Type,1.0000000000000002
+correlation,name|curtain_Type,0.9999999999999999
+correlation,name|curtain_Color,1.0
+correlation,name|ceiling_Type,1.0
+correlation,name|hHA_Concept 1,1.0
+correlation,name|hHA_Concept_2,1.0
+correlation,name|hHA_Series,1.0
+correlation,name|tag,0.9999999999999999
+correlation,name|version,0.9999999999999999
+correlation,name|filename,0.9999999999999999
+correlation,name|Internal ID,1.0
+correlation,name|unique_Entry_ID,0.9999999999999999
+correlation,vFX_Type|dIY,0.15557452031919952
+correlation,vFX_Type|color_1,0.627633341299768
+correlation,vFX_Type|color_2,0.5931905258852335
+correlation,vFX_Type|Miles Price,
+correlation,vFX_Type|source,0.5176569810212164
+correlation,vFX_Type|catalog,0.6922186552431729
+correlation,vFX_Type|window_Type,
+correlation,vFX_Type|window_Color,
+correlation,vFX_Type|pane_Type,
+correlation,vFX_Type|curtain_Type,
+correlation,vFX_Type|curtain_Color,
+correlation,vFX_Type|ceiling_Type,0.6652328330909578
+correlation,vFX_Type|hHA_Concept 1,0.6157248277372478
+correlation,vFX_Type|hHA_Concept_2,1.0000000000000002
+correlation,vFX_Type|hHA_Series,1.0
+correlation,vFX_Type|tag,0.5112329478663588
+correlation,vFX_Type|version,
+correlation,vFX_Type|filename,0.9999999999999999
+correlation,vFX_Type|Internal ID,0.3391731179125959
+correlation,vFX_Type|unique_Entry_ID,0.9999999999999999
+correlation,dIY|color_1,0.25539278902997237
+correlation,dIY|color_2,0.20112087487439595
+correlation,dIY|Miles Price,
+correlation,dIY|source,1.0
+correlation,dIY|catalog,0.5428524194347136
+correlation,dIY|window_Type,0.20745595841899625
+correlation,dIY|window_Color,0.32257708542681396
+correlation,dIY|pane_Type,0.07947634466746774
+correlation,dIY|curtain_Type,0.20484922661597063
+correlation,dIY|curtain_Color,0.5226728450630612
+correlation,dIY|ceiling_Type,0.1811993759167118
+correlation,dIY|hHA_Concept 1,0.5204113163413422
+correlation,dIY|hHA_Concept_2,0.32140646996241057
+correlation,dIY|hHA_Series,1.0
+correlation,dIY|tag,0.6497215509949309
+correlation,dIY|version,0.1504084274616866
+correlation,dIY|filename,0.9999999999999999
+correlation,dIY|Internal ID,0.14537940728251667
+correlation,dIY|unique_Entry_ID,0.9999999999999999
+correlation,color_1|color_2,0.5911434259213234
+correlation,color_1|Miles Price,
+correlation,color_1|source,0.2914423698933563
+correlation,color_1|catalog,0.36270890394897903
+correlation,color_1|window_Type,0.3059836852466188
+correlation,color_1|window_Color,0.32321244526800863
+correlation,color_1|pane_Type,0.2483991297480216
+correlation,color_1|curtain_Type,0.4625932722406082
+correlation,color_1|curtain_Color,0.4404550350999668
+correlation,color_1|ceiling_Type,0.2661079861690462
+correlation,color_1|hHA_Concept 1,0.35236683564452786
+correlation,color_1|hHA_Concept_2,0.301030186464513
+correlation,color_1|hHA_Series,0.7932002689527197
+correlation,color_1|tag,0.4483054516971344
+correlation,color_1|version,0.2506190682198222
+correlation,color_1|filename,1.0
+correlation,color_1|Internal ID,0.15811879836058054
+correlation,color_1|unique_Entry_ID,1.0
+correlation,color_2|Miles Price,
+correlation,color_2|source,0.25259320949407993
+correlation,color_2|catalog,0.34032979639683825
+correlation,color_2|window_Type,0.3083589519008518
+correlation,color_2|window_Color,0.3593504836600706
+correlation,color_2|pane_Type,0.2527158879262181
+correlation,color_2|curtain_Type,0.39563846452304374
+correlation,color_2|curtain_Color,0.4848981371558242
+correlation,color_2|ceiling_Type,0.2604198763394097
+correlation,color_2|hHA_Concept 1,0.33661419767154593
+correlation,color_2|hHA_Concept_2,0.30334761804080246
+correlation,color_2|hHA_Series,0.8050764858994132
+correlation,color_2|tag,0.5095547008575523
+correlation,color_2|version,0.22727272727272727
+correlation,color_2|filename,1.0
+correlation,color_2|Internal ID,0.1530673580656058
+correlation,color_2|unique_Entry_ID,1.0
+correlation,Miles Price|source,
+correlation,Miles Price|catalog,
+correlation,Miles Price|window_Type,
+correlation,Miles Price|window_Color,
+correlation,Miles Price|pane_Type,
+correlation,Miles Price|curtain_Type,
+correlation,Miles Price|curtain_Color,
+correlation,Miles Price|ceiling_Type,
+correlation,Miles Price|hHA_Concept 1,
+correlation,Miles Price|hHA_Concept_2,
+correlation,Miles Price|hHA_Series,
+correlation,Miles Price|tag,
+correlation,Miles Price|version,
+correlation,Miles Price|filename,
+correlation,Miles Price|Internal ID,
+correlation,Miles Price|unique_Entry_ID,
+correlation,source|catalog,1.0
+correlation,source|window_Type,0.1531383272464166
+correlation,source|window_Color,0.22237642989944878
+correlation,source|pane_Type,0.09562249202559596
+correlation,source|curtain_Type,0.29411860292130726
+correlation,source|curtain_Color,0.3793384368240652
+correlation,source|ceiling_Type,0.20254209994771646
+correlation,source|hHA_Concept 1,0.4189833625589653
+correlation,source|hHA_Concept_2,0.375307768342123
+correlation,source|hHA_Series,0.9999999999999998
+correlation,source|tag,0.46214465137672256
+correlation,source|version,0.7138696242848886
+correlation,source|filename,0.9999999999999999
+correlation,source|Internal ID,0.6260613018782629
+correlation,source|unique_Entry_ID,0.9999999999999999
+correlation,catalog|window_Type,0.24940238549088986
+correlation,catalog|window_Color,0.3062367552418119
+correlation,catalog|pane_Type,0.09562249202559595
+correlation,catalog|curtain_Type,0.24594207373417204
+correlation,catalog|curtain_Color,0.5040262563774973
+correlation,catalog|ceiling_Type,0.23492459441539726
+correlation,catalog|hHA_Concept 1,0.561361424822691
+correlation,catalog|hHA_Concept_2,0.526006861304942
+correlation,catalog|hHA_Series,
+correlation,catalog|tag,0.880856750924181
+correlation,catalog|version,0.1699573507772061
+correlation,catalog|filename,1.0
+correlation,catalog|Internal ID,0.040070688460759105
+correlation,catalog|unique_Entry_ID,1.0
+correlation,window_Type|window_Color,0.6213774748643028
+correlation,window_Type|pane_Type,0.9101871313409747
+correlation,window_Type|curtain_Type,1.0
+correlation,window_Type|curtain_Color,1.0
+correlation,window_Type|ceiling_Type,0.1945662190794147
+correlation,window_Type|hHA_Concept 1,0.6666843383295993
+correlation,window_Type|hHA_Concept_2,0.42623477711159513
+correlation,window_Type|hHA_Series,
+correlation,window_Type|tag,0.9736385880975025
+correlation,window_Type|version,0.07678289503755725
+correlation,window_Type|filename,1.0
+correlation,window_Type|Internal ID,0.5033299519905878
+correlation,window_Type|unique_Entry_ID,1.0
+correlation,window_Color|pane_Type,0.2768674877682811
+correlation,window_Color|curtain_Type,0.5276695266800446
+correlation,window_Color|curtain_Color,0.7716521763903923
+correlation,window_Color|ceiling_Type,0.25897865919661484
+correlation,window_Color|hHA_Concept 1,0.3701656860517222
+correlation,window_Color|hHA_Concept_2,0.35454549069623326
+correlation,window_Color|hHA_Series,1.0
+correlation,window_Color|tag,0.6975966939120091
+correlation,window_Color|version,0.15689080925088394
+correlation,window_Color|filename,1.0
+correlation,window_Color|Internal ID,0.20758691922157183
+correlation,window_Color|unique_Entry_ID,1.0
+correlation,pane_Type|curtain_Type,
+correlation,pane_Type|curtain_Color,
+correlation,pane_Type|ceiling_Type,0.10919620392892833
+correlation,pane_Type|hHA_Concept 1,0.9325464369900606
+correlation,pane_Type|hHA_Concept_2,0.30738931174713596
+correlation,pane_Type|hHA_Series,
+correlation,pane_Type|tag,0.924770753012052
+correlation,pane_Type|version,0.01707220594066741
+correlation,pane_Type|filename,1.0000000000000002
+correlation,pane_Type|Internal ID,0.4319465006735853
+correlation,pane_Type|unique_Entry_ID,1.0000000000000002
+correlation,curtain_Type|curtain_Color,0.8808256864687098
+correlation,curtain_Type|ceiling_Type,0.2698304130646671
+correlation,curtain_Type|hHA_Concept 1,0.5602173487475957
+correlation,curtain_Type|hHA_Concept_2,0.48060961400988983
+correlation,curtain_Type|hHA_Series,1.0
+correlation,curtain_Type|tag,0.8846297051484342
+correlation,curtain_Type|version,0.14581799133830553
+correlation,curtain_Type|filename,0.9999999999999999
+correlation,curtain_Type|Internal ID,0.16736072773037275
+correlation,curtain_Type|unique_Entry_ID,0.9999999999999999
+correlation,curtain_Color|ceiling_Type,0.38748507154996575
+correlation,curtain_Color|hHA_Concept 1,0.4755223147502126
+correlation,curtain_Color|hHA_Concept_2,0.470402451015429
+correlation,curtain_Color|hHA_Series,1.0
+correlation,curtain_Color|tag,0.630572139684031
+correlation,curtain_Color|version,0.25962823418137626
+correlation,curtain_Color|filename,1.0
+correlation,curtain_Color|Internal ID,0.5544478914293821
+correlation,curtain_Color|unique_Entry_ID,1.0
+correlation,ceiling_Type|hHA_Concept 1,0.3040686419784591
+correlation,ceiling_Type|hHA_Concept_2,0.31546159700317344
+correlation,ceiling_Type|hHA_Series,0.8031189202104505
+correlation,ceiling_Type|tag,0.4690623206427357
+correlation,ceiling_Type|version,0.15751261361106
+correlation,ceiling_Type|filename,1.0
+correlation,ceiling_Type|Internal ID,0.12584819703838573
+correlation,ceiling_Type|unique_Entry_ID,1.0
+correlation,hHA_Concept 1|hHA_Concept_2,0.5812485212841717
+correlation,hHA_Concept 1|hHA_Series,0.9126846099715452
+correlation,hHA_Concept 1|tag,0.6711773291966243
+correlation,hHA_Concept 1|version,0.4083916017668077
+correlation,hHA_Concept 1|filename,1.0
+correlation,hHA_Concept 1|Internal ID,0.4031994156824501
+correlation,hHA_Concept 1|unique_Entry_ID,1.0
+correlation,hHA_Concept_2|hHA_Series,0.9423375191511797
+correlation,hHA_Concept_2|tag,0.7085694253508489
+correlation,hHA_Concept_2|version,0.37850403712833636
+correlation,hHA_Concept_2|filename,1.0
+correlation,hHA_Concept_2|Internal ID,0.3849536481650407
+correlation,hHA_Concept_2|unique_Entry_ID,1.0
+correlation,hHA_Series|tag,0.9258200997725514
+correlation,hHA_Series|version,1.0
+correlation,hHA_Series|filename,1.0
+correlation,hHA_Series|Internal ID,0.9868079349896118
+correlation,hHA_Series|unique_Entry_ID,1.0
+correlation,tag|version,0.35208939510976517
+correlation,tag|filename,0.9999999999999999
+correlation,tag|Internal ID,0.5825134450672985
+correlation,tag|unique_Entry_ID,0.9999999999999999
+correlation,version|filename,0.9999999999999999
+correlation,version|Internal ID,0.6088133866033127
+correlation,version|unique_Entry_ID,0.9999999999999999
+correlation,filename|Internal ID,1.0
+correlation,filename|unique_Entry_ID,0.9999999999999999
+correlation,Internal ID|unique_Entry_ID,1.0
+performance,rmse,40.58
+stability,agreement,27
+stability,jaccard_mean,0.7135

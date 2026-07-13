@@ -1,0 +1,15 @@
+kind,name,value
+x_variation,A,0.6120885701910361
+x_variation,B,0.4341689216838123
+x_variation,C,0.5057637440951779
+y_variation,A-,0.4500155730030745
+y_variation,B-,0.36269926083822124
+correlation,A|B,0.0840988228077063
+correlation,A|C,0.03124760653395
+correlation,B|C,0.28000614307609833
+covariance,A|B,-0.005614567241372831
+covariance,A|C,-0.002430144447075538
+covariance,B|C,-0.015446402730324113
+performance,rmse,9.43
+stability,agreement,53
+stability,jaccard_mean,0.7482

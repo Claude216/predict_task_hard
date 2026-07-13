@@ -1,0 +1,546 @@
+kind,name,value
+x_variation,TeamName,0.0
+x_variation,PlayerName,0.0
+x_variation,Position,0.0
+x_variation,Games,0.5254922855858405
+x_variation,Win rate,0.48800592791329356
+x_variation,KDA,0.4502016735540847
+x_variation,Avg kills,0.5592395181313329
+x_variation,Avg deaths,0.4145032021955107
+x_variation,Avg assists,0.4482060663654272
+x_variation,CSPerMin,0.6378886745990107
+x_variation,GoldPerMin,0.5490373913235764
+x_variation,DamagePercent,0.589296959814611
+x_variation,DPM,0.5921079131599556
+x_variation,VSPM,0.5871780519815138
+x_variation,Avg WPM,0.6116126166601468
+x_variation,Avg WCPM,0.48518044297829516
+x_variation,Avg VWPM,0.529394559611818
+x_variation,GD_at_15,0.337031387988515
+x_variation,CSD_at_15,0.45001220261749725
+x_variation,XPD_at_15,0.38722095808441
+x_variation,FBpercent,0.5051366030397411
+x_variation,FB Victim,0.4251181381937989
+x_variation,Penta Kills,0.0
+x_variation,Solo Kills,0.3229209211744958
+x_variation,Country,0.0
+x_variation,FlashKeybind,0.0
+y_variation,KP+,0.4027824964425065
+correlation,TeamName|PlayerName,
+correlation,TeamName|Position,
+correlation,TeamName|Games,
+correlation,TeamName|Win rate,
+correlation,TeamName|KDA,
+correlation,TeamName|Avg kills,
+correlation,TeamName|Avg deaths,
+correlation,TeamName|Avg assists,
+correlation,TeamName|CSPerMin,
+correlation,TeamName|GoldPerMin,
+correlation,TeamName|DamagePercent,
+correlation,TeamName|DPM,
+correlation,TeamName|VSPM,
+correlation,TeamName|Avg WPM,
+correlation,TeamName|Avg WCPM,
+correlation,TeamName|Avg VWPM,
+correlation,TeamName|GD_at_15,
+correlation,TeamName|CSD_at_15,
+correlation,TeamName|XPD_at_15,
+correlation,TeamName|FBpercent,
+correlation,TeamName|FB Victim,
+correlation,TeamName|Penta Kills,
+correlation,TeamName|Solo Kills,
+correlation,TeamName|Country,
+correlation,TeamName|FlashKeybind,
+correlation,PlayerName|Position,
+correlation,PlayerName|Games,
+correlation,PlayerName|Win rate,
+correlation,PlayerName|KDA,
+correlation,PlayerName|Avg kills,
+correlation,PlayerName|Avg deaths,
+correlation,PlayerName|Avg assists,
+correlation,PlayerName|CSPerMin,
+correlation,PlayerName|GoldPerMin,
+correlation,PlayerName|DamagePercent,
+correlation,PlayerName|DPM,
+correlation,PlayerName|VSPM,
+correlation,PlayerName|Avg WPM,
+correlation,PlayerName|Avg WCPM,
+correlation,PlayerName|Avg VWPM,
+correlation,PlayerName|GD_at_15,
+correlation,PlayerName|CSD_at_15,
+correlation,PlayerName|XPD_at_15,
+correlation,PlayerName|FBpercent,
+correlation,PlayerName|FB Victim,
+correlation,PlayerName|Penta Kills,
+correlation,PlayerName|Solo Kills,
+correlation,PlayerName|Country,
+correlation,PlayerName|FlashKeybind,
+correlation,Position|Games,
+correlation,Position|Win rate,
+correlation,Position|KDA,
+correlation,Position|Avg kills,
+correlation,Position|Avg deaths,
+correlation,Position|Avg assists,
+correlation,Position|CSPerMin,
+correlation,Position|GoldPerMin,
+correlation,Position|DamagePercent,
+correlation,Position|DPM,
+correlation,Position|VSPM,
+correlation,Position|Avg WPM,
+correlation,Position|Avg WCPM,
+correlation,Position|Avg VWPM,
+correlation,Position|GD_at_15,
+correlation,Position|CSD_at_15,
+correlation,Position|XPD_at_15,
+correlation,Position|FBpercent,
+correlation,Position|FB Victim,
+correlation,Position|Penta Kills,
+correlation,Position|Solo Kills,
+correlation,Position|Country,
+correlation,Position|FlashKeybind,
+correlation,Games|Win rate,0.6159023316321489
+correlation,Games|KDA,0.317903832700943
+correlation,Games|Avg kills,0.1805040812151951
+correlation,Games|Avg deaths,0.28383047684669793
+correlation,Games|Avg assists,0.24547108851480784
+correlation,Games|CSPerMin,0.024878042450642113
+correlation,Games|GoldPerMin,0.11929307744271872
+correlation,Games|DamagePercent,0.014728220130220194
+correlation,Games|DPM,0.07745217207784566
+correlation,Games|VSPM,0.06112728770881482
+correlation,Games|Avg WPM,0.0272167672806975
+correlation,Games|Avg WCPM,0.06966492719598534
+correlation,Games|Avg VWPM,0.031256011100657954
+correlation,Games|GD_at_15,0.34072419467944487
+correlation,Games|CSD_at_15,0.21714611158948643
+correlation,Games|XPD_at_15,0.17846433790030417
+correlation,Games|FBpercent,0.04517796412311094
+correlation,Games|FB Victim,0.0446632258655845
+correlation,Games|Penta Kills,
+correlation,Games|Solo Kills,0.02645573061805014
+correlation,Games|Country,
+correlation,Games|FlashKeybind,
+correlation,Win rate|KDA,0.7027969334228538
+correlation,Win rate|Avg kills,0.2526128299077894
+correlation,Win rate|Avg deaths,0.48975650066122084
+correlation,Win rate|Avg assists,0.4928574123299521
+correlation,Win rate|CSPerMin,0.025542515150729153
+correlation,Win rate|GoldPerMin,0.19294364740727996
+correlation,Win rate|DamagePercent,0.002016056517190082
+correlation,Win rate|DPM,0.10378493981514823
+correlation,Win rate|VSPM,0.05749267538808611
+correlation,Win rate|Avg WPM,0.010568048225089123
+correlation,Win rate|Avg WCPM,0.09108474971240266
+correlation,Win rate|Avg VWPM,0.0012288932888773545
+correlation,Win rate|GD_at_15,0.5863319893559609
+correlation,Win rate|CSD_at_15,0.3150119929122046
+correlation,Win rate|XPD_at_15,0.31963743553979035
+correlation,Win rate|FBpercent,0.10517528628255479
+correlation,Win rate|FB Victim,0.0489248901711805
+correlation,Win rate|Penta Kills,
+correlation,Win rate|Solo Kills,0.07129866340521367
+correlation,Win rate|Country,
+correlation,Win rate|FlashKeybind,
+correlation,KDA|Avg kills,0.4971344371149205
+correlation,KDA|Avg deaths,0.8328616727199896
+correlation,KDA|Avg assists,0.27119879730101276
+correlation,KDA|CSPerMin,0.28109754901155454
+correlation,KDA|GoldPerMin,0.4210844815893041
+correlation,KDA|DamagePercent,0.27271882739666803
+correlation,KDA|DPM,0.33991797109582744
+correlation,KDA|VSPM,0.13562497980589447
+correlation,KDA|Avg WPM,0.17181443737565272
+correlation,KDA|Avg WCPM,0.04948641739959307
+correlation,KDA|Avg VWPM,0.21932158683597494
+correlation,KDA|GD_at_15,0.3988469612420922
+correlation,KDA|CSD_at_15,0.24847905325143446
+correlation,KDA|XPD_at_15,0.22616041310473053
+correlation,KDA|FBpercent,0.11418557215431208
+correlation,KDA|FB Victim,0.1907860536110894
+correlation,KDA|Penta Kills,
+correlation,KDA|Solo Kills,0.017632611400730632
+correlation,KDA|Country,
+correlation,KDA|FlashKeybind,
+correlation,Avg kills|Avg deaths,0.6221033963761343
+correlation,Avg kills|Avg assists,0.5228914488251484
+correlation,Avg kills|CSPerMin,0.8539051395687588
+correlation,Avg kills|GoldPerMin,0.9285749738022304
+correlation,Avg kills|DamagePercent,0.8731590949034453
+correlation,Avg kills|DPM,0.8965517425179595
+correlation,Avg kills|VSPM,0.7039889930123424
+correlation,Avg kills|Avg WPM,0.6680191485321276
+correlation,Avg kills|Avg WCPM,0.4298218723812804
+correlation,Avg kills|Avg VWPM,0.7854827686203963
+correlation,Avg kills|GD_at_15,0.23128310237650015
+correlation,Avg kills|CSD_at_15,0.1263214323856231
+correlation,Avg kills|XPD_at_15,0.08300843949771412
+correlation,Avg kills|FBpercent,0.18954348445627905
+correlation,Avg kills|FB Victim,0.3063732657995918
+correlation,Avg kills|Penta Kills,
+correlation,Avg kills|Solo Kills,0.023388262831163315
+correlation,Avg kills|Country,
+correlation,Avg kills|FlashKeybind,
+correlation,Avg deaths|Avg assists,0.08765690176689633
+correlation,Avg deaths|CSPerMin,0.4989304811024918
+correlation,Avg deaths|GoldPerMin,0.5814104317602516
+correlation,Avg deaths|DamagePercent,0.4788673234766429
+correlation,Avg deaths|DPM,0.5186716947245439
+correlation,Avg deaths|VSPM,0.388517376483892
+correlation,Avg deaths|Avg WPM,0.3900297189399975
+correlation,Avg deaths|Avg WCPM,0.22282378117302132
+correlation,Avg deaths|Avg VWPM,0.4899422160349308
+correlation,Avg deaths|GD_at_15,0.22803954499941972
+correlation,Avg deaths|CSD_at_15,0.20681668929198158
+correlation,Avg deaths|XPD_at_15,0.2193735813894849
+correlation,Avg deaths|FBpercent,0.025731693236431222
+correlation,Avg deaths|FB Victim,0.32638439513055567
+correlation,Avg deaths|Penta Kills,
+correlation,Avg deaths|Solo Kills,0.03304260821959655
+correlation,Avg deaths|Country,
+correlation,Avg deaths|FlashKeybind,
+correlation,Avg assists|CSPerMin,0.6757423427274749
+correlation,Avg assists|GoldPerMin,0.5890980327261712
+correlation,Avg assists|DamagePercent,0.6782968316268363
+correlation,Avg assists|DPM,0.6108400134772454
+correlation,Avg assists|VSPM,0.6708279587932782
+correlation,Avg assists|Avg WPM,0.5691389385561523
+correlation,Avg assists|Avg WCPM,0.6023711742979531
+correlation,Avg assists|Avg VWPM,0.6867872275156511
+correlation,Avg assists|GD_at_15,0.3227446436701406
+correlation,Avg assists|CSD_at_15,0.1894991282590867
+correlation,Avg assists|XPD_at_15,0.19761523126417296
+correlation,Avg assists|FBpercent,0.4703355819750105
+correlation,Avg assists|FB Victim,0.06170451172985308
+correlation,Avg assists|Penta Kills,
+correlation,Avg assists|Solo Kills,0.0856203168770252
+correlation,Avg assists|Country,
+correlation,Avg assists|FlashKeybind,
+correlation,CSPerMin|GoldPerMin,0.9713586904168942
+correlation,CSPerMin|DamagePercent,0.9400562100611227
+correlation,CSPerMin|DPM,0.930192435084123
+correlation,CSPerMin|VSPM,0.9301090479473524
+correlation,CSPerMin|Avg WPM,0.9003497026192581
+correlation,CSPerMin|Avg WCPM,0.5802997041196899
+correlation,CSPerMin|Avg VWPM,0.9238300029690122
+correlation,CSPerMin|GD_at_15,0.0017889057839738016
+correlation,CSPerMin|CSD_at_15,0.005810021471289552
+correlation,CSPerMin|XPD_at_15,0.000431079541893123
+correlation,CSPerMin|FBpercent,0.319499374800161
+correlation,CSPerMin|FB Victim,0.23441301482624577
+correlation,CSPerMin|Penta Kills,
+correlation,CSPerMin|Solo Kills,0.01796995641327632
+correlation,CSPerMin|Country,
+correlation,CSPerMin|FlashKeybind,
+correlation,GoldPerMin|DamagePercent,0.9407265457044254
+correlation,GoldPerMin|DPM,0.9519155959779799
+correlation,GoldPerMin|VSPM,0.8553586778896938
+correlation,GoldPerMin|Avg WPM,0.8248913210706472
+correlation,GoldPerMin|Avg WCPM,0.5262914892803233
+correlation,GoldPerMin|Avg VWPM,0.8918027846702017
+correlation,GoldPerMin|GD_at_15,0.14813806660654377
+correlation,GoldPerMin|CSD_at_15,0.07192111500393772
+correlation,GoldPerMin|XPD_at_15,0.0753895257946985
+correlation,GoldPerMin|FBpercent,0.2756869144996674
+correlation,GoldPerMin|FB Victim,0.2662982875176712
+correlation,GoldPerMin|Penta Kills,
+correlation,GoldPerMin|Solo Kills,0.029066916842430703
+correlation,GoldPerMin|Country,
+correlation,GoldPerMin|FlashKeybind,
+correlation,DamagePercent|DPM,0.9847552947629591
+correlation,DamagePercent|VSPM,0.8092995189259333
+correlation,DamagePercent|Avg WPM,0.7515662614809219
+correlation,DamagePercent|Avg WCPM,0.5262033912198489
+correlation,DamagePercent|Avg VWPM,0.8580170858092445
+correlation,DamagePercent|GD_at_15,0.04137901775778162
+correlation,DamagePercent|CSD_at_15,0.016434928670675555
+correlation,DamagePercent|XPD_at_15,0.03798619926549802
+correlation,DamagePercent|FBpercent,0.3024467805076329
+correlation,DamagePercent|FB Victim,0.2602934632755358
+correlation,DamagePercent|Penta Kills,
+correlation,DamagePercent|Solo Kills,0.05641969038938379
+correlation,DamagePercent|Country,
+correlation,DamagePercent|FlashKeybind,
+correlation,DPM|VSPM,0.7947027631089323
+correlation,DPM|Avg WPM,0.7459049584990505
+correlation,DPM|Avg WCPM,0.506598335806458
+correlation,DPM|Avg VWPM,0.8495668663010516
+correlation,DPM|GD_at_15,0.1205799469564088
+correlation,DPM|CSD_at_15,0.05314609856111768
+correlation,DPM|XPD_at_15,0.08938176207639603
+correlation,DPM|FBpercent,0.2626127882614677
+correlation,DPM|FB Victim,0.2625629966424141
+correlation,DPM|Penta Kills,
+correlation,DPM|Solo Kills,0.056040193676036194
+correlation,DPM|Country,
+correlation,DPM|FlashKeybind,
+correlation,VSPM|Avg WPM,0.9727522964575084
+correlation,VSPM|Avg WCPM,0.7284323335730483
+correlation,VSPM|Avg VWPM,0.9043574657969825
+correlation,VSPM|GD_at_15,0.09198788730690813
+correlation,VSPM|CSD_at_15,0.08713109241247102
+correlation,VSPM|XPD_at_15,0.045267870152154534
+correlation,VSPM|FBpercent,0.3242635411104109
+correlation,VSPM|FB Victim,0.1762584349580457
+correlation,VSPM|Penta Kills,
+correlation,VSPM|Solo Kills,0.06199417137960323
+correlation,VSPM|Country,
+correlation,VSPM|FlashKeybind,
+correlation,Avg WPM|Avg WCPM,0.5890377429547358
+correlation,Avg WPM|Avg VWPM,0.8763834069874759
+correlation,Avg WPM|GD_at_15,0.039599495258839455
+correlation,Avg WPM|CSD_at_15,0.051118370358917344
+correlation,Avg WPM|XPD_at_15,0.02680980216965599
+correlation,Avg WPM|FBpercent,0.2736336066107318
+correlation,Avg WPM|FB Victim,0.1881404301379686
+correlation,Avg WPM|Penta Kills,
+correlation,Avg WPM|Solo Kills,0.013278861720493158
+correlation,Avg WPM|Country,
+correlation,Avg WPM|FlashKeybind,
+correlation,Avg WCPM|Avg VWPM,0.5992711926276696
+correlation,Avg WCPM|GD_at_15,0.1337569967952624
+correlation,Avg WCPM|CSD_at_15,0.15085882406729875
+correlation,Avg WCPM|XPD_at_15,0.03772395324067888
+correlation,Avg WCPM|FBpercent,0.2987347106471191
+correlation,Avg WCPM|FB Victim,0.02265791926477558
+correlation,Avg WCPM|Penta Kills,
+correlation,Avg WCPM|Solo Kills,0.23863058638776335
+correlation,Avg WCPM|Country,
+correlation,Avg WCPM|FlashKeybind,
+correlation,Avg VWPM|GD_at_15,0.032689461182088486
+correlation,Avg VWPM|CSD_at_15,0.031522354800271164
+correlation,Avg VWPM|XPD_at_15,0.007676782966526028
+correlation,Avg VWPM|FBpercent,0.363821775756754
+correlation,Avg VWPM|FB Victim,0.22002151187752175
+correlation,Avg VWPM|Penta Kills,
+correlation,Avg VWPM|Solo Kills,0.0007048245118669329
+correlation,Avg VWPM|Country,
+correlation,Avg VWPM|FlashKeybind,
+correlation,GD_at_15|CSD_at_15,0.6651988233909151
+correlation,GD_at_15|XPD_at_15,0.6399513836751565
+correlation,GD_at_15|FBpercent,0.23076679636431047
+correlation,GD_at_15|FB Victim,0.10924207600427452
+correlation,GD_at_15|Penta Kills,
+correlation,GD_at_15|Solo Kills,0.18682503955363758
+correlation,GD_at_15|Country,
+correlation,GD_at_15|FlashKeybind,
+correlation,CSD_at_15|XPD_at_15,0.7148723343372884
+correlation,CSD_at_15|FBpercent,0.16887214554660085
+correlation,CSD_at_15|FB Victim,0.041792752266150444
+correlation,CSD_at_15|Penta Kills,
+correlation,CSD_at_15|Solo Kills,0.3111307766460132
+correlation,CSD_at_15|Country,
+correlation,CSD_at_15|FlashKeybind,
+correlation,XPD_at_15|FBpercent,0.09207231797202677
+correlation,XPD_at_15|FB Victim,0.11465323590191306
+correlation,XPD_at_15|Penta Kills,
+correlation,XPD_at_15|Solo Kills,0.25353855643692874
+correlation,XPD_at_15|Country,
+correlation,XPD_at_15|FlashKeybind,
+correlation,FBpercent|FB Victim,0.3093167149374837
+correlation,FBpercent|Penta Kills,
+correlation,FBpercent|Solo Kills,0.012407063759530481
+correlation,FBpercent|Country,
+correlation,FBpercent|FlashKeybind,
+correlation,FB Victim|Penta Kills,
+correlation,FB Victim|Solo Kills,0.0031956857199825365
+correlation,FB Victim|Country,
+correlation,FB Victim|FlashKeybind,
+correlation,Penta Kills|Solo Kills,
+correlation,Penta Kills|Country,
+correlation,Penta Kills|FlashKeybind,
+correlation,Solo Kills|Country,
+correlation,Solo Kills|FlashKeybind,
+correlation,Country|FlashKeybind,
+covariance,Games|Win rate,0.03997958954625622
+covariance,Games|KDA,0.019037251804741515
+covariance,Games|Avg kills,0.01342722492413851
+covariance,Games|Avg deaths,-0.01564906167619346
+covariance,Games|Avg assists,0.014634553077949303
+covariance,Games|CSPerMin,0.0021108748301730744
+covariance,Games|GoldPerMin,0.008712013708820862
+covariance,Games|DamagePercent,0.001154478508279679
+covariance,Games|DPM,0.006100084517259315
+covariance,Games|VSPM,0.004774262844940972
+covariance,Games|Avg WPM,0.00221418732782369
+covariance,Games|Avg WCPM,0.004495922948303902
+covariance,Games|Avg VWPM,-0.002200971463266544
+covariance,Games|GD_at_15,0.015274771000942808
+covariance,Games|CSD_at_15,0.01299803591470258
+covariance,Games|XPD_at_15,0.00919203534554979
+covariance,Games|FBpercent,-0.0030355464365881043
+covariance,Games|FB Victim,0.002525579872802095
+covariance,Games|Solo Kills,0.0011363636363636365
+covariance,Win rate|KDA,0.039083828684651725
+covariance,Win rate|Avg kills,0.017450721797635377
+covariance,Win rate|Avg deaths,-0.02507657602231246
+covariance,Win rate|Avg assists,0.027287211740041922
+covariance,Win rate|CSPerMin,0.0020126520003712982
+covariance,Win rate|GoldPerMin,0.013085566975477575
+covariance,Win rate|DamagePercent,-0.00014675639716575244
+covariance,Win rate|DPM,0.00759093619606831
+covariance,Win rate|VSPM,0.004170061602057781
+covariance,Win rate|Avg WPM,0.0007984199134199139
+covariance,Win rate|Avg WCPM,0.005458949717453121
+covariance,Win rate|Avg VWPM,-8.036256396911937e-05
+covariance,Win rate|GD_at_15,0.024410353922986783
+covariance,Win rate|CSD_at_15,0.0175110229276896
+covariance,Win rate|XPD_at_15,0.015288913758210874
+covariance,Win rate|FBpercent,0.006562701940035273
+covariance,Win rate|FB Victim,-0.0025692101704879473
+covariance,Win rate|Solo Kills,0.0028440531561461785
+covariance,KDA|Avg kills,0.03168209170914551
+covariance,KDA|Avg deaths,-0.03934077512290739
+covariance,KDA|Avg assists,0.013851845381370187
+covariance,KDA|CSPerMin,0.020433562759207116
+covariance,KDA|GoldPerMin,0.026345916103574993
+covariance,KDA|DamagePercent,0.01831434820857967
+covariance,KDA|DPM,0.02293597131144494
+covariance,KDA|VSPM,-0.009075104736724647
+covariance,KDA|Avg WPM,-0.011975074822297042
+covariance,KDA|Avg WCPM,0.0027360967249268273
+covariance,KDA|Avg VWPM,-0.013231314698629005
+covariance,KDA|GD_at_15,0.015318589635264153
+covariance,KDA|CSD_at_15,0.012742546281640925
+covariance,KDA|XPD_at_15,0.009979702377114518
+covariance,KDA|FBpercent,0.006572978585581469
+covariance,KDA|FB Victim,-0.009242690392724684
+covariance,KDA|Solo Kills,-0.0006488659201837503
+covariance,Avg kills|Avg deaths,-0.03650256271200859
+covariance,Avg kills|Avg assists,-0.033175857985868466
+covariance,Avg kills|CSPerMin,0.07710586479917213
+covariance,Avg kills|GoldPerMin,0.07216918327911186
+covariance,Avg kills|DamagePercent,0.07283841319118552
+covariance,Avg kills|DPM,0.0751465622455865
+covariance,Avg kills|VSPM,-0.058515184150155344
+covariance,Avg kills|Avg WPM,-0.057835998877665544
+covariance,Avg kills|Avg WCPM,-0.029520566800108256
+covariance,Avg kills|Avg VWPM,-0.05886389957048728
+covariance,Avg kills|GD_at_15,0.011034359940923541
+covariance,Avg kills|CSD_at_15,0.008047004150399216
+covariance,Avg kills|XPD_at_15,0.004550027254427696
+covariance,Avg kills|FBpercent,-0.013553472936671238
+covariance,Avg kills|FB Victim,-0.01843713324950465
+covariance,Avg kills|Solo Kills,0.001069121447028422
+covariance,Avg deaths|Avg assists,0.004122178343327971
+covariance,Avg deaths|CSPerMin,-0.03339241730510601
+covariance,Avg deaths|GoldPerMin,-0.03349250822000236
+covariance,Avg deaths|DamagePercent,-0.029608222393480127
+covariance,Avg deaths|DPM,-0.03222228568377416
+covariance,Avg deaths|VSPM,0.023935537901242795
+covariance,Avg deaths|Avg WPM,0.025028629316420015
+covariance,Avg deaths|Avg WCPM,0.011342995423837068
+covariance,Avg deaths|Avg VWPM,0.0272136795583231
+covariance,Avg deaths|GD_at_15,-0.008063868653945934
+covariance,Avg deaths|CSD_at_15,-0.009765012478190777
+covariance,Avg deaths|XPD_at_15,-0.00891263479350265
+covariance,Avg deaths|FBpercent,0.0013637668676428393
+covariance,Avg deaths|FB Victim,0.014558007943343849
+covariance,Avg deaths|Solo Kills,-0.001119524067063276
+covariance,Avg assists|CSPerMin,-0.04890337084850491
+covariance,Avg assists|GoldPerMin,-0.03669460910704676
+covariance,Avg assists|DamagePercent,-0.04534890029055868
+covariance,Avg assists|DPM,-0.04103374111571304
+covariance,Avg assists|VSPM,0.04468829029332084
+covariance,Avg assists|Avg WPM,0.03949185248713549
+covariance,Avg assists|Avg WCPM,0.03315738244983528
+covariance,Avg assists|Avg VWPM,0.041249097845138666
+covariance,Avg assists|GD_at_15,0.012340767297789264
+covariance,Avg assists|CSD_at_15,0.009674850830511204
+covariance,Avg assists|XPD_at_15,0.008681445456049427
+covariance,Avg assists|FBpercent,0.02695438613731656
+covariance,Avg assists|FB Victim,0.0029760438504542307
+covariance,Avg assists|Solo Kills,-0.0031367924528301876
+covariance,CSPerMin|GoldPerMin,0.0861115654540068
+covariance,CSPerMin|DamagePercent,0.0894474482176852
+covariance,CSPerMin|DPM,0.08893108696255092
+covariance,CSPerMin|VSPM,-0.0881827452798397
+covariance,CSPerMin|Avg WPM,-0.08891347687400321
+covariance,CSPerMin|Avg WCPM,-0.04546064234660727
+covariance,CSPerMin|Avg VWPM,-0.07896805994950949
+covariance,CSPerMin|GD_at_15,-9.735040200645067e-05
+covariance,CSPerMin|CSD_at_15,-0.00042216474234018026
+covariance,CSPerMin|XPD_at_15,-2.6952322831901906e-05
+covariance,CSPerMin|FBpercent,-0.02605906229694607
+covariance,CSPerMin|FB Victim,-0.0160905647606671
+covariance,CSPerMin|Solo Kills,0.0009369645042839654
+covariance,GoldPerMin|DamagePercent,0.07704324431531975
+covariance,GoldPerMin|DPM,0.07833146885574328
+covariance,GoldPerMin|VSPM,-0.06979993891471496
+covariance,GoldPerMin|Avg WPM,-0.07011486996400788
+covariance,GoldPerMin|Avg WCPM,-0.03548678020945855
+covariance,GoldPerMin|Avg VWPM,-0.06561229985088407
+covariance,GoldPerMin|GD_at_15,0.006938634068078434
+covariance,GoldPerMin|CSD_at_15,0.004497981501493635
+covariance,GoldPerMin|XPD_at_15,0.004057017020506617
+covariance,GoldPerMin|FBpercent,-0.01935360865734828
+covariance,GoldPerMin|FB Victim,-0.015733124221496943
+covariance,GoldPerMin|Solo Kills,0.0013044640470462432
+covariance,DamagePercent|DPM,0.08697579976835342
+covariance,DamagePercent|VSPM,-0.07088401962846909
+covariance,DamagePercent|Avg WPM,-0.0685666533758639
+covariance,DamagePercent|Avg WCPM,-0.03808256310971432
+covariance,DamagePercent|Avg VWPM,-0.06775551507791946
+covariance,DamagePercent|GD_at_15,0.0020802702936181766
+covariance,DamagePercent|CSD_at_15,0.0011032180403525444
+covariance,DamagePercent|XPD_at_15,0.0021940874758086494
+covariance,DamagePercent|FBpercent,-0.022789093296512897
+covariance,DamagePercent|FB Victim,-0.01650601129882319
+covariance,DamagePercent|Solo Kills,0.002717666258669929
+covariance,DPM|VSPM,-0.06993755454457999
+covariance,DPM|Avg WPM,-0.06837476325757576
+covariance,DPM|Avg WCPM,-0.03683858593121079
+covariance,DPM|Avg VWPM,-0.06740823346587291
+covariance,DPM|GD_at_15,0.006090898230470514
+covariance,DPM|CSD_at_15,0.0035845247608458984
+covariance,DPM|XPD_at_15,0.0051873275617683205
+covariance,DPM|FBpercent,-0.01988202501599669
+covariance,DPM|FB Victim,-0.01672934976600924
+covariance,DPM|Solo Kills,0.002712262478729438
+covariance,VSPM|Avg WPM,0.08842672788052444
+covariance,VSPM|Avg WCPM,0.0525287850468639
+covariance,VSPM|Avg VWPM,0.07115811852060618
+covariance,VSPM|GD_at_15,0.004607929732348639
+covariance,VSPM|CSD_at_15,0.005827768662057104
+covariance,VSPM|XPD_at_15,0.002605276193593275
+covariance,VSPM|FBpercent,0.024345114126781982
+covariance,VSPM|FB Victim,0.011136902024597033
+covariance,VSPM|Solo Kills,-0.0029754447924301985
+covariance,Avg WPM|Avg WCPM,0.044244356833642556
+covariance,Avg WPM|Avg VWPM,0.07182656482861399
+covariance,Avg WPM|GD_at_15,0.002066195805414311
+covariance,Avg WPM|CSD_at_15,0.003561334498834497
+covariance,Avg WPM|XPD_at_15,0.0016071778587949358
+covariance,Avg WPM|FBpercent,0.02139881628787879
+covariance,Avg WPM|FB Victim,0.012382354797979793
+covariance,Avg WPM|Solo Kills,-0.0006638477801268494
+covariance,Avg WCPM|Avg VWPM,0.03896199645614166
+covariance,Avg WCPM|GD_at_15,0.0055363710022933894
+covariance,Avg WCPM|CSD_at_15,0.008337451789832742
+covariance,Avg WCPM|XPD_at_15,0.0017939667122658554
+covariance,Avg WCPM|FBpercent,0.01853245071176619
+covariance,Avg WCPM|FB Victim,0.0011829543545813382
+covariance,Avg WCPM|Solo Kills,-0.009463692453725678
+covariance,Avg VWPM|GD_at_15,0.0014763612086287838
+covariance,Avg VWPM|CSD_at_15,0.001900892064826489
+covariance,Avg VWPM|XPD_at_15,-0.00039833881980723255
+covariance,Avg VWPM|FBpercent,0.024627030206435932
+covariance,Avg VWPM|FB Victim,0.012533988565067797
+covariance,Avg VWPM|Solo Kills,3.0499428135723543e-05
+covariance,GD_at_15|CSD_at_15,0.025537663033306873
+covariance,GD_at_15|XPD_at_15,0.02114030394468651
+covariance,GD_at_15|FBpercent,0.009944605279504106
+covariance,GD_at_15|FB Victim,-0.003961913316726146
+covariance,GD_at_15|Solo Kills,0.005146792448242746
+covariance,CSD_at_15|XPD_at_15,0.031531648471870545
+covariance,CSD_at_15|FBpercent,0.009716865503323834
+covariance,CSD_at_15|FB Victim,-0.002023810937005382
+covariance,CSD_at_15|Solo Kills,0.011444543828264764
+covariance,XPD_at_15|FBpercent,0.00455860342001661
+covariance,XPD_at_15|FB Victim,-0.004777380662428994
+covariance,XPD_at_15|Solo Kills,0.00802479767742712
+covariance,FBpercent|FB Victim,-0.01681345261059671
+covariance,FBpercent|Solo Kills,-0.0005122819767441856
+covariance,FB Victim|Solo Kills,-0.00011104651162790773
+performance,rmse,10.30
+stability,agreement,24
+stability,jaccard_mean,0.3456

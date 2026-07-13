@@ -1,0 +1,15 @@
+kind,name,value
+x_variation,Spout_wait,0.5148182305553346
+x_variation,Spliters,0.6831300510639733
+x_variation,Counters,0.6103679378930738
+y_variation,Throughput+,0.568136560798808
+y_variation,Latency-,0.3688271549614731
+correlation,Spout_wait|Spliters,1.7618663867051346e-16
+correlation,Spout_wait|Counters,1.7091067833827155e-16
+correlation,Spliters|Counters,1.1557194266256788e-16
+covariance,Spout_wait|Spliters,1.4695208797156275e-18
+covariance,Spout_wait|Counters,0.0
+covariance,Spliters|Counters,2.939041759431255e-19
+performance,rmse,11.72
+stability,agreement,68
+stability,jaccard_mean,0.6141
