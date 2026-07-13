@@ -125,13 +125,47 @@ hypotheses (nb_auc) confirmed.
 
 ---
 
+## Ground truth v2 — rerun under current ezr.py defaults (2026-07-13)
+
+Re-generated both scores with the SAME metric definitions but this repo's frozen
+`ezr.py` at its defaults (`p=2, learn.budget=50, learn.start=4, learn.check=5,
+few=128, bayes.m=2, bayes.k=1`), porting the old API (`likely()` → `acquire()`,
+`Tree`/leaf `.mu` → `treeGrow`/leaf `.ynum.mu`; win formula unchanged).
+Performance: 20 half-splits, seeds 0,10,…,190. Stability: seed-42 split, 20 trees
+seeded 0..19. Outputs: `ground_truth_v2.csv`, `analysis_spearman_v2.csv`,
+`analysis_tree_v2.txt` (v1 files and the stage tables above are unchanged).
+
+v1 ↔ v2 agreement: score ρ = 0.85 (budget 30→50 makes tasks easier: median score
+20.0 → 6.5); stability ρ = 0.33 (the extra labels change tree consistency a lot —
+v2 stability is effectively a new target).
+
+| feature (Holm-surviving, v2) | ρ vs score | ρ vs stability | change from v1 |
+|---|---:|---:|---|
+| landmark_10_med | **−0.87** | +0.39 | stronger (was −0.72) |
+| d2h_var | **−0.76** | +0.40 | stronger (was −0.61) |
+| landmark_10_iqr | +0.59 | −0.45 | ≈ same |
+| n_y | +0.52 | −0.26 | stronger (was +0.40) |
+| nb_auc_med (confirmatory) | −0.39 | +0.37 | **confirmed again** |
+| fdc (confirmatory) | −0.27 | n.s. | **now CONFIRMED** (p_holm = 0.034; was a near miss) |
+| n_rows | +0.27 | n.s. | ≈ same |
+| smoothness | n.s. (−0.22) | **+0.61** | lost score signal; now the top stability predictor |
+| d2h_tail_gap (confirmatory) | n.s. | n.s. | still not confirmed; v1 stability link gone |
+| depth-≤3 tree, LOO | **Spearman 0.73** | — | up from 0.68 |
+
+**Conclusion (v2):** hardness signals sharpen across the board (2 of 3
+pre-registered features now confirmed: nb_auc and fdc; d2h_tail_gap fails on both
+targets), and v2 stability becomes an "easy tasks are repeatable tasks" axis
+(smoothness +0.61, landmark/d2h_var positive) rather than v1's d2h-shape story.
+
+---
+
 ## Overall conclusion
 
 To determine how hard a task is: if you can spend ~14 labels, run a budget-10 EZR
-probe — its win score (ρ = −0.72) and seed instability (ρ = +0.58) are the dominant
-signals; at zero label cost, objective-space spread (d2h_var, ρ = −0.61), objective
-count (n_y, ρ = +0.40), and landscape smoothness (ρ = −0.27) carry most of the signal.
-A depth-3 tree over these features ranks unseen tasks by hardness at LOO Spearman
-0.68, so a routing gate (e.g., EZR→SNAP cascade) is viable — while stability is a
-separate axis, predicted not by these but by d2h shape (skew +0.45, tail_gap −0.42)
-and n_y (−0.45).
+probe — its win score (ρ = −0.72 v1, **−0.87 v2**) and seed instability (ρ ≈ +0.58)
+are the dominant signals; at zero label cost, objective-space spread (d2h_var,
+−0.61 v1, **−0.76 v2**), objective count (n_y, +0.40/+0.52), and landscape structure
+(fdc, confirmed under v2) carry most of the signal. A depth-3 tree over these
+features ranks unseen tasks by hardness at LOO Spearman 0.68 (v1) / **0.73 (v2)**,
+so a routing gate (e.g., EZR→SNAP cascade) is viable — stability is a separate,
+ground-truth-sensitive axis (d2h shape under v1; smoothness +0.61 under v2).

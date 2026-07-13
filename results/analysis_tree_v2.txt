@@ -1,0 +1,27 @@
+ground truth: results/ground_truth_v2.csv
+LOO (n=127) depth<=3 tree predicting score
+LOO Spearman(pred, true) rho=0.7339 p=9.707e-23
+
+Tree fit on ALL tasks (inspection only):
+|--- landmark_10_med <= 78.00
+|   |--- landmark_10_med <= 42.75
+|   |   |--- landmark_10_iqr <= 24.75
+|   |   |   |--- value: [59.50]
+|   |   |--- landmark_10_iqr >  24.75
+|   |   |   |--- value: [31.45]
+|   |--- landmark_10_med >  42.75
+|   |   |--- linear_r2 <= 0.22
+|   |   |   |--- value: [11.77]
+|   |   |--- linear_r2 >  0.22
+|   |   |   |--- value: [21.78]
+|--- landmark_10_med >  78.00
+|   |--- landmark_10_med <= 86.25
+|   |   |--- d2h_var <= 0.04
+|   |   |   |--- value: [10.00]
+|   |   |--- d2h_var >  0.04
+|   |   |   |--- value: [18.01]
+|   |--- landmark_10_med >  86.25
+|   |   |--- nb_auc_med <= 0.80
+|   |   |   |--- value: [4.15]
+|   |   |--- nb_auc_med >  0.80
+|   |   |   |--- value: [1.64]

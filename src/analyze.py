@@ -21,6 +21,7 @@ Choices the spec left open (stated, not silent):
     each LOO training fold (no leakage). Tree seed fixed at 1.
 """
 
+import argparse
 import sys
 from pathlib import Path
 
@@ -92,22 +93,31 @@ def loo_tree(df, feats):
 
 
 def main():
+  ap = argparse.ArgumentParser()
+  ap.add_argument("--ground-truth", default="results/ground_truth.csv",
+                  help="ground truth csv (task, score, stability)")
+  ap.add_argument("--suffix", default="",
+                  help="suffix for output files, e.g. _v2")
+  args = ap.parse_args()
+
   f = pd.read_csv(ROOT / "results" / "features.csv")
-  g = pd.read_csv(ROOT / "results" / "ground_truth.csv")
+  g = pd.read_csv(ROOT / args.ground_truth)
   df = f.merge(g, on="task", validate="one_to_one")
   feats = [c for c in f.columns if c not in ("task", "labels_used_total")]
 
   tab = spearman_table(df, feats)
-  tab.to_csv(ROOT / "results" / "analysis_spearman.csv", index=False)
+  tab.to_csv(ROOT / "results" / f"analysis_spearman{args.suffix}.csv",
+             index=False)
   pd.set_option("display.width", 120)
   print("== Spearman vs ground truth (Holm-corrected within target) ==")
   print(tab.round(4).to_string(index=False))
 
   preds, rho, p, tree_txt = loo_tree(df, feats)
-  report = (f"LOO (n={len(df)}) depth<=3 tree predicting score\n"
+  report = (f"ground truth: {args.ground_truth}\n"
+            f"LOO (n={len(df)}) depth<=3 tree predicting score\n"
             f"LOO Spearman(pred, true) rho={rho:.4f} p={p:.3e}\n\n"
             f"Tree fit on ALL tasks (inspection only):\n{tree_txt}")
-  (ROOT / "results" / "analysis_tree.txt").write_text(report)
+  (ROOT / "results" / f"analysis_tree{args.suffix}.txt").write_text(report)
   print("\n== " + report)
 
 
