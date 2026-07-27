@@ -1,0 +1,23 @@
+# Python >=3.10 required.
+#   stats.py uses `int|float` at module level (PEP 604), which is a runtime
+#   evaluation, not an annotation, so `from __future__ import annotations`
+#   does not rescue 3.9.
+# Verified working combination: Python 3.12.3 + smac 2.4.0 + ConfigSpace 1.2.0.
+
+# --- optimizer under test -------------------------------------------------
+# 2.4.0 defaults to a scikit-learn random forest surrogate, so no pyrfr and no
+# swig/gcc toolchain is needed. Table IV's "RF surrogate + EI" is the default
+# for HyperparameterOptimizationFacade; only init 10 has to be set explicitly.
+# ConfigSpace is resolved by smac -- do not pin it separately or the two can
+# disagree.
+smac==2.4.0
+
+# --- the oracle -----------------------------------------------------------
+# The RF here IS the evaluation function, not a convenience. A version bump can
+# change its predictions and therefore every d2h in the study, so freeze this
+# exactly once the env is built and record it in the replication notes.
+scikit-learn>=1.5,<2
+
+# --- data -----------------------------------------------------------------
+pandas>=2.0
+numpy>=1.26
