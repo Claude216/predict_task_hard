@@ -1,0 +1,26 @@
+{
+ "task_id": "sales_data__dress-up",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/sales_data/dress-up.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/sales_data/dress-up.csv",
+  "rows": 882,
+  "n_decisions": 20,
+  "n_goals": 2,
+  "objective": "multi",
+  "space_size": 69.15,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -59.37,
+  "d2h_spread": 0.08394514911028461,
+  "eps": 0.0008394514911028462,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.49834008452090117,
+  "table_median": 0.5655300525539831,
+  "d2h_star": 0.4949743667212701
+ },
+ "verdicts": {
+  "50": "smac"
+ }
+}

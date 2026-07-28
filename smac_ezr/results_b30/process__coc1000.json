@@ -1,0 +1,26 @@
+{
+ "task_id": "process__coc1000",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/process/coc1000.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/process/coc1000.csv",
+  "rows": 1000,
+  "n_decisions": 20,
+  "n_goals": 5,
+  "objective": "multi",
+  "space_size": 46.73,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -36.76,
+  "d2h_spread": 0.19631812130090115,
+  "eps": 0.0019631812130090115,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.2126587808020784,
+  "table_median": 0.4291306223439351,
+  "d2h_star": 0.2126587808020784
+ },
+ "verdicts": {
+  "30": "ezr"
+ }
+}

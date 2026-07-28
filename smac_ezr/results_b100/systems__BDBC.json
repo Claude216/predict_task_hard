@@ -1,0 +1,26 @@
+{
+ "task_id": "systems__BDBC",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/systems/BDBC.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/systems/BDBC.csv",
+  "rows": 2560,
+  "n_decisions": 16,
+  "n_goals": 1,
+  "objective": "single",
+  "space_size": 16.0,
+  "input_shape": "binary/SAT",
+  "x_dup_rate": 0.0,
+  "coverage": -4.68,
+  "d2h_spread": 0.5797447757338434,
+  "eps": 0.005797447757338434,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 5.139607704392396e-05,
+  "table_median": 0.04485153595426632,
+  "d2h_star": 5.139607704392396e-05
+ },
+ "verdicts": {
+  "100": "tie"
+ }
+}

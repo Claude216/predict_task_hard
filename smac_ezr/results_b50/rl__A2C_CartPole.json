@@ -1,0 +1,26 @@
+{
+ "task_id": "rl__A2C_CartPole",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/rl/A2C_CartPole.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/rl/A2C_CartPole.csv",
+  "rows": 317,
+  "n_decisions": 7,
+  "n_goals": 4,
+  "objective": "multi",
+  "space_size": 44.81,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -36.5,
+  "d2h_spread": 0.20131024218255555,
+  "eps": 0.0020131024218255555,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.1801240961963892,
+  "table_median": 0.6679431860640176,
+  "d2h_star": 0.1801240961963892
+ },
+ "verdicts": {
+  "50": "ezr"
+ }
+}

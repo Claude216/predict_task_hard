@@ -1,0 +1,26 @@
+{
+ "task_id": "process__xomo_ground",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/process/xomo_ground.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/process/xomo_ground.csv",
+  "rows": 10000,
+  "n_decisions": 24,
+  "n_goals": 4,
+  "objective": "multi",
+  "space_size": 252.65,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -239.36,
+  "d2h_spread": 0.22769459402599296,
+  "eps": 0.0022769459402599296,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.019615669245575125,
+  "table_median": 0.26642885738491673,
+  "d2h_star": 0.019615669245575125
+ },
+ "verdicts": {
+  "30": "tie"
+ }
+}

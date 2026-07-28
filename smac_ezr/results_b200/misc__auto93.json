@@ -1,0 +1,26 @@
+{
+ "task_id": "misc__auto93",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/misc/auto93.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/misc/auto93.csv",
+  "rows": 398,
+  "n_decisions": 4,
+  "n_goals": 3,
+  "objective": "multi",
+  "space_size": 13.64,
+  "input_shape": "small-numeric",
+  "x_dup_rate": 0.2312,
+  "coverage": -5.39,
+  "d2h_spread": 0.4285958425716079,
+  "eps": 0.004285958425716079,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.19659778727914715,
+  "table_median": 0.5479734350687744,
+  "d2h_star": 0.19659778727914706
+ },
+ "verdicts": {
+  "200": "smac"
+ }
+}

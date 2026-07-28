@@ -1,0 +1,26 @@
+{
+ "task_id": "config__HSMGP_num",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/config/HSMGP_num.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/config/HSMGP_num.csv",
+  "rows": 3456,
+  "n_decisions": 14,
+  "n_goals": 1,
+  "objective": "single",
+  "space_size": 16.61,
+  "input_shape": "small-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -4.86,
+  "d2h_spread": 0.40089565196140603,
+  "eps": 0.00400895651961406,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 4.904882655441154e-05,
+  "table_median": 0.049417378189634285,
+  "d2h_star": 4.904882655441154e-05
+ },
+ "verdicts": {
+  "50": "tie"
+ }
+}

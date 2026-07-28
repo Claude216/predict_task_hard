@@ -1,0 +1,26 @@
+{
+ "task_id": "process__xomo_flight",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/process/xomo_flight.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/process/xomo_flight.csv",
+  "rows": 10000,
+  "n_decisions": 24,
+  "n_goals": 4,
+  "objective": "multi",
+  "space_size": 252.44,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -239.16,
+  "d2h_spread": 0.2580004344221647,
+  "eps": 0.002580004344221647,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.00937349548583656,
+  "table_median": 0.24603200925318602,
+  "d2h_star": 0.00937349548583656
+ },
+ "verdicts": {
+  "30": "tie"
+ }
+}

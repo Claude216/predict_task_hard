@@ -1,0 +1,26 @@
+{
+ "task_id": "systems__HSQLDB",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/systems/HSQLDB.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/systems/HSQLDB.csv",
+  "rows": 864,
+  "n_decisions": 18,
+  "n_goals": 1,
+  "objective": "single",
+  "space_size": 15.0,
+  "input_shape": "binary/SAT",
+  "x_dup_rate": 0.0,
+  "coverage": -5.25,
+  "d2h_spread": 0.959241176470587,
+  "eps": 0.00959241176470587,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.0009044117647065434,
+  "table_median": 0.05741544117647012,
+  "d2h_star": 0.0009044117647064389
+ },
+ "verdicts": {
+  "200": "tie"
+ }
+}

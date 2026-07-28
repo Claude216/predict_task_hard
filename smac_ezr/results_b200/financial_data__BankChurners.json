@@ -1,0 +1,26 @@
+{
+ "task_id": "financial_data__BankChurners",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/financial_data/BankChurners.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/financial_data/BankChurners.csv",
+  "rows": 10127,
+  "n_decisions": 19,
+  "n_goals": 4,
+  "objective": "multi",
+  "space_size": 105.76,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -92.45,
+  "d2h_spread": 0.33400660650805647,
+  "eps": 0.0033400660650805647,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.278682792481699,
+  "table_median": 0.7952166830959616,
+  "d2h_star": 0.278682792481699
+ },
+ "verdicts": {
+  "200": "smac"
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "task_id": "hpo__Health-ClosedIssues0005",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/hpo/Health-ClosedIssues0005.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/hpo/Health-ClosedIssues0005.csv",
+  "rows": 10000,
+  "n_decisions": 5,
+  "n_goals": 3,
+  "objective": "multi",
+  "space_size": 19.91,
+  "input_shape": "small-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -6.62,
+  "d2h_spread": 0.47036326222657315,
+  "eps": 0.004703632622265731,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.17332702289339721,
+  "table_median": 0.5407977569751058,
+  "d2h_star": 0.17332702289339721
+ },
+ "verdicts": {
+  "30": "ezr"
+ }
+}

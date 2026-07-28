@@ -1,0 +1,26 @@
+{
+ "task_id": "config__SS-F",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/config/SS-F.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/config/SS-F.csv",
+  "rows": 196,
+  "n_decisions": 3,
+  "n_goals": 2,
+  "objective": "multi",
+  "space_size": 7.61,
+  "input_shape": "small-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": 0.0,
+  "d2h_spread": 0.244604223875371,
+  "eps": 0.00244604223875371,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.35606070224513414,
+  "table_median": 0.5342667787549673,
+  "d2h_star": 0.35606070224513414
+ },
+ "verdicts": {
+  "100": "smac"
+ }
+}

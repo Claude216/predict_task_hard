@@ -1,0 +1,26 @@
+{
+ "task_id": "health_data__Life_Expectancy_Data",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/health_data/Life_Expectancy_Data.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/health_data/Life_Expectancy_Data.csv",
+  "rows": 2938,
+  "n_decisions": 20,
+  "n_goals": 2,
+  "objective": "multi",
+  "space_size": 160.06,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -148.54,
+  "d2h_spread": 0.4317421131447823,
+  "eps": 0.004317421131447823,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.018530928459422898,
+  "table_median": 0.36799479993637113,
+  "d2h_star": 0.018530928459422898
+ },
+ "verdicts": {
+  "50": "ezr"
+ }
+}

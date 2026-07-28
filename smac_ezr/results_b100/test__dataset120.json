@@ -1,0 +1,26 @@
+{
+ "task_id": "test__dataset120",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/test/dataset120.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/test/dataset120.csv",
+  "rows": 4852,
+  "n_decisions": 9,
+  "n_goals": 1,
+  "objective": "single",
+  "space_size": 98.36,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.007,
+  "coverage": -86.13,
+  "d2h_spread": 0.75,
+  "eps": 0.0075,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.0,
+  "table_median": 0.925,
+  "d2h_star": 0.0
+ },
+ "verdicts": {
+  "100": "ezr"
+ }
+}

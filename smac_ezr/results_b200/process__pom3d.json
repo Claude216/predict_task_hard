@@ -1,0 +1,26 @@
+{
+ "task_id": "process__pom3d",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/process/pom3d.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/process/pom3d.csv",
+  "rows": 500,
+  "n_decisions": 9,
+  "n_goals": 3,
+  "objective": "multi",
+  "space_size": 80.69,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -71.73,
+  "d2h_spread": 0.28924187450856664,
+  "eps": 0.0028924187450856667,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.08456192293301419,
+  "table_median": 0.3140740771952006,
+  "d2h_star": 0.08456192293301418
+ },
+ "verdicts": {
+  "200": "ezr"
+ }
+}

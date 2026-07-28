@@ -1,0 +1,26 @@
+{
+ "task_id": "hpo__Health-ClosedPRs0008",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/hpo/Health-ClosedPRs0008.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/hpo/Health-ClosedPRs0008.csv",
+  "rows": 10000,
+  "n_decisions": 5,
+  "n_goals": 3,
+  "objective": "multi",
+  "space_size": 19.91,
+  "input_shape": "small-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -6.62,
+  "d2h_spread": 0.030895452627392572,
+  "eps": 0.0003089545262739257,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.5089528921301907,
+  "table_median": 0.8593147084309407,
+  "d2h_star": 0.09949206756146572
+ },
+ "verdicts": {
+  "100": "smac"
+ }
+}

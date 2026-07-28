@@ -1,0 +1,26 @@
+{
+ "task_id": "sales_data__socks",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/sales_data/socks.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/sales_data/socks.csv",
+  "rows": 350,
+  "n_decisions": 20,
+  "n_goals": 1,
+  "objective": "single",
+  "space_size": 12.7,
+  "input_shape": "small-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -4.25,
+  "d2h_spread": 0.5168539325842696,
+  "eps": 0.005168539325842696,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.0,
+  "table_median": 0.4157303370786517,
+  "d2h_star": 0.0
+ },
+ "verdicts": {
+  "100": "tie"
+ }
+}

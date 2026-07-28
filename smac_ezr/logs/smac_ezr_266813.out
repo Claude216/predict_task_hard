@@ -1,0 +1,153 @@
+[2026-07-27 00:02:55] Project:  /home/lli66/aise26/predict_task_hard/smac_ezr
+[2026-07-27 00:02:55] MOOT:     /home/lli66/aise26/predict_task_hard/data/moot/optimize
+[2026-07-27 00:02:55] Output:   /home/lli66/aise26/predict_task_hard/smac_ezr/results_b50
+[2026-07-27 00:02:55] Budget:   50
+[2026-07-27 00:02:55] Workers:  16
+[2026-07-27 00:02:55] Commit:   56ed05a
+python  3.12.13
+smac    /mnt/beegfs/lli66/.conda/envs/smoot/lib/python3.12/site-packages/smac/__init__.py
+sklearn 1.6.1
+pandas  3.0.5
+[2026-07-27 00:02:59] Starting sweep at B=50 ...
+found 127 tables under /home/lli66/aise26/predict_task_hard/data/moot/optimize; 0 already done; 127 to run
+[1/127] behavior_data__student_dropout: B50=tie
+[2/127] behavior_data__player_statistics_cleaned_final: B50=ezr
+[3/127] behavior_data__WA_Fn-UseC_-HR-Employee-Attrition: B50=smac
+[4/127] config__Apache_AllMeasurements: B50=tie
+[5/127] binary_config__billing10k: B50=smac
+[6/127] binary_config__Scrum1k: B50=smac
+[7/127] config__HSMGP_num: B50=tie
+[8/127] binary_config__Scrum10k: B50=smac
+[9/127] binary_config__FFM-125-25-0.50-SAT-1: B50=smac
+[10/127] config__SS-A: B50=smac
+[11/127] binary_config__Scrum100k: B50=smac
+[12/127] config__SS-B: B50=smac
+[13/127] config__SS-C: B50=smac
+[14/127] config__SQL_AllMeasurements: B50=ezr
+[15/127] config__SS-E: B50=tie
+[16/127] config__SS-D: B50=tie
+[17/127] config__SS-F: B50=smac
+[18/127] binary_config__FFM-250-50-0.50-SAT-1: B50=smac
+[19/127] config__SS-G: B50=smac
+[20/127] config__SS-H: B50=smac
+[21/127] config__SS-I: B50=smac
+[22/127] config__SS-J: B50=smac
+[23/127] config__SS-K: B50=smac
+[24/127] config__SS-L: B50=smac
+[25/127] config__SS-O: B50=smac
+[26/127] config__SS-P: B50=smac
+[27/127] config__SS-M: B50=tie
+[28/127] config__SS-N: B50=ezr
+[29/127] config__SS-Q: B50=tie
+[30/127] config__SS-S: B50=tie
+[31/127] config__SS-R: B50=tie
+[32/127] config__SS-T: B50=smac
+[33/127] config__SS-U: B50=tie
+[34/127] binary_config__FFM-500-100-0.50-SAT-1: B50=tie
+[35/127] binary_config__FM-500-100-0.50-SAT-1: B50=tie
+[36/127] config__SS-V: B50=smac
+[37/127] config__X264_AllMeasurements: B50=tie
+[38/127] binary_config__FM-500-100-0.25-SAT-1: B50=smac
+[39/127] binary_config__FM-500-100-0.75-SAT-1: B50=smac
+[40/127] binary_config__FM-500-100-1.00-SAT-1: B50=smac
+[41/127] health_data__Data_COVID19_Indonesia: ValueError: no complete rows left after dropping missing values
+[42/127] config__rs-6d-c3_obj1: B50=tie
+[43/127] config__SS-W: B50=smac
+[44/127] config__wc+rs-3d-c4-obj1: B50=tie
+[45/127] config__rs-6d-c3_obj2: B50=tie
+[46/127] config__wc+sol-3d-c4-obj1: B50=tie
+[47/127] config__sol-6d-c2-obj1: B50=tie
+[48/127] config__SS-X: B50=smac
+[49/127] config__wc+wc-3d-c4-obj1: B50=tie
+[50/127] config__wc-6d-c1-obj1: B50=smac
+[51/127] hpo__Health-ClosedIssues0002: B50=smac
+[52/127] hpo__Health-ClosedIssues0001: B50=ezr
+[53/127] hpo__Health-ClosedIssues0000: B50=smac
+[54/127] hpo__Health-ClosedIssues0003: B50=smac
+[55/127] hpo__Health-ClosedIssues0004: B50=smac
+[56/127] hpo__Health-ClosedIssues0006: B50=ezr
+[57/127] hpo__Health-ClosedIssues0005: B50=tie
+[58/127] hpo__Health-ClosedIssues0007: B50=smac
+[59/127] financial_data__BankChurners: B50=tie
+[60/127] health_data__Life_Expectancy_Data: B50=ezr
+[61/127] health_data__Medical_Data_and_Hospital_Readmissions: B50=ezr
+[62/127] hpo__Health-ClosedPRs0000: B50=tie
+[63/127] hpo__Health-ClosedIssues0011: B50=tie
+[64/127] hpo__Health-ClosedIssues0009: B50=smac
+[65/127] hpo__Health-ClosedIssues0008: B50=tie
+[66/127] hpo__Health-ClosedIssues0010: B50=ezr
+[67/127] hpo__Health-ClosedPRs0002: B50=tie
+[68/127] hpo__Health-ClosedPRs0005: B50=tie
+[69/127] hpo__Health-ClosedPRs0004: B50=tie
+[70/127] hpo__Health-ClosedPRs0003: B50=smac
+[71/127] hpo__Health-ClosedPRs0006: B50=smac
+[72/127] hpo__Health-ClosedPRs0007: B50=tie
+[73/127] hpo__Health-ClosedPRs0008: B50=smac
+[74/127] hpo__Health-ClosedPRs0011: B50=tie
+[75/127] hpo__Health-ClosedPRs0009: B50=tie
+[76/127] hpo__Health-ClosedPRs0010: B50=smac
+[77/127] hpo__Health-Commits0001: B50=tie
+[78/127] hpo__Health-Commits0000: B50=smac
+[79/127] hpo__Health-Commits0002: B50=smac
+[80/127] hpo__Health-Commits0003: B50=smac
+[81/127] hpo__Health-Commits0005: B50=tie
+[82/127] hpo__Health-Commits0004: B50=smac
+[83/127] hpo__Health-Commits0006: B50=tie
+[84/127] hpo__Health-Commits0007: B50=ezr
+[85/127] hpo__Health-Commits0008: B50=tie
+[86/127] hpo__Health-Commits0010: B50=tie
+[87/127] binary_config__FFM-1000-200-0.50-SAT-1: B50=smac
+[88/127] hpo__Health-Commits0009: B50=ezr
+[89/127] hpo__Health-Commits0011: B50=tie
+[90/127] misc__Wine_quality: B50=ezr
+[91/127] misc__auto93: B50=tie
+[92/127] process__nasa93dem: B50=smac
+[93/127] process__pom3d: B50=ezr
+[94/127] process__coc1000: B50=ezr
+[95/127] misc__Car_price_cleaned: B50=ezr
+[96/127] rl__A2C_Acrobot: B50=smac
+[97/127] process__xomo_osp2: B50=ezr
+[98/127] sales_data__wallpaper: ValueError: no complete rows left after dropping missing values
+[99/127] process__xomo_flight: B50=smac
+[100/127] process__xomo_ground: B50=smac
+[101/127] process__xomo_osp: B50=smac
+[102/127] financial_data__home_data_for_ml_course: B50=smac
+[103/127] sales_data__socks: B50=tie
+[104/127] rl__A2C_CartPole: B50=ezr
+[105/127] process__pom3a: B50=ezr
+[106/127] systems__LLVM: B50=tie
+[107/127] systems__BDBC: B50=tie
+[108/127] systems__7z: B50=tie
+[109/127] systems__PostgreSQL: B50=tie
+[110/127] systems__HSQLDB: B50=tie
+[111/127] process__pom3b: B50=ezr
+[112/127] systems__dconvert: B50=tie
+[113/127] process__pom3c: B50=ezr
+[114/127] systems__deeparch: B50=tie
+[115/127] systems__redis: B50=ezr
+[116/127] systems__storm: B50=tie
+[117/127] systems__exastencils: B50=tie
+[118/127] sales_data__Marketing_Analytics: B50=smac
+[119/127] test__dataset120: B50=ezr
+[120/127] systems__x264: B50=ezr
+[121/127] test__dataset600: B50=ezr
+[122/127] systems__javagc: B50=tie
+[123/127] sales_data__dress-up: B50=smac
+[124/127] sales_data__accessories: B50=smac
+[125/127] financial_data__WA_Fn-UseC_-Telco-Customer-Churn: B50=tie
+[126/127] behavior_data__all_players: B50=ezr
+[127/127] financial_data__Loan: B50=smac
+
+done=125 failed=2
+failures (see *.error.txt):
+   health_data__Data_COVID19_Indonesia ValueError: no complete rows left after dropping missing values
+   sales_data__wallpaper ValueError: no complete rows left after dropping missing values
+
+SMAC vs EZR, tasks won per budget:
+  B=50   ezr=24  smac=52  tie=49
+[2026-07-27 05:13:04] Completed tasks: 125   error files: 2
+[2026-07-27 05:13:04] Errors (2 are expected: the COVID and wallpaper tables lose every row
+[2026-07-27 05:13:04] to missing values, and both are outside the SE task families anyway):
+[2026-07-27 05:13:04]   health_data__Data_COVID19_Indonesia.error.txt: ValueError: no complete rows left after dropping missing values
+[2026-07-27 05:13:04]   sales_data__wallpaper.error.txt: ValueError: no complete rows left after dropping missing values
+[2026-07-27 05:13:04] Done.

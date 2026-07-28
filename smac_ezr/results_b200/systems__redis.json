@@ -1,0 +1,26 @@
+{
+ "task_id": "systems__redis",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/systems/redis.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/systems/redis.csv",
+  "rows": 4400,
+  "n_decisions": 9,
+  "n_goals": 1,
+  "objective": "single",
+  "space_size": 54.7,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.283,
+  "coverage": -43.08,
+  "d2h_spread": 0.2316936540179224,
+  "eps": 0.002316936540179224,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.19930013724743575,
+  "table_median": 0.5458286095001716,
+  "d2h_star": 0.19930013724743575
+ },
+ "verdicts": {
+  "200": "ezr"
+ }
+}

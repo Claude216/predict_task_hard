@@ -1,0 +1,26 @@
+{
+ "task_id": "config__X264_AllMeasurements",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/config/X264_AllMeasurements.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/config/X264_AllMeasurements.csv",
+  "rows": 1152,
+  "n_decisions": 16,
+  "n_goals": 1,
+  "objective": "single",
+  "space_size": 13.0,
+  "input_shape": "binary/SAT",
+  "x_dup_rate": 0.0,
+  "coverage": -2.83,
+  "d2h_spread": 0.7641780476448486,
+  "eps": 0.0076417804764484865,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 4.9071110702630234e-05,
+  "table_median": 0.36084147867613603,
+  "d2h_star": 4.9071110702630234e-05
+ },
+ "verdicts": {
+  "100": "tie"
+ }
+}

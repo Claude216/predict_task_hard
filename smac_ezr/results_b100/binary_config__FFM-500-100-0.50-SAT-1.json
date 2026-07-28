@@ -1,0 +1,26 @@
+{
+ "task_id": "binary_config__FFM-500-100-0.50-SAT-1",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/binary_config/FFM-500-100-0.50-SAT-1.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/binary_config/FFM-500-100-0.50-SAT-1.csv",
+  "rows": 10000,
+  "n_decisions": 510,
+  "n_goals": 3,
+  "objective": "multi",
+  "space_size": 18.0,
+  "input_shape": "small-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -4.71,
+  "d2h_spread": 0.2193992973308711,
+  "eps": 0.002193992973308711,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.27871572638107717,
+  "table_median": 0.5190015517485465,
+  "d2h_star": 0.26415278526830954
+ },
+ "verdicts": {
+  "100": "smac"
+ }
+}

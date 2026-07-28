@@ -1,0 +1,26 @@
+{
+ "task_id": "misc__Wine_quality",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/misc/Wine_quality.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/misc/Wine_quality.csv",
+  "rows": 1599,
+  "n_decisions": 10,
+  "n_goals": 2,
+  "objective": "multi",
+  "space_size": 68.74,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.1526,
+  "coverage": -58.33,
+  "d2h_spread": 0.1765311770389017,
+  "eps": 0.001765311770389017,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.17444023747319418,
+  "table_median": 0.4269442960769742,
+  "d2h_star": 0.17444023747319418
+ },
+ "verdicts": {
+  "100": "ezr"
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "task_id": "systems__dconvert",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/systems/dconvert.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/systems/dconvert.csv",
+  "rows": 6764,
+  "n_decisions": 18,
+  "n_goals": 1,
+  "objective": "single",
+  "space_size": 18.0,
+  "input_shape": "binary/SAT",
+  "x_dup_rate": 0.7176,
+  "coverage": -7.1,
+  "d2h_spread": 0.4222967325133348,
+  "eps": 0.004222967325133348,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.008242626018049906,
+  "table_median": 0.16259200357081724,
+  "d2h_star": 0.008242626018049906
+ },
+ "verdicts": {
+  "50": "tie"
+ }
+}

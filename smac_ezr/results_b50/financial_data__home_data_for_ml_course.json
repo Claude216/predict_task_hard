@@ -1,0 +1,26 @@
+{
+ "task_id": "financial_data__home_data_for_ml_course",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/financial_data/home_data_for_ml_course.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/financial_data/home_data_for_ml_course.csv",
+  "rows": 1460,
+  "n_decisions": 77,
+  "n_goals": 4,
+  "objective": "multi",
+  "space_size": 300.53,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -290.02,
+  "d2h_spread": 0.12880450500127494,
+  "eps": 0.0012880450500127494,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.24897530871132484,
+  "table_median": 0.638753930319476,
+  "d2h_star": 0.24897530871132484
+ },
+ "verdicts": {
+  "50": "smac"
+ }
+}

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/lli66/aise26/predict_task_hard/smac_ezr/batch.py", line 69, in _work
+    meta, records, verdicts = run_task(str(path), **cfg)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lli66/aise26/predict_task_hard/smac_ezr/runner.py", line 76, in run_task
+    ds = Dataset.load(csv_path)
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lli66/aise26/predict_task_hard/smac_ezr/data.py", line 77, in load
+    raise ValueError("no complete rows left after dropping missing values")
+ValueError: no complete rows left after dropping missing values

@@ -1,0 +1,54 @@
+[2026-07-28 09:03:56] Project:  /home/lli66/aise26/predict_task_hard/smac_ezr
+[2026-07-28 09:03:56] MOOT:     /home/lli66/aise26/predict_task_hard/data/moot/optimize
+[2026-07-28 09:03:56] Output:   /home/lli66/aise26/predict_task_hard/smac_ezr/results_b200
+[2026-07-28 09:03:56] Budget:   200
+[2026-07-28 09:03:56] Workers:  16
+[2026-07-28 09:03:56] Commit:   56ed05a
+python  3.12.13
+smac    /mnt/beegfs/lli66/.conda/envs/smoot/lib/python3.12/site-packages/smac/__init__.py
+sklearn 1.6.1
+pandas  3.0.5
+[2026-07-28 09:04:03] Starting sweep at B=200 ...
+found 127 tables under /home/lli66/aise26/predict_task_hard/data/moot/optimize; 116 already done; 11 to run
+[1/11] sales_data__wallpaper: ValueError: no complete rows left after dropping missing values
+[2/11] health_data__Data_COVID19_Indonesia: ValueError: no complete rows left after dropping missing values
+[3/11] config__SS-D: ConfigurationSpaceExhaustedException: 
+[4/11] config__wc+wc-3d-c4-obj1: ConfigurationSpaceExhaustedException: 
+[5/11] config__wc+sol-3d-c4-obj1: ConfigurationSpaceExhaustedException: 
+[6/11] config__wc+rs-3d-c4-obj1: ConfigurationSpaceExhaustedException: 
+[7/11] config__SS-F: ConfigurationSpaceExhaustedException: 
+[8/11] config__SS-G: ConfigurationSpaceExhaustedException: 
+[9/11] config__Apache_AllMeasurements: ConfigurationSpaceExhaustedException: 
+[10/11] config__SS-H: ConfigurationSpaceExhaustedException: 
+[11/11] financial_data__Loan: OSError: [Errno 70] Communication error on send: '/mnt/beegfs/lli66/.conda/envs/smoot/lib/python3.12/site-packages/smac/logging.yml'
+
+done=0 failed=11
+failures (see *.error.txt):
+   sales_data__wallpaper ValueError: no complete rows left after dropping missing values
+   health_data__Data_COVID19_Indonesia ValueError: no complete rows left after dropping missing values
+   config__SS-D ConfigurationSpaceExhaustedException: 
+   config__wc+wc-3d-c4-obj1 ConfigurationSpaceExhaustedException: 
+   config__wc+sol-3d-c4-obj1 ConfigurationSpaceExhaustedException: 
+   config__wc+rs-3d-c4-obj1 ConfigurationSpaceExhaustedException: 
+   config__SS-F ConfigurationSpaceExhaustedException: 
+   config__SS-G ConfigurationSpaceExhaustedException: 
+   config__Apache_AllMeasurements ConfigurationSpaceExhaustedException: 
+   config__SS-H ConfigurationSpaceExhaustedException: 
+   financial_data__Loan OSError: [Errno 70] Communication error on send: '/mnt/beegfs/lli66/.conda/envs/smoot/lib/python3.12/site-packages/smac/logging.yml'
+
+SMAC vs EZR, tasks won per budget:
+[2026-07-28 12:48:26] Completed tasks: 116   error files: 11
+[2026-07-28 12:48:26] Errors (2 are expected: the COVID and wallpaper tables lose every row
+[2026-07-28 12:48:26] to missing values, and both are outside the SE task families anyway):
+[2026-07-28 12:48:26]   config__Apache_AllMeasurements.error.txt: smac.main.exceptions.ConfigurationSpaceExhaustedException
+[2026-07-28 12:48:27]   config__SS-D.error.txt: smac.main.exceptions.ConfigurationSpaceExhaustedException
+[2026-07-28 12:48:27]   config__SS-F.error.txt: smac.main.exceptions.ConfigurationSpaceExhaustedException
+[2026-07-28 12:48:27]   config__SS-G.error.txt: smac.main.exceptions.ConfigurationSpaceExhaustedException
+[2026-07-28 12:48:27]   config__SS-H.error.txt: smac.main.exceptions.ConfigurationSpaceExhaustedException
+[2026-07-28 12:48:27]   config__wc+rs-3d-c4-obj1.error.txt: smac.main.exceptions.ConfigurationSpaceExhaustedException
+[2026-07-28 12:48:27]   config__wc+sol-3d-c4-obj1.error.txt: smac.main.exceptions.ConfigurationSpaceExhaustedException
+[2026-07-28 12:48:27]   config__wc+wc-3d-c4-obj1.error.txt: smac.main.exceptions.ConfigurationSpaceExhaustedException
+[2026-07-28 12:48:27]   financial_data__Loan.error.txt: OSError: [Errno 70] Communication error on send: '/mnt/beegfs/lli66/.conda/envs/smoot/lib/python3.12/site-packages/smac/logging.yml'
+[2026-07-28 12:48:27]   health_data__Data_COVID19_Indonesia.error.txt: ValueError: no complete rows left after dropping missing values
+[2026-07-28 12:48:27]   sales_data__wallpaper.error.txt: ValueError: no complete rows left after dropping missing values
+[2026-07-28 12:48:27] Done.

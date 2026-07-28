@@ -1,0 +1,26 @@
+{
+ "task_id": "hpo__Health-Commits0003",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/hpo/Health-Commits0003.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/hpo/Health-Commits0003.csv",
+  "rows": 10000,
+  "n_decisions": 5,
+  "n_goals": 3,
+  "objective": "multi",
+  "space_size": 19.91,
+  "input_shape": "small-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -6.62,
+  "d2h_spread": 0.15878806585707922,
+  "eps": 0.0015878806585707921,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.15800888983012779,
+  "table_median": 0.5677247217759727,
+  "d2h_star": 0.15800888983012779
+ },
+ "verdicts": {
+  "50": "smac"
+ }
+}

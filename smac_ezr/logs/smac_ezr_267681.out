@@ -1,0 +1,21 @@
+[2026-07-28 09:01:14] Project:  /home/lli66/aise26/predict_task_hard/smac_ezr
+[2026-07-28 09:01:14] MOOT:     /home/lli66/aise26/predict_task_hard/data/moot/optimize
+[2026-07-28 09:01:14] Output:   /home/lli66/aise26/predict_task_hard/smac_ezr/results_b200
+[2026-07-28 09:01:14] Budget:   200
+[2026-07-28 09:01:14] Workers:  16
+[2026-07-28 09:01:14] Commit:   56ed05a
+[2026-07-28 09:01:15] Starting sweep at B=200 ...
+[2026-07-28 09:01:15] Completed tasks: 116   error files: 10
+[2026-07-28 09:01:15] Errors (2 are expected: the COVID and wallpaper tables lose every row
+[2026-07-28 09:01:15] to missing values, and both are outside the SE task families anyway):
+[2026-07-28 09:01:15]   config__Apache_AllMeasurements.error.txt: smac.main.exceptions.ConfigurationSpaceExhaustedException
+[2026-07-28 09:01:15]   config__SS-D.error.txt: smac.main.exceptions.ConfigurationSpaceExhaustedException
+[2026-07-28 09:01:15]   config__SS-F.error.txt: smac.main.exceptions.ConfigurationSpaceExhaustedException
+[2026-07-28 09:01:15]   config__SS-G.error.txt: smac.main.exceptions.ConfigurationSpaceExhaustedException
+[2026-07-28 09:01:15]   config__SS-H.error.txt: smac.main.exceptions.ConfigurationSpaceExhaustedException
+[2026-07-28 09:01:15]   config__wc+rs-3d-c4-obj1.error.txt: smac.main.exceptions.ConfigurationSpaceExhaustedException
+[2026-07-28 09:01:15]   config__wc+sol-3d-c4-obj1.error.txt: smac.main.exceptions.ConfigurationSpaceExhaustedException
+[2026-07-28 09:01:15]   config__wc+wc-3d-c4-obj1.error.txt: smac.main.exceptions.ConfigurationSpaceExhaustedException
+[2026-07-28 09:01:15]   health_data__Data_COVID19_Indonesia.error.txt: ValueError: no complete rows left after dropping missing values
+[2026-07-28 09:01:15]   sales_data__wallpaper.error.txt: ValueError: no complete rows left after dropping missing values
+[2026-07-28 09:01:15] batch.py exited 127

@@ -1,0 +1,26 @@
+{
+ "task_id": "systems__x264",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/systems/x264.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/systems/x264.csv",
+  "rows": 53662,
+  "n_decisions": 17,
+  "n_goals": 1,
+  "objective": "single",
+  "space_size": 89.05,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0263,
+  "coverage": -73.38,
+  "d2h_spread": 0.16815285109620992,
+  "eps": 0.0016815285109620993,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.06608432015979483,
+  "table_median": 0.3568388262709856,
+  "d2h_star": 0.06608432015979483
+ },
+ "verdicts": {
+  "30": "ezr"
+ }
+}

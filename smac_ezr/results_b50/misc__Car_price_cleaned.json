@@ -1,0 +1,26 @@
+{
+ "task_id": "misc__Car_price_cleaned",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/misc/Car_price_cleaned.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/misc/Car_price_cleaned.csv",
+  "rows": 205,
+  "n_decisions": 38,
+  "n_goals": 5,
+  "objective": "multi",
+  "space_size": 197.42,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -189.74,
+  "d2h_spread": 0.27333401801601354,
+  "eps": 0.0027333401801601354,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.21091353218222497,
+  "table_median": 0.7965659334083595,
+  "d2h_star": 0.21091353218222497
+ },
+ "verdicts": {
+  "50": "ezr"
+ }
+}
