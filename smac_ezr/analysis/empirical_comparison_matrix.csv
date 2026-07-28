@@ -1,7 +1,7 @@
-,30,50,100
-multi | binary/SAT,EZR?,SMAC,SMAC
-multi | large-numeric,EZR,EZR,SMAC
-multi | small-numeric,SMAC?,SMAC,SMAC
-single | binary/SAT,EZR?,EZR?,SMAC?
-single | large-numeric,EZR,EZR,EZR
-single | small-numeric,SMAC?,SMAC?,SMAC?
+,30,50,100,200
+multi | binary/SAT,EZR?,SMAC,SMAC,SMAC
+multi | large-numeric,EZR,EZR,SMAC,SMAC
+multi | small-numeric,SMAC?,SMAC,SMAC,SMAC
+single | binary/SAT,EZR?,EZR?,SMAC?,SMAC?
+single | large-numeric,EZR,EZR,EZR,EZR
+single | small-numeric,SMAC?,SMAC?,SMAC?,SMAC?
