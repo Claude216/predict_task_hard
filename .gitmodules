@@ -1,3 +1,6 @@
 [submodule "external/moot"]
 	path = external/moot
 	url = https://github.com/timm/moot.git
+[submodule "external/drr_upstream"]
+	path = external/drr_upstream
+	url = https://github.com/andre-motta/dimensionality_reduction_ratio.git
