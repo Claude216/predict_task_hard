@@ -1,0 +1,3 @@
+[submodule "external/moot"]
+	path = external/moot
+	url = https://github.com/timm/moot.git
