@@ -42,18 +42,21 @@ def main():
     rng = np.random.default_rng(SEED)
     failures = []
 
-    print(f"{'case':28s} {'true d':>6} {'R':>3} {'I_fit':>7} {'r2':>6} {'I_maxgrad':>9}  verdict")
+    print(f"{'case':28s} {'true d':>6} {'R':>3} {'I_fit':>7} {'n_live':>6} "
+          f"{'sl_iqr':>7} {'I_maxgrad':>9}  verdict")
     for d in (2, 3, 5, 8):
         cloud = rng.standard_normal((N, d))
         for label, X in ((f"gauss d={d} raw", cloud),
                          (f"gauss d={d} in {AMBIENT}-dim", embed(cloud, AMBIENT, rng))):
             res = estimate_intrinsic_dim(X, seed=SEED)
-            i_fit, r2 = res["I_fit"], res["fit_r2"]
-            ok = np.isfinite(i_fit) and abs(i_fit - d) / d <= TOL and r2 > 0.95
+            i_fit, n_live = res["I_fit"], res["n_live"]
+            # a clean continuous cloud must fill essentially every piece
+            ok = np.isfinite(i_fit) and abs(i_fit - d) / d <= TOL and n_live >= 90
             if not ok:
                 failures.append(label)
-            print(f"{label:28s} {d:>6} {res['R']:>3} {i_fit:>7.2f} {r2:>6.3f} "
-                  f"{res['I_maxgrad']:>9.2f}  {'ok' if ok else 'FAIL'}")
+            print(f"{label:28s} {d:>6} {res['R']:>3} {i_fit:>7.2f} {n_live:>6} "
+                  f"{res['slope_iqr']:>7.3f} {res['I_maxgrad']:>9.2f}  "
+                  f"{'ok' if ok else 'FAIL'}")
 
     print("\n-- real-task spot checks (no hard asserts; compare notes in header) --")
     spots = [
@@ -69,7 +72,8 @@ def main():
             continue
         res = estimate_intrinsic_dim(path, seed=SEED)
         print(f"{label:28s} R={res['R']:<3} I_fit={res['I_fit']:.2f} "
-              f"r2={res['fit_r2']:.3f} I_maxgrad={res['I_maxgrad']:.2f} "
+              f"n_live={res['n_live']:<3} slope_iqr={res['slope_iqr']:.3f} "
+              f"I_maxgrad={res['I_maxgrad']:.2f} "
               f"DRR_fit={res['drr_fit']:.3f} status={res['status']}")
 
     if failures:

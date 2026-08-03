@@ -1,28 +1,28 @@
 dataset,group,paper_x,paper_DRR,path,R,I_fit,DRR,delta_vs_paper,fit_r2,code_path,n_rows,n_used,seed,max_rows,note,status
-FFM-250,SE,147.51,0.974,external/drr_modified/data/optimize/binary_config/FFM-250-50-0.50-SAT-1.csv,256,3.62,0.9859,0.0119,0.9564,fit,10000,2000,42,2000,,ok
-SCRUM,SE,168.73,0.948,external/drr_modified/data/optimize/binary_config/Scrum1k.csv,124,2.6585,0.9786,0.0306,0.9558,fit,1000,1000,42,2000,,ok
-nasa93dem,SE,189.97,0.842,external/drr_modified/data/optimize/process/nasa93dem.csv,26,1.8279,0.9297,0.0877,0.99,fit,93,93,42,2000,,ok
-Xomo Flight,SE,211.21,0.743,external/drr_modified/data/optimize/process/xomo_flight.csv,27,2.7747,0.8972,0.1542,0.7651,fit,10000,2000,42,2000,,ok
-Xomo Ground,SE,232.45,0.743,external/drr_modified/data/optimize/process/xomo_ground.csv,27,2.7828,0.8969,0.1539,0.7769,fit,10000,2000,42,2000,,ok
-Xomo OSP,SE,253.68,0.743,external/drr_modified/data/optimize/process/xomo_osp.csv,27,2.8404,0.8948,0.1518,0.7758,fit,10000,2000,42,2000,,ok
-Xomo OSP2,SE,274.92,0.632,external/drr_modified/data/optimize/process/xomo_osp2.csv,27,5.6458,0.7909,0.1589,0.8717,fit,10000,2000,42,2000,,ok
-SS-U,SE,296.15,0.574,external/drr_modified/data/optimize/config/SS-U.csv,21,3.2414,0.8456,0.2716,0.9589,fit,4608,2000,42,2000,,ok
-SS-M,SE,317.37,0.815,external/drr_modified/data/optimize/config/SS-M.csv,17,2.7354,0.8391,0.0241,0.9563,fit,864,864,42,2000,,ok
-Wine Quality,SE,338.63,0.602,external/drr_modified/data/optimize/misc/Wine_quality.csv,10,2.262,0.7738,0.1718,0.9613,fit,1599,1599,42,2000,SE per the paper's Fig. 4 (blue); its Table 1 lists it as Non-SE,ok
-pom3d,SE,359.86,0.447,external/drr_modified/data/optimize/process/pom3d.csv,9,5.7946,0.3562,-0.0908,0.9782,fit,500,500,42,2000,,ok
-Pom3a,SE,381.1,0.447,external/drr_modified/data/optimize/process/pom3a.csv,9,6.4941,0.2784,-0.1686,0.9838,fit,20000,2000,42,2000,,ok
-Health-Hard,SE,402.32,0.602,external/drr_modified/data/optimize/hpo/Health-ClosedIssues0000.csv,5,2.3986,0.5203,-0.0817,0.9787,fit,10000,2000,42,2000,paper gives no file name; stand-in = hpo/Health-ClosedIssues0000,ok
-Health-Easy,SE,423.57,0.602,external/drr_modified/data/optimize/hpo/Health-Commits0000.csv,5,2.3986,0.5203,-0.0817,0.9787,fit,10000,2000,42,2000,paper gives no file name; stand-in = hpo/Health-Commits0000,ok
-SS-D,SE,444.79,0.669,external/drr_modified/data/optimize/config/SS-D.csv,3,0.2875,0.9042,0.2352,0.7516,fit,196,196,42,2000,,ok
-SS-B,SE,466.04,0.669,external/drr_modified/data/optimize/config/SS-B.csv,3,1.3601,0.5466,-0.1224,0.9803,fit,206,206,42,2000,,ok
-rs-6d-c3-obj2,SE,487.26,0.336,external/drr_modified/data/optimize/config/rs-6d-c3_obj2.csv,6,0.4704,0.9216,0.5856,0.9233,fit,3840,2000,42,2000,,ok
-SS-T,SE,508.53,0.336,external/drr_modified/data/optimize/config/SS-T.csv,12,2.5582,0.7868,0.4508,0.9584,fit,5184,2000,42,2000,,ok
-adult,Non-SE,147.48,0.288,external/moot/fairness/adult.csv,14,1.1386,0.9187,0.6307,0.9872,fit,30162,2000,42,2000,,ok
-iris,Non-SE,168.72,0.752,external/moot/classify/iris.csv,4,1.6545,0.5864,-0.1656,0.9384,fit,150,150,42,2000,,ok
-default,Non-SE,189.96,0.176,external/uci/default.csv,23,1.1408,0.9504,0.7744,0.9039,fit,30000,2000,42,2000,,ok
-diabetes,Non-SE,211.2,0.252,external/moot/classify/diabetes.csv,8,2.6565,0.6679,0.4159,0.9544,fit,768,768,42,2000,,ok
-german credit,Non-SE,232.44,0.252,external/moot/fairness/german.csv,20,1.3003,0.935,0.683,0.8894,fit,1000,1000,42,2000,,ok
-bank marketing,Non-SE,253.68,0.252,external/moot/fairness/bank.csv,16,1.8493,0.8844,0.6324,0.9081,fit,45211,2000,42,2000,,ok
-heart disease,Non-SE,274.92,0.233,external/moot/classify/heart.c.csv,13,2.9911,0.7699,0.5369,0.9658,fit,303,303,42,2000,,ok
-gamma telescope,Non-SE,296.18,0.202,external/uci/gamma_telescope.csv,10,3.2923,0.6708,0.4688,0.9481,fit,19020,2000,42,2000,,ok
-power consumption,Non-SE,317.4,0.169,external/uci/power_consumption.csv,6,1.7451,0.7092,0.5402,0.984,fit,2075259,2000,42,2000,,ok
+FFM-250,SE,147.51,0.974,external/drr_modified/data/optimize/binary_config/FFM-250-50-0.50-SAT-1.csv,256,51.0,0.8008,-0.1732,nan,log-max,10000,2000,42,2000,,ok
+SCRUM,SE,168.73,0.948,external/drr_modified/data/optimize/binary_config/Scrum1k.csv,124,41.0,0.6694,-0.2786,nan,log-max,1000,1000,42,2000,,ok
+nasa93dem,SE,189.97,0.842,external/drr_modified/data/optimize/process/nasa93dem.csv,26,11.0,0.5769,-0.2651,nan,log-max,93,93,42,2000,,ok
+Xomo Flight,SE,211.21,0.743,external/drr_modified/data/optimize/process/xomo_flight.csv,27,23.0,0.1481,-0.5949,nan,log-max,10000,2000,42,2000,,ok
+Xomo Ground,SE,232.45,0.743,external/drr_modified/data/optimize/process/xomo_ground.csv,27,26.0,0.037,-0.706,nan,log-max,10000,2000,42,2000,,ok
+Xomo OSP,SE,253.68,0.743,external/drr_modified/data/optimize/process/xomo_osp.csv,27,23.0,0.1481,-0.5949,nan,log-max,10000,2000,42,2000,,ok
+Xomo OSP2,SE,274.92,0.632,external/drr_modified/data/optimize/process/xomo_osp2.csv,27,19.0,0.2963,-0.3357,nan,log-max,10000,2000,42,2000,,ok
+SS-U,SE,296.15,0.574,external/drr_modified/data/optimize/config/SS-U.csv,21,16.0,0.2381,-0.3359,nan,FALLBACK,4608,2000,42,2000,,ok
+SS-M,SE,317.37,0.815,external/drr_modified/data/optimize/config/SS-M.csv,17,12.0,0.2941,-0.5209,nan,FALLBACK,864,864,42,2000,,ok
+Wine Quality,SE,338.63,0.602,external/drr_modified/data/optimize/misc/Wine_quality.csv,10,1.0,0.9,0.298,nan,log-median,1599,1599,42,2000,SE per the paper's Fig. 4 (blue); its Table 1 lists it as Non-SE,ok
+pom3d,SE,359.86,0.447,external/drr_modified/data/optimize/process/pom3d.csv,9,3.0,0.6667,0.2197,nan,log-median,500,500,42,2000,,ok
+Pom3a,SE,381.1,0.447,external/drr_modified/data/optimize/process/pom3a.csv,9,5.0,0.4444,-0.0026,nan,log-median,20000,2000,42,2000,,ok
+Health-Hard,SE,402.32,0.602,external/drr_modified/data/optimize/hpo/Health-ClosedIssues0000.csv,5,3.0,0.4,-0.202,nan,log-median,10000,2000,42,2000,paper gives no file name; stand-in = hpo/Health-ClosedIssues0000,ok
+Health-Easy,SE,423.57,0.602,external/drr_modified/data/optimize/hpo/Health-Commits0000.csv,5,3.0,0.4,-0.202,nan,log-median,10000,2000,42,2000,paper gives no file name; stand-in = hpo/Health-Commits0000,ok
+SS-D,SE,444.79,0.669,external/drr_modified/data/optimize/config/SS-D.csv,3,1.0,0.6667,-0.0023,nan,FALLBACK,196,196,42,2000,,ok
+SS-B,SE,466.04,0.669,external/drr_modified/data/optimize/config/SS-B.csv,3,1.0,0.6667,-0.0023,nan,log-median,206,206,42,2000,,ok
+rs-6d-c3-obj2,SE,487.26,0.336,external/drr_modified/data/optimize/config/rs-6d-c3_obj2.csv,6,1.0,0.8333,0.4973,nan,FALLBACK,3840,2000,42,2000,,ok
+SS-T,SE,508.53,0.336,external/drr_modified/data/optimize/config/SS-T.csv,12,6.0,0.5,0.164,nan,FALLBACK,5184,2000,42,2000,,ok
+adult,Non-SE,147.48,0.288,external/moot/fairness/adult.csv,14,1.0,0.9286,0.6406,nan,log-median,30162,2000,42,2000,,ok
+iris,Non-SE,168.72,0.752,external/moot/classify/iris.csv,4,1.0,0.75,-0.002,nan,log-median,150,150,42,2000,,ok
+default,Non-SE,189.96,0.176,external/uci/default.csv,23,6.0,0.7391,0.5631,nan,log-max,30000,2000,42,2000,,ok
+diabetes,Non-SE,211.2,0.252,external/moot/classify/diabetes.csv,8,2.0,0.75,0.498,nan,log-median,768,768,42,2000,,ok
+german credit,Non-SE,232.44,0.252,external/moot/fairness/german.csv,20,10.0,0.5,0.248,nan,log-max,1000,1000,42,2000,,ok
+bank marketing,Non-SE,253.68,0.252,external/moot/fairness/bank.csv,16,11.0,0.3125,0.0605,nan,log-max,45211,2000,42,2000,,ok
+heart disease,Non-SE,274.92,0.233,external/moot/classify/heart.c.csv,13,2.0,0.8462,0.6132,nan,log-median,303,303,42,2000,,ok
+gamma telescope,Non-SE,296.18,0.202,external/uci/gamma_telescope.csv,10,1.0,0.9,0.698,nan,log-median,19020,2000,42,2000,,ok
+power consumption,Non-SE,317.4,0.169,external/uci/power_consumption.csv,6,2.0,0.6667,0.4977,nan,log-median,2075259,2000,42,2000,,ok

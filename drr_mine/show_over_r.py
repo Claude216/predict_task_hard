@@ -33,10 +33,12 @@ def main():
         if over.empty:
             print("  (none)")
             continue
-        print(f"{'task':<40} {'R':>4} {icol:>10} {dcol:>11} {'fit_r2':>8}")
+        print(f"{'task':<40} {'R':>4} {icol:>10} {dcol:>11} {'slope_iqr':>10}")
         for _, r in over.iterrows():
             drr = "nan (guarded)" if pd.isna(r[dcol]) else f"{r[dcol]:>11.3f}"
-            print(f"{r.task:<40} {r.R:>4} {r[icol]:>10.2f} {drr:>11} {r.fit_r2:>8.3f}")
+            iqr = r.get("slope_iqr", float("nan"))
+            iqr = "nan" if pd.isna(iqr) else f"{iqr:.3f}"
+            print(f"{r.task:<40} {r.R:>4} {r[icol]:>10.2f} {drr:>11} {iqr:>10}")
         print(f"  worst overshoot: {(over[icol] / over.R).max():.1f}x R")
 
 

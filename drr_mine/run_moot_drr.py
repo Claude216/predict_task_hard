@@ -23,11 +23,14 @@ sys.path.insert(0, HERE)
 
 from intrinsic_dim import estimate_intrinsic_dim  # noqa: E402
 
-FIELDS = ["task", "path", "n_rows", "n_used", "R", "I_fit", "fit_r2",
-          "fit_n_radii", "fit_degree", "fit_argmax_frac", "I_linear",
-          "I_maxgrad", "drr_fit", "drr_maxgrad", "seed", "runtime_s", "status"]
+FIELDS = ["task", "path", "n_rows", "n_dedup", "dup_row_frac", "n_used", "R",
+          "I_fit", "n_live", "flat_frac", "fit_argmax_frac", "slope_iqr",
+          "I_maxgrad", "drr_fit", "drr_maxgrad", "dup_pair_frac", "seed",
+          "runtime_s", "status"]
 
-LOW_TRUST_R2 = 0.9
+# the local slope should settle inside a real scaling region; a spread this
+# wide across the live pieces means it never did (replaces the old fit r2)
+HIGH_SPREAD_IQR = 1.0
 
 
 def main():
@@ -66,10 +69,10 @@ def main():
         if row["status"] != "ok":
             errors.append(f"{task}: {row['status']}")
 
-        r2 = row.get("fit_r2")
+        iqr = row.get("slope_iqr")
         flag = ""
-        if isinstance(r2, float) and r2 == r2 and r2 < LOW_TRUST_R2:
-            flag = f"  [low trust: r2={r2:.2f}]"
+        if isinstance(iqr, float) and iqr == iqr and iqr > HIGH_SPREAD_IQR:
+            flag = f"  [low trust: slope_iqr={iqr:.2f}]"
         ifit = row.get("I_fit")
         dfit = row.get("drr_fit")
         print(f"{task:55s} R={row.get('R', ''):<4} "

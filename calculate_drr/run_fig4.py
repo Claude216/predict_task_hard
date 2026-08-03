@@ -11,10 +11,12 @@ Backends:
                fitted to ln C(r) vs ln r over the scaling region 0.01<=C<=0.2,
                sampled by inverse CDF. DRR = 1 - I_fit/R; fit_r2 is a trust
                diagnostic.
-  drr_modified external/drr_modified with method="fit". Same family of estimate,
-               but its own preprocessing (label-encodes categoricals, imputes,
-               and does NOT know the MOOT "X"-suffix / "~" column conventions),
-               so its R can differ from drr_mine's on the same csv.
+  drr_modified external/drr_modified -- drr_upstream plus exactly two bug fixes:
+               C(r)=0 points are dropped from the log-log gradients (no 1e-15
+               epsilon, so no plateau-jump artifact) and the R-banded acceptance
+               windows are widened to the sanity bound 0 < I <= R. Same R-banded
+               statistics and fallback constants otherwise; the branch taken is
+               logged per row in code_path. No r2 is available.
   drr_upstream external/drr_upstream, the released package. I comes from an
                R-banded heuristic over the C(r) gradients that substitutes a
                constant fraction of R whenever its acceptance windows reject the
@@ -166,7 +168,10 @@ def run_drr_mine(path):
     df, renamed = coerce_moot_headers(load_moot_csv(path), split_columns, is_num)
     r = estimate_intrinsic_dim(df, seed=SEED, max_rows=MAX_SAMPLES)
     return {"R": r["R"], "I_fit": r["I_fit"], "DRR": r["drr_fit"],
-            "fit_r2": r["fit_r2"], "n_rows": r["n_rows"], "n_used": r["n_used"],
+            # no backend fits a curve any more; the trust column now carries
+            # drr_mine's slope spread across the live pieces (lower = tighter
+            # scaling region), and stays blank for the vendored backends
+            "fit_r2": r["slope_iqr"], "n_rows": r["n_rows"], "n_used": r["n_used"],
             "status": r["status"], "_renamed": renamed}
 
 
@@ -222,8 +227,7 @@ def _run_vendored(which, path, **est_kwargs):
     log = buf.getvalue()
     code_path = ("FALLBACK" if "using fallback" in log else
                  "log-median" if "using log median" in log else
-                 "log-max" if "using log max" in log else
-                 "fit" if which == "drr_modified" else "other")
+                 "log-max" if "using log max" in log else "other")
     return {"R": R, "I_fit": float(I), "DRR": float(drr),
             "fit_r2": getattr(est, "last_r2", float("nan")),
             "n_rows": meta["original_shape"][0],
@@ -234,12 +238,13 @@ def _run_vendored(which, path, **est_kwargs):
 
 
 def run_drr_modified(path):
-    return _run_vendored("drr_modified", path, method="fit")
+    # bug-fixed upstream: same heuristic, C=0 dropped, windows widened to I<=R
+    return _run_vendored("drr_modified", path)
 
 
 def run_drr_upstream(path):
-    # upstream has no method= switch and no r2: I comes from its R-banded
-    # heuristic over the C(r) gradients, with constant fallbacks
+    # the original release: I comes from its R-banded heuristic over the C(r)
+    # gradients, with tight windows and constant fallbacks
     return _run_vendored("drr_upstream", path)
 
 

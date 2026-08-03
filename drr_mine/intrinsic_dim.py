@@ -5,41 +5,35 @@ XueqiYang's estimator, the code footnote 4 of the DRR paper says produced its
 numbers): correlation integral C(r) over a log-spaced radius grid, then the
 slope of ln C(r) vs ln r. Two estimates are reported:
 
-  I_fit      (primary)   OLS slope over the scaling region 0.01 <= C(r) <= 0.2,
-                         with the fit's R^2 as a trust diagnostic. Residual
+  I_fit      (primary)   the scaling region 0.01 <= C(r) <= 0.2 is split into
+                         100 equal pieces in ln r and the LARGEST piece slope
+                         (dlnC/dlnr) is taken. No curve is fitted. Residual
                          underestimation at d >= ~8 is inherent to correlation
                          dimension at these sample sizes (a raw-euclidean
                          control reproduces it, so it is not our normalization).
   I_maxgrad  (secondary) Algorithm 1 of the DRR paper: smooth the finite
                          forward-difference gradients, take the max.
 
-Why the fit window sits low. C ~ r^d only holds while the ball is small
-relative to the data's extent; as C -> 1 the curve must flatten regardless of
-dimension, so the top of it describes the bounding box, not the manifold.
-Raising the upper bound therefore biases the slope down monotonically -- on
-seeded Gaussians (n=2000, lower bound 0.01) true d=8 recovers as 6.17 / 5.91 /
-5.63 / 5.39 / 4.57 at upper bounds 0.1 / 0.2 / 0.35 / 0.5 / 0.95, and median
-fit r^2 over the 127 MOOT tasks falls from 0.998 at 0.2 to 0.985 at 0.95.
-0.2 is 20% of *pairs* (~400k at n=2000), so fit support is never the binding
-constraint -- the 0.01 floor is what protects support, by excluding the
-sparse-count staircase where slopes are set by grid spacing rather than
-geometry. The exact bound barely matters downstream anyway: Spearman of task
-ranking against the 0.2 default is >= 0.978 for every window tried, with
-median |dI| <= 0.28.
+Why a max over pieces rather than a fitted curve. A polynomial fit forces one
+smooth shape onto the whole window; where the data is a staircase (MOOT config
+and binary_config tables have as few as 2-20 distinct distances) it smooths the
+steps into a gentle curve and returns a plausible-looking slope from data that
+has no scaling region at all. The binned reading cannot do that: an atomic
+spectrum leaves most pieces empty, which is detectable (`n_live`, `flat_frac`)
+and is reported as NaN + status=atomic_spectrum instead of a number.
 
-This is a fixed window, NOT a search for the steepest stretch -- the same C
-levels are read on every dataset, so on some tasks it returns less than a
-higher window would (dress-up: 12.5 at 0.01-0.2's low neighbour vs 16.6 at
-0.05-0.5). Sliding the window down by 5x repeatedly makes the estimate
-*converge* on the truth rather than diverge (true d=8 -> 5.89, 6.74, 7.40,
-7.86, 8.05), which is the r->0 limit that defines correlation dimension; the
-max-gradient rule by contrast runs away (4.5 on a 1-D line, 26.7 on pom3a).
-So our default is deliberately conservative: on clean continuous data a lower
-window is more accurate, but real MOOT data breaks below C=0.01 -- SS-A
-collapses to 0.43 (r^2 0.89) then 0.49 (r^2 0.74), Wine_quality to 1.20
-(r^2 0.76), accessories to NaN. 0.01 is the lowest floor at which all 127
-tasks still yield a well-formed fit; the cost is a known underestimate of
-roughly 25% at d >= 8.
+Where the window sits. C ~ r^d only holds while the ball is small relative to
+the data's extent; as C -> 1 the curve must flatten regardless of dimension, so
+the top of it describes the bounding box, not the manifold. Under a MAX readout
+the upper bound is nearly irrelevant -- the flattening tail only adds pieces
+that never win -- and this is measured: on seeded Gaussians (d = 1..12, n=2000)
+mean |error| moves only 0.99 -> 1.13 as the upper bound goes 0.1 -> 0.2 -> 0.35
+-> 0.5 -> 1.0 at a fixed 0.01 floor. The LOWER bound is what matters: mean
+|error| is 0.74 at 0.005, 1.02 at 0.01, 1.18 at 0.02, because every estimate is
+biased low and a lower floor is closer to the r->0 limit that defines
+correlation dimension. 0.01 is kept as the default floor because it is the
+lowest at which MOOT's rougher tasks still hold up; the cost is a known
+underestimate of roughly 25% at d >= 8.
 
 ln C is taken WITHOUT an epsilon: C=0 gives -inf and the non-finite gradients
 are dropped, so the jump off the zero-pairs plateau can never be mistaken for
@@ -104,6 +98,19 @@ def sample_rows(df: pd.DataFrame, max_rows: int, seed: int) -> pd.DataFrame:
     return df.iloc[np.sort(idx)].reset_index(drop=True)
 
 
+def dedup_rows(df: pd.DataFrame, feats: list[str]) -> pd.DataFrame:
+    """Drop rows that are duplicates ON THE FEATURE COLUMNS.
+
+    Distances are computed from feats alone, so two rows agreeing on every
+    feature are one point of the manifold however their Y columns differ: they
+    contribute only zero-distance pairs, which carry no geometric information
+    but do inflate the denominator of C(r) and hence shift every quantile of the
+    scaling region. Deduplicating here (rather than dropping zero-distance pairs
+    later) also means the row budget is spent on distinct points.
+    """
+    return df.drop_duplicates(subset=feats).reset_index(drop=True)
+
+
 # ------------------------------------------------------------------- distances
 
 def _norm_ezr(vals: np.ndarray) -> np.ndarray:
@@ -165,8 +172,11 @@ def pairwise_distx(df: pd.DataFrame, feats: list[str], p: float = 2,
 
 def correlation_integral(distances: np.ndarray, num_radii: int = 100
                          ) -> tuple[np.ndarray, np.ndarray]:
-    """C(r) = fraction of ALL pairs (zero-distance ones included) with d < r,
-    on a log-spaced grid from the min positive distance to just past the max."""
+    """C(r) = fraction of pairs with d < r, on a log-spaced grid from the min
+    positive distance to just past the max. Callers pass positive distances
+    only (duplicate rows carry no geometric information and are removed in
+    estimate_intrinsic_dim); any zeros still present are kept in the
+    denominator but excluded from the grid anchor."""
     pos = distances[distances > 0]
     if len(pos) == 0:
         raise ValueError("all pairwise distances are zero")
@@ -176,77 +186,90 @@ def correlation_integral(distances: np.ndarray, num_radii: int = 100
     return radii, counts / len(distances)
 
 
-def fit_scaling_region(distances: np.ndarray, lo: float = 0.01, hi: float = 0.2,
-                       n_levels: int = 60, deg: int = 3,
-                       min_pairs: int = 100) -> dict:
-    """Fit a CURVE to ln C vs ln r over the scaling region lo <= C <= hi and
-    return the MAXIMUM of that curve's slope as the intrinsic dimension.
+def max_binned_slope(distances: np.ndarray, lo: float = 0.01, hi: float = 0.2,
+                     n_pieces: int = 100, min_pairs: int = 100,
+                     smooth: int = 1, min_live_frac: float = 0.5) -> dict:
+    """Split the scaling region into `n_pieces` pieces, measure the log-log
+    slope of each, and return the LARGEST as the intrinsic dimension.
 
-    Samples the curve by inverse CDF: for log-spaced levels c in [lo, hi] the
-    radius is the c-quantile of the pairwise distances, so the fit region is
-    always fully populated no matter how the distance mass is distributed (a
-    fixed radius grid anchored at the min distance can starve the window when
-    distances concentrate far from the minimum, e.g. MOOT's x264). Duplicate
-    quantiles (atomic distance spectra, e.g. 17 distinct values across 6e5
-    pairs) collapse to too few distinct points and yield NaN — a slope through
-    an atomic spectrum is not a dimension.
+    No curve is fitted. Each piece's slope is a straight finite difference of
+    the empirical correlation integral:  dlnC / dlnr  across that piece.
 
-    Max-of-a-curve rather than the slope of one straight line, because the local
-    slope is not constant across the region: it decays as C(r) starts to
-    saturate, so a single OLS line averages the dimension together with that
-    tail and reads low (seeded Gaussians, true d=8: line 5.87, curve max 6.63).
-    Taking the max of a SMOOTH fit is also what keeps this safe -- the derivative
-    of a fitted polynomial cannot divide by a vanishing radius gap, which is
-    precisely how the raw max-gradient rule (Algorithm 1) reaches 1e15 on
-    discrete data.
+    Region location vs piece placement (these are deliberately different):
+      * the region is LOCATED by C bounds -- r_lo, r_hi are the lo- and
+        hi-quantiles of the pairwise distances -- so it is always populated no
+        matter where the distance mass sits (a fixed radius grid anchored at
+        the min distance starves the window on e.g. MOOT's x264);
+      * the pieces are PLACED equally in ln r inside [r_lo, r_hi], so every
+        piece has the same dlnr and each slope is dlnC/const.
+    Placing the pieces at equal dlnC instead (i.e. equal-count pieces) makes
+    every slope const/dlnr, so "max slope" degenerates into "find the smallest
+    radius gap" -- the exact division-by-a-vanishing-gap pathology that makes
+    drr_upstream's max-gradient rule return hundreds. Measured on MOOT's SS-A:
+    399 that way against 5.5 this way.
 
-    Degree adapts to the support available -- the largest d in 1..deg with
-    n_points >= 3*(d+1) -- because a high-order fit through few points bends at
-    the window edge and invents a maximum there (nasa93dem has 6 distinct radii;
-    a cubic claims 4.02 at the high-C edge where the honest slope is 0.83).
-    Degree 1 reproduces the plain OLS slope exactly.
+    A piece that gains no pairs has slope 0 and can never win the max, so empty
+    pieces do not corrupt the value -- but they do say the spectrum is too
+    atomic to measure. `min_live_frac` of the pieces must actually gain pairs;
+    otherwise the ECDF is a step function whose "slope" is set by where the
+    steps fall, and the result is NaN rather than a fabricated number. This is
+    the guard that the old polynomial fit did NOT have: smoothing a 14-value
+    staircase into a gentle curve produces a plausible-looking slope out of
+    data that has no scaling region at all.
 
-    Returns {I, r2, n_points, degree, argmax_frac, I_linear}. argmax_frac locates
-    the max in the window (0 = low-C edge, 1 = high-C edge). The slope should be
-    non-increasing in r, so a max at the low-C edge is the expected shape and
-    says the scaling region continues below `lo`; argmax_frac near 1 means the
-    fit bent the wrong way and that row deserves suspicion.
+    `smooth` averages over w consecutive piece slopes before the max (w=1 = off,
+    the raw reading). Raising it trades the max's upward bias -- the max of many
+    noisy local slopes overshoots the true one -- against resolution.
+
+    Returns {I, n_live, flat_frac, argmax_frac, slope_iqr}. argmax_frac locates
+    the winning piece (0 = low-C edge, 1 = high-C edge); the slope should be
+    non-increasing in r, so a max at the low edge is the expected shape and says
+    the scaling region continues below `lo`. slope_iqr is the spread of the live
+    pieces' slopes: large spread means the local slope never settled, i.e. there
+    was no clean scaling region, and replaces the old fit's r2 as trust signal.
     """
-    # never fit below min_pairs of support: C=lo is a *fraction*, so on a small
-    # table it can mean almost nothing (nasa93dem has 93 rows -> 4278 pairs, so
-    # C=0.01 is 43 pairs). Binds only under ~142 rows; above that 0.01 already
-    # means thousands of pairs and this is a no-op.
-    lo = max(lo, min_pairs / max(len(distances), 1))
-    if not lo < hi:
-        return {"I": float("nan"), "r2": float("nan"), "n_points": 0,
-                "degree": 0, "argmax_frac": float("nan"),
-                "I_linear": float("nan")}
-
-    levels = np.geomspace(lo, hi, n_levels)
-    radii = np.quantile(distances, levels)
-    keep = radii > 0
-    radii, keep_levels = radii[keep], levels[keep]
-    x, idx = np.unique(np.log(radii), return_index=True)
-    y = np.log(keep_levels[idx])
-
-    out = {"I": float("nan"), "r2": float("nan"), "n_points": int(len(x)),
-           "degree": 0, "argmax_frac": float("nan"), "I_linear": float("nan")}
-    if len(x) < 3 or np.ptp(x) < 1e-12:
+    out = {"I": float("nan"), "n_live": 0, "flat_frac": float("nan"),
+           "argmax_frac": float("nan"), "slope_iqr": float("nan")}
+    d = np.sort(distances)
+    if len(d) == 0:
         return out
 
-    out["I_linear"] = float(np.polyfit(x, y, 1)[0])
-    d = max((k for k in range(1, deg + 1) if len(x) >= 3 * (k + 1)), default=1)
+    # never read below min_pairs of support: C=lo is a *fraction*, so on a small
+    # table it can mean almost nothing (nasa93dem has 93 rows -> 4278 pairs, so
+    # C=0.01 is 43 pairs). Binds only under ~10k pairs; above that this is a no-op.
+    lo = max(lo, min_pairs / len(d))
+    if not lo < hi:
+        return out
 
-    coef = np.polyfit(x, y, d)
-    ss_tot = np.sum((y - y.mean()) ** 2)
-    r2 = (1.0 - np.sum((y - np.polyval(coef, x)) ** 2) / ss_tot
-          if ss_tot > 0 else float("nan"))
+    r_lo, r_hi = np.quantile(d, lo), np.quantile(d, hi)
+    if not (r_lo > 0 and r_hi > r_lo):
+        return out
 
-    grid = np.linspace(x.min(), x.max(), 400)
-    slopes = np.polyval(np.polyder(coef), grid)
+    x = np.linspace(np.log(r_lo), np.log(r_hi), n_pieces + 1)
+    counts = np.searchsorted(d, np.exp(x), side="left")
+    gained = np.diff(counts)
+    out["n_live"] = int((gained > 0).sum())
+    out["flat_frac"] = float((gained == 0).mean())
+
+    if out["n_live"] < min_live_frac * n_pieces:
+        return out  # atomic spectrum: too few pieces carry any pairs
+
+    with np.errstate(divide="ignore"):
+        y = np.log(counts / len(d))
+    slopes = np.diff(y) / np.diff(x)
+    slopes = slopes[np.isfinite(slopes)]
+    if len(slopes) == 0:
+        return out
+
+    live = slopes[slopes > 0]
+    if len(live):
+        out["slope_iqr"] = float(np.subtract(*np.percentile(live, [75, 25])))
+
+    if smooth > 1 and len(slopes) >= smooth:
+        slopes = np.convolve(slopes, np.ones(smooth) / smooth, mode="valid")
     k = int(np.argmax(slopes))
-    out.update(I=float(slopes[k]), r2=float(r2), degree=int(d),
-               argmax_frac=float((grid[k] - x.min()) / np.ptp(x)))
+    out["I"] = float(slopes[k])
+    out["argmax_frac"] = float(k / max(len(slopes) - 1, 1))
     return out
 
 
@@ -268,10 +291,16 @@ def max_smoothed_gradient(radii: np.ndarray, C: np.ndarray, window: int = 5):
 # ------------------------------------------------------------------ public API
 
 def estimate_intrinsic_dim(source, *, seed: int = 42, max_rows: int = 2000,
-                           p: float = 2, num_radii: int = 100,
-                           norm: str = "ezr") -> dict:
+                           pool_rows: int = 5000, p: float = 2,
+                           num_radii: int = 100, norm: str = "ezr") -> dict:
     """Estimate intrinsic dimension and DRR for a MOOT csv path, a DataFrame,
-    or a numeric matrix (ndarray columns are treated as Num features)."""
+    or a numeric matrix (ndarray columns are treated as Num features).
+
+    Row budget, in order: deduplicate on the feature columns, sample `pool_rows`
+    (5000) from what remains, then sample `max_rows` (2000) from that pool for
+    the distance matrix. The two-stage draw mirrors drr_upstream's own budget
+    (DataProcessor caps at 5000, the estimator then subsamples to 2000) so the
+    backends see comparably sized samples; both stages use `seed`."""
     if isinstance(source, str):
         df = load_moot_csv(source)
     elif isinstance(source, pd.DataFrame):
@@ -281,12 +310,13 @@ def estimate_intrinsic_dim(source, *, seed: int = 42, max_rows: int = 2000,
         df = pd.DataFrame(arr, columns=[f"N{j}" for j in range(arr.shape[1])])
 
     feats, _ = split_columns(df.columns)
-    out = {"n_rows": len(df), "n_used": None, "R": len(feats),
-           "I_fit": float("nan"), "fit_r2": float("nan"), "fit_n_radii": 0,
-           "fit_degree": 0, "fit_argmax_frac": float("nan"),
-           "I_linear": float("nan"), "I_maxgrad": float("nan"),
+    out = {"n_rows": len(df), "n_dedup": None, "dup_row_frac": float("nan"),
+           "n_used": None, "R": len(feats),
+           "I_fit": float("nan"), "n_live": 0, "flat_frac": float("nan"),
+           "fit_argmax_frac": float("nan"), "slope_iqr": float("nan"),
+           "I_maxgrad": float("nan"),
            "drr_fit": float("nan"), "drr_maxgrad": float("nan"),
-           "seed": seed, "status": "ok"}
+           "dup_pair_frac": float("nan"), "seed": seed, "status": "ok"}
 
     if len(feats) == 0:
         out["status"] = "error: no feature columns"
@@ -295,25 +325,42 @@ def estimate_intrinsic_dim(source, *, seed: int = 42, max_rows: int = 2000,
         out["status"] = "error: fewer than 2 rows"
         return out
 
+    # dedup on features, then the two-stage row budget: N -> pool_rows -> max_rows
+    df = dedup_rows(df, feats)
+    out["n_dedup"] = len(df)
+    out["dup_row_frac"] = 1.0 - len(df) / out["n_rows"] if out["n_rows"] else float("nan")
+    if len(df) < 2:
+        out["status"] = "error: fewer than 2 distinct rows"
+        return out
+
+    df = sample_rows(df, pool_rows, seed)
     df = sample_rows(df, max_rows, seed)
     out["n_used"] = len(df)
 
     try:
         distances = pairwise_distx(df, feats, p=p, norm=norm)
+        # duplicate rows (zero-distance pairs) carry no geometric information:
+        # drop them so C(r) is the ECDF of the positive distances only, matching
+        # drr_modified. Keeping them would deflate every C level by a constant
+        # factor and let heavy duplication push the fit window around.
+        n_all = len(distances)
+        distances = distances[distances > 0]
+        out["dup_pair_frac"] = 1.0 - len(distances) / n_all if n_all else float("nan")
+        if len(distances) == 0:
+            raise ValueError("all pairwise distances are zero")
         radii, C = correlation_integral(distances, num_radii)
     except ValueError as e:
         out["status"] = f"error: {e}"
         return out
 
-    f = fit_scaling_region(distances)
-    out.update(I_fit=f["I"], fit_r2=f["r2"], fit_n_radii=f["n_points"],
-               fit_degree=f["degree"], fit_argmax_frac=f["argmax_frac"],
-               I_linear=f["I_linear"])
+    f = max_binned_slope(distances)
+    out.update(I_fit=f["I"], n_live=f["n_live"], flat_frac=f["flat_frac"],
+               fit_argmax_frac=f["argmax_frac"], slope_iqr=f["slope_iqr"])
     out["I_maxgrad"] = max_smoothed_gradient(radii, C)
 
     R = out["R"]
     if not math.isfinite(out["I_fit"]):
-        out["status"] = "no_scaling_region"
+        out["status"] = ("atomic_spectrum" if f["n_live"] else "no_scaling_region")
     elif out["I_fit"] > R:
         # a slope steeper than the embedding dimension is not a dimension;
         # keep I_fit as evidence but refuse to turn it into a DRR

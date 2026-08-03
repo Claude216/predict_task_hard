@@ -14,13 +14,14 @@ disagree about how I is estimated, so their DRRs are NOT comparable row-by-row:
             that branches on R (<=6, 7-15, >15) and falls back to a fixed
             fraction of R when the gradients look implausible. I is an integer.
 
-  modified  external/drr_modified  -- adds method="fit" (the default), which
-            estimates I as the OLS slope of ln C(r) vs ln r over the scaling
-            region, i.e. the textbook correlation dimension. I is a float, and
-            the fit's R^2 is recorded. A low R^2 means there was no clean
-            scaling region and that row's DRR should not be trusted.
+  modified  external/drr_modified  -- upstream plus exactly two bug fixes:
+            C(r)=0 points are dropped from the log-log gradients (no 1e-15
+            epsilon, so the plateau-jump artifact that inflated I past R is
+            gone) and the R-banded acceptance windows are widened to the pure
+            sanity bound 0 < I <= R. Statistics, banding, and fallback
+            constants are otherwise upstream's; I is still an integer.
 
-fit_r2/fit_n_radii are blank for the upstream repo, which does not expose them.
+fit_r2/fit_n_radii are blank for both repos (neither exposes a fit).
 
 Usage (needs the `drr` conda env, which has pandas/numpy/scipy):
 
