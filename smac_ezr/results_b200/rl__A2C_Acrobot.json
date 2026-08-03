@@ -1,0 +1,26 @@
+{
+ "task_id": "rl__A2C_Acrobot",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/rl/A2C_Acrobot.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/rl/A2C_Acrobot.csv",
+  "rows": 223,
+  "n_decisions": 10,
+  "n_goals": 3,
+  "objective": "multi",
+  "space_size": 49.86,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -42.06,
+  "d2h_spread": 0.26343962602865284,
+  "eps": 0.0026343962602865287,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.40971925493015754,
+  "table_median": 0.584229880093631,
+  "d2h_star": 0.35010228370868035
+ },
+ "verdicts": {
+  "200": "smac"
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "task_id": "financial_data__WA_Fn-UseC_-Telco-Customer-Churn",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/financial_data/WA_Fn-UseC_-Telco-Customer-Churn.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/financial_data/WA_Fn-UseC_-Telco-Customer-Churn.csv",
+  "rows": 7043,
+  "n_decisions": 19,
+  "n_goals": 2,
+  "objective": "multi",
+  "space_size": 42.24,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -29.45,
+  "d2h_spread": 0.6942499596172568,
+  "eps": 0.0069424995961725675,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.006332335757193656,
+  "table_median": 0.4034858307204762,
+  "d2h_star": 0.006332335757193656
+ },
+ "verdicts": {
+  "200": "tie"
+ }
+}

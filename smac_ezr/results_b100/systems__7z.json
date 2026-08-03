@@ -1,0 +1,26 @@
+{
+ "task_id": "systems__7z",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/systems/7z.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/systems/7z.csv",
+  "rows": 68640,
+  "n_decisions": 14,
+  "n_goals": 1,
+  "objective": "single",
+  "space_size": 18.74,
+  "input_shape": "small-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -2.68,
+  "d2h_spread": 0.26751904404176974,
+  "eps": 0.0026751904404176976,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 1.2902667169712196e-05,
+  "table_median": 0.07362442438737306,
+  "d2h_star": 1.2902667169712196e-05
+ },
+ "verdicts": {
+  "100": "tie"
+ }
+}

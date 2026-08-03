@@ -1,0 +1,26 @@
+{
+ "task_id": "systems__javagc",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/systems/javagc.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/systems/javagc.csv",
+  "rows": 166975,
+  "n_decisions": 35,
+  "n_goals": 1,
+  "objective": "single",
+  "space_size": 99.81,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0151,
+  "coverage": -82.48,
+  "d2h_spread": 0.05125263865081907,
+  "eps": 0.0005125263865081907,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.00029698556512020664,
+  "table_median": 0.005041220089535184,
+  "d2h_star": 0.00029698556512020664
+ },
+ "verdicts": {
+  "50": "tie"
+ }
+}

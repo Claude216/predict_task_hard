@@ -1,0 +1,26 @@
+{
+ "task_id": "systems__storm",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/systems/storm.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/systems/storm.csv",
+  "rows": 1557,
+  "n_decisions": 12,
+  "n_goals": 1,
+  "objective": "single",
+  "space_size": 12.0,
+  "input_shape": "binary/SAT",
+  "x_dup_rate": 0.0,
+  "coverage": -1.4,
+  "d2h_spread": 0.6451013136913556,
+  "eps": 0.006451013136913556,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 1.9827246940449014e-05,
+  "table_median": 0.01506494921309402,
+  "d2h_star": 1.9827246940449014e-05
+ },
+ "verdicts": {
+  "100": "tie"
+ }
+}

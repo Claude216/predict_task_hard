@@ -1,0 +1,26 @@
+{
+ "task_id": "config__wc-6d-c1-obj1",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/config/wc-6d-c1-obj1.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/config/wc-6d-c1-obj1.csv",
+  "rows": 2880,
+  "n_decisions": 6,
+  "n_goals": 1,
+  "objective": "single",
+  "space_size": 11.49,
+  "input_shape": "small-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": 0.0,
+  "d2h_spread": 0.5142008650815965,
+  "eps": 0.0051420086508159645,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.0002179878703964108,
+  "table_median": 0.257847449682337,
+  "d2h_star": 0.0002179878703964108
+ },
+ "verdicts": {
+  "100": "tie"
+ }
+}

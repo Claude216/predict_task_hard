@@ -1,0 +1,138 @@
+[2026-07-27 00:03:12] Project:  /home/lli66/aise26/predict_task_hard/smac_ezr
+[2026-07-27 00:03:12] MOOT:     /home/lli66/aise26/predict_task_hard/data/moot/optimize
+[2026-07-27 00:03:12] Output:   /home/lli66/aise26/predict_task_hard/smac_ezr/results_b200
+[2026-07-27 00:03:12] Budget:   200
+[2026-07-27 00:03:13] Workers:  16
+[2026-07-27 00:03:13] Commit:   56ed05a
+python  3.12.13
+smac    /mnt/beegfs/lli66/.conda/envs/smoot/lib/python3.12/site-packages/smac/__init__.py
+sklearn 1.6.1
+pandas  3.0.5
+[2026-07-27 00:03:17] Starting sweep at B=200 ...
+found 127 tables under /home/lli66/aise26/predict_task_hard/data/moot/optimize; 0 already done; 127 to run
+[1/127] behavior_data__student_dropout: B200=tie
+[2/127] config__Apache_AllMeasurements: ConfigurationSpaceExhaustedException: 
+[3/127] behavior_data__player_statistics_cleaned_final: B200=ezr
+[4/127] behavior_data__WA_Fn-UseC_-HR-Employee-Attrition: B200=smac
+[5/127] binary_config__billing10k: B200=smac
+[6/127] binary_config__Scrum1k: B200=smac
+[7/127] config__HSMGP_num: B200=tie
+[8/127] config__SS-D: ConfigurationSpaceExhaustedException: 
+[9/127] binary_config__Scrum10k: B200=smac
+[10/127] config__SS-F: ConfigurationSpaceExhaustedException: 
+[11/127] config__SS-G: ConfigurationSpaceExhaustedException: 
+[12/127] binary_config__FFM-125-25-0.50-SAT-1: B200=smac
+[13/127] config__SS-H: ConfigurationSpaceExhaustedException: 
+[14/127] binary_config__Scrum100k: B200=smac
+[15/127] config__SS-A: B200=smac
+[16/127] config__SQL_AllMeasurements: B200=smac
+[17/127] config__SS-B: B200=smac
+[18/127] config__SS-C: B200=smac
+[19/127] config__SS-E: B200=smac
+[20/127] config__SS-I: B200=smac
+[21/127] config__SS-J: B200=smac
+[22/127] config__SS-K: B200=smac
+[23/127] config__SS-L: B200=smac
+[24/127] binary_config__FFM-250-50-0.50-SAT-1: B200=smac
+[25/127] config__SS-M: B200=tie
+[26/127] config__SS-O: B200=smac
+[27/127] config__SS-P: B200=smac
+[28/127] config__SS-N: B200=tie
+[29/127] config__SS-S: B200=tie
+[30/127] config__SS-Q: B200=tie
+[31/127] config__SS-R: B200=smac
+[32/127] config__SS-T: B200=smac
+[33/127] config__wc+rs-3d-c4-obj1: ConfigurationSpaceExhaustedException: 
+[34/127] config__wc+sol-3d-c4-obj1: ConfigurationSpaceExhaustedException: 
+[35/127] config__wc+wc-3d-c4-obj1: ConfigurationSpaceExhaustedException: 
+[36/127] config__SS-U: B200=smac
+[37/127] config__X264_AllMeasurements: B200=tie
+[38/127] config__rs-6d-c3_obj1: B200=tie
+[39/127] config__SS-W: B200=smac
+[40/127] config__rs-6d-c3_obj2: B200=tie
+[41/127] health_data__Data_COVID19_Indonesia: ValueError: no complete rows left after dropping missing values
+[42/127] config__SS-V: B200=smac
+[43/127] config__SS-X: B200=smac
+[44/127] config__sol-6d-c2-obj1: B200=tie
+[45/127] config__wc-6d-c1-obj1: B200=tie
+[46/127] binary_config__FM-500-100-0.75-SAT-1: B200=smac
+[47/127] hpo__Health-ClosedIssues0000: B200=smac
+[48/127] hpo__Health-ClosedIssues0001: B200=smac
+[49/127] binary_config__FM-500-100-0.50-SAT-1: B200=smac
+[50/127] binary_config__FM-500-100-1.00-SAT-1: B200=smac
+[51/127] binary_config__FFM-500-100-0.50-SAT-1: B200=smac
+[52/127] financial_data__BankChurners: B200=smac
+[53/127] binary_config__FM-500-100-0.25-SAT-1: B200=smac
+[54/127] hpo__Health-ClosedIssues0002: B200=smac
+[55/127] health_data__Life_Expectancy_Data: B200=ezr
+[56/127] health_data__Medical_Data_and_Hospital_Readmissions: B200=ezr
+[57/127] hpo__Health-ClosedIssues0003: B200=smac
+[58/127] hpo__Health-ClosedIssues0004: B200=smac
+[59/127] hpo__Health-ClosedIssues0005: B200=smac
+[60/127] hpo__Health-ClosedIssues0006: B200=tie
+[61/127] hpo__Health-ClosedIssues0008: B200=smac
+[62/127] hpo__Health-ClosedIssues0007: B200=smac
+[63/127] hpo__Health-ClosedIssues0009: B200=smac
+[64/127] hpo__Health-ClosedIssues0010: B200=smac
+[65/127] hpo__Health-ClosedIssues0011: B200=tie
+[66/127] hpo__Health-ClosedPRs0000: B200=tie
+[67/127] hpo__Health-ClosedPRs0002: B200=tie
+[68/127] hpo__Health-ClosedPRs0003: B200=tie
+[69/127] hpo__Health-ClosedPRs0005: B200=tie
+[70/127] hpo__Health-ClosedPRs0006: B200=smac
+[71/127] hpo__Health-ClosedPRs0004: B200=smac
+[72/127] hpo__Health-ClosedPRs0007: B200=smac
+[73/127] hpo__Health-ClosedPRs0008: B200=smac
+[74/127] hpo__Health-ClosedPRs0009: B200=smac
+[75/127] hpo__Health-ClosedPRs0010: B200=smac
+[76/127] hpo__Health-ClosedPRs0011: B200=tie
+[77/127] hpo__Health-Commits0000: B200=smac
+[78/127] hpo__Health-Commits0001: B200=tie
+[79/127] hpo__Health-Commits0002: B200=smac
+[80/127] hpo__Health-Commits0004: B200=smac
+[81/127] hpo__Health-Commits0003: B200=smac
+[82/127] hpo__Health-Commits0006: B200=smac
+[83/127] hpo__Health-Commits0005: B200=ezr
+[84/127] hpo__Health-Commits0007: B200=tie
+[85/127] hpo__Health-Commits0008: B200=smac
+[86/127] hpo__Health-Commits0009: B200=smac
+[87/127] hpo__Health-Commits0011: B200=tie
+[88/127] hpo__Health-Commits0010: B200=smac
+[89/127] misc__auto93: B200=smac
+[90/127] misc__Wine_quality: B200=ezr
+[91/127] process__nasa93dem: B200=smac
+[92/127] process__pom3d: B200=ezr
+[93/127] process__coc1000: B200=ezr
+[94/127] misc__Car_price_cleaned: B200=ezr
+[95/127] process__pom3a: B200=ezr
+[96/127] process__pom3b: B200=ezr
+[97/127] process__xomo_flight: B200=smac
+[98/127] sales_data__wallpaper: ValueError: no complete rows left after dropping missing values
+[99/127] process__pom3c: B200=ezr
+[100/127] financial_data__home_data_for_ml_course: B200=smac
+[101/127] process__xomo_ground: B200=smac
+[102/127] binary_config__FFM-1000-200-0.50-SAT-1: B200=smac
+[103/127] rl__A2C_Acrobot: B200=smac
+[104/127] rl__A2C_CartPole: B200=smac
+[105/127] process__xomo_osp2: B200=tie
+[106/127] process__xomo_osp: B200=smac
+[107/127] sales_data__socks: B200=tie
+[108/127] systems__LLVM: B200=smac
+[109/127] systems__PostgreSQL: B200=tie
+[110/127] systems__BDBC: B200=tie
+[111/127] systems__7z: B200=tie
+[112/127] systems__HSQLDB: B200=tie
+[113/127] systems__deeparch: B200=tie
+[114/127] systems__dconvert: B200=smac
+[115/127] systems__exastencils: B200=smac
+[116/127] sales_data__Marketing_Analytics: B200=smac
+[117/127] systems__storm: B200=tie
+[118/127] systems__redis: B200=ezr
+[119/127] test__dataset120: B200=ezr
+[120/127] test__dataset600: B200=ezr
+[121/127] systems__javagc: B200=tie
+[122/127] systems__x264: B200=tie
+[123/127] sales_data__dress-up: B200=smac
+[124/127] sales_data__accessories: B200=smac
+[125/127] financial_data__WA_Fn-UseC_-Telco-Customer-Churn: B200=tie
+[126/127] behavior_data__all_players: B200=smac

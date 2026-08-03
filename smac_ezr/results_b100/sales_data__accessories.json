@@ -1,0 +1,26 @@
+{
+ "task_id": "sales_data__accessories",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/sales_data/accessories.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/sales_data/accessories.csv",
+  "rows": 1121,
+  "n_decisions": 14,
+  "n_goals": 2,
+  "objective": "multi",
+  "space_size": 58.23,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -48.1,
+  "d2h_spread": 0.03306719222514498,
+  "eps": 0.00033067192225144984,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.21035649251920763,
+  "table_median": 0.6634338743930535,
+  "d2h_star": 0.19256462539069572
+ },
+ "verdicts": {
+  "100": "smac"
+ }
+}

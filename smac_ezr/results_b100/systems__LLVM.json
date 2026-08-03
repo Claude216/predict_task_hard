@@ -1,0 +1,26 @@
+{
+ "task_id": "systems__LLVM",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/systems/LLVM.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/systems/LLVM.csv",
+  "rows": 1024,
+  "n_decisions": 10,
+  "n_goals": 1,
+  "objective": "single",
+  "space_size": 10.0,
+  "input_shape": "binary/SAT",
+  "x_dup_rate": 0.0,
+  "coverage": 0.0,
+  "d2h_spread": 0.6541626244337367,
+  "eps": 0.006541626244337367,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.017971360507902472,
+  "table_median": 0.5424019090358904,
+  "d2h_star": 0.017971360507902066
+ },
+ "verdicts": {
+  "100": "smac"
+ }
+}

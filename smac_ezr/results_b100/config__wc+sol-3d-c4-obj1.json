@@ -1,0 +1,26 @@
+{
+ "task_id": "config__wc+sol-3d-c4-obj1",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/config/wc+sol-3d-c4-obj1.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/config/wc+sol-3d-c4-obj1.csv",
+  "rows": 196,
+  "n_decisions": 3,
+  "n_goals": 1,
+  "objective": "single",
+  "space_size": 7.61,
+  "input_shape": "small-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": 0.0,
+  "d2h_spread": 0.4478349709710515,
+  "eps": 0.004478349709710516,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.00042063105536831733,
+  "table_median": 0.25784810889244814,
+  "d2h_star": 0.00042063105536830974
+ },
+ "verdicts": {
+  "100": "tie"
+ }
+}

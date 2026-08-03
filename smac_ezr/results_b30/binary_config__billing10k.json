@@ -1,0 +1,26 @@
+{
+ "task_id": "binary_config__billing10k",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/binary_config/billing10k.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/binary_config/billing10k.csv",
+  "rows": 10000,
+  "n_decisions": 88,
+  "n_goals": 3,
+  "objective": "multi",
+  "space_size": 14.0,
+  "input_shape": "small-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -0.71,
+  "d2h_spread": 0.1767631503524838,
+  "eps": 0.0017676315035248381,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.34438606918040693,
+  "table_median": 0.5091280625079675,
+  "d2h_star": 0.34438606918040693
+ },
+ "verdicts": {
+  "30": "tie"
+ }
+}

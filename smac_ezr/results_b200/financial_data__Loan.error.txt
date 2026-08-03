@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/home/lli66/aise26/predict_task_hard/smac_ezr/batch.py", line 69, in _work
+    meta, records, verdicts = run_task(str(path), **cfg)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lli66/aise26/predict_task_hard/smac_ezr/runner.py", line 88, in run_task
+    records = [one_run(ds, oracle, opt, B, s, save_traces)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lli66/aise26/predict_task_hard/smac_ezr/runner.py", line 44, in one_run
+    declared = opt.run(ds, gate, seed)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lli66/aise26/predict_task_hard/smac_ezr/optimizers/smac_opt.py", line 61, in run
+    smac = HPOFacade(
+           ^^^^^^^^^^
+  File "/mnt/beegfs/lli66/.conda/envs/smoot/lib/python3.12/site-packages/smac/facade/abstract_facade.py", line 127, in __init__
+  File "/mnt/beegfs/lli66/.conda/envs/smoot/lib/python3.12/site-packages/smac/utils/logging.py", line 36, in setup_logging
+  File "/mnt/beegfs/lli66/.conda/envs/smoot/lib/python3.12/pathlib.py", line 1013, in open
+OSError: [Errno 70] Communication error on send: '/mnt/beegfs/lli66/.conda/envs/smoot/lib/python3.12/site-packages/smac/logging.yml'

@@ -1,0 +1,26 @@
+{
+ "task_id": "sales_data__Marketing_Analytics",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/sales_data/Marketing_Analytics.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/sales_data/Marketing_Analytics.csv",
+  "rows": 2205,
+  "n_decisions": 31,
+  "n_goals": 8,
+  "objective": "multi",
+  "space_size": 112.32,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0921,
+  "coverage": -101.35,
+  "d2h_spread": 0.17209402505369098,
+  "eps": 0.0017209402505369098,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.4989434076654696,
+  "table_median": 0.7330332860799722,
+  "d2h_star": 0.4367914999118092
+ },
+ "verdicts": {
+  "50": "smac"
+ }
+}

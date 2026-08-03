@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "/home/lli66/aise26/predict_task_hard/smac_ezr/batch.py", line 69, in _work
+    meta, records, verdicts = run_task(str(path), **cfg)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lli66/aise26/predict_task_hard/smac_ezr/runner.py", line 88, in run_task
+    records = [one_run(ds, oracle, opt, B, s, save_traces)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lli66/aise26/predict_task_hard/smac_ezr/runner.py", line 44, in one_run
+    declared = opt.run(ds, gate, seed)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lli66/aise26/predict_task_hard/smac_ezr/optimizers/smac_opt.py", line 74, in run
+    return dict(smac.optimize())
+                ^^^^^^^^^^^^^^^
+  File "/mnt/beegfs/lli66/.conda/envs/smoot/lib/python3.12/site-packages/smac/facade/abstract_facade.py", line 331, in optimize
+    incumbents = self._optimizer.optimize(data_to_scatter=data_to_scatter)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/beegfs/lli66/.conda/envs/smoot/lib/python3.12/site-packages/smac/main/smbo.py", line 315, in optimize
+    trial_info = self.ask()
+                 ^^^^^^^^^^
+  File "/mnt/beegfs/lli66/.conda/envs/smoot/lib/python3.12/site-packages/smac/main/smbo.py", line 162, in ask
+    trial_info = next(self._trial_generator)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/beegfs/lli66/.conda/envs/smoot/lib/python3.12/site-packages/smac/intensifier/intensifier.py", line 236, in __iter__
+    config = next(self.config_generator)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/beegfs/lli66/.conda/envs/smoot/lib/python3.12/site-packages/smac/main/config_selector.py", line 268, in __iter__
+    raise ConfigurationSpaceExhaustedException()
+smac.main.exceptions.ConfigurationSpaceExhaustedException

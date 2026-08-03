@@ -1,0 +1,26 @@
+{
+ "task_id": "process__xomo_osp",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/process/xomo_osp.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/process/xomo_osp.csv",
+  "rows": 10000,
+  "n_decisions": 24,
+  "n_goals": 4,
+  "objective": "multi",
+  "space_size": 252.59,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -239.31,
+  "d2h_spread": 0.20803418212584293,
+  "eps": 0.002080341821258429,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.019870469698085022,
+  "table_median": 0.22931163153993345,
+  "d2h_star": 0.019870469698085022
+ },
+ "verdicts": {
+  "50": "smac"
+ }
+}

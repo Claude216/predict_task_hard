@@ -1,0 +1,26 @@
+{
+ "task_id": "process__nasa93dem",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/process/nasa93dem.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/process/nasa93dem.csv",
+  "rows": 93,
+  "n_decisions": 22,
+  "n_goals": 3,
+  "objective": "multi",
+  "space_size": 24.66,
+  "input_shape": "small-numeric",
+  "x_dup_rate": 0.4086,
+  "coverage": -18.88,
+  "d2h_spread": 0.07819452005819083,
+  "eps": 0.0007819452005819083,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.43010237312109206,
+  "table_median": 0.5455924749896796,
+  "d2h_star": 0.37665082106807996
+ },
+ "verdicts": {
+  "30": "smac"
+ }
+}

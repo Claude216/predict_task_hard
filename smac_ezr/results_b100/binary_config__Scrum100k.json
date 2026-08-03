@@ -1,0 +1,26 @@
+{
+ "task_id": "binary_config__Scrum100k",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/binary_config/Scrum100k.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/binary_config/Scrum100k.csv",
+  "rows": 100000,
+  "n_decisions": 124,
+  "n_goals": 3,
+  "objective": "multi",
+  "space_size": 21.0,
+  "input_shape": "small-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -4.39,
+  "d2h_spread": 0.18156378780041893,
+  "eps": 0.0018156378780041893,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.30852051222339333,
+  "table_median": 0.5316272670023691,
+  "d2h_star": 0.3018407423766769
+ },
+ "verdicts": {
+  "100": "smac"
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "task_id": "financial_data__Loan",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/financial_data/Loan.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/financial_data/Loan.csv",
+  "rows": 20000,
+  "n_decisions": 31,
+  "n_goals": 5,
+  "objective": "multi",
+  "space_size": 257.62,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -243.34,
+  "d2h_spread": 0.15727599190953534,
+  "eps": 0.0015727599190953534,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.4687887660570767,
+  "table_median": 0.7100104875323754,
+  "d2h_star": 0.4687887660570767
+ },
+ "verdicts": {
+  "30": "tie"
+ }
+}

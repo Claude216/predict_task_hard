@@ -1,0 +1,26 @@
+{
+ "task_id": "behavior_data__student_dropout",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/behavior_data/student_dropout.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/behavior_data/student_dropout.csv",
+  "rows": 649,
+  "n_decisions": 33,
+  "n_goals": 1,
+  "objective": "single",
+  "space_size": 65.56,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -56.22,
+  "d2h_spread": 1.0,
+  "eps": 0.01,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.0,
+  "table_median": 1.0,
+  "d2h_star": 0.0
+ },
+ "verdicts": {
+  "50": "tie"
+ }
+}

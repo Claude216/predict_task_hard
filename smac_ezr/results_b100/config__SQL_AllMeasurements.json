@@ -1,0 +1,26 @@
+{
+ "task_id": "config__SQL_AllMeasurements",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/config/SQL_AllMeasurements.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/config/SQL_AllMeasurements.csv",
+  "rows": 4653,
+  "n_decisions": 38,
+  "n_goals": 1,
+  "objective": "single",
+  "space_size": 38.0,
+  "input_shape": "binary/SAT",
+  "x_dup_rate": 0.112,
+  "coverage": -25.99,
+  "d2h_spread": 0.38663962437970506,
+  "eps": 0.0038663962437970505,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.13161840783313428,
+  "table_median": 0.4455870300021531,
+  "d2h_star": 0.13161840783313428
+ },
+ "verdicts": {
+  "100": "tie"
+ }
+}

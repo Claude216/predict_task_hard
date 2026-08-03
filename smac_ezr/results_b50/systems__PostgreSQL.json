@@ -1,0 +1,26 @@
+{
+ "task_id": "systems__PostgreSQL",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/systems/PostgreSQL.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/systems/PostgreSQL.csv",
+  "rows": 19008,
+  "n_decisions": 9,
+  "n_goals": 1,
+  "objective": "single",
+  "space_size": 9.75,
+  "input_shape": "small-numeric",
+  "x_dup_rate": 0.9545,
+  "coverage": 0.0,
+  "d2h_spread": 0.26423531788324395,
+  "eps": 0.0026423531788324394,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.01939986049173786,
+  "table_median": 0.12960791448577713,
+  "d2h_star": 0.01939986049173779
+ },
+ "verdicts": {
+  "50": "tie"
+ }
+}

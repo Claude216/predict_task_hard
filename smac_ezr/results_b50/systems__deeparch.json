@@ -1,0 +1,26 @@
+{
+ "task_id": "systems__deeparch",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/systems/deeparch.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/systems/deeparch.csv",
+  "rows": 4096,
+  "n_decisions": 12,
+  "n_goals": 1,
+  "objective": "single",
+  "space_size": 12.0,
+  "input_shape": "binary/SAT",
+  "x_dup_rate": 0.0,
+  "coverage": 0.0,
+  "d2h_spread": 0.5979904673454073,
+  "eps": 0.005979904673454073,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 1.0154716164812705e-05,
+  "table_median": 0.2727588394549819,
+  "d2h_star": 1.0154716164811402e-05
+ },
+ "verdicts": {
+  "50": "tie"
+ }
+}

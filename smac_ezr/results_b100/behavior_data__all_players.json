@@ -1,0 +1,26 @@
+{
+ "task_id": "behavior_data__all_players",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/behavior_data/all_players.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/behavior_data/all_players.csv",
+  "rows": 17737,
+  "n_decisions": 55,
+  "n_goals": 2,
+  "objective": "multi",
+  "space_size": 272.59,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -258.48,
+  "d2h_spread": 0.3640266452017276,
+  "eps": 0.003640266452017276,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.0693392722706385,
+  "table_median": 0.4912381800970753,
+  "d2h_star": 0.0693392722706385
+ },
+ "verdicts": {
+  "100": "tie"
+ }
+}

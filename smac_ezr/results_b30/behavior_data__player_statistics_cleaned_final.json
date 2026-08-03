@@ -1,0 +1,26 @@
+{
+ "task_id": "behavior_data__player_statistics_cleaned_final",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/behavior_data/player_statistics_cleaned_final.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/behavior_data/player_statistics_cleaned_final.csv",
+  "rows": 81,
+  "n_decisions": 26,
+  "n_goals": 1,
+  "objective": "single",
+  "space_size": 102.95,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -96.61,
+  "d2h_spread": 0.47583143507972414,
+  "eps": 0.0047583143507972415,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.11143507972665312,
+  "table_median": 0.3528473804100246,
+  "d2h_star": 0.1114350797266529
+ },
+ "verdicts": {
+  "30": "ezr"
+ }
+}

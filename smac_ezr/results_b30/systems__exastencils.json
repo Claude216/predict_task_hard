@@ -1,0 +1,26 @@
+{
+ "task_id": "systems__exastencils",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/systems/exastencils.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/systems/exastencils.csv",
+  "rows": 86058,
+  "n_decisions": 12,
+  "n_goals": 1,
+  "objective": "single",
+  "space_size": 19.32,
+  "input_shape": "small-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -2.93,
+  "d2h_spread": 0.32139590054031075,
+  "eps": 0.0032139590054031074,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.000510308388758233,
+  "table_median": 0.167008907828534,
+  "d2h_star": 0.000510308388758233
+ },
+ "verdicts": {
+  "30": "smac"
+ }
+}

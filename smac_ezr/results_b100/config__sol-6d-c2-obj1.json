@@ -1,0 +1,26 @@
+{
+ "task_id": "config__sol-6d-c2-obj1",
+ "path": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/config/sol-6d-c2-obj1.csv",
+ "meta": {
+  "task": "/home/lli66/aise26/predict_task_hard/data/moot/optimize/config/sol-6d-c2-obj1.csv",
+  "rows": 2866,
+  "n_decisions": 6,
+  "n_goals": 1,
+  "objective": "single",
+  "space_size": 11.49,
+  "input_shape": "small-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -0.01,
+  "d2h_spread": 0.4761080847759988,
+  "eps": 0.004761080847759988,
+  "eps_base": 0.01,
+  "seeds": 20,
+  "oracle_seed": 0,
+  "table_best": 0.006876205264815844,
+  "table_median": 0.2079608682700341,
+  "d2h_star": 0.006876205264815844
+ },
+ "verdicts": {
+  "100": "tie"
+ }
+}
