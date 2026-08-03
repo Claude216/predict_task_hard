@@ -1,0 +1,10 @@
+dataset,repo,path,rows_raw,cols_raw,goal_cols,R,I,DRR,fit_r2,fit_n_radii,row_sampling_applied,preprocessing_note,status
+adult,modified,external/moot/fairness/adult.csv,30162,15,income!,14,1.1386,0.9187,0.9872,72,1,,ok
+bank,modified,external/moot/fairness/bank.csv,45211,17,y!,16,1.8493,0.8844,0.9081,59,1,,ok
+german,modified,external/moot/fairness/german.csv,1000,21,credit!,20,1.3003,0.935,0.8894,68,0,,ok
+iris,modified,external/moot/classify/iris.csv,150,5,class!,4,1.6545,0.5864,0.9384,62,0,,ok
+heart.c,modified,external/moot/classify/heart.c.csv,303,14,num!,13,2.9911,0.7699,0.9658,46,0,,ok
+Wine_quality,modified,external/moot/optimize/misc/Wine_quality.csv,1599,12,Alcohol-;Quality+,10,2.262,0.7738,0.9613,55,0,,ok
+gamma_telescope,modified,external/uci/gamma_telescope.csv,19020,11,class!,10,3.2923,0.6708,0.9481,46,1,,ok
+default,modified,external/uci/default.csv,30000,24,Y!,23,1.1408,0.9504,0.9039,68,1,"drop ID column (else 24 x-cols, not 23)",ok
+power_consumption,modified,external/uci/power_consumption.csv,2075259,7,Sub_metering_1!,6,1.7451,0.7092,0.984,60,1,"drop Date, Time; target = Sub_metering_1; '?' = missing",ok

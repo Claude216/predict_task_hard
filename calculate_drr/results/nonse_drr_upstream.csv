@@ -1,0 +1,10 @@
+dataset,repo,path,rows_raw,cols_raw,goal_cols,R,I,DRR,fit_r2,fit_n_radii,row_sampling_applied,preprocessing_note,status
+adult,upstream,external/moot/fairness/adult.csv,30162,15,income!,14,1.0,0.9286,,,1,,ok
+bank,upstream,external/moot/fairness/bank.csv,45211,17,y!,16,11.0,0.3125,,,1,,ok
+german,upstream,external/moot/fairness/german.csv,1000,21,credit!,20,15.0,0.25,,,0,,ok
+iris,upstream,external/moot/classify/iris.csv,150,5,class!,4,1.0,0.75,,,0,,ok
+heart.c,upstream,external/moot/classify/heart.c.csv,303,14,num!,13,1.0,0.9231,,,0,,ok
+Wine_quality,upstream,external/moot/optimize/misc/Wine_quality.csv,1599,12,Alcohol-;Quality+,10,1.0,0.9,,,0,,ok
+gamma_telescope,upstream,external/uci/gamma_telescope.csv,19020,11,class!,10,5.0,0.5,,,1,,ok
+default,upstream,external/uci/default.csv,30000,24,Y!,23,18.0,0.2174,,,1,"drop ID column (else 24 x-cols, not 23)",ok
+power_consumption,upstream,external/uci/power_consumption.csv,2075259,7,Sub_metering_1!,6,2.0,0.6667,,,1,"drop Date, Time; target = Sub_metering_1; '?' = missing",ok
