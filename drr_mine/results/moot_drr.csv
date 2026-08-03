@@ -1,65 +1,65 @@
 task,path,n_rows,n_dedup,dup_row_frac,n_used,R,I_fit,n_live,flat_frac,fit_argmax_frac,slope_iqr,I_maxgrad,drr_fit,drr_maxgrad,dup_pair_frac,seed,runtime_s,status
-behavior_data/WA_Fn-UseC_-HR-Employee-Attrition.csv,data/moot/optimize/behavior_data/WA_Fn-UseC_-HR-Employee-Attrition.csv,1470,1470,0.0,1470,32,12.7387,100,0.0,0.0303,0.9814,16.5129,0.6019,0.484,0.0,42,0.24,ok
-behavior_data/all_players.csv,data/moot/optimize/behavior_data/all_players.csv,17737,17737,0.0,2000,55,14.2851,100,0.0,0.0,4.3527,31.7192,0.7403,0.4233,0.0,42,0.91,ok
+behavior_data/WA_Fn-UseC_-HR-Employee-Attrition.csv,data/moot/optimize/behavior_data/WA_Fn-UseC_-HR-Employee-Attrition.csv,1470,1470,0.0,1470,32,12.7387,100,0.0,0.0303,0.9814,16.5129,0.6019,0.484,0.0,42,0.27,ok
+behavior_data/all_players.csv,data/moot/optimize/behavior_data/all_players.csv,17737,17737,0.0,2000,55,14.2851,100,0.0,0.0,4.3527,31.7192,0.7403,0.4233,0.0,42,0.93,ok
 behavior_data/player_statistics_cleaned_final.csv,data/moot/optimize/behavior_data/player_statistics_cleaned_final.csv,81,81,0.0,81,26,17.9644,100,0.0,0.0202,2.978,14.0221,0.3091,0.4607,0.0,42,0.01,ok
 behavior_data/student_dropout.csv,data/moot/optimize/behavior_data/student_dropout.csv,649,649,0.0,649,33,14.4063,100,0.0,0.2323,1.4799,11.9033,0.5634,0.6393,0.0,42,0.05,ok
-binary_config/FFM-1000-200-0.50-SAT-1.csv,data/moot/optimize/binary_config/FFM-1000-200-0.50-SAT-1.csv,10000,10000,0.0,2000,1044,nan,2,0.98,nan,nan,29.2678,nan,0.972,0.0,42,9.52,atomic_spectrum
-binary_config/FFM-125-25-0.50-SAT-1.csv,data/moot/optimize/binary_config/FFM-125-25-0.50-SAT-1.csv,10000,10000,0.0,2000,128,nan,3,0.97,nan,nan,29.3371,nan,0.7708,0.0,42,1.19,atomic_spectrum
-binary_config/FFM-250-50-0.50-SAT-1.csv,data/moot/optimize/binary_config/FFM-250-50-0.50-SAT-1.csv,10000,10000,0.0,2000,256,nan,3,0.97,nan,nan,29.4035,nan,0.8851,0.0,42,2.33,atomic_spectrum
-binary_config/FFM-500-100-0.50-SAT-1.csv,data/moot/optimize/binary_config/FFM-500-100-0.50-SAT-1.csv,10000,10000,0.0,2000,510,nan,2,0.98,nan,nan,28.3144,nan,0.9445,0.0,42,4.62,atomic_spectrum
-binary_config/FM-500-100-0.25-SAT-1.csv,data/moot/optimize/binary_config/FM-500-100-0.25-SAT-1.csv,10000,10000,0.0,2000,517,nan,3,0.97,nan,nan,27.7682,nan,0.9463,0.0,42,4.87,atomic_spectrum
-binary_config/FM-500-100-0.50-SAT-1.csv,data/moot/optimize/binary_config/FM-500-100-0.50-SAT-1.csv,10000,10000,0.0,2000,513,nan,3,0.97,nan,nan,30.0746,nan,0.9414,0.0,42,4.74,atomic_spectrum
-binary_config/FM-500-100-0.75-SAT-1.csv,data/moot/optimize/binary_config/FM-500-100-0.75-SAT-1.csv,10000,10000,0.0,2000,511,nan,3,0.97,nan,nan,29.1761,nan,0.9429,0.0,42,4.86,atomic_spectrum
-binary_config/FM-500-100-1.00-SAT-1.csv,data/moot/optimize/binary_config/FM-500-100-1.00-SAT-1.csv,10000,10000,0.0,2000,511,nan,4,0.96,nan,nan,28.0777,nan,0.9451,0.0,42,5.09,atomic_spectrum
-binary_config/Scrum100k.csv,data/moot/optimize/binary_config/Scrum100k.csv,100000,100000,0.0,2000,124,nan,4,0.96,nan,nan,27.0071,nan,0.7822,0.0,42,2.17,atomic_spectrum
-binary_config/Scrum10k.csv,data/moot/optimize/binary_config/Scrum10k.csv,10000,10000,0.0,2000,124,nan,3,0.97,nan,nan,24.4212,nan,0.8031,0.0,42,1.2,atomic_spectrum
-binary_config/Scrum1k.csv,data/moot/optimize/binary_config/Scrum1k.csv,1000,1000,0.0,1000,124,nan,2,0.98,nan,nan,23.4697,nan,0.8107,0.0,42,0.28,atomic_spectrum
-binary_config/billing10k.csv,data/moot/optimize/binary_config/billing10k.csv,10000,10000,0.0,2000,88,nan,2,0.98,nan,nan,29.2503,nan,0.6676,0.0,42,0.85,atomic_spectrum
-config/Apache_AllMeasurements.csv,data/moot/optimize/config/Apache_AllMeasurements.csv,192,192,0.0,192,9,nan,2,0.98,nan,nan,27.426,nan,-2.0473,0.0,42,0.0,atomic_spectrum
-config/HSMGP_num.csv,data/moot/optimize/config/HSMGP_num.csv,3456,3456,0.0,2000,14,28.1949,100,0.0,0.9394,1.4133,9.1748,nan,0.3447,0.0,42,0.26,warn: I_fit>R (no clean scaling region)
-config/SQL_AllMeasurements.csv,data/moot/optimize/config/SQL_AllMeasurements.csv,4653,4132,0.112,2000,38,nan,3,0.97,nan,nan,24.3812,nan,0.3584,0.0,42,0.44,atomic_spectrum
-config/SS-A.csv,data/moot/optimize/config/SS-A.csv,1343,1343,0.0,1343,3,5.4702,83,0.17,0.3737,1.5589,4.9872,nan,-0.6624,0.0,42,0.09,warn: I_fit>R (no clean scaling region)
-config/SS-B.csv,data/moot/optimize/config/SS-B.csv,206,206,0.0,206,3,8.1549,94,0.06,0.303,1.6196,4.49,nan,-0.4967,0.0,42,0.0,warn: I_fit>R (no clean scaling region)
-config/SS-C.csv,data/moot/optimize/config/SS-C.csv,1512,1512,0.0,1512,3,6.6276,79,0.21,0.7576,1.7592,1.8991,nan,0.367,0.0,42,0.1,warn: I_fit>R (no clean scaling region)
+binary_config/FFM-1000-200-0.50-SAT-1.csv,data/moot/optimize/binary_config/FFM-1000-200-0.50-SAT-1.csv,10000,10000,0.0,2000,1044,nan,2,0.98,nan,nan,29.2678,nan,0.972,0.0,42,9.35,atomic_spectrum
+binary_config/FFM-125-25-0.50-SAT-1.csv,data/moot/optimize/binary_config/FFM-125-25-0.50-SAT-1.csv,10000,10000,0.0,2000,128,nan,3,0.97,nan,nan,29.3371,nan,0.7708,0.0,42,1.2,atomic_spectrum
+binary_config/FFM-250-50-0.50-SAT-1.csv,data/moot/optimize/binary_config/FFM-250-50-0.50-SAT-1.csv,10000,10000,0.0,2000,256,nan,3,0.97,nan,nan,29.4035,nan,0.8851,0.0,42,2.37,atomic_spectrum
+binary_config/FFM-500-100-0.50-SAT-1.csv,data/moot/optimize/binary_config/FFM-500-100-0.50-SAT-1.csv,10000,10000,0.0,2000,510,nan,2,0.98,nan,nan,28.3144,nan,0.9445,0.0,42,4.64,atomic_spectrum
+binary_config/FM-500-100-0.25-SAT-1.csv,data/moot/optimize/binary_config/FM-500-100-0.25-SAT-1.csv,10000,10000,0.0,2000,517,nan,3,0.97,nan,nan,27.7682,nan,0.9463,0.0,42,4.82,atomic_spectrum
+binary_config/FM-500-100-0.50-SAT-1.csv,data/moot/optimize/binary_config/FM-500-100-0.50-SAT-1.csv,10000,10000,0.0,2000,513,nan,3,0.97,nan,nan,30.0746,nan,0.9414,0.0,42,4.59,atomic_spectrum
+binary_config/FM-500-100-0.75-SAT-1.csv,data/moot/optimize/binary_config/FM-500-100-0.75-SAT-1.csv,10000,10000,0.0,2000,511,nan,3,0.97,nan,nan,29.1761,nan,0.9429,0.0,42,4.67,atomic_spectrum
+binary_config/FM-500-100-1.00-SAT-1.csv,data/moot/optimize/binary_config/FM-500-100-1.00-SAT-1.csv,10000,10000,0.0,2000,511,nan,4,0.96,nan,nan,28.0777,nan,0.9451,0.0,42,4.66,atomic_spectrum
+binary_config/Scrum100k.csv,data/moot/optimize/binary_config/Scrum100k.csv,100000,100000,0.0,2000,124,nan,4,0.96,nan,nan,27.0071,nan,0.7822,0.0,42,2.08,atomic_spectrum
+binary_config/Scrum10k.csv,data/moot/optimize/binary_config/Scrum10k.csv,10000,10000,0.0,2000,124,nan,3,0.97,nan,nan,24.4212,nan,0.8031,0.0,42,1.18,atomic_spectrum
+binary_config/Scrum1k.csv,data/moot/optimize/binary_config/Scrum1k.csv,1000,1000,0.0,1000,124,nan,2,0.98,nan,nan,23.4697,nan,0.8107,0.0,42,0.29,atomic_spectrum
+binary_config/billing10k.csv,data/moot/optimize/binary_config/billing10k.csv,10000,10000,0.0,2000,88,nan,2,0.98,nan,nan,29.2503,nan,0.6676,0.0,42,0.86,atomic_spectrum
+config/Apache_AllMeasurements.csv,data/moot/optimize/config/Apache_AllMeasurements.csv,192,192,0.0,192,9,nan,2,0.98,nan,nan,27.426,nan,-2.0473,0.0,42,0.01,atomic_spectrum
+config/HSMGP_num.csv,data/moot/optimize/config/HSMGP_num.csv,3456,3456,0.0,2000,14,28.1949,100,0.0,0.9394,1.4133,9.1748,-1.0139,0.3447,0.0,42,0.23,warn: I_fit>R (estimate overshoots R)
+config/SQL_AllMeasurements.csv,data/moot/optimize/config/SQL_AllMeasurements.csv,4653,4132,0.112,2000,38,nan,3,0.97,nan,nan,24.3812,nan,0.3584,0.0,42,0.38,atomic_spectrum
+config/SS-A.csv,data/moot/optimize/config/SS-A.csv,1343,1343,0.0,1343,3,5.4702,83,0.17,0.3737,1.5589,4.9872,-0.8234,-0.6624,0.0,42,0.09,warn: I_fit>R (estimate overshoots R)
+config/SS-B.csv,data/moot/optimize/config/SS-B.csv,206,206,0.0,206,3,8.1549,94,0.06,0.303,1.6196,4.49,-1.7183,-0.4967,0.0,42,0.0,warn: I_fit>R (estimate overshoots R)
+config/SS-C.csv,data/moot/optimize/config/SS-C.csv,1512,1512,0.0,1512,3,6.6276,79,0.21,0.7576,1.7592,1.8991,-1.2092,0.367,0.0,42,0.1,warn: I_fit>R (estimate overshoots R)
 config/SS-D.csv,data/moot/optimize/config/SS-D.csv,196,196,0.0,196,3,nan,33,0.67,nan,nan,2.2067,nan,0.2644,0.0,42,0.0,atomic_spectrum
-config/SS-E.csv,data/moot/optimize/config/SS-E.csv,756,756,0.0,756,3,11.2398,78,0.22,0.3535,1.4379,2.0403,nan,0.3199,0.0,42,0.02,warn: I_fit>R (no clean scaling region)
+config/SS-E.csv,data/moot/optimize/config/SS-E.csv,756,756,0.0,756,3,11.2398,78,0.22,0.3535,1.4379,2.0403,-2.7466,0.3199,0.0,42,0.03,warn: I_fit>R (estimate overshoots R)
 config/SS-F.csv,data/moot/optimize/config/SS-F.csv,196,196,0.0,196,3,nan,33,0.67,nan,nan,2.2067,nan,0.2644,0.0,42,0.0,atomic_spectrum
 config/SS-G.csv,data/moot/optimize/config/SS-G.csv,196,196,0.0,196,3,nan,33,0.67,nan,nan,2.2067,nan,0.2644,0.0,42,0.0,atomic_spectrum
-config/SS-H.csv,data/moot/optimize/config/SS-H.csv,259,259,0.0,259,4,11.6048,88,0.12,0.0808,1.5786,3.1192,nan,0.2202,0.0,42,0.0,warn: I_fit>R (no clean scaling region)
-config/SS-I.csv,data/moot/optimize/config/SS-I.csv,1080,1080,0.0,1080,5,8.6145,99,0.01,0.1313,1.6945,3.8967,nan,0.2207,0.0,42,0.06,warn: I_fit>R (no clean scaling region)
-config/SS-J.csv,data/moot/optimize/config/SS-J.csv,3840,3840,0.0,2000,6,7.4738,100,0.0,0.9293,1.7644,4.3791,nan,0.2702,0.0,42,0.21,warn: I_fit>R (no clean scaling region)
-config/SS-K.csv,data/moot/optimize/config/SS-K.csv,2880,2880,0.0,2000,6,7.4821,97,0.03,0.9394,1.8789,3.9254,nan,0.3458,0.0,42,0.19,warn: I_fit>R (no clean scaling region)
-config/SS-L.csv,data/moot/optimize/config/SS-L.csv,1023,768,0.2493,768,11,nan,5,0.95,nan,nan,28.2337,nan,-1.5667,0.0,42,0.03,atomic_spectrum
+config/SS-H.csv,data/moot/optimize/config/SS-H.csv,259,259,0.0,259,4,11.6048,88,0.12,0.0808,1.5786,3.1192,-1.9012,0.2202,0.0,42,0.01,warn: I_fit>R (estimate overshoots R)
+config/SS-I.csv,data/moot/optimize/config/SS-I.csv,1080,1080,0.0,1080,5,8.6145,99,0.01,0.1313,1.6945,3.8967,-0.7229,0.2207,0.0,42,0.05,warn: I_fit>R (estimate overshoots R)
+config/SS-J.csv,data/moot/optimize/config/SS-J.csv,3840,3840,0.0,2000,6,7.4738,100,0.0,0.9293,1.7644,4.3791,-0.2456,0.2702,0.0,42,0.21,warn: I_fit>R (estimate overshoots R)
+config/SS-K.csv,data/moot/optimize/config/SS-K.csv,2880,2880,0.0,2000,6,7.4821,97,0.03,0.9394,1.8789,3.9254,-0.247,0.3458,0.0,42,0.19,warn: I_fit>R (estimate overshoots R)
+config/SS-L.csv,data/moot/optimize/config/SS-L.csv,1023,768,0.2493,768,11,nan,5,0.95,nan,nan,28.2337,nan,-1.5667,0.0,42,0.04,atomic_spectrum
 config/SS-M.csv,data/moot/optimize/config/SS-M.csv,864,864,0.0,864,17,nan,3,0.97,nan,nan,22.804,nan,-0.3414,0.0,42,0.04,atomic_spectrum
 config/SS-N.csv,data/moot/optimize/config/SS-N.csv,53662,52250,0.0263,2000,17,12.1247,100,0.0,0.404,2.3138,5.2603,0.2868,0.6906,0.0,42,0.42,ok
 config/SS-O.csv,data/moot/optimize/config/SS-O.csv,972,972,0.0,972,11,nan,35,0.65,nan,nan,6.8159,nan,0.3804,0.0,42,0.05,atomic_spectrum
-config/SS-P.csv,data/moot/optimize/config/SS-P.csv,1023,768,0.2493,768,11,nan,3,0.97,nan,nan,28.3763,nan,-1.5797,0.0,42,0.02,atomic_spectrum
-config/SS-Q.csv,data/moot/optimize/config/SS-Q.csv,2736,2736,0.0,2000,13,7.8275,98,0.02,0.2323,2.0442,7.0049,0.3979,0.4612,0.0,42,0.23,ok
-config/SS-R.csv,data/moot/optimize/config/SS-R.csv,3008,3008,0.0,2000,14,34.135,83,0.17,0.0,5.023,7.985,nan,0.4296,0.0,42,0.22,warn: I_fit>R (no clean scaling region)
-config/SS-S.csv,data/moot/optimize/config/SS-S.csv,3840,3840,0.0,2000,6,7.4738,100,0.0,0.9293,1.7644,4.3791,nan,0.2702,0.0,42,0.23,warn: I_fit>R (no clean scaling region)
-config/SS-T.csv,data/moot/optimize/config/SS-T.csv,5184,5184,0.0,2000,12,11.5838,100,0.0,0.8182,3.3569,5.8313,0.0347,0.5141,0.0,42,0.23,ok
-config/SS-U.csv,data/moot/optimize/config/SS-U.csv,4608,4608,0.0,2000,21,nan,3,0.97,nan,nan,24.8236,nan,-0.1821,0.0,42,0.27,atomic_spectrum
-config/SS-V.csv,data/moot/optimize/config/SS-V.csv,6840,6840,0.0,2000,16,nan,27,0.73,nan,nan,9.996,nan,0.3753,0.0,42,0.31,atomic_spectrum
-config/SS-W.csv,data/moot/optimize/config/SS-W.csv,65536,65536,0.0,2000,16,nan,3,0.97,nan,nan,30.6945,nan,-0.9184,0.0,42,0.32,atomic_spectrum
-config/SS-X.csv,data/moot/optimize/config/SS-X.csv,86058,86058,0.0,2000,11,nan,2,0.98,nan,nan,42.2231,nan,-2.8385,0.0,42,0.26,atomic_spectrum
-config/X264_AllMeasurements.csv,data/moot/optimize/config/X264_AllMeasurements.csv,1152,1152,0.0,1152,16,nan,3,0.97,nan,nan,25.0782,nan,-0.5674,0.0,42,0.06,atomic_spectrum
-config/rs-6d-c3_obj1.csv,data/moot/optimize/config/rs-6d-c3_obj1.csv,3840,3840,0.0,2000,6,7.4738,100,0.0,0.9293,1.7644,4.3791,nan,0.2702,0.0,42,0.2,warn: I_fit>R (no clean scaling region)
-config/rs-6d-c3_obj2.csv,data/moot/optimize/config/rs-6d-c3_obj2.csv,3840,3840,0.0,2000,6,7.4738,100,0.0,0.9293,1.7644,4.3791,nan,0.2702,0.0,42,0.22,warn: I_fit>R (no clean scaling region)
-config/sol-6d-c2-obj1.csv,data/moot/optimize/config/sol-6d-c2-obj1.csv,2866,2866,0.0,2000,6,10.1058,88,0.12,0.9293,2.319,3.7361,nan,0.3773,0.0,42,0.19,warn: I_fit>R (no clean scaling region)
+config/SS-P.csv,data/moot/optimize/config/SS-P.csv,1023,768,0.2493,768,11,nan,3,0.97,nan,nan,28.3763,nan,-1.5797,0.0,42,0.03,atomic_spectrum
+config/SS-Q.csv,data/moot/optimize/config/SS-Q.csv,2736,2736,0.0,2000,13,7.8275,98,0.02,0.2323,2.0442,7.0049,0.3979,0.4612,0.0,42,0.22,ok
+config/SS-R.csv,data/moot/optimize/config/SS-R.csv,3008,3008,0.0,2000,14,34.135,83,0.17,0.0,5.023,7.985,-1.4382,0.4296,0.0,42,0.22,warn: I_fit>R (estimate overshoots R)
+config/SS-S.csv,data/moot/optimize/config/SS-S.csv,3840,3840,0.0,2000,6,7.4738,100,0.0,0.9293,1.7644,4.3791,-0.2456,0.2702,0.0,42,0.21,warn: I_fit>R (estimate overshoots R)
+config/SS-T.csv,data/moot/optimize/config/SS-T.csv,5184,5184,0.0,2000,12,11.5838,100,0.0,0.8182,3.3569,5.8313,0.0347,0.5141,0.0,42,0.22,ok
+config/SS-U.csv,data/moot/optimize/config/SS-U.csv,4608,4608,0.0,2000,21,nan,3,0.97,nan,nan,24.8236,nan,-0.1821,0.0,42,0.24,atomic_spectrum
+config/SS-V.csv,data/moot/optimize/config/SS-V.csv,6840,6840,0.0,2000,16,nan,27,0.73,nan,nan,9.996,nan,0.3753,0.0,42,0.22,atomic_spectrum
+config/SS-W.csv,data/moot/optimize/config/SS-W.csv,65536,65536,0.0,2000,16,nan,3,0.97,nan,nan,30.6945,nan,-0.9184,0.0,42,0.3,atomic_spectrum
+config/SS-X.csv,data/moot/optimize/config/SS-X.csv,86058,86058,0.0,2000,11,nan,2,0.98,nan,nan,42.2231,nan,-2.8385,0.0,42,0.28,atomic_spectrum
+config/X264_AllMeasurements.csv,data/moot/optimize/config/X264_AllMeasurements.csv,1152,1152,0.0,1152,16,nan,3,0.97,nan,nan,25.0782,nan,-0.5674,0.0,42,0.12,atomic_spectrum
+config/rs-6d-c3_obj1.csv,data/moot/optimize/config/rs-6d-c3_obj1.csv,3840,3840,0.0,2000,6,7.4738,100,0.0,0.9293,1.7644,4.3791,-0.2456,0.2702,0.0,42,0.2,warn: I_fit>R (estimate overshoots R)
+config/rs-6d-c3_obj2.csv,data/moot/optimize/config/rs-6d-c3_obj2.csv,3840,3840,0.0,2000,6,7.4738,100,0.0,0.9293,1.7644,4.3791,-0.2456,0.2702,0.0,42,0.2,warn: I_fit>R (estimate overshoots R)
+config/sol-6d-c2-obj1.csv,data/moot/optimize/config/sol-6d-c2-obj1.csv,2866,2866,0.0,2000,6,10.1058,88,0.12,0.9293,2.319,3.7361,-0.6843,0.3773,0.0,42,0.2,warn: I_fit>R (estimate overshoots R)
 config/wc+rs-3d-c4-obj1.csv,data/moot/optimize/config/wc+rs-3d-c4-obj1.csv,196,196,0.0,196,3,nan,33,0.67,nan,nan,2.2067,nan,0.2644,0.0,42,0.0,atomic_spectrum
 config/wc+sol-3d-c4-obj1.csv,data/moot/optimize/config/wc+sol-3d-c4-obj1.csv,196,196,0.0,196,3,nan,33,0.67,nan,nan,2.2067,nan,0.2644,0.0,42,0.0,atomic_spectrum
 config/wc+wc-3d-c4-obj1.csv,data/moot/optimize/config/wc+wc-3d-c4-obj1.csv,196,196,0.0,196,3,nan,33,0.67,nan,nan,2.2067,nan,0.2644,0.0,42,0.0,atomic_spectrum
-config/wc-6d-c1-obj1.csv,data/moot/optimize/config/wc-6d-c1-obj1.csv,2880,2880,0.0,2000,6,7.4821,97,0.03,0.9394,1.8789,3.9254,nan,0.3458,0.0,42,0.19,warn: I_fit>R (no clean scaling region)
+config/wc-6d-c1-obj1.csv,data/moot/optimize/config/wc-6d-c1-obj1.csv,2880,2880,0.0,2000,6,7.4821,97,0.03,0.9394,1.8789,3.9254,-0.247,0.3458,0.0,42,0.19,warn: I_fit>R (estimate overshoots R)
 financial_data/BankChurners.csv,data/moot/optimize/financial_data/BankChurners.csv,10127,10127,0.0,2000,19,8.7325,100,0.0,0.0404,0.4963,9.5185,0.5404,0.499,0.0,42,0.37,ok
 financial_data/Loan.csv,data/moot/optimize/financial_data/Loan.csv,20000,20000,0.0,2000,31,18.6124,100,0.0,0.0505,2.4299,32.0226,0.3996,-0.033,0.0,42,0.57,ok
 financial_data/WA_Fn-UseC_-Telco-Customer-Churn.csv,data/moot/optimize/financial_data/WA_Fn-UseC_-Telco-Customer-Churn.csv,7043,7043,0.0,2000,19,nan,8,0.92,nan,nan,31.3646,nan,-0.6508,0.0,42,0.24,atomic_spectrum
-financial_data/home_data_for_ml_course.csv,data/moot/optimize/financial_data/home_data_for_ml_course.csv,1460,1460,0.0,1460,77,11.789,100,0.0,0.0909,0.7428,10.7775,0.8469,0.86,0.0,42,0.53,ok
-health_data/Data_COVID19_Indonesia.csv,data/moot/optimize/health_data/Data_COVID19_Indonesia.csv,21759,21759,0.0,2000,35,60.2627,100,0.0,0.7879,8.9252,108.3227,nan,-2.0949,0.0,42,0.64,warn: I_fit>R (no clean scaling region)
+financial_data/home_data_for_ml_course.csv,data/moot/optimize/financial_data/home_data_for_ml_course.csv,1460,1460,0.0,1460,77,11.789,100,0.0,0.0909,0.7428,10.7775,0.8469,0.86,0.0,42,0.51,ok
+health_data/Data_COVID19_Indonesia.csv,data/moot/optimize/health_data/Data_COVID19_Indonesia.csv,21759,21759,0.0,2000,35,60.2627,100,0.0,0.7879,8.9252,108.3227,-0.7218,-2.0949,0.0,42,0.64,warn: I_fit>R (estimate overshoots R)
 health_data/Life_Expectancy_Data.csv,data/moot/optimize/health_data/Life_Expectancy_Data.csv,2938,2938,0.0,2000,20,15.5915,100,0.0,0.0606,4.2195,12.4346,0.2204,0.3783,0.0,42,0.39,ok
-health_data/Medical_Data_and_Hospital_Readmissions.csv,data/moot/optimize/health_data/Medical_Data_and_Hospital_Readmissions.csv,25000,25000,0.0,2000,64,10.7446,100,0.0,0.0404,1.2812,9.2702,0.8321,0.8552,0.0,42,0.87,ok
+health_data/Medical_Data_and_Hospital_Readmissions.csv,data/moot/optimize/health_data/Medical_Data_and_Hospital_Readmissions.csv,25000,25000,0.0,2000,64,10.7446,100,0.0,0.0404,1.2812,9.2702,0.8321,0.8552,0.0,42,0.86,ok
 hpo/Health-ClosedIssues0000.csv,data/moot/optimize/hpo/Health-ClosedIssues0000.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.21,ok
-hpo/Health-ClosedIssues0001.csv,data/moot/optimize/hpo/Health-ClosedIssues0001.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.2,ok
-hpo/Health-ClosedIssues0002.csv,data/moot/optimize/hpo/Health-ClosedIssues0002.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.2,ok
+hpo/Health-ClosedIssues0001.csv,data/moot/optimize/hpo/Health-ClosedIssues0001.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.21,ok
+hpo/Health-ClosedIssues0002.csv,data/moot/optimize/hpo/Health-ClosedIssues0002.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.23,ok
 hpo/Health-ClosedIssues0003.csv,data/moot/optimize/hpo/Health-ClosedIssues0003.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.21,ok
 hpo/Health-ClosedIssues0004.csv,data/moot/optimize/hpo/Health-ClosedIssues0004.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.21,ok
 hpo/Health-ClosedIssues0005.csv,data/moot/optimize/hpo/Health-ClosedIssues0005.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.21,ok
@@ -68,61 +68,61 @@ hpo/Health-ClosedIssues0007.csv,data/moot/optimize/hpo/Health-ClosedIssues0007.c
 hpo/Health-ClosedIssues0008.csv,data/moot/optimize/hpo/Health-ClosedIssues0008.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.21,ok
 hpo/Health-ClosedIssues0009.csv,data/moot/optimize/hpo/Health-ClosedIssues0009.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.21,ok
 hpo/Health-ClosedIssues0010.csv,data/moot/optimize/hpo/Health-ClosedIssues0010.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.21,ok
-hpo/Health-ClosedIssues0011.csv,data/moot/optimize/hpo/Health-ClosedIssues0011.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.21,ok
-hpo/Health-ClosedPRs0000.csv,data/moot/optimize/hpo/Health-ClosedPRs0000.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.21,ok
+hpo/Health-ClosedIssues0011.csv,data/moot/optimize/hpo/Health-ClosedIssues0011.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.2,ok
+hpo/Health-ClosedPRs0000.csv,data/moot/optimize/hpo/Health-ClosedPRs0000.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.2,ok
 hpo/Health-ClosedPRs0002.csv,data/moot/optimize/hpo/Health-ClosedPRs0002.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.21,ok
 hpo/Health-ClosedPRs0003.csv,data/moot/optimize/hpo/Health-ClosedPRs0003.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.21,ok
-hpo/Health-ClosedPRs0004.csv,data/moot/optimize/hpo/Health-ClosedPRs0004.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.21,ok
+hpo/Health-ClosedPRs0004.csv,data/moot/optimize/hpo/Health-ClosedPRs0004.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.2,ok
 hpo/Health-ClosedPRs0005.csv,data/moot/optimize/hpo/Health-ClosedPRs0005.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.21,ok
-hpo/Health-ClosedPRs0006.csv,data/moot/optimize/hpo/Health-ClosedPRs0006.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.26,ok
+hpo/Health-ClosedPRs0006.csv,data/moot/optimize/hpo/Health-ClosedPRs0006.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.2,ok
 hpo/Health-ClosedPRs0007.csv,data/moot/optimize/hpo/Health-ClosedPRs0007.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.21,ok
-hpo/Health-ClosedPRs0008.csv,data/moot/optimize/hpo/Health-ClosedPRs0008.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.22,ok
-hpo/Health-ClosedPRs0009.csv,data/moot/optimize/hpo/Health-ClosedPRs0009.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.22,ok
-hpo/Health-ClosedPRs0010.csv,data/moot/optimize/hpo/Health-ClosedPRs0010.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.22,ok
-hpo/Health-ClosedPRs0011.csv,data/moot/optimize/hpo/Health-ClosedPRs0011.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.2,ok
+hpo/Health-ClosedPRs0008.csv,data/moot/optimize/hpo/Health-ClosedPRs0008.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.21,ok
+hpo/Health-ClosedPRs0009.csv,data/moot/optimize/hpo/Health-ClosedPRs0009.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.21,ok
+hpo/Health-ClosedPRs0010.csv,data/moot/optimize/hpo/Health-ClosedPRs0010.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.21,ok
+hpo/Health-ClosedPRs0011.csv,data/moot/optimize/hpo/Health-ClosedPRs0011.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.21,ok
 hpo/Health-Commits0000.csv,data/moot/optimize/hpo/Health-Commits0000.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.21,ok
-hpo/Health-Commits0001.csv,data/moot/optimize/hpo/Health-Commits0001.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.2,ok
+hpo/Health-Commits0001.csv,data/moot/optimize/hpo/Health-Commits0001.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.21,ok
 hpo/Health-Commits0002.csv,data/moot/optimize/hpo/Health-Commits0002.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.21,ok
 hpo/Health-Commits0003.csv,data/moot/optimize/hpo/Health-Commits0003.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.21,ok
 hpo/Health-Commits0004.csv,data/moot/optimize/hpo/Health-Commits0004.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.21,ok
-hpo/Health-Commits0005.csv,data/moot/optimize/hpo/Health-Commits0005.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.2,ok
-hpo/Health-Commits0006.csv,data/moot/optimize/hpo/Health-Commits0006.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.22,ok
-hpo/Health-Commits0007.csv,data/moot/optimize/hpo/Health-Commits0007.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.22,ok
+hpo/Health-Commits0005.csv,data/moot/optimize/hpo/Health-Commits0005.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.21,ok
+hpo/Health-Commits0006.csv,data/moot/optimize/hpo/Health-Commits0006.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.2,ok
+hpo/Health-Commits0007.csv,data/moot/optimize/hpo/Health-Commits0007.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.21,ok
 hpo/Health-Commits0008.csv,data/moot/optimize/hpo/Health-Commits0008.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.21,ok
-hpo/Health-Commits0009.csv,data/moot/optimize/hpo/Health-Commits0009.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.2,ok
+hpo/Health-Commits0009.csv,data/moot/optimize/hpo/Health-Commits0009.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.21,ok
 hpo/Health-Commits0010.csv,data/moot/optimize/hpo/Health-Commits0010.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.21,ok
-hpo/Health-Commits0011.csv,data/moot/optimize/hpo/Health-Commits0011.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.21,ok
-misc/Car_price_cleaned.csv,data/moot/optimize/misc/Car_price_cleaned.csv,205,205,0.0,205,38,10.8403,100,0.0,0.1111,1.6177,10.6312,0.7147,0.7202,0.0,42,0.01,ok
-misc/Wine_quality.csv,data/moot/optimize/misc/Wine_quality.csv,1599,1355,0.1526,1355,10,5.4094,100,0.0,0.0101,0.5779,5.2107,0.4591,0.4789,0.0,42,0.12,ok
+hpo/Health-Commits0011.csv,data/moot/optimize/hpo/Health-Commits0011.csv,10000,10000,0.0,2000,5,3.0818,100,0.0,0.101,0.1137,5.7839,0.3836,-0.1568,0.0,42,0.2,ok
+misc/Car_price_cleaned.csv,data/moot/optimize/misc/Car_price_cleaned.csv,205,205,0.0,205,38,10.8403,100,0.0,0.1111,1.6177,10.6312,0.7147,0.7202,0.0,42,0.02,ok
+misc/Wine_quality.csv,data/moot/optimize/misc/Wine_quality.csv,1599,1355,0.1526,1355,10,5.4094,100,0.0,0.0101,0.5779,5.2107,0.4591,0.4789,0.0,42,0.14,ok
 misc/auto93.csv,data/moot/optimize/misc/auto93.csv,398,306,0.2312,306,4,2.9239,100,0.0,0.1111,0.7016,4.7487,0.269,-0.1872,0.0,42,0.01,ok
-process/coc1000.csv,data/moot/optimize/process/coc1000.csv,1000,1000,0.0,1000,20,14.255,100,0.0,0.0101,1.7762,20.6426,0.2872,-0.0321,0.0,42,0.1,ok
+process/coc1000.csv,data/moot/optimize/process/coc1000.csv,1000,1000,0.0,1000,20,14.255,100,0.0,0.0101,1.7762,20.6426,0.2872,-0.0321,0.0,42,0.17,ok
 process/nasa93dem.csv,data/moot/optimize/process/nasa93dem.csv,93,55,0.4086,55,22,nan,2,0.98,nan,nan,13.9375,nan,0.3665,0.0,42,0.01,atomic_spectrum
-process/pom3a.csv,data/moot/optimize/process/pom3a.csv,20000,20000,0.0,2000,9,6.7434,100,0.0,0.0,0.2069,12.3294,0.2507,-0.3699,0.0,42,0.31,ok
-process/pom3b.csv,data/moot/optimize/process/pom3b.csv,20000,20000,0.0,2000,9,6.7463,100,0.0,0.3535,0.2526,13.1415,0.2504,-0.4602,0.0,42,0.31,ok
-process/pom3c.csv,data/moot/optimize/process/pom3c.csv,20000,20000,0.0,2000,9,6.7788,100,0.0,0.1414,0.2502,12.8941,0.2468,-0.4327,0.0,42,0.31,ok
+process/pom3a.csv,data/moot/optimize/process/pom3a.csv,20000,20000,0.0,2000,9,6.7434,100,0.0,0.0,0.2069,12.3294,0.2507,-0.3699,0.0,42,0.32,ok
+process/pom3b.csv,data/moot/optimize/process/pom3b.csv,20000,20000,0.0,2000,9,6.7463,100,0.0,0.3535,0.2526,13.1415,0.2504,-0.4602,0.0,42,0.3,ok
+process/pom3c.csv,data/moot/optimize/process/pom3c.csv,20000,20000,0.0,2000,9,6.7788,100,0.0,0.1414,0.2502,12.8941,0.2468,-0.4327,0.0,42,0.3,ok
 process/pom3d.csv,data/moot/optimize/process/pom3d.csv,500,500,0.0,500,9,7.8683,100,0.0,0.0202,0.7178,8.4835,0.1257,0.0574,0.0,42,0.02,ok
-process/xomo_flight.csv,data/moot/optimize/process/xomo_flight.csv,10000,10000,0.0,2000,24,15.1853,100,0.0,0.101,1.9926,23.087,0.3673,0.038,0.0,42,0.44,ok
-process/xomo_ground.csv,data/moot/optimize/process/xomo_ground.csv,10000,10000,0.0,2000,24,15.3305,100,0.0,0.0808,1.8987,21.2765,0.3612,0.1135,0.0,42,0.46,ok
-process/xomo_osp.csv,data/moot/optimize/process/xomo_osp.csv,10000,10000,0.0,2000,24,14.7537,100,0.0,0.0,1.8482,24.8301,0.3853,-0.0346,0.0,42,0.46,ok
-process/xomo_osp2.csv,data/moot/optimize/process/xomo_osp2.csv,10000,10000,0.0,2000,24,13.3931,100,0.0,0.0202,1.636,17.4602,0.442,0.2725,0.0,42,0.44,ok
-rl/A2C_Acrobot.csv,data/moot/optimize/rl/A2C_Acrobot.csv,223,223,0.0,223,10,10.7053,100,0.0,0.0404,1.6298,12.5183,nan,-0.2518,0.0,42,0.01,warn: I_fit>R (no clean scaling region)
+process/xomo_flight.csv,data/moot/optimize/process/xomo_flight.csv,10000,10000,0.0,2000,24,15.1853,100,0.0,0.101,1.9926,23.087,0.3673,0.038,0.0,42,0.48,ok
+process/xomo_ground.csv,data/moot/optimize/process/xomo_ground.csv,10000,10000,0.0,2000,24,15.3305,100,0.0,0.0808,1.8987,21.2765,0.3612,0.1135,0.0,42,0.63,ok
+process/xomo_osp.csv,data/moot/optimize/process/xomo_osp.csv,10000,10000,0.0,2000,24,14.7537,100,0.0,0.0,1.8482,24.8301,0.3853,-0.0346,0.0,42,0.48,ok
+process/xomo_osp2.csv,data/moot/optimize/process/xomo_osp2.csv,10000,10000,0.0,2000,24,13.3931,100,0.0,0.0202,1.636,17.4602,0.442,0.2725,0.0,42,0.45,ok
+rl/A2C_Acrobot.csv,data/moot/optimize/rl/A2C_Acrobot.csv,223,223,0.0,223,10,10.7053,100,0.0,0.0404,1.6298,12.5183,-0.0705,-0.2518,0.0,42,0.01,warn: I_fit>R (estimate overshoots R)
 rl/A2C_CartPole.csv,data/moot/optimize/rl/A2C_CartPole.csv,317,317,0.0,317,7,6.8907,100,0.0,0.0606,0.5781,8.6766,0.0156,-0.2395,0.0,42,0.01,ok
 sales_data/Marketing_Analytics.csv,data/moot/optimize/sales_data/Marketing_Analytics.csv,2205,2002,0.0921,2000,31,7.9634,100,0.0,0.2222,1.0828,9.243,0.7431,0.7018,0.0,42,0.47,ok
-sales_data/accessories.csv,data/moot/optimize/sales_data/accessories.csv,1121,1121,0.0,1121,14,nan,5,0.95,nan,nan,152.1556,nan,-9.8683,0.0,42,0.06,atomic_spectrum
-sales_data/dress-up.csv,data/moot/optimize/sales_data/dress-up.csv,913,913,0.0,913,20,nan,3,0.97,nan,nan,106.4412,nan,-4.3221,0.0,42,0.06,atomic_spectrum
-sales_data/socks.csv,data/moot/optimize/sales_data/socks.csv,350,350,0.0,350,20,3.4021,94,0.06,0.9798,0.407,3.4052,0.8299,0.8297,0.0,42,0.02,ok
+sales_data/accessories.csv,data/moot/optimize/sales_data/accessories.csv,1121,1121,0.0,1121,14,nan,5,0.95,nan,nan,152.1556,nan,-9.8683,0.0,42,0.08,atomic_spectrum
+sales_data/dress-up.csv,data/moot/optimize/sales_data/dress-up.csv,913,913,0.0,913,20,nan,3,0.97,nan,nan,106.4412,nan,-4.3221,0.0,42,0.07,atomic_spectrum
+sales_data/socks.csv,data/moot/optimize/sales_data/socks.csv,350,350,0.0,350,20,3.4021,94,0.06,0.9798,0.407,3.4052,0.8299,0.8297,0.0,42,0.01,ok
 sales_data/wallpaper.csv,data/moot/optimize/sales_data/wallpaper.csv,247,247,0.0,247,22,nan,41,0.59,nan,nan,65.4841,nan,-1.9765,0.0,42,0.01,atomic_spectrum
-systems/7z.csv,data/moot/optimize/systems/7z.csv,68640,68640,0.0,2000,14,13.061,100,0.0,0.1717,3.5193,5.349,0.0671,0.6179,0.0,42,0.36,ok
-systems/BDBC.csv,data/moot/optimize/systems/BDBC.csv,2560,2560,0.0,2000,16,nan,3,0.97,nan,nan,26.5238,nan,-0.6577,0.0,42,0.2,atomic_spectrum
+systems/7z.csv,data/moot/optimize/systems/7z.csv,68640,68640,0.0,2000,14,13.061,100,0.0,0.1717,3.5193,5.349,0.0671,0.6179,0.0,42,0.37,ok
+systems/BDBC.csv,data/moot/optimize/systems/BDBC.csv,2560,2560,0.0,2000,16,nan,3,0.97,nan,nan,26.5238,nan,-0.6577,0.0,42,0.19,atomic_spectrum
 systems/HSQLDB.csv,data/moot/optimize/systems/HSQLDB.csv,864,864,0.0,864,18,nan,3,0.97,nan,nan,22.804,nan,-0.2669,0.0,42,0.04,atomic_spectrum
 systems/LLVM.csv,data/moot/optimize/systems/LLVM.csv,1024,1024,0.0,1024,10,nan,2,0.98,nan,nan,29.2929,nan,-1.9293,0.0,42,0.04,atomic_spectrum
-systems/PostgreSQL.csv,data/moot/optimize/systems/PostgreSQL.csv,19008,864,0.9545,864,9,nan,48,0.52,nan,nan,6.8644,nan,0.2373,0.0,42,0.05,atomic_spectrum
-systems/dconvert.csv,data/moot/optimize/systems/dconvert.csv,6764,1910,0.7176,1910,18,nan,3,0.97,nan,nan,24.0967,nan,-0.3387,0.0,42,0.2,atomic_spectrum
-systems/deeparch.csv,data/moot/optimize/systems/deeparch.csv,4096,4096,0.0,2000,12,nan,3,0.97,nan,nan,29.7023,nan,-1.4752,0.0,42,0.16,atomic_spectrum
-systems/exastencils.csv,data/moot/optimize/systems/exastencils.csv,86058,86058,0.0,2000,12,32.5919,100,0.0,0.6263,3.2673,7.3102,nan,0.3908,0.0,42,0.38,warn: I_fit>R (no clean scaling region)
-systems/javagc.csv,data/moot/optimize/systems/javagc.csv,166975,164449,0.0151,2000,35,8.3105,100,0.0,0.0505,1.5922,6.7717,0.7626,0.8065,0.0,42,1.12,ok
+systems/PostgreSQL.csv,data/moot/optimize/systems/PostgreSQL.csv,19008,864,0.9545,864,9,nan,48,0.52,nan,nan,6.8644,nan,0.2373,0.0,42,0.07,atomic_spectrum
+systems/dconvert.csv,data/moot/optimize/systems/dconvert.csv,6764,1910,0.7176,1910,18,nan,3,0.97,nan,nan,24.0967,nan,-0.3387,0.0,42,0.23,atomic_spectrum
+systems/deeparch.csv,data/moot/optimize/systems/deeparch.csv,4096,4096,0.0,2000,12,nan,3,0.97,nan,nan,29.7023,nan,-1.4752,0.0,42,0.17,atomic_spectrum
+systems/exastencils.csv,data/moot/optimize/systems/exastencils.csv,86058,86058,0.0,2000,12,32.5919,100,0.0,0.6263,3.2673,7.3102,-1.716,0.3908,0.0,42,0.37,warn: I_fit>R (estimate overshoots R)
+systems/javagc.csv,data/moot/optimize/systems/javagc.csv,166975,164449,0.0151,2000,35,8.3105,100,0.0,0.0505,1.5922,6.7717,0.7626,0.8065,0.0,42,1.17,ok
 systems/redis.csv,data/moot/optimize/systems/redis.csv,4400,3155,0.283,2000,9,5.449,100,0.0,0.3737,0.2861,5.071,0.3946,0.4366,0.0,42,0.24,ok
 systems/storm.csv,data/moot/optimize/systems/storm.csv,1557,1557,0.0,1557,12,nan,11,0.89,nan,nan,21.4824,nan,-0.7902,0.0,42,0.13,atomic_spectrum
-systems/x264.csv,data/moot/optimize/systems/x264.csv,53662,52250,0.0263,2000,17,12.0151,100,0.0,0.2929,4.6855,5.1829,0.2932,0.6951,0.0,42,0.39,ok
+systems/x264.csv,data/moot/optimize/systems/x264.csv,53662,52250,0.0263,2000,17,12.0151,100,0.0,0.2929,4.6855,5.1829,0.2932,0.6951,0.0,42,0.4,ok
 test/dataset120.csv,data/moot/optimize/test/dataset120.csv,5160,5099,0.0118,2000,9,1.8637,100,0.0,0.0404,0.1357,3.1467,0.7929,0.6504,0.0,42,0.26,ok
 test/dataset600.csv,data/moot/optimize/test/dataset600.csv,5160,5093,0.013,2000,9,1.9884,100,0.0,0.101,0.1237,2.1096,0.7791,0.7656,0.0,42,0.26,ok

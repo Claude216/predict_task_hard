@@ -14,11 +14,11 @@ Pom3a,SE,external/drr_modified/data/optimize/process/pom3a.csv,9,6.7434,0.2507,9
 Health-Hard,SE,external/drr_modified/data/optimize/hpo/Health-ClosedIssues0000.csv,5,3.0818,0.3836,nan,nan,nan,10000,2000,paper gives no file name; stand-in = hpo/Health-ClosedIssues0000,ok
 Health-Easy,SE,external/drr_modified/data/optimize/hpo/Health-Commits0000.csv,5,3.0818,0.3836,nan,nan,nan,10000,2000,paper gives no file name; stand-in = hpo/Health-Commits0000,ok
 SS-D,SE,external/drr_modified/data/optimize/config/SS-D.csv,3,nan,nan,3.0,1.0,0.6667,196,196,,atomic_spectrum
-SS-B,SE,external/drr_modified/data/optimize/config/SS-B.csv,3,8.1549,nan,3.0,1.0,0.6667,206,206,,warn: I_fit>R (no clean scaling region)
-rs-6d-c3-obj2,SE,external/drr_modified/data/optimize/config/rs-6d-c3_obj2.csv,6,7.4738,nan,nan,nan,nan,3840,2000,,warn: I_fit>R (no clean scaling region)
+SS-B,SE,external/drr_modified/data/optimize/config/SS-B.csv,3,8.1549,-1.7183,3.0,1.0,0.6667,206,206,,warn: I_fit>R (estimate overshoots R)
+rs-6d-c3-obj2,SE,external/drr_modified/data/optimize/config/rs-6d-c3_obj2.csv,6,7.4738,-0.2456,nan,nan,nan,3840,2000,,warn: I_fit>R (estimate overshoots R)
 SS-T,SE,external/drr_modified/data/optimize/config/SS-T.csv,12,11.5838,0.0347,12.0,8.0,0.3333,5184,2000,,ok
-adult,Non-SE,external/moot/fairness/adult.csv,13,22.9257,nan,nan,nan,nan,30162,2000,,warn: I_fit>R (no clean scaling region)
-iris,Non-SE,external/moot/classify/iris.csv,4,4.3863,nan,nan,nan,nan,150,147,,warn: I_fit>R (no clean scaling region)
+adult,Non-SE,external/moot/fairness/adult.csv,13,22.9257,-0.7635,nan,nan,nan,30162,2000,,warn: I_fit>R (estimate overshoots R)
+iris,Non-SE,external/moot/classify/iris.csv,4,4.3863,-0.0966,nan,nan,nan,150,147,,warn: I_fit>R (estimate overshoots R)
 default,Non-SE,external/uci/default.csv,23,5.4212,0.7643,nan,nan,nan,30000,2000,,ok
 diabetes,Non-SE,external/moot/classify/diabetes.csv,8,5.5866,0.3017,nan,nan,nan,768,768,,ok
 german credit,Non-SE,external/moot/fairness/german.csv,20,15.1156,0.2442,nan,nan,nan,1000,1000,,ok

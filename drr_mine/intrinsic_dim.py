@@ -361,12 +361,14 @@ def estimate_intrinsic_dim(source, *, seed: int = 42, max_rows: int = 2000,
     R = out["R"]
     if not math.isfinite(out["I_fit"]):
         out["status"] = ("atomic_spectrum" if f["n_live"] else "no_scaling_region")
-    elif out["I_fit"] > R:
-        # a slope steeper than the embedding dimension is not a dimension;
-        # keep I_fit as evidence but refuse to turn it into a DRR
-        out["status"] = "warn: I_fit>R (no clean scaling region)"
     else:
+        # I is an ESTIMATE, so it can overshoot R; the DRR is reported either
+        # way (negative when it does) rather than withheld, and the status
+        # carries the warning. Withholding would hide the overshoot from any
+        # aggregate that consumes drr_fit.
         out["drr_fit"] = 1.0 - out["I_fit"] / R
+        if out["I_fit"] > R:
+            out["status"] = "warn: I_fit>R (estimate overshoots R)"
     if math.isfinite(out["I_maxgrad"]):
         out["drr_maxgrad"] = 1.0 - out["I_maxgrad"] / R
 
