@@ -1,0 +1,71 @@
+diff --git a/src/drr/intrinsic_dimension_estimator.py b/src/drr/intrinsic_dimension_estimator.py
+index e559e27..218defe 100644
+--- a/src/drr/intrinsic_dimension_estimator.py
++++ b/src/drr/intrinsic_dimension_estimator.py
+@@ -195,13 +195,14 @@ class IntrinsicDimensionEstimator:
+         # (those longer distances) only weight a smaller portion of the correlation function,
+         # I think it would be better to use the 25th and 75th percentiles of the distances to
+         # set up the radius range,instead of using the min and max distances.
+-        # r1, r2 = np.percentile(distances, [25, 75])
+-        # min_dist = r1
+-        # max_dist = r2
++        r1, r2 = np.percentile(distances, [30, 70])
++        # after testing, [30, 70] seems to be a best choice, but non-significant.
++        min_dist = r1
++        max_dist = r2
+ 
+         # Set up radius range
+-        min_dist = np.min(distances)
+-        max_dist = np.max(distances)
++        # min_dist = np.min(distances)
++        # max_dist = np.max(distances)
+ 
+         # Handle edge cases
+         if min_dist == max_dist:
+@@ -314,7 +315,7 @@ class IntrinsicDimensionEstimator:
+             if mid_end > mid_start:
+                 middle_gradients = log_gradients[mid_start:mid_end]
+                 median_val = np.median(middle_gradients)
+-                if 0.1 < abs(median_val) < original_dims:
++                if 1 < abs(median_val) < original_dims:
+                     # make the upper bound to be original_dims, because the intrinsic dimension
+                     # should not exceed the original dimension.
+                     result = max(1, round(abs(median_val)))
+@@ -345,11 +346,11 @@ class IntrinsicDimensionEstimator:
+             mid_start = len(log_gradients) // 4
+             mid_end = 3 * len(log_gradients) // 4
+             median_log_gradient = (
+-                np.median(log_gradients[mid_start:mid_end]) * 2
++                np.median(log_gradients[mid_start:mid_end])
+             )  # I don't know why, but making the result times 2 just makes the estimation closer somehow
+             # (e.g., se task like nasa93dem.csv).
+             logger.debug(f"Behavior dataset: median log gradient = {median_log_gradient:.3f}")  #
+-            if 1 < median_log_gradient < original_dims * 2:  # Let's make 1 as the left bound.
++            if 1 < median_log_gradient < original_dims:  # Let's make 1 as the left bound.
+                 result = max(1, round(median_log_gradient))
+                 logger.debug(f"Behavior dataset: using log median {median_log_gradient:.3f} -> {result}")
+                 return result
+@@ -361,12 +362,17 @@ class IntrinsicDimensionEstimator:
+     def _estimate_for_medium_dataset(self, gradients: np.ndarray, log_gradients: np.ndarray, original_dims: int) -> int:
+         """Estimate intrinsic dimension for medium-sized datasets."""
+         if len(log_gradients) > 0:
+-            log_gradients = log_gradients[np.abs(log_gradients) > 1e-15]  # same filter here
+-            median_val = np.median(np.abs(log_gradients))
+-            if 1 < median_val < original_dims:
+-                result = max(1, round(median_val))
+-                logger.debug(f"Medium dataset: using log median {median_val:.3f} -> {result}")
+-                return result
++            log_gradients = log_gradients[np.abs(log_gradients) > 1e-15]
++
++            mid_start = len(log_gradients) // 4
++            mid_end = 3 * len(log_gradients) // 4
++            if mid_end > mid_start:
++                middle_gradients = log_gradients[mid_start:mid_end]
++                median_val = np.median(middle_gradients)
++                if 1 < abs(median_val) < original_dims:
++                    result = max(1, round(abs(median_val)))
++                    logger.debug(f"Config dataset: using log median {median_val:.3f} -> {result}")
++                    return result
+ 
+         result = max(1, int(original_dims * self._MEDIUM_FALLBACK_RATIO))
+         logger.debug(f"Medium dataset: using fallback {result}")

@@ -1,0 +1,30 @@
+{
+ "meta": {
+  "label": "SS-U",
+  "task_id": "SS-U",
+  "path": "data/moot/optimize/config/SS-U.csv",
+  "is_se": true,
+  "kind": "regression",
+  "target": "Benchmark-iperf-",
+  "R": 21,
+  "paper_R": null,
+  "n_raw": 4608,
+  "n_rows": 4608,
+  "capped": false,
+  "repeats": 20,
+  "median_D2H": {
+   "lite": 0.7625,
+   "dehb": 0.3125
+  },
+  "median_d2h": {
+   "lite": 0.025481857032763962,
+   "dehb": 0.004228827112631869
+  },
+  "cliffs_delta_D2H": -0.815,
+  "verdict": "DEHB > LITE",
+  "verdict_natural_d2h": "DEHB > LITE",
+  "total_failed_fits": 0,
+  "seconds": 10746.3
+ },
+ "verdict": "DEHB > LITE"
+}

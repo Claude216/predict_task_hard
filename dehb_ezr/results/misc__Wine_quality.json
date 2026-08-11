@@ -1,0 +1,42 @@
+{
+ "task_id": "misc__Wine_quality",
+ "path": "data/moot/optimize/misc/Wine_quality.csv",
+ "meta": {
+  "task": "data/moot/optimize/misc/Wine_quality.csv",
+  "rows": 1599,
+  "n_decisions": 10,
+  "n_goals": 2,
+  "objective": "multi",
+  "space_size": 68.74,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.1526,
+  "coverage": -58.33,
+  "task_id": "misc__Wine_quality",
+  "d2h_spread": 0.176537107926387,
+  "eps": 0.00176537107926387,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 0.17355660025226505,
+  "table_median": 0.4267958403606019,
+  "d2h_star": 0.17355660025226435,
+  "median_d2h": {
+   "ezr": 0.2808979894434505,
+   "random_pool": 0.28748927767119925,
+   "dehb": 0.2781459877792479,
+   "random_cs": 0.2923867956540714
+  },
+  "rho": {
+   "ezr": 0.057852482510459345,
+   "random_pool": 0.0,
+   "dehb": 0.11984165999786701,
+   "random_cs": 0.0
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "tie",
+  "ezr_vs_floor": "tie",
+  "dehb_vs_floor": "dehb"
+ }
+}

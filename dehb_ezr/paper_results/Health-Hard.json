@@ -1,0 +1,30 @@
+{
+ "meta": {
+  "label": "Health-Hard",
+  "task_id": "Health-Hard",
+  "path": "data/moot/optimize/hpo/Health-ClosedIssues0000.csv",
+  "is_se": true,
+  "kind": "regression",
+  "target": "MRE-",
+  "R": 5,
+  "paper_R": 5,
+  "n_raw": 10000,
+  "n_rows": 5000,
+  "capped": true,
+  "repeats": 20,
+  "median_D2H": {
+   "lite": 0.7625,
+   "dehb": 0.3125
+  },
+  "median_d2h": {
+   "lite": 0.05822302034067213,
+   "dehb": 0.05216809934964777
+  },
+  "cliffs_delta_D2H": -0.75,
+  "verdict": "DEHB > LITE",
+  "verdict_natural_d2h": "DEHB > LITE",
+  "total_failed_fits": 0,
+  "seconds": 7227.7
+ },
+ "verdict": "DEHB > LITE"
+}

@@ -1,0 +1,42 @@
+{
+ "task_id": "financial_data__BankChurners",
+ "path": "data/moot/optimize/financial_data/BankChurners.csv",
+ "meta": {
+  "task": "data/moot/optimize/financial_data/BankChurners.csv",
+  "rows": 10127,
+  "n_decisions": 19,
+  "n_goals": 4,
+  "objective": "multi",
+  "space_size": 105.76,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -92.45,
+  "task_id": "financial_data__BankChurners",
+  "d2h_spread": 0.333824540531392,
+  "eps": 0.00333824540531392,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 0.2797992114560473,
+  "table_median": 0.795145058934352,
+  "d2h_star": 0.229362898730634,
+  "median_d2h": {
+   "ezr": 0.4353074477431942,
+   "random_pool": 0.4454085903967644,
+   "dehb": 0.25264405263287976,
+   "random_cs": 0.3445110249965291
+  },
+  "rho": {
+   "ezr": 0.046754659052309015,
+   "random_pool": 0.0,
+   "dehb": 0.7978156079718925,
+   "random_cs": 0.0
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "dehb",
+  "ezr_vs_floor": "tie",
+  "dehb_vs_floor": "dehb"
+ }
+}

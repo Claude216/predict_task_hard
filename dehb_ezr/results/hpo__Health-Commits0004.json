@@ -1,0 +1,42 @@
+{
+ "task_id": "hpo__Health-Commits0004",
+ "path": "data/moot/optimize/hpo/Health-Commits0004.csv",
+ "meta": {
+  "task": "data/moot/optimize/hpo/Health-Commits0004.csv",
+  "rows": 10000,
+  "n_decisions": 5,
+  "n_goals": 3,
+  "objective": "multi",
+  "space_size": 19.91,
+  "input_shape": "small-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -6.62,
+  "task_id": "hpo__Health-Commits0004",
+  "d2h_spread": 0.3307629222869237,
+  "eps": 0.0033076292228692373,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 0.10431189781676822,
+  "table_median": 0.240861802792877,
+  "d2h_star": 0.10088961856441873,
+  "median_d2h": {
+   "ezr": 0.22523419438228454,
+   "random_pool": 0.22574869553419935,
+   "dehb": 0.17808857111604398,
+   "random_cs": 0.16700560679659335
+  },
+  "rho": {
+   "ezr": 0.004120654776579345,
+   "random_pool": 0.0,
+   "dehb": -0.1676291108367224,
+   "random_cs": 0.0
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "dehb",
+  "ezr_vs_floor": "random_pool",
+  "dehb_vs_floor": "tie"
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "task_id": "sales_data__dress-up",
+ "path": "data/moot/optimize/sales_data/dress-up.csv",
+ "meta": {
+  "task": "data/moot/optimize/sales_data/dress-up.csv",
+  "rows": 913,
+  "n_decisions": 20,
+  "n_goals": 2,
+  "objective": "multi",
+  "space_size": 76.32,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -66.48,
+  "task_id": "sales_data__dress-up",
+  "d2h_spread": 0.0021884958207858407,
+  "eps": 2.188495820785841e-05,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 0.28501529809225834,
+  "table_median": 0.7051767608199117,
+  "d2h_star": 0.28501529809225834,
+  "median_d2h": {
+   "ezr": 0.7048280862398852,
+   "random_pool": 0.6934817363756431,
+   "dehb": 0.3114409143613995,
+   "random_cs": 0.323111037465772
+  },
+  "rho": {
+   "ezr": -0.027777924453049576,
+   "random_pool": 0.0,
+   "dehb": 0.3063367005415381,
+   "random_cs": 0.0
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "dehb",
+  "ezr_vs_floor": "ezr",
+  "dehb_vs_floor": "dehb"
+ }
+}

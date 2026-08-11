@@ -1,0 +1,30 @@
+{
+ "meta": {
+  "label": "Pom3a",
+  "task_id": "Pom3a",
+  "path": "data/moot/optimize/process/pom3a.csv",
+  "is_se": true,
+  "kind": "regression",
+  "target": "Cost-",
+  "R": 9,
+  "paper_R": 9,
+  "n_raw": 20000,
+  "n_rows": 5000,
+  "capped": true,
+  "repeats": 20,
+  "median_D2H": {
+   "lite": 0.7625,
+   "dehb": 0.2875
+  },
+  "median_d2h": {
+   "lite": 0.33718220250286657,
+   "dehb": 0.1499316316695028
+  },
+  "cliffs_delta_D2H": -0.87,
+  "verdict": "DEHB > LITE",
+  "verdict_natural_d2h": "DEHB > LITE",
+  "total_failed_fits": 0,
+  "seconds": 10605.9
+ },
+ "verdict": "DEHB > LITE"
+}

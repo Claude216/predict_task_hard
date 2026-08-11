@@ -1,0 +1,30 @@
+{
+ "meta": {
+  "label": "Student Dropout",
+  "task_id": "Student_Dropout",
+  "path": "data/moot/optimize/behavior_data/student_dropout.csv",
+  "is_se": false,
+  "kind": "regression",
+  "target": "DROPPED_OUT+",
+  "R": 33,
+  "paper_R": 34,
+  "n_raw": 649,
+  "n_rows": 649,
+  "capped": false,
+  "repeats": 20,
+  "median_D2H": {
+   "lite": 0.4125,
+   "dehb": 0.4125
+  },
+  "median_d2h": {
+   "lite": 0.0,
+   "dehb": 0.0
+  },
+  "cliffs_delta_D2H": -0.4,
+  "verdict": "DEHB == LITE",
+  "verdict_natural_d2h": "DEHB == LITE",
+  "total_failed_fits": 0,
+  "seconds": 4502.3
+ },
+ "verdict": "DEHB == LITE"
+}

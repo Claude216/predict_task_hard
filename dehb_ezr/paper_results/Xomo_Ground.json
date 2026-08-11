@@ -1,0 +1,30 @@
+{
+ "meta": {
+  "label": "Xomo Ground",
+  "task_id": "Xomo_Ground",
+  "path": "data/moot/optimize/process/xomo_ground.csv",
+  "is_se": true,
+  "kind": "regression",
+  "target": "EFFORT-",
+  "R": 27,
+  "paper_R": 27,
+  "n_raw": 10000,
+  "n_rows": 5000,
+  "capped": true,
+  "repeats": 20,
+  "median_D2H": {
+   "lite": 0.6625000000000001,
+   "dehb": 0.3625
+  },
+  "median_d2h": {
+   "lite": 0.35985321361767697,
+   "dehb": 0.35403726307829
+  },
+  "cliffs_delta_D2H": -0.44,
+  "verdict": "DEHB > LITE",
+  "verdict_natural_d2h": "DEHB > LITE",
+  "total_failed_fits": 0,
+  "seconds": 31595.0
+ },
+ "verdict": "DEHB > LITE"
+}

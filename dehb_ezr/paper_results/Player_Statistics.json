@@ -1,0 +1,30 @@
+{
+ "meta": {
+  "label": "Player Statistics",
+  "task_id": "Player_Statistics",
+  "path": "data/moot/optimize/behavior_data/player_statistics_cleaned_final.csv",
+  "is_se": false,
+  "kind": "regression",
+  "target": "KP+",
+  "R": 26,
+  "paper_R": 27,
+  "n_raw": 81,
+  "n_rows": 81,
+  "capped": false,
+  "repeats": 20,
+  "median_D2H": {
+   "lite": 0.7625,
+   "dehb": 0.275
+  },
+  "median_d2h": {
+   "lite": 0.5149675725176481,
+   "dehb": 0.31830865675588127
+  },
+  "cliffs_delta_D2H": -0.89,
+  "verdict": "DEHB > LITE",
+  "verdict_natural_d2h": "DEHB > LITE",
+  "total_failed_fits": 0,
+  "seconds": 2347.1
+ },
+ "verdict": "DEHB > LITE"
+}

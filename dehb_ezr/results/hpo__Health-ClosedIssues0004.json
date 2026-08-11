@@ -1,0 +1,42 @@
+{
+ "task_id": "hpo__Health-ClosedIssues0004",
+ "path": "data/moot/optimize/hpo/Health-ClosedIssues0004.csv",
+ "meta": {
+  "task": "data/moot/optimize/hpo/Health-ClosedIssues0004.csv",
+  "rows": 10000,
+  "n_decisions": 5,
+  "n_goals": 3,
+  "objective": "multi",
+  "space_size": 19.91,
+  "input_shape": "small-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -6.62,
+  "task_id": "hpo__Health-ClosedIssues0004",
+  "d2h_spread": 0.130281564187319,
+  "eps": 0.0013028156418731902,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 0.1930700395442086,
+  "table_median": 0.32547807879460716,
+  "d2h_star": 0.1930700395442086,
+  "median_d2h": {
+   "ezr": 0.2797378625457494,
+   "random_pool": 0.2824511817110241,
+   "dehb": 0.2577538723335724,
+   "random_cs": 0.25868325700308525
+  },
+  "rho": {
+   "ezr": 0.030356729613174514,
+   "random_pool": 0.0,
+   "dehb": 0.014164595267643484,
+   "random_cs": 0.0
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "dehb",
+  "ezr_vs_floor": "tie",
+  "dehb_vs_floor": "tie"
+ }
+}

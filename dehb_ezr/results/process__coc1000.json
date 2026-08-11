@@ -1,0 +1,42 @@
+{
+ "task_id": "process__coc1000",
+ "path": "data/moot/optimize/process/coc1000.csv",
+ "meta": {
+  "task": "data/moot/optimize/process/coc1000.csv",
+  "rows": 1000,
+  "n_decisions": 20,
+  "n_goals": 5,
+  "objective": "multi",
+  "space_size": 46.73,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -36.76,
+  "task_id": "process__coc1000",
+  "d2h_spread": 0.19631812130090115,
+  "eps": 0.0019631812130090115,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 0.2126587808020784,
+  "table_median": 0.4291306223439351,
+  "d2h_star": 0.2126587808020784,
+  "median_d2h": {
+   "ezr": 0.2620399605168124,
+   "random_pool": 0.2499566647728071,
+   "dehb": 0.317051030476202,
+   "random_cs": 0.32640885203858405
+  },
+  "rho": {
+   "ezr": -0.3239673262292371,
+   "random_pool": 0.0,
+   "dehb": 0.08226651166596263,
+   "random_cs": 0.0
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "ezr",
+  "ezr_vs_floor": "random_pool",
+  "dehb_vs_floor": "dehb"
+ }
+}

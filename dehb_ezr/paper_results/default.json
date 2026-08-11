@@ -1,0 +1,30 @@
+{
+ "meta": {
+  "label": "default",
+  "task_id": "default",
+  "path": "external/uci/default.csv",
+  "is_se": false,
+  "kind": "classification",
+  "target": "y!",
+  "R": 23,
+  "paper_R": 23,
+  "n_raw": 30000,
+  "n_rows": 5000,
+  "capped": true,
+  "repeats": 20,
+  "median_D2H": {
+   "lite": 0.8062499999999999,
+   "dehb": 0.2625
+  },
+  "median_d2h": {
+   "lite": 0.4095579332424445,
+   "dehb": 0.2874393043026505
+  },
+  "cliffs_delta_D2H": -0.835,
+  "verdict": "DEHB > LITE",
+  "verdict_natural_d2h": "DEHB > LITE",
+  "total_failed_fits": 0,
+  "seconds": 6451.2
+ },
+ "verdict": "DEHB > LITE"
+}

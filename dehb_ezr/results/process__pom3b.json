@@ -1,0 +1,42 @@
+{
+ "task_id": "process__pom3b",
+ "path": "data/moot/optimize/process/pom3b.csv",
+ "meta": {
+  "task": "data/moot/optimize/process/pom3b.csv",
+  "rows": 20000,
+  "n_decisions": 9,
+  "n_goals": 3,
+  "objective": "multi",
+  "space_size": 128.59,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -114.3,
+  "task_id": "process__pom3b",
+  "d2h_spread": 0.22650253913498408,
+  "eps": 0.002265025391349841,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 0.06718096257259513,
+  "table_median": 0.33294670979721863,
+  "d2h_star": 0.06718096257259513,
+  "median_d2h": {
+   "ezr": 0.1340248085513121,
+   "random_pool": 0.18009327289381047,
+   "dehb": 0.13316421139053464,
+   "random_cs": 0.14246665823958485
+  },
+  "rho": {
+   "ezr": 0.4080021408776583,
+   "random_pool": 0.0,
+   "dehb": 0.12356194316377987,
+   "random_cs": 0.0
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "tie",
+  "ezr_vs_floor": "ezr",
+  "dehb_vs_floor": "tie"
+ }
+}

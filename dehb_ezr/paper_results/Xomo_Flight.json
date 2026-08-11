@@ -1,0 +1,30 @@
+{
+ "meta": {
+  "label": "Xomo Flight",
+  "task_id": "Xomo_Flight",
+  "path": "data/moot/optimize/process/xomo_flight.csv",
+  "is_se": true,
+  "kind": "regression",
+  "target": "EFFORT-",
+  "R": 27,
+  "paper_R": 27,
+  "n_raw": 10000,
+  "n_rows": 5000,
+  "capped": true,
+  "repeats": 20,
+  "median_D2H": {
+   "lite": 0.6125,
+   "dehb": 0.425
+  },
+  "median_d2h": {
+   "lite": 0.35038619522861814,
+   "dehb": 0.34668148569892354
+  },
+  "cliffs_delta_D2H": -0.285,
+  "verdict": "DEHB > LITE",
+  "verdict_natural_d2h": "DEHB > LITE",
+  "total_failed_fits": 0,
+  "seconds": 30593.2
+ },
+ "verdict": "DEHB > LITE"
+}

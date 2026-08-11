@@ -1,0 +1,42 @@
+{
+ "task_id": "systems__LLVM",
+ "path": "data/moot/optimize/systems/LLVM.csv",
+ "meta": {
+  "task": "data/moot/optimize/systems/LLVM.csv",
+  "rows": 1024,
+  "n_decisions": 10,
+  "n_goals": 1,
+  "objective": "single",
+  "space_size": 10.0,
+  "input_shape": "binary/SAT",
+  "x_dup_rate": 0.0,
+  "coverage": 0.0,
+  "task_id": "systems__LLVM",
+  "d2h_spread": 0.6541626244337371,
+  "eps": 0.006541626244337371,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 0.017971360507902472,
+  "table_median": 0.5424019090358901,
+  "d2h_star": 0.017971360507902472,
+  "median_d2h": {
+   "ezr": 0.032539141243399204,
+   "random_pool": 0.04702315079520482,
+   "dehb": 0.017971360507902472,
+   "random_cs": 0.017971360507902472
+  },
+  "rho": {
+   "ezr": 0.4985582440382731,
+   "random_pool": 0.0,
+   "dehb": NaN,
+   "random_cs": NaN
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "dehb",
+  "ezr_vs_floor": "ezr",
+  "dehb_vs_floor": "tie"
+ }
+}

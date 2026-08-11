@@ -1,0 +1,30 @@
+{
+ "meta": {
+  "label": "SCRUM",
+  "task_id": "SCRUM",
+  "path": "data/moot/optimize/binary_config/Scrum1k.csv",
+  "is_se": true,
+  "kind": "regression",
+  "target": "Cost-",
+  "R": 124,
+  "paper_R": 128,
+  "n_raw": 1000,
+  "n_rows": 1000,
+  "capped": false,
+  "repeats": 20,
+  "median_D2H": {
+   "lite": 0.7625,
+   "dehb": 0.2625
+  },
+  "median_d2h": {
+   "lite": 0.21149601674994842,
+   "dehb": 0.03605635712746095
+  },
+  "cliffs_delta_D2H": -1.0,
+  "verdict": "DEHB > LITE",
+  "verdict_natural_d2h": "DEHB > LITE",
+  "total_failed_fits": 0,
+  "seconds": 3463.0
+ },
+ "verdict": "DEHB > LITE"
+}

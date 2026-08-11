@@ -1,0 +1,30 @@
+{
+ "meta": {
+  "label": "iris",
+  "task_id": "iris",
+  "path": "external/moot/classify/iris.csv",
+  "is_se": false,
+  "kind": "classification",
+  "target": "class!",
+  "R": 4,
+  "paper_R": 4,
+  "n_raw": 150,
+  "n_rows": 150,
+  "capped": false,
+  "repeats": 20,
+  "median_D2H": {
+   "lite": 0.75,
+   "dehb": 0.475
+  },
+  "median_d2h": {
+   "lite": 0.06666666666666674,
+   "dehb": 0.03262354762066315
+  },
+  "cliffs_delta_D2H": -0.46,
+  "verdict": "DEHB > LITE",
+  "verdict_natural_d2h": "DEHB > LITE",
+  "total_failed_fits": 0,
+  "seconds": 3464.3
+ },
+ "verdict": "DEHB > LITE"
+}

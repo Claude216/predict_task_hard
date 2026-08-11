@@ -1,0 +1,13 @@
+config,run_order,metric,radius_range,x2_in_behavior_branch,branch_logic,sum_abs_err,mean_abs_err,median_abs_err,rmse,max_abs_err,within_1,within_2,exact,se_mean_abs_err,nonse_mean_abs_err,mean_signed_err,better_than_baseline,worse_than_baseline,same_as_baseline,source_csv
+med_30_70_l2,12,l2,30-70 pct,no,medium reworked + guards tightened,82.0,3.417,2.0,5.017,16.0,11,13,4,1.941,7.0,-1.667,14,7,3,medl2vspaper.csv
+nox2_30_70,9,l1,30-70 pct,no,as-found,83.0,3.458,2.0,5.303,17.0,11,13,4,1.706,7.714,-2.458,11,7,6,30nox2vspaper.csv
+med_30_70,11,l1,30-70 pct,no,medium reworked + guards tightened,83.0,3.458,2.0,5.303,17.0,11,13,4,1.706,7.714,-2.458,11,7,6,medvspaper.csv
+nox2_30_70_l2,10,l2,30-70 pct,no,as-found,84.0,3.5,2.0,5.083,16.0,11,13,4,2.059,7.0,-1.75,13,7,4,l230nox2vspaper.csv
+nox2_full,8,l1,full min..max,no,as-found,107.0,4.458,3.0,6.235,17.0,6,9,2,3.353,7.143,-1.375,5,7,12,nox2vspaper.csv
+pct_30_70,4,l1,30-70 pct,yes,as-found,114.0,4.75,4.5,6.481,15.0,8,11,5,4.059,6.429,0.333,10,7,7,30vspaper.csv
+pct_25_75,2,l1,25-75 pct,yes,as-found,116.0,4.833,4.5,6.564,15.0,8,11,4,4.176,6.429,0.333,10,7,7,partial_vs_paper_id.csv
+pct_20_80,3,l1,20-80 pct,yes,as-found,117.0,4.875,4.5,6.643,15.0,8,11,4,4.235,6.429,0.292,9,7,8,20vspaper.csv
+baseline,1,l1,full min..max,yes,as-found,118.0,4.917,2.5,6.752,16.0,7,12,1,4.706,5.429,0.75,,,,full_vs_paper_id.csv
+pct_35_65,5,l1,35-65 pct,yes,as-found,119.0,4.958,4.5,6.516,15.0,7,10,2,4.353,6.429,0.125,7,8,9,35vspaper.csv
+pct_40_60,6,l1,40-60 pct,yes,as-found,125.0,5.208,4.5,6.798,15.0,6,10,3,4.706,6.429,0.375,6,7,11,40vspaper.csv
+l2_full,7,l2,full min..max,yes,as-found,139.0,5.792,3.0,8.493,20.0,6,11,0,6.176,4.857,2.208,5,9,10,l2vspaper.csv

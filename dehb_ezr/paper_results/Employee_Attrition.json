@@ -1,0 +1,30 @@
+{
+ "meta": {
+  "label": "Employee Attrition",
+  "task_id": "Employee_Attrition",
+  "path": "data/moot/optimize/behavior_data/WA_Fn-UseC_-HR-Employee-Attrition.csv",
+  "is_se": false,
+  "kind": "regression",
+  "target": "YearsAtCompany+",
+  "R": 32,
+  "paper_R": 35,
+  "n_raw": 1470,
+  "n_rows": 1470,
+  "capped": false,
+  "repeats": 20,
+  "median_D2H": {
+   "lite": 0.75,
+   "dehb": 0.2625
+  },
+  "median_d2h": {
+   "lite": 0.3421035314586026,
+   "dehb": 0.28355163145217843
+  },
+  "cliffs_delta_D2H": -0.87,
+  "verdict": "DEHB > LITE",
+  "verdict_natural_d2h": "DEHB > LITE",
+  "total_failed_fits": 0,
+  "seconds": 8961.2
+ },
+ "verdict": "DEHB > LITE"
+}

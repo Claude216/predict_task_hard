@@ -1,0 +1,30 @@
+{
+ "meta": {
+  "label": "SS-L",
+  "task_id": "SS-L",
+  "path": "data/moot/optimize/config/SS-L.csv",
+  "is_se": true,
+  "kind": "regression",
+  "target": "A-",
+  "R": 11,
+  "paper_R": null,
+  "n_raw": 1023,
+  "n_rows": 1023,
+  "capped": false,
+  "repeats": 20,
+  "median_D2H": {
+   "lite": 0.7625,
+   "dehb": 0.2625
+  },
+  "median_d2h": {
+   "lite": 0.08235804456152485,
+   "dehb": 0.046583714549643655
+  },
+  "cliffs_delta_D2H": -0.965,
+  "verdict": "DEHB > LITE",
+  "verdict_natural_d2h": "DEHB > LITE",
+  "total_failed_fits": 0,
+  "seconds": 3880.7
+ },
+ "verdict": "DEHB > LITE"
+}

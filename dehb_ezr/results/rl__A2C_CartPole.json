@@ -1,0 +1,42 @@
+{
+ "task_id": "rl__A2C_CartPole",
+ "path": "data/moot/optimize/rl/A2C_CartPole.csv",
+ "meta": {
+  "task": "data/moot/optimize/rl/A2C_CartPole.csv",
+  "rows": 317,
+  "n_decisions": 7,
+  "n_goals": 4,
+  "objective": "multi",
+  "space_size": 44.81,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -36.5,
+  "task_id": "rl__A2C_CartPole",
+  "d2h_spread": 0.20140549547723752,
+  "eps": 0.0020140549547723752,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 0.1799967673131625,
+  "table_median": 0.6678367253843356,
+  "d2h_star": 0.17999676731316244,
+  "median_d2h": {
+   "ezr": 0.506136923180253,
+   "random_pool": 0.5146026334180076,
+   "dehb": 0.2481687371887396,
+   "random_cs": 0.352795530501492
+  },
+  "rho": {
+   "ezr": 0.025300543401417578,
+   "random_pool": 0.0,
+   "dehb": 0.6054834617000235,
+   "random_cs": 0.0
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "dehb",
+  "ezr_vs_floor": "ezr",
+  "dehb_vs_floor": "dehb"
+ }
+}

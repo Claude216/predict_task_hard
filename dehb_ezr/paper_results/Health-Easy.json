@@ -1,0 +1,30 @@
+{
+ "meta": {
+  "label": "Health-Easy",
+  "task_id": "Health-Easy",
+  "path": "data/moot/optimize/hpo/Health-Commits0000.csv",
+  "is_se": true,
+  "kind": "regression",
+  "target": "MRE-",
+  "R": 5,
+  "paper_R": 5,
+  "n_raw": 10000,
+  "n_rows": 5000,
+  "capped": true,
+  "repeats": 20,
+  "median_D2H": {
+   "lite": 0.7625,
+   "dehb": 0.2625
+  },
+  "median_d2h": {
+   "lite": 0.09326276953190192,
+   "dehb": 0.06633727849598561
+  },
+  "cliffs_delta_D2H": -0.95,
+  "verdict": "DEHB > LITE",
+  "verdict_natural_d2h": "DEHB > LITE",
+  "total_failed_fits": 0,
+  "seconds": 7079.6
+ },
+ "verdict": "DEHB > LITE"
+}

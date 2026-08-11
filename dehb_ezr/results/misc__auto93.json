@@ -1,0 +1,42 @@
+{
+ "task_id": "misc__auto93",
+ "path": "data/moot/optimize/misc/auto93.csv",
+ "meta": {
+  "task": "data/moot/optimize/misc/auto93.csv",
+  "rows": 398,
+  "n_decisions": 4,
+  "n_goals": 3,
+  "objective": "multi",
+  "space_size": 13.64,
+  "input_shape": "small-numeric",
+  "x_dup_rate": 0.2312,
+  "coverage": -5.39,
+  "task_id": "misc__auto93",
+  "d2h_spread": 0.4285958425716078,
+  "eps": 0.004285958425716078,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 0.19659778727914715,
+  "table_median": 0.5480884408342641,
+  "d2h_star": 0.19659778727914715,
+  "median_d2h": {
+   "ezr": 0.2524588519549761,
+   "random_pool": 0.3176261135603155,
+   "dehb": 0.20162341054385607,
+   "random_cs": 0.21123033612923686
+  },
+  "rho": {
+   "ezr": 0.5384463588626793,
+   "random_pool": 0.0,
+   "dehb": 0.6565449180319589,
+   "random_cs": 0.0
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "dehb",
+  "ezr_vs_floor": "ezr",
+  "dehb_vs_floor": "dehb"
+ }
+}

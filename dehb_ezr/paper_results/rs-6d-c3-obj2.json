@@ -1,0 +1,30 @@
+{
+ "meta": {
+  "label": "rs-6d-c3-obj2",
+  "task_id": "rs-6d-c3-obj2",
+  "path": "data/moot/optimize/config/rs-6d-c3_obj2.csv",
+  "is_se": true,
+  "kind": "regression",
+  "target": "Latency-",
+  "R": 6,
+  "paper_R": 6,
+  "n_raw": 3840,
+  "n_rows": 3840,
+  "capped": false,
+  "repeats": 20,
+  "median_D2H": {
+   "lite": 0.7625,
+   "dehb": 0.3375
+  },
+  "median_d2h": {
+   "lite": 0.051880552371398,
+   "dehb": 0.04138884460551829
+  },
+  "cliffs_delta_D2H": -0.72,
+  "verdict": "DEHB > LITE",
+  "verdict_natural_d2h": "DEHB > LITE",
+  "total_failed_fits": 0,
+  "seconds": 4572.9
+ },
+ "verdict": "DEHB > LITE"
+}

@@ -1,0 +1,42 @@
+{
+ "task_id": "systems__deeparch",
+ "path": "data/moot/optimize/systems/deeparch.csv",
+ "meta": {
+  "task": "data/moot/optimize/systems/deeparch.csv",
+  "rows": 4096,
+  "n_decisions": 12,
+  "n_goals": 1,
+  "objective": "single",
+  "space_size": 12.0,
+  "input_shape": "binary/SAT",
+  "x_dup_rate": 0.0,
+  "coverage": 0.0,
+  "task_id": "systems__deeparch",
+  "d2h_spread": 0.5979904673454073,
+  "eps": 0.005979904673454073,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 1.0154716164811402e-05,
+  "table_median": 0.2727588394549818,
+  "d2h_star": 1.0154716164804895e-05,
+  "median_d2h": {
+   "ezr": 0.0010699501429008932,
+   "random_pool": 0.0006373162495405171,
+   "dehb": 1.0154716164804895e-05,
+   "random_cs": 3.39101369895238e-05
+  },
+  "rho": {
+   "ezr": -0.6898284896902297,
+   "random_pool": 0.0,
+   "dehb": 1.0,
+   "random_cs": 0.0
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "dehb",
+  "ezr_vs_floor": "tie",
+  "dehb_vs_floor": "tie"
+ }
+}

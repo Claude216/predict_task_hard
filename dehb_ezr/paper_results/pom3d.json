@@ -1,0 +1,30 @@
+{
+ "meta": {
+  "label": "pom3d",
+  "task_id": "pom3d",
+  "path": "data/moot/optimize/process/pom3d.csv",
+  "is_se": true,
+  "kind": "regression",
+  "target": "Cost-",
+  "R": 9,
+  "paper_R": 9,
+  "n_raw": 500,
+  "n_rows": 500,
+  "capped": false,
+  "repeats": 20,
+  "median_D2H": {
+   "lite": 0.7625,
+   "dehb": 0.3375
+  },
+  "median_d2h": {
+   "lite": 0.3013783860121487,
+   "dehb": 0.22659145284869286
+  },
+  "cliffs_delta_D2H": -0.77,
+  "verdict": "DEHB > LITE",
+  "verdict_natural_d2h": "DEHB > LITE",
+  "total_failed_fits": 0,
+  "seconds": 3206.3
+ },
+ "verdict": "DEHB > LITE"
+}

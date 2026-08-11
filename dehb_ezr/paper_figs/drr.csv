@@ -1,0 +1,50 @@
+task_id,label,path,is_se,kind,R,paper_R,I,drr,n_rows,n_used,seed,drr_version,drr_commit,drr_dirty,status
+SS-A,SS-A,data/moot/optimize/config/SS-A.csv,True,regression,3,,1.0,0.6666666666666667,1343,1343,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+SS-B,SS-B,data/moot/optimize/config/SS-B.csv,True,regression,3,,2.0,0.33333333333333337,206,206,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+SS-C,SS-C,data/moot/optimize/config/SS-C.csv,True,regression,3,,1.0,0.6666666666666667,1512,1512,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+SS-D,SS-D,data/moot/optimize/config/SS-D.csv,True,regression,3,,1.0,0.6666666666666667,196,196,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+SS-E,SS-E,data/moot/optimize/config/SS-E.csv,True,regression,3,,1.0,0.6666666666666667,756,756,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+SS-F,SS-F,data/moot/optimize/config/SS-F.csv,True,regression,3,,1.0,0.6666666666666667,196,196,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+SS-G,SS-G,data/moot/optimize/config/SS-G.csv,True,regression,3,,1.0,0.6666666666666667,196,196,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+SS-H,SS-H,data/moot/optimize/config/SS-H.csv,True,regression,4,,2.0,0.5,259,259,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+SS-I,SS-I,data/moot/optimize/config/SS-I.csv,True,regression,5,,2.0,0.6,1080,1080,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+SS-J,SS-J,data/moot/optimize/config/SS-J.csv,True,regression,6,,2.0,0.6666666666666667,3840,3840,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+SS-K,SS-K,data/moot/optimize/config/SS-K.csv,True,regression,6,,2.0,0.6666666666666667,2880,2880,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+SS-L,SS-L,data/moot/optimize/config/SS-L.csv,True,regression,11,,9.0,0.18181818181818177,1023,1023,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+SS-M,SS-M,data/moot/optimize/config/SS-M.csv,True,regression,17,,4.0,0.7647058823529411,864,864,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+SS-N,SS-N,data/moot/optimize/config/SS-N.csv,True,regression,17,,3.0,0.8235294117647058,5000,5000,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+SS-O,SS-O,data/moot/optimize/config/SS-O.csv,True,regression,11,,4.0,0.6363636363636364,972,972,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+SS-P,SS-P,data/moot/optimize/config/SS-P.csv,True,regression,11,,9.0,0.18181818181818177,1023,1023,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+SS-Q,SS-Q,data/moot/optimize/config/SS-Q.csv,True,regression,13,,3.0,0.7692307692307692,2736,2736,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+SS-R,SS-R,data/moot/optimize/config/SS-R.csv,True,regression,14,,2.0,0.8571428571428572,3008,3008,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+SS-S,SS-S,data/moot/optimize/config/SS-S.csv,True,regression,6,,2.0,0.6666666666666667,3840,3840,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+SS-T,SS-T,data/moot/optimize/config/SS-T.csv,True,regression,12,,3.0,0.75,5000,5000,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+SS-U,SS-U,data/moot/optimize/config/SS-U.csv,True,regression,21,,5.0,0.7619047619047619,4608,4608,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+SS-V,SS-V,data/moot/optimize/config/SS-V.csv,True,regression,16,,3.0,0.8125,5000,5000,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+SS-W,SS-W,data/moot/optimize/config/SS-W.csv,True,regression,16,,11.0,0.3125,5000,5000,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+SS-X,SS-X,data/moot/optimize/config/SS-X.csv,True,regression,11,,3.0,0.7272727272727273,5000,5000,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+rs-6d-c3-obj2,rs-6d-c3-obj2,data/moot/optimize/config/rs-6d-c3_obj2.csv,True,regression,6,6,2.0,0.6666666666666667,3840,3840,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+Pom3a,Pom3a,data/moot/optimize/process/pom3a.csv,True,regression,9,9,5.0,0.4444444444444444,5000,5000,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+pom3d,pom3d,data/moot/optimize/process/pom3d.csv,True,regression,9,9,5.0,0.4444444444444444,500,500,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+Xomo_Flight,Xomo Flight,data/moot/optimize/process/xomo_flight.csv,True,regression,27,27,10.0,0.6296296296296297,5000,5000,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+Xomo_Ground,Xomo Ground,data/moot/optimize/process/xomo_ground.csv,True,regression,27,27,10.0,0.6296296296296297,5000,5000,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+Xomo_OSP,Xomo OSP,data/moot/optimize/process/xomo_osp.csv,True,regression,27,27,10.0,0.6296296296296297,5000,5000,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+Xomo_OSP2,Xomo OSP2,data/moot/optimize/process/xomo_osp2.csv,True,regression,27,27,9.0,0.6666666666666667,5000,5000,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+nasa93dem,nasa93dem,data/moot/optimize/process/nasa93dem.csv,True,regression,26,25,3.0,0.8846153846153846,93,93,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+Health-Easy,Health-Easy,data/moot/optimize/hpo/Health-Commits0000.csv,True,regression,5,5,3.0,0.4,5000,5000,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+Health-Hard,Health-Hard,data/moot/optimize/hpo/Health-ClosedIssues0000.csv,True,regression,5,5,3.0,0.4,5000,5000,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+SCRUM,SCRUM,data/moot/optimize/binary_config/Scrum1k.csv,True,regression,124,128,5.0,0.9596774193548387,1000,1000,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+FFM-250,FFM-250,data/moot/optimize/binary_config/FFM-250-50-0.50-SAT-1.csv,True,regression,256,250,8.0,0.96875,5000,5000,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+Wine_Quality,Wine Quality,data/moot/optimize/misc/Wine_quality.csv,True,regression,10,10,3.0,0.7,1599,1599,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+iris,iris,external/moot/classify/iris.csv,False,classification,4,4,1.0,0.75,150,150,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+heart_disease,heart disease,external/moot/classify/heart.c.csv,False,classification,13,13,3.0,0.7692307692307692,303,303,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+adult,adult,external/moot/fairness/adult.csv,False,classification,14,14,3.0,0.7857142857142857,5000,5000,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+german_credit,german credit,external/moot/fairness/german.csv,False,classification,20,20,4.0,0.8,1000,1000,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+bank_marketing,bank marketing,external/moot/fairness/bank.csv,False,classification,16,16,3.0,0.8125,5000,5000,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+gamma_telescope,gamma telescope,external/uci/gamma_telescope.csv,False,classification,10,10,2.0,0.8,5000,5000,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+default,default,external/uci/default.csv,False,classification,23,23,2.0,0.9130434782608696,5000,5000,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+power_consumption,power consumption,external/uci/power_consumption.csv,False,classification,6,6,1.0,0.8333333333333334,5000,5000,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+Player_Statistics,Player Statistics,data/moot/optimize/behavior_data/player_statistics_cleaned_final.csv,False,regression,26,27,2.0,0.9230769230769231,81,81,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+Student_Dropout,Student Dropout,data/moot/optimize/behavior_data/student_dropout.csv,False,regression,33,34,5.0,0.8484848484848485,649,649,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+Employee_Attrition,Employee Attrition,data/moot/optimize/behavior_data/WA_Fn-UseC_-HR-Employee-Attrition.csv,False,regression,32,35,6.0,0.8125,1470,1470,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok
+All_Players,All Players,data/moot/optimize/behavior_data/all_players.csv,False,regression,55,57,2.0,0.9636363636363636,5000,5000,42,0.1.dev36+gdefce441c.d20260809,defce44,True,ok

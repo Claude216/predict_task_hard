@@ -1,0 +1,27 @@
+dataset,paper_id
+FFM-250,7
+SCRUM,7
+Xomo Flight,7
+Xomo Ground,7
+Xomo OSP,7
+Xomo OSP2,10
+nasa93dem,4
+SS-U,9
+SS-M,3
+SS-T,8
+Wine Quality,4
+pom3d,5
+Pom3a,5
+rs-6d-c3-obj2,4
+Health-Easy,2
+SS-B,1
+SS-D,1
+iris,1
+power consumption,5
+gamma telescope,8
+heart disease,10
+adult,10
+bank marketing,12
+german credit,15
+diabetes,15
+default,19

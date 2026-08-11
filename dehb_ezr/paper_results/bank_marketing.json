@@ -1,0 +1,30 @@
+{
+ "meta": {
+  "label": "bank marketing",
+  "task_id": "bank_marketing",
+  "path": "external/moot/fairness/bank.csv",
+  "is_se": false,
+  "kind": "classification",
+  "target": "y!",
+  "R": 16,
+  "paper_R": 16,
+  "n_raw": 45211,
+  "n_rows": 5000,
+  "capped": true,
+  "repeats": 20,
+  "median_D2H": {
+   "lite": 0.81875,
+   "dehb": 0.2875
+  },
+  "median_d2h": {
+   "lite": 0.40901486568328027,
+   "dehb": 0.2500727108124635
+  },
+  "cliffs_delta_D2H": -0.805,
+  "verdict": "DEHB > LITE",
+  "verdict_natural_d2h": "DEHB > LITE",
+  "total_failed_fits": 0,
+  "seconds": 4289.3
+ },
+ "verdict": "DEHB > LITE"
+}

@@ -1,0 +1,42 @@
+{
+ "task_id": "systems__javagc",
+ "path": "data/moot/optimize/systems/javagc.csv",
+ "meta": {
+  "task": "data/moot/optimize/systems/javagc.csv",
+  "rows": 166975,
+  "n_decisions": 35,
+  "n_goals": 1,
+  "objective": "single",
+  "space_size": 99.81,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0151,
+  "coverage": -82.48,
+  "task_id": "systems__javagc",
+  "d2h_spread": 0.05125263865081907,
+  "eps": 0.0005125263865081907,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 0.00029698556512020664,
+  "table_median": 0.005041220089535184,
+  "d2h_star": 0.00029698556512020664,
+  "median_d2h": {
+   "ezr": 0.0006671187377171668,
+   "random_pool": 0.0009306384875711856,
+   "dehb": 0.0003872428061054708,
+   "random_cs": 0.0004119811385911705
+  },
+  "rho": {
+   "ezr": 0.41587395957193796,
+   "random_pool": 0.0,
+   "dehb": 0.2151242151242118,
+   "random_cs": 0.0
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "dehb",
+  "ezr_vs_floor": "tie",
+  "dehb_vs_floor": "tie"
+ }
+}

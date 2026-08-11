@@ -1,0 +1,42 @@
+{
+ "task_id": "config__SS-R",
+ "path": "data/moot/optimize/config/SS-R.csv",
+ "meta": {
+  "task": "data/moot/optimize/config/SS-R.csv",
+  "rows": 3008,
+  "n_decisions": 14,
+  "n_goals": 2,
+  "objective": "multi",
+  "space_size": 15.17,
+  "input_shape": "small-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -3.62,
+  "task_id": "config__SS-R",
+  "d2h_spread": 0.42957061082518677,
+  "eps": 0.004295706108251868,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 0.1369132063783489,
+  "table_median": 0.414536604343245,
+  "d2h_star": 0.1369132063783482,
+  "median_d2h": {
+   "ezr": 0.17829805464653387,
+   "random_pool": 0.18498518607711079,
+   "dehb": 0.15819622065366115,
+   "random_cs": 0.14867686556019288
+  },
+  "rho": {
+   "ezr": 0.13910663701559708,
+   "random_pool": 0.0,
+   "dehb": -0.8092171786275361,
+   "random_cs": 0.0
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "dehb",
+  "ezr_vs_floor": "tie",
+  "dehb_vs_floor": "random_cs"
+ }
+}

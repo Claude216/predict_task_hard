@@ -1,0 +1,30 @@
+{
+ "meta": {
+  "label": "power consumption",
+  "task_id": "power_consumption",
+  "path": "external/uci/power_consumption.csv",
+  "is_se": false,
+  "kind": "classification",
+  "target": "Sub_metering_1!",
+  "R": 6,
+  "paper_R": 6,
+  "n_raw": 2075259,
+  "n_rows": 5000,
+  "capped": true,
+  "repeats": 20,
+  "median_D2H": {
+   "lite": 0.6625,
+   "dehb": 0.3125
+  },
+  "median_d2h": {
+   "lite": 0.828824235645708,
+   "dehb": 0.8270507223320707
+  },
+  "cliffs_delta_D2H": -0.415,
+  "verdict": "DEHB > LITE",
+  "verdict_natural_d2h": "DEHB > LITE",
+  "total_failed_fits": 0,
+  "seconds": 5725.6
+ },
+ "verdict": "DEHB > LITE"
+}

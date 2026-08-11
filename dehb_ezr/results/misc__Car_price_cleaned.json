@@ -1,0 +1,42 @@
+{
+ "task_id": "misc__Car_price_cleaned",
+ "path": "data/moot/optimize/misc/Car_price_cleaned.csv",
+ "meta": {
+  "task": "data/moot/optimize/misc/Car_price_cleaned.csv",
+  "rows": 205,
+  "n_decisions": 38,
+  "n_goals": 5,
+  "objective": "multi",
+  "space_size": 197.42,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -189.74,
+  "task_id": "misc__Car_price_cleaned",
+  "d2h_spread": 0.27333401801601354,
+  "eps": 0.0027333401801601354,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 0.21091353218222497,
+  "table_median": 0.7965659334083595,
+  "d2h_star": 0.1798004900620524,
+  "median_d2h": {
+   "ezr": 0.21091353218222497,
+   "random_pool": 0.5406762777493727,
+   "dehb": 0.21859238373882534,
+   "random_cs": 0.28799953187855193
+  },
+  "rho": {
+   "ezr": 0.9137846229042931,
+   "random_pool": 0.0,
+   "dehb": 0.6414765507576106,
+   "random_cs": 0.0
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "tie",
+  "ezr_vs_floor": "ezr",
+  "dehb_vs_floor": "dehb"
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "task_id": "sales_data__socks",
+ "path": "data/moot/optimize/sales_data/socks.csv",
+ "meta": {
+  "task": "data/moot/optimize/sales_data/socks.csv",
+  "rows": 350,
+  "n_decisions": 20,
+  "n_goals": 1,
+  "objective": "single",
+  "space_size": 12.7,
+  "input_shape": "small-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -4.25,
+  "task_id": "sales_data__socks",
+  "d2h_spread": 0.5168539325842696,
+  "eps": 0.005168539325842696,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 0.0,
+  "table_median": 0.4157303370786517,
+  "d2h_star": 0.0,
+  "median_d2h": {
+   "ezr": 0.0,
+   "random_pool": 0.10674157303370786,
+   "dehb": 0.0,
+   "random_cs": 0.0
+  },
+  "rho": {
+   "ezr": 1.0,
+   "random_pool": 0.0,
+   "dehb": NaN,
+   "random_cs": NaN
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "dehb",
+  "ezr_vs_floor": "ezr",
+  "dehb_vs_floor": "tie"
+ }
+}

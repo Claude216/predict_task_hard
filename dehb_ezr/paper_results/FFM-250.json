@@ -1,0 +1,30 @@
+{
+ "meta": {
+  "label": "FFM-250",
+  "task_id": "FFM-250",
+  "path": "data/moot/optimize/binary_config/FFM-250-50-0.50-SAT-1.csv",
+  "is_se": true,
+  "kind": "regression",
+  "target": "Cost-",
+  "R": 256,
+  "paper_R": 250,
+  "n_raw": 10000,
+  "n_rows": 5000,
+  "capped": true,
+  "repeats": 20,
+  "median_D2H": {
+   "lite": 0.7625,
+   "dehb": 0.2625
+  },
+  "median_d2h": {
+   "lite": 0.18711722856706595,
+   "dehb": 0.07024390021350102
+  },
+  "cliffs_delta_D2H": -1.0,
+  "verdict": "DEHB > LITE",
+  "verdict_natural_d2h": "DEHB > LITE",
+  "total_failed_fits": 0,
+  "seconds": 10728.3
+ },
+ "verdict": "DEHB > LITE"
+}

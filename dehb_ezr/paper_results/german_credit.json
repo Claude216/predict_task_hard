@@ -1,0 +1,30 @@
+{
+ "meta": {
+  "label": "german credit",
+  "task_id": "german_credit",
+  "path": "external/moot/fairness/german.csv",
+  "is_se": false,
+  "kind": "classification",
+  "target": "credit!",
+  "R": 20,
+  "paper_R": 20,
+  "n_raw": 1000,
+  "n_rows": 1000,
+  "capped": false,
+  "repeats": 20,
+  "median_D2H": {
+   "lite": 0.81875,
+   "dehb": 0.28125
+  },
+  "median_d2h": {
+   "lite": 0.4442767476013345,
+   "dehb": 0.2584485030198345
+  },
+  "cliffs_delta_D2H": -0.86,
+  "verdict": "DEHB > LITE",
+  "verdict_natural_d2h": "DEHB > LITE",
+  "total_failed_fits": 0,
+  "seconds": 3706.7
+ },
+ "verdict": "DEHB > LITE"
+}

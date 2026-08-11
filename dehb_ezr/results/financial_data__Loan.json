@@ -1,0 +1,42 @@
+{
+ "task_id": "financial_data__Loan",
+ "path": "data/moot/optimize/financial_data/Loan.csv",
+ "meta": {
+  "task": "data/moot/optimize/financial_data/Loan.csv",
+  "rows": 20000,
+  "n_decisions": 31,
+  "n_goals": 5,
+  "objective": "multi",
+  "space_size": 257.62,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -243.34,
+  "task_id": "financial_data__Loan",
+  "d2h_spread": 0.1572838850289905,
+  "eps": 0.001572838850289905,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 0.4686213734062839,
+  "table_median": 0.710008937310358,
+  "d2h_star": 0.2631843408587023,
+  "median_d2h": {
+   "ezr": 0.5442125607986364,
+   "random_pool": 0.5905852087490275,
+   "dehb": 0.2886900782558213,
+   "random_cs": 0.46619963393794683
+  },
+  "rho": {
+   "ezr": 0.1416387447266184,
+   "random_pool": 0.0,
+   "dehb": 0.8743654381388737,
+   "random_cs": 0.0
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "dehb",
+  "ezr_vs_floor": "ezr",
+  "dehb_vs_floor": "dehb"
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "task_id": "behavior_data__all_players",
+ "path": "data/moot/optimize/behavior_data/all_players.csv",
+ "meta": {
+  "task": "data/moot/optimize/behavior_data/all_players.csv",
+  "rows": 17737,
+  "n_decisions": 55,
+  "n_goals": 2,
+  "objective": "multi",
+  "space_size": 272.59,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -258.48,
+  "task_id": "behavior_data__all_players",
+  "d2h_spread": 0.3640266452017276,
+  "eps": 0.003640266452017276,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 0.0693392722706385,
+  "table_median": 0.4912381800970753,
+  "d2h_star": 0.0693392722706385,
+  "median_d2h": {
+   "ezr": 0.17625330513678028,
+   "random_pool": 0.26684734271666377,
+   "dehb": 0.11176291779419852,
+   "random_cs": 0.1456570370698515
+  },
+  "rho": {
+   "ezr": 0.458685244482913,
+   "random_pool": 0.0,
+   "dehb": 0.4441183434135706,
+   "random_cs": 0.0
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "dehb",
+  "ezr_vs_floor": "ezr",
+  "dehb_vs_floor": "dehb"
+ }
+}

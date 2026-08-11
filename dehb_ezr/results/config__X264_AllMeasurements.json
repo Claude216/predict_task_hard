@@ -1,0 +1,42 @@
+{
+ "task_id": "config__X264_AllMeasurements",
+ "path": "data/moot/optimize/config/X264_AllMeasurements.csv",
+ "meta": {
+  "task": "data/moot/optimize/config/X264_AllMeasurements.csv",
+  "rows": 1152,
+  "n_decisions": 16,
+  "n_goals": 1,
+  "objective": "single",
+  "space_size": 13.0,
+  "input_shape": "binary/SAT",
+  "x_dup_rate": 0.0,
+  "coverage": -2.83,
+  "task_id": "config__X264_AllMeasurements",
+  "d2h_spread": 0.7641623777765866,
+  "eps": 0.007641623777765866,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 4.9711544951724844e-05,
+  "table_median": 0.36084147867613603,
+  "d2h_star": 4.9711544951724844e-05,
+  "median_d2h": {
+   "ezr": 0.0020805285486548935,
+   "random_pool": 0.00593500804004625,
+   "dehb": 4.971154495236438e-05,
+   "random_cs": 0.0001240538449421848
+  },
+  "rho": {
+   "ezr": 0.6549337819435466,
+   "random_pool": 0.0,
+   "dehb": 0.9999999999913974,
+   "random_cs": 0.0
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "dehb",
+  "ezr_vs_floor": "tie",
+  "dehb_vs_floor": "tie"
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "task_id": "systems__HSQLDB",
+ "path": "data/moot/optimize/systems/HSQLDB.csv",
+ "meta": {
+  "task": "data/moot/optimize/systems/HSQLDB.csv",
+  "rows": 864,
+  "n_decisions": 18,
+  "n_goals": 1,
+  "objective": "single",
+  "space_size": 15.0,
+  "input_shape": "binary/SAT",
+  "x_dup_rate": 0.0,
+  "coverage": -5.25,
+  "task_id": "systems__HSQLDB",
+  "d2h_spread": 0.9592007352941173,
+  "eps": 0.009592007352941174,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 0.0009338235294123572,
+  "table_median": 0.05741911764705837,
+  "d2h_star": 0.0009338235294117302,
+  "median_d2h": {
+   "ezr": 0.001874999999999966,
+   "random_pool": 0.00322794117647064,
+   "dehb": 0.0009338235294117302,
+   "random_cs": 0.0009338235294117302
+  },
+  "rho": {
+   "ezr": 0.5897435897436049,
+   "random_pool": 0.0,
+   "dehb": NaN,
+   "random_cs": NaN
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "tie",
+  "ezr_vs_floor": "tie",
+  "dehb_vs_floor": "tie"
+ }
+}

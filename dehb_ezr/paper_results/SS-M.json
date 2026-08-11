@@ -1,0 +1,30 @@
+{
+ "meta": {
+  "label": "SS-M",
+  "task_id": "SS-M",
+  "path": "data/moot/optimize/config/SS-M.csv",
+  "is_se": true,
+  "kind": "regression",
+  "target": "Benchmark-energy-",
+  "R": 17,
+  "paper_R": null,
+  "n_raw": 864,
+  "n_rows": 864,
+  "capped": false,
+  "repeats": 20,
+  "median_D2H": {
+   "lite": 0.575,
+   "dehb": 0.30000000000000004
+  },
+  "median_d2h": {
+   "lite": 0.05304079861615481,
+   "dehb": 0.04551503097357844
+  },
+  "cliffs_delta_D2H": -0.45,
+  "verdict": "DEHB > LITE",
+  "verdict_natural_d2h": "DEHB > LITE",
+  "total_failed_fits": 0,
+  "seconds": 4052.3
+ },
+ "verdict": "DEHB > LITE"
+}

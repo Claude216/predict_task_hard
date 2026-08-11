@@ -1,0 +1,42 @@
+{
+ "task_id": "behavior_data__student_dropout",
+ "path": "data/moot/optimize/behavior_data/student_dropout.csv",
+ "meta": {
+  "task": "data/moot/optimize/behavior_data/student_dropout.csv",
+  "rows": 649,
+  "n_decisions": 33,
+  "n_goals": 1,
+  "objective": "single",
+  "space_size": 65.56,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -56.22,
+  "task_id": "behavior_data__student_dropout",
+  "d2h_spread": 1.0,
+  "eps": 0.01,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 0.0,
+  "table_median": 1.0,
+  "d2h_star": 0.0,
+  "median_d2h": {
+   "ezr": 0.0,
+   "random_pool": 0.0,
+   "dehb": 0.0,
+   "random_cs": 0.0
+  },
+  "rho": {
+   "ezr": NaN,
+   "random_pool": NaN,
+   "dehb": NaN,
+   "random_cs": NaN
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "tie",
+  "ezr_vs_floor": "tie",
+  "dehb_vs_floor": "tie"
+ }
+}

@@ -1,0 +1,25 @@
+dataset,l230nox2_id,paper_id,R
+SS-B,2.0,1,3
+SS-D,1.0,1,3
+iris,1.0,1,4
+Health-Easy,3.0,2,5
+SS-M,5.0,3,17
+nasa93dem,3.0,4,26
+rs-6d-c3-obj2,3.0,4,6
+Wine Quality,3.0,4,10
+Pom3a,5.0,5,9
+pom3d,5.0,5,9
+power consumption,1.0,5,6
+FFM-250,8.0,7,256
+SCRUM,5.0,7,124
+Xomo Flight,12.0,7,27
+Xomo Ground,12.0,7,27
+Xomo OSP,12.0,7,27
+SS-T,3.0,8,12
+gamma telescope,2.0,8,10
+SS-U,5.0,9,21
+Xomo OSP2,11.0,10,27
+adult,4.0,10,14
+bank marketing,4.0,12,16
+german credit,6.0,15,20
+default,3.0,19,23

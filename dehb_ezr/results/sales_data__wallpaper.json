@@ -1,0 +1,42 @@
+{
+ "task_id": "sales_data__wallpaper",
+ "path": "data/moot/optimize/sales_data/wallpaper.csv",
+ "meta": {
+  "task": "data/moot/optimize/sales_data/wallpaper.csv",
+  "rows": 247,
+  "n_decisions": 22,
+  "n_goals": 2,
+  "objective": "multi",
+  "space_size": 81.92,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -73.97,
+  "task_id": "sales_data__wallpaper",
+  "d2h_spread": 0.24948779334089943,
+  "eps": 0.0024948779334089946,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 0.49532866036946965,
+  "table_median": 0.8059669859279215,
+  "d2h_star": 0.38139894906923066,
+  "median_d2h": {
+   "ezr": 0.7164333303866678,
+   "random_pool": 0.6863898705315292,
+   "dehb": 0.40282240111698364,
+   "random_cs": 0.4692233554432611
+  },
+  "rho": {
+   "ezr": -0.09850607916817086,
+   "random_pool": 0.0,
+   "dehb": 0.7560649376152474,
+   "random_cs": 0.0
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "dehb",
+  "ezr_vs_floor": "tie",
+  "dehb_vs_floor": "dehb"
+ }
+}

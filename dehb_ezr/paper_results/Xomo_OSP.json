@@ -1,0 +1,30 @@
+{
+ "meta": {
+  "label": "Xomo OSP",
+  "task_id": "Xomo_OSP",
+  "path": "data/moot/optimize/process/xomo_osp.csv",
+  "is_se": true,
+  "kind": "regression",
+  "target": "EFFORT-",
+  "R": 27,
+  "paper_R": 27,
+  "n_raw": 10000,
+  "n_rows": 5000,
+  "capped": true,
+  "repeats": 20,
+  "median_D2H": {
+   "lite": 0.6625,
+   "dehb": 0.3625
+  },
+  "median_d2h": {
+   "lite": 0.35875279900164364,
+   "dehb": 0.3536634435748205
+  },
+  "cliffs_delta_D2H": -0.405,
+  "verdict": "DEHB > LITE",
+  "verdict_natural_d2h": "DEHB > LITE",
+  "total_failed_fits": 0,
+  "seconds": 32095.2
+ },
+ "verdict": "DEHB > LITE"
+}

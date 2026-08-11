@@ -1,0 +1,30 @@
+{
+ "meta": {
+  "label": "SS-N",
+  "task_id": "SS-N",
+  "path": "data/moot/optimize/config/SS-N.csv",
+  "is_se": true,
+  "kind": "regression",
+  "target": "PSNR-",
+  "R": 17,
+  "paper_R": null,
+  "n_raw": 53662,
+  "n_rows": 5000,
+  "capped": true,
+  "repeats": 20,
+  "median_D2H": {
+   "lite": 0.7625,
+   "dehb": 0.2625
+  },
+  "median_d2h": {
+   "lite": 0.09957571417036298,
+   "dehb": 0.05398499692068723
+  },
+  "cliffs_delta_D2H": -0.94,
+  "verdict": "DEHB > LITE",
+  "verdict_natural_d2h": "DEHB > LITE",
+  "total_failed_fits": 0,
+  "seconds": 14408.6
+ },
+ "verdict": "DEHB > LITE"
+}

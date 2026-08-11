@@ -1,0 +1,30 @@
+{
+ "meta": {
+  "label": "SS-X",
+  "task_id": "SS-X",
+  "path": "data/moot/optimize/config/SS-X.csv",
+  "is_se": true,
+  "kind": "regression",
+  "target": "Compile-performance-",
+  "R": 11,
+  "paper_R": null,
+  "n_raw": 86058,
+  "n_rows": 5000,
+  "capped": true,
+  "repeats": 20,
+  "median_D2H": {
+   "lite": 0.6375,
+   "dehb": 0.4125
+  },
+  "median_d2h": {
+   "lite": 0.02332367130401557,
+   "dehb": 0.02247076118964811
+  },
+  "cliffs_delta_D2H": -0.31,
+  "verdict": "DEHB > LITE",
+  "verdict_natural_d2h": "DEHB > LITE",
+  "total_failed_fits": 0,
+  "seconds": 8662.4
+ },
+ "verdict": "DEHB > LITE"
+}

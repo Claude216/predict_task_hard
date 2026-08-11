@@ -1,0 +1,42 @@
+{
+ "task_id": "rl__A2C_Acrobot",
+ "path": "data/moot/optimize/rl/A2C_Acrobot.csv",
+ "meta": {
+  "task": "data/moot/optimize/rl/A2C_Acrobot.csv",
+  "rows": 223,
+  "n_decisions": 10,
+  "n_goals": 3,
+  "objective": "multi",
+  "space_size": 49.86,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -42.06,
+  "task_id": "rl__A2C_Acrobot",
+  "d2h_spread": 0.2654002666545151,
+  "eps": 0.002654002666545151,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 0.4096530647236553,
+  "table_median": 0.58399405364357,
+  "d2h_star": 0.3690432764347475,
+  "median_d2h": {
+   "ezr": 0.4319249800681638,
+   "random_pool": 0.42417394375053863,
+   "dehb": 0.38098620700031094,
+   "random_cs": 0.405784519800919
+  },
+  "rho": {
+   "ezr": -0.14059391433132634,
+   "random_pool": 0.0,
+   "dehb": 0.6749448447746444,
+   "random_cs": 0.0
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "dehb",
+  "ezr_vs_floor": "random_pool",
+  "dehb_vs_floor": "dehb"
+ }
+}

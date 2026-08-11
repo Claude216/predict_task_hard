@@ -1,0 +1,24 @@
+optimize
+    config
+        SS-B
+        SS-D
+        SS-M
+        SS-T
+        SS-U
+        rs-6d-c3_obj2
+    misc
+        Wine_quality
+    process
+        nasa93dem
+        pom3a
+        pom3d
+        xomo_flight
+        xomo_ground
+        xomo_osp
+        xomo_osp2
+    binary_config
+        Scrum1k
+        FFM-250-50-0.50-SAT-1
+    hpo
+        Health-Commits0000
+        Health-ClosedIssues0000

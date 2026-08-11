@@ -1,0 +1,42 @@
+{
+ "task_id": "financial_data__home_data_for_ml_course",
+ "path": "data/moot/optimize/financial_data/home_data_for_ml_course.csv",
+ "meta": {
+  "task": "data/moot/optimize/financial_data/home_data_for_ml_course.csv",
+  "rows": 1460,
+  "n_decisions": 77,
+  "n_goals": 4,
+  "objective": "multi",
+  "space_size": 300.53,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -290.02,
+  "task_id": "financial_data__home_data_for_ml_course",
+  "d2h_spread": 0.12880450500127494,
+  "eps": 0.0012880450500127494,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 0.24897530871132484,
+  "table_median": 0.638753930319476,
+  "d2h_star": 0.2462292950187075,
+  "median_d2h": {
+   "ezr": 0.527874715442515,
+   "random_pool": 0.47921785660873834,
+   "dehb": 0.2797626335806803,
+   "random_cs": 0.31233253411728673
+  },
+  "rho": {
+   "ezr": -0.2088379725670557,
+   "random_pool": 0.0,
+   "dehb": 0.49271262620028616,
+   "random_cs": 0.0
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "dehb",
+  "ezr_vs_floor": "random_pool",
+  "dehb_vs_floor": "dehb"
+ }
+}

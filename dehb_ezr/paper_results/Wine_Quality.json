@@ -1,0 +1,30 @@
+{
+ "meta": {
+  "label": "Wine Quality",
+  "task_id": "Wine_Quality",
+  "path": "data/moot/optimize/misc/Wine_quality.csv",
+  "is_se": true,
+  "kind": "regression",
+  "target": "Alcohol-",
+  "R": 10,
+  "paper_R": 10,
+  "n_raw": 1599,
+  "n_rows": 1599,
+  "capped": false,
+  "repeats": 20,
+  "median_D2H": {
+   "lite": 0.7625,
+   "dehb": 0.2625
+  },
+  "median_d2h": {
+   "lite": 0.31322695410459045,
+   "dehb": 0.2283522932284891
+  },
+  "cliffs_delta_D2H": -1.0,
+  "verdict": "DEHB > LITE",
+  "verdict_natural_d2h": "DEHB > LITE",
+  "total_failed_fits": 0,
+  "seconds": 6240.5
+ },
+ "verdict": "DEHB > LITE"
+}

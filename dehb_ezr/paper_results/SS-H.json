@@ -1,0 +1,30 @@
+{
+ "meta": {
+  "label": "SS-H",
+  "task_id": "SS-H",
+  "path": "data/moot/optimize/config/SS-H.csv",
+  "is_se": true,
+  "kind": "regression",
+  "target": "Energy-",
+  "R": 4,
+  "paper_R": null,
+  "n_raw": 259,
+  "n_rows": 259,
+  "capped": false,
+  "repeats": 20,
+  "median_D2H": {
+   "lite": 0.7625,
+   "dehb": 0.2625
+  },
+  "median_d2h": {
+   "lite": 0.22821480524822768,
+   "dehb": 0.008472275015954787
+  },
+  "cliffs_delta_D2H": -1.0,
+  "verdict": "DEHB > LITE",
+  "verdict_natural_d2h": "DEHB > LITE",
+  "total_failed_fits": 0,
+  "seconds": 2167.8
+ },
+ "verdict": "DEHB > LITE"
+}

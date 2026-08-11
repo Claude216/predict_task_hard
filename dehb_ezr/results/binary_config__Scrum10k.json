@@ -1,0 +1,42 @@
+{
+ "task_id": "binary_config__Scrum10k",
+ "path": "data/moot/optimize/binary_config/Scrum10k.csv",
+ "meta": {
+  "task": "data/moot/optimize/binary_config/Scrum10k.csv",
+  "rows": 10000,
+  "n_decisions": 124,
+  "n_goals": 3,
+  "objective": "multi",
+  "space_size": 18.0,
+  "input_shape": "small-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -4.71,
+  "task_id": "binary_config__Scrum10k",
+  "d2h_spread": 0.21256735994673503,
+  "eps": 0.0021256735994673506,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 0.2784334867418832,
+  "table_median": 0.5194701130456748,
+  "d2h_star": 0.2784334867418832,
+  "median_d2h": {
+   "ezr": 0.34439363988157545,
+   "random_pool": 0.35212660534827744,
+   "dehb": 0.2784334867418832,
+   "random_cs": 0.29156154952146185
+  },
+  "rho": {
+   "ezr": 0.10493470235674095,
+   "random_pool": 0.0,
+   "dehb": 1.0,
+   "random_cs": 0.0
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "dehb",
+  "ezr_vs_floor": "tie",
+  "dehb_vs_floor": "dehb"
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "task_id": "sales_data__accessories",
+ "path": "data/moot/optimize/sales_data/accessories.csv",
+ "meta": {
+  "task": "data/moot/optimize/sales_data/accessories.csv",
+  "rows": 1121,
+  "n_decisions": 14,
+  "n_goals": 2,
+  "objective": "multi",
+  "space_size": 58.23,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -48.1,
+  "task_id": "sales_data__accessories",
+  "d2h_spread": 0.032903400829032425,
+  "eps": 0.0003290340082903243,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 0.2099794304518799,
+  "table_median": 0.6634338743930535,
+  "d2h_star": 0.1922752507384509,
+  "median_d2h": {
+   "ezr": 0.6427475660314451,
+   "random_pool": 0.6446722197534396,
+   "dehb": 0.19398480880829222,
+   "random_cs": 0.1941374955223759
+  },
+  "rho": {
+   "ezr": 0.004254347075280019,
+   "random_pool": 0.0,
+   "dehb": 0.08199067888480209,
+   "random_cs": 0.0
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "dehb",
+  "ezr_vs_floor": "ezr",
+  "dehb_vs_floor": "tie"
+ }
+}

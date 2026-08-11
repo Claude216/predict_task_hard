@@ -1,0 +1,42 @@
+{
+ "task_id": "process__xomo_osp",
+ "path": "data/moot/optimize/process/xomo_osp.csv",
+ "meta": {
+  "task": "data/moot/optimize/process/xomo_osp.csv",
+  "rows": 10000,
+  "n_decisions": 24,
+  "n_goals": 4,
+  "objective": "multi",
+  "space_size": 252.59,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -239.31,
+  "task_id": "process__xomo_osp",
+  "d2h_spread": 0.20800766902260193,
+  "eps": 0.0020800766902260193,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 0.0198968583039506,
+  "table_median": 0.22926843569724326,
+  "d2h_star": 0.01886936970607724,
+  "median_d2h": {
+   "ezr": 0.059280706148302886,
+   "random_pool": 0.09797129205809119,
+   "dehb": 0.021455916342161128,
+   "random_cs": 0.03026750866337906
+  },
+  "rho": {
+   "ezr": 0.4891232066094438,
+   "random_pool": 0.0,
+   "dehb": 0.7730728984991968,
+   "random_cs": 0.0
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "dehb",
+  "ezr_vs_floor": "ezr",
+  "dehb_vs_floor": "dehb"
+ }
+}

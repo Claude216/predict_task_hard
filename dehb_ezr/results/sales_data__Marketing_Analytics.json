@@ -1,0 +1,42 @@
+{
+ "task_id": "sales_data__Marketing_Analytics",
+ "path": "data/moot/optimize/sales_data/Marketing_Analytics.csv",
+ "meta": {
+  "task": "data/moot/optimize/sales_data/Marketing_Analytics.csv",
+  "rows": 2205,
+  "n_decisions": 31,
+  "n_goals": 8,
+  "objective": "multi",
+  "space_size": 112.32,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0921,
+  "coverage": -101.35,
+  "task_id": "sales_data__Marketing_Analytics",
+  "d2h_spread": 0.17209402505369098,
+  "eps": 0.0017209402505369098,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 0.4989434076654696,
+  "table_median": 0.7330332860799722,
+  "d2h_star": 0.40623165484548346,
+  "median_d2h": {
+   "ezr": 0.5884573979452261,
+   "random_pool": 0.5551772355885045,
+   "dehb": 0.4496530674168839,
+   "random_cs": 0.4545189502025062
+  },
+  "rho": {
+   "ezr": -0.2234384007279851,
+   "random_pool": 0.0,
+   "dehb": 0.10076942081028471,
+   "random_cs": 0.0
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "dehb",
+  "ezr_vs_floor": "random_pool",
+  "dehb_vs_floor": "dehb"
+ }
+}

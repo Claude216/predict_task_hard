@@ -1,0 +1,42 @@
+{
+ "task_id": "binary_config__FM-500-100-0.75-SAT-1",
+ "path": "data/moot/optimize/binary_config/FM-500-100-0.75-SAT-1.csv",
+ "meta": {
+  "task": "data/moot/optimize/binary_config/FM-500-100-0.75-SAT-1.csv",
+  "rows": 10000,
+  "n_decisions": 511,
+  "n_goals": 3,
+  "objective": "multi",
+  "space_size": 14.0,
+  "input_shape": "small-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -0.71,
+  "task_id": "binary_config__FM-500-100-0.75-SAT-1",
+  "d2h_spread": 0.22968390129647198,
+  "eps": 0.0022968390129647197,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 0.2705418970743738,
+  "table_median": 0.5350613736032558,
+  "d2h_star": 0.24238084418566708,
+  "median_d2h": {
+   "ezr": 0.35232445594848694,
+   "random_pool": 0.3797106922528415,
+   "dehb": 0.24238084418566708,
+   "random_cs": 0.26001531443716713
+  },
+  "rho": {
+   "ezr": 0.19941940291784688,
+   "random_pool": 0.0,
+   "dehb": 1.0,
+   "random_cs": 0.0
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "dehb",
+  "ezr_vs_floor": "ezr",
+  "dehb_vs_floor": "dehb"
+ }
+}

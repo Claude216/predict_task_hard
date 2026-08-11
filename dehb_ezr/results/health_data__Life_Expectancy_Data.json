@@ -1,0 +1,42 @@
+{
+ "task_id": "health_data__Life_Expectancy_Data",
+ "path": "data/moot/optimize/health_data/Life_Expectancy_Data.csv",
+ "meta": {
+  "task": "data/moot/optimize/health_data/Life_Expectancy_Data.csv",
+  "rows": 2938,
+  "n_decisions": 20,
+  "n_goals": 2,
+  "objective": "multi",
+  "space_size": 160.06,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -148.54,
+  "task_id": "health_data__Life_Expectancy_Data",
+  "d2h_spread": 0.4319801644506572,
+  "eps": 0.004319801644506572,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 0.018235531836992953,
+  "table_median": 0.36817768394412403,
+  "d2h_star": 0.018235531836992953,
+  "median_d2h": {
+   "ezr": 0.06661110781033239,
+   "random_pool": 0.10214368719187214,
+   "dehb": 0.10672152995747394,
+   "random_cs": 0.13732570728132656
+  },
+  "rho": {
+   "ezr": 0.42346991459005495,
+   "random_pool": 0.0,
+   "dehb": 0.25698322476783947,
+   "random_cs": 0.0
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "ezr",
+  "ezr_vs_floor": "ezr",
+  "dehb_vs_floor": "dehb"
+ }
+}

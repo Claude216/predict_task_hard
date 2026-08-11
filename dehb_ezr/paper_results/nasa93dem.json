@@ -1,0 +1,30 @@
+{
+ "meta": {
+  "label": "nasa93dem",
+  "task_id": "nasa93dem",
+  "path": "data/moot/optimize/process/nasa93dem.csv",
+  "is_se": true,
+  "kind": "regression",
+  "target": "Kloc+",
+  "R": 26,
+  "paper_R": 25,
+  "n_raw": 93,
+  "n_rows": 93,
+  "capped": false,
+  "repeats": 20,
+  "median_D2H": {
+   "lite": 0.6499999999999999,
+   "dehb": 0.42500000000000004
+  },
+  "median_d2h": {
+   "lite": 0.4349526457362153,
+   "dehb": 0.35624139086574114
+  },
+  "cliffs_delta_D2H": -0.36,
+  "verdict": "DEHB > LITE",
+  "verdict_natural_d2h": "DEHB > LITE",
+  "total_failed_fits": 0,
+  "seconds": 2138.1
+ },
+ "verdict": "DEHB > LITE"
+}

@@ -1,0 +1,30 @@
+{
+ "meta": {
+  "label": "gamma telescope",
+  "task_id": "gamma_telescope",
+  "path": "external/uci/gamma_telescope.csv",
+  "is_se": false,
+  "kind": "classification",
+  "target": "class!",
+  "R": 10,
+  "paper_R": 10,
+  "n_raw": 19020,
+  "n_rows": 5000,
+  "capped": true,
+  "repeats": 20,
+  "median_D2H": {
+   "lite": 0.81875,
+   "dehb": 0.2875
+  },
+  "median_d2h": {
+   "lite": 0.36513137181672745,
+   "dehb": 0.1439701997546542
+  },
+  "cliffs_delta_D2H": -0.855,
+  "verdict": "DEHB > LITE",
+  "verdict_natural_d2h": "DEHB > LITE",
+  "total_failed_fits": 0,
+  "seconds": 7430.1
+ },
+ "verdict": "DEHB > LITE"
+}

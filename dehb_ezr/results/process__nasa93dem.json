@@ -1,0 +1,42 @@
+{
+ "task_id": "process__nasa93dem",
+ "path": "data/moot/optimize/process/nasa93dem.csv",
+ "meta": {
+  "task": "data/moot/optimize/process/nasa93dem.csv",
+  "rows": 93,
+  "n_decisions": 22,
+  "n_goals": 3,
+  "objective": "multi",
+  "space_size": 24.66,
+  "input_shape": "small-numeric",
+  "x_dup_rate": 0.4086,
+  "coverage": -18.88,
+  "task_id": "process__nasa93dem",
+  "d2h_spread": 0.07865724468930774,
+  "eps": 0.0007865724468930774,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 0.43010237312109206,
+  "table_median": 0.5455992105505997,
+  "d2h_star": 0.3557150033574885,
+  "median_d2h": {
+   "ezr": 0.43010237312109206,
+   "random_pool": 0.43783083536786616,
+   "dehb": 0.38899398447783173,
+   "random_cs": 0.37272536426609293
+  },
+  "rho": {
+   "ezr": 0.09411659186254588,
+   "random_pool": 0.0,
+   "dehb": -0.9563947701726649,
+   "random_cs": 0.0
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "dehb",
+  "ezr_vs_floor": "ezr",
+  "dehb_vs_floor": "random_cs"
+ }
+}

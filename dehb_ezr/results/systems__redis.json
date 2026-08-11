@@ -1,0 +1,42 @@
+{
+ "task_id": "systems__redis",
+ "path": "data/moot/optimize/systems/redis.csv",
+ "meta": {
+  "task": "data/moot/optimize/systems/redis.csv",
+  "rows": 4400,
+  "n_decisions": 9,
+  "n_goals": 1,
+  "objective": "single",
+  "space_size": 54.7,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.283,
+  "coverage": -43.08,
+  "task_id": "systems__redis",
+  "d2h_spread": 0.2317847469216795,
+  "eps": 0.002317847469216795,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 0.19969850168561265,
+  "table_median": 0.546894474227937,
+  "d2h_star": 0.19969850168561265,
+  "median_d2h": {
+   "ezr": 0.3366017414483977,
+   "random_pool": 0.3572049756176642,
+   "dehb": 0.41153606347245264,
+   "random_cs": 0.41682933768402425
+  },
+  "rho": {
+   "ezr": 0.13080880839320114,
+   "random_pool": 0.0,
+   "dehb": 0.02437827030523813,
+   "random_cs": 0.0
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "ezr",
+  "ezr_vs_floor": "tie",
+  "dehb_vs_floor": "dehb"
+ }
+}

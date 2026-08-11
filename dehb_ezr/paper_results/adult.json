@@ -1,0 +1,30 @@
+{
+ "meta": {
+  "label": "adult",
+  "task_id": "adult",
+  "path": "external/moot/fairness/adult.csv",
+  "is_se": false,
+  "kind": "classification",
+  "target": "income!",
+  "R": 14,
+  "paper_R": 14,
+  "n_raw": 30162,
+  "n_rows": 5000,
+  "capped": true,
+  "repeats": 20,
+  "median_D2H": {
+   "lite": 0.81875,
+   "dehb": 0.3375
+  },
+  "median_d2h": {
+   "lite": 0.37006887169314184,
+   "dehb": 0.19515164391632117
+  },
+  "cliffs_delta_D2H": -0.7175,
+  "verdict": "DEHB > LITE",
+  "verdict_natural_d2h": "DEHB > LITE",
+  "total_failed_fits": 0,
+  "seconds": 4403.2
+ },
+ "verdict": "DEHB > LITE"
+}

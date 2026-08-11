@@ -1,0 +1,30 @@
+{
+ "meta": {
+  "label": "SS-I",
+  "task_id": "SS-I",
+  "path": "data/moot/optimize/config/SS-I.csv",
+  "is_se": true,
+  "kind": "regression",
+  "target": "Throughput+",
+  "R": 5,
+  "paper_R": null,
+  "n_raw": 1080,
+  "n_rows": 1080,
+  "capped": false,
+  "repeats": 20,
+  "median_D2H": {
+   "lite": 0.55,
+   "dehb": 0.44999999999999996
+  },
+  "median_d2h": {
+   "lite": 0.06106204685690853,
+   "dehb": 0.060301118444666485
+  },
+  "cliffs_delta_D2H": -0.115,
+  "verdict": "DEHB == LITE",
+  "verdict_natural_d2h": "DEHB == LITE",
+  "total_failed_fits": 0,
+  "seconds": 3880.0
+ },
+ "verdict": "DEHB == LITE"
+}

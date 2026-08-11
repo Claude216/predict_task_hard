@@ -1,0 +1,42 @@
+{
+ "task_id": "test__dataset600",
+ "path": "data/moot/optimize/test/dataset600.csv",
+ "meta": {
+  "task": "data/moot/optimize/test/dataset600.csv",
+  "rows": 4845,
+  "n_decisions": 9,
+  "n_goals": 1,
+  "objective": "single",
+  "space_size": 99.15,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0083,
+  "coverage": -86.92,
+  "task_id": "test__dataset600",
+  "d2h_spread": 0.79,
+  "eps": 0.0079,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 0.0,
+  "table_median": 0.91,
+  "d2h_star": 0.0,
+  "median_d2h": {
+   "ezr": 0.022499999999999964,
+   "random_pool": 0.09999999999999998,
+   "dehb": 0.16749999999999998,
+   "random_cs": 0.1349999999999999
+  },
+  "rho": {
+   "ezr": 0.7750000000000004,
+   "random_pool": 0.0,
+   "dehb": -0.24074074074074156,
+   "random_cs": 0.0
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "ezr",
+  "ezr_vs_floor": "ezr",
+  "dehb_vs_floor": "random_cs"
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "task_id": "systems__dconvert",
+ "path": "data/moot/optimize/systems/dconvert.csv",
+ "meta": {
+  "task": "data/moot/optimize/systems/dconvert.csv",
+  "rows": 6764,
+  "n_decisions": 18,
+  "n_goals": 1,
+  "objective": "single",
+  "space_size": 18.0,
+  "input_shape": "binary/SAT",
+  "x_dup_rate": 0.7176,
+  "coverage": -7.1,
+  "task_id": "systems__dconvert",
+  "d2h_spread": 0.4221553611728112,
+  "eps": 0.004221553611728112,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 0.008242626018049941,
+  "table_median": 0.16259200357081738,
+  "d2h_star": 0.008242626018049804,
+  "median_d2h": {
+   "ezr": 0.015247475303330454,
+   "random_pool": 0.015511688491272484,
+   "dehb": 0.008476630713918888,
+   "random_cs": 0.009216358500256814
+  },
+  "rho": {
+   "ezr": 0.036347629273420244,
+   "random_pool": 0.0,
+   "dehb": 0.7596827669354302,
+   "random_cs": 0.0
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "dehb",
+  "ezr_vs_floor": "tie",
+  "dehb_vs_floor": "tie"
+ }
+}

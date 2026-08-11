@@ -1,0 +1,42 @@
+{
+ "task_id": "behavior_data__player_statistics_cleaned_final",
+ "path": "data/moot/optimize/behavior_data/player_statistics_cleaned_final.csv",
+ "meta": {
+  "task": "data/moot/optimize/behavior_data/player_statistics_cleaned_final.csv",
+  "rows": 81,
+  "n_decisions": 26,
+  "n_goals": 1,
+  "objective": "single",
+  "space_size": 102.95,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -96.61,
+  "task_id": "behavior_data__player_statistics_cleaned_final",
+  "d2h_spread": 0.47583143507972414,
+  "eps": 0.0047583143507972415,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 0.1123917995444208,
+  "table_median": 0.35205011389521834,
+  "d2h_star": 0.09353075170842795,
+  "median_d2h": {
+   "ezr": 0.11239179954441925,
+   "random_pool": 0.11353075170842825,
+   "dehb": 0.11586560364464704,
+   "random_cs": 0.14465831435079735
+  },
+  "rho": {
+   "ezr": 0.05694760820044913,
+   "random_pool": 0.0,
+   "dehb": 0.563154377366892,
+   "random_cs": 0.0
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "tie",
+  "ezr_vs_floor": "tie",
+  "dehb_vs_floor": "dehb"
+ }
+}

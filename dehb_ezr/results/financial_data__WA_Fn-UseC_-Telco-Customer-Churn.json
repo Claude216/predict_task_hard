@@ -1,0 +1,42 @@
+{
+ "task_id": "financial_data__WA_Fn-UseC_-Telco-Customer-Churn",
+ "path": "data/moot/optimize/financial_data/WA_Fn-UseC_-Telco-Customer-Churn.csv",
+ "meta": {
+  "task": "data/moot/optimize/financial_data/WA_Fn-UseC_-Telco-Customer-Churn.csv",
+  "rows": 7043,
+  "n_decisions": 19,
+  "n_goals": 2,
+  "objective": "multi",
+  "space_size": 42.24,
+  "input_shape": "large-numeric",
+  "x_dup_rate": 0.0,
+  "coverage": -29.45,
+  "task_id": "financial_data__WA_Fn-UseC_-Telco-Customer-Churn",
+  "d2h_spread": 0.6938265806444225,
+  "eps": 0.006938265806444225,
+  "eps_base": 0.01,
+  "seeds": 10,
+  "oracle_seed": 0,
+  "n_trees": 100,
+  "table_best": 0.006360478059677485,
+  "table_median": 0.40331821898356557,
+  "d2h_star": 0.006360478059677485,
+  "median_d2h": {
+   "ezr": 0.00935973335391832,
+   "random_pool": 0.0127211230052273,
+   "dehb": 0.010215878907681485,
+   "random_cs": 0.010126408919895375
+  },
+  "rho": {
+   "ezr": 0.5284667954404144,
+   "random_pool": 0.0,
+   "dehb": -0.023757735101098826,
+   "random_cs": 0.0
+  }
+ },
+ "verdicts": {
+  "lite_vs_heavy": "tie",
+  "ezr_vs_floor": "random_pool",
+  "dehb_vs_floor": "tie"
+ }
+}

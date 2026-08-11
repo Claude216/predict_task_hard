@@ -1,0 +1,30 @@
+{
+ "meta": {
+  "label": "SS-O",
+  "task_id": "SS-O",
+  "path": "data/moot/optimize/config/SS-O.csv",
+  "is_se": true,
+  "kind": "regression",
+  "target": "Performance-",
+  "R": 11,
+  "paper_R": null,
+  "n_raw": 972,
+  "n_rows": 972,
+  "capped": false,
+  "repeats": 20,
+  "median_D2H": {
+   "lite": 0.725,
+   "dehb": 0.3125
+  },
+  "median_d2h": {
+   "lite": 0.05399361990602823,
+   "dehb": 0.05068421734396382
+  },
+  "cliffs_delta_D2H": -0.63,
+  "verdict": "DEHB > LITE",
+  "verdict_natural_d2h": "DEHB > LITE",
+  "total_failed_fits": 0,
+  "seconds": 3469.7
+ },
+ "verdict": "DEHB > LITE"
+}
